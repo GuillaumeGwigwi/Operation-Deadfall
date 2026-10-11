@@ -1,0 +1,174 @@
+[
+  {
+    "id": "KeyNPCsTable",
+    "title": "Key NPCs",
+    "rows": [
+      [
+        "Name",
+        "Role",
+        "Stat Block",
+        "Location"
+      ],
+      [
+        "Aventril",
+        "Human Dau family staff member",
+        "Noble (Medium)",
+        "F3"
+      ],
+      [
+        "Darvyn Yev",
+        "Human dissident Red Wizard",
+        "Archmage (Medium)",
+        "“ The Mavericks Assist ”"
+      ],
+      [
+        "Goreth Blacktooth",
+        "Dragonborn Dread Legion officer attacking the Fortress of Opposition",
+        "Warrior Commander (Medium, Neutral Evil)",
+        "F11"
+      ],
+      [
+        "Jarek",
+        "Human Red Wizard coleader of forces assaulting Castle Thrul",
+        "Archmage (Medium)",
+        "C15"
+      ],
+      [
+        "Jerica Rey",
+        "Gnome Dau family friend",
+        "Mage Apprentice (Small)",
+        "F5"
+      ],
+      [
+        "Molly Malu",
+        "Human Dau family staff member",
+        "Noble (Medium)",
+        "F4"
+      ],
+      [
+        "Sabinia Dau",
+        "Tiefling dissident Red Wizard",
+        "Archmage (Medium)",
+        "“ Speaking with Sabinia Dau ”"
+      ],
+      [
+        "Saraphine Dau",
+        "Sabinia Dau’s sister; trapped human inhabitant of the Fortress of Opposition",
+        "Mage (Medium)",
+        "F14"
+      ],
+      [
+        "Viln Crocus",
+        "Szass Tam’s lieutenant",
+        "Vampire Umbral Lord (Medium)",
+        "“ Assault on the Shop ”"
+      ],
+      [
+        "Wynston Wrynn",
+        "Human tailor and Zulkir Thrul’s spy master",
+        "Spy Master (Medium, Neutral Good)",
+        "“ Assault on the Shop ”"
+      ],
+      [
+        "Xelnene Thrul",
+        "Human zulkir of evocation and Operation Deadfall’s missing leader",
+        "—",
+        "“ Grim Message ”"
+      ],
+      [
+        "Xelnius Thrul",
+        "Dead brother of Zulkir Thrul",
+        "—",
+        "C3"
+      ],
+      [
+        "Yoreth",
+        "Coleader of forces assaulting Castle Thrul",
+        "Demilich",
+        "C15"
+      ]
+    ],
+    "csv": "tables/01-KeyNPCsTable.csv"
+  },
+  {
+    "id": "EltabbarsDemonicScenesTable",
+    "title": "Eltabbar’s Demonic Scenes",
+    "rows": [
+      [
+        "1d4",
+        "Encounter"
+      ],
+      [
+        "1",
+        "A goristro slavers and roars while a hezrou chases panicking bystanders."
+      ],
+      [
+        "2",
+        "Two glabrezus chase passersby in a crowded square as an abveku (see appendix B ) pounces on bystanders."
+      ],
+      [
+        "3",
+        "A balor leaps from the top of a building onto a screaming crowd."
+      ],
+      [
+        "4",
+        "A marilith and two hezrous run across an empty bridge toward a crowd."
+      ]
+    ],
+    "csv": "tables/02-EltabbarsDemonicScenesTable.csv"
+  },
+  {
+    "id": "ThaymountEncountersTable",
+    "title": "Thaymount Encounters",
+    "rows": [
+      [
+        "1d4",
+        "Encounter"
+      ],
+      [
+        "1",
+        "A Death Knight directs four Hezrous to dig in the rocky soil of an ancient graveyard. The demons search for dead spellcasters who will animate once Szass Tam completes his ritual."
+      ],
+      [
+        "2",
+        "A Balor guarded by three Death Cultists tries to open a portal to the Abyss. Nearby are the corpses of a dozen Red Wizards who tried to stop them."
+      ],
+      [
+        "3",
+        "A Marilith and three Death Knight Aspirants hunt for vulnerable people to slaughter."
+      ],
+      [
+        "4",
+        "Two Goristros make their way west to attack mages’ fortresses nearby."
+      ]
+    ],
+    "csv": "tables/03-ThaymountEncountersTable.csv"
+  },
+  {
+    "id": "TrappedInhabitantsTable",
+    "title": "Trapped Inhabitants",
+    "rows": [
+      [
+        "Name",
+        "Area Found"
+      ],
+      [
+        "Aventril",
+        "F3"
+      ],
+      [
+        "Jerica Rey",
+        "F5"
+      ],
+      [
+        "Molly Malu",
+        "F4"
+      ],
+      [
+        "Saraphine Dau",
+        "F14"
+      ]
+    ],
+    "csv": "tables/04-TrappedInhabitantsTable.csv"
+  }
+]

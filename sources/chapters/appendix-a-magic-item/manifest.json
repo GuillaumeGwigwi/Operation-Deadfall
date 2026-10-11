@@ -1,0 +1,281 @@
+{
+  "source_url": "https://www.dndbeyond.com/sources/dnd/aud/appendix-a-magic-items",
+  "provenance": "HTML directly supplied by the user; not fetched from D&D Beyond",
+  "audience": "mj",
+  "title": "Appendix A: Magic Items",
+  "source_sha256": "3e40097d5e35a494af99bdae3409b8d537ef3a55116a054196483af0c77bd0bc",
+  "counts": {
+    "sections": 12,
+    "assets": 5,
+    "tables": 2,
+    "zulkirs": 0,
+    "tharchs": 0,
+    "wards": 0
+  },
+  "assets": [
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/08-001.crystal-ball-of-ominous-portent.png",
+      "path": "assets/illustrations/08-001.crystal-ball-of-ominous-portent.png",
+      "audience": "mj",
+      "artist": "Wade Acuff",
+      "caption": "Crystal Ball of Ominous Portent",
+      "figure_id": "CrystalBallOfOminousPortentImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 837,
+      "bytes": 216172,
+      "sha256": "7d3cfcdbd511c780dae621565788b8cf5b7b4200fb59ffd3cb97c479b9197cd5"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/08-002.robe-of-thayan-arcana.png",
+      "path": "assets/illustrations/08-002.robe-of-thayan-arcana.png",
+      "audience": "mj",
+      "artist": "Wade Acuff",
+      "caption": "Robe of Thayan Arcana",
+      "figure_id": "RobeOfThayanArcanaImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 1312,
+      "bytes": 357310,
+      "sha256": "c6e6a88e622f182bbe8e12bdc8442caa3c68c28915e0b64d90fe93f3a6d1dd55"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/08-003.scarlet-spellbook.png",
+      "path": "assets/illustrations/08-003.scarlet-spellbook.png",
+      "audience": "mj",
+      "artist": "Wade Acuff",
+      "caption": "Scarlet Spellbook",
+      "figure_id": "ScarletSpellbookImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 744,
+      "bytes": 255017,
+      "sha256": "67bb9c714e5ba79ffaaa917d5991dcbb75798e73162085f15a306005e56c8c6e"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/08-004.staff-of-the-spirit-aegis.png",
+      "path": "assets/illustrations/08-004.staff-of-the-spirit-aegis.png",
+      "audience": "mj",
+      "artist": "Alejandro Pacheco",
+      "caption": "Staff of the Spirit Aegis",
+      "figure_id": "StaffOfTheSpiritAegisImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 1717,
+      "bytes": 509690,
+      "sha256": "21d10ba8cc0df3d0632b17032c9dd4496925887f415d186a6e4c33171ad7649a"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/08-005.thayan-sword.png",
+      "path": "assets/illustrations/08-005.thayan-sword.png",
+      "audience": "mj",
+      "artist": "Wade Acuff",
+      "caption": "Thayan Sword",
+      "figure_id": "ThayanSwordImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 670,
+      "bytes": 325298,
+      "sha256": "bc29437a5b75b2d3b4c247f84e9096c7d3d0e4ec738b8cb41a1ba3920af6967e"
+    }
+  ],
+  "sections": [
+    {
+      "id": "Introduction",
+      "title": "Introduction"
+    },
+    {
+      "id": "EyesOfDeceit",
+      "title": "Eyes of Deceit"
+    },
+    {
+      "id": "LifeSappingBlade",
+      "title": "Life-Sapping Blade"
+    },
+    {
+      "id": "MasqueradersBrooch",
+      "title": "Masquerader’s Brooch"
+    },
+    {
+      "id": "scarletspellbook",
+      "title": "Scarlet Spellbook"
+    },
+    {
+      "id": "SnipersBracelet",
+      "title": "Sniper’s Bracelet"
+    },
+    {
+      "id": "SpellFuelingArmor",
+      "title": "Spell-Fueling Armor"
+    },
+    {
+      "id": "SpiritBindingCenser",
+      "title": "Spirit-Binding Censer"
+    },
+    {
+      "id": "StaffOfTheSpiritAegis",
+      "title": "Staff of the Spirit Aegis"
+    },
+    {
+      "id": "ThayanSword",
+      "title": "Thayan Sword"
+    },
+    {
+      "id": "TrickWeapon",
+      "title": "Trick Weapon"
+    },
+    {
+      "id": "WandOfEnthralling",
+      "title": "Wand of Enthralling"
+    }
+  ],
+  "entities": [],
+  "links": [
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/08-001.crystal-ball-of-ominous-portent.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/08-002.robe-of-thayan-arcana.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/08-003.scarlet-spellbook.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/08-004.staff-of-the-spirit-aegis.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/08-005.thayan-sword.png",
+    "https://www.dndbeyond.com/equipment/544-arcane-focus",
+    "https://www.dndbeyond.com/magic-items/11914525-crystal-ball-of-ominous-portent",
+    "https://www.dndbeyond.com/magic-items/11914526-eyes-of-deceit",
+    "https://www.dndbeyond.com/magic-items/11914527-life-sapping-blade",
+    "https://www.dndbeyond.com/magic-items/11914533-masqueraders-brooch",
+    "https://www.dndbeyond.com/magic-items/11914534-ring-of-candor",
+    "https://www.dndbeyond.com/magic-items/11914535-robe-of-thayan-arcana",
+    "https://www.dndbeyond.com/magic-items/11914536-scarlet-spellbook",
+    "https://www.dndbeyond.com/magic-items/11914537-snipers-bracelet",
+    "https://www.dndbeyond.com/magic-items/11914544-spell-fueling-armor",
+    "https://www.dndbeyond.com/magic-items/11914557-spirit-binding-censer",
+    "https://www.dndbeyond.com/magic-items/11914558-staff-of-the-spirit-aegis",
+    "https://www.dndbeyond.com/magic-items/11914562-thayan-sword",
+    "https://www.dndbeyond.com/magic-items/11914593-trick-weapon",
+    "https://www.dndbeyond.com/magic-items/11914595-wand-of-enthralling",
+    "https://www.dndbeyond.com/monsters/5194917-barbed-devil",
+    "https://www.dndbeyond.com/monsters/5195106-lich",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/playing-the-game#Skills",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Advantage",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#BrightLight",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Concentration",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#D20Test",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DimLight",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Disadvantage",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#EmanationAreaofEffect",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#FrightenedCondition",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#InvisibleCondition",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#LightlyObscured",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#MagicAction",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#StudyAction",
+    "https://www.dndbeyond.com/spells/2618846-alter-self",
+    "https://www.dndbeyond.com/spells/2618906-banishment",
+    "https://www.dndbeyond.com/spells/2618912-protection-from-evil-and-good",
+    "https://www.dndbeyond.com/spells/2618933-bless",
+    "https://www.dndbeyond.com/spells/2618943-remove-curse",
+    "https://www.dndbeyond.com/spells/2618953-resurrection",
+    "https://www.dndbeyond.com/spells/2618970-circle-of-power",
+    "https://www.dndbeyond.com/spells/2618988-hex",
+    "https://www.dndbeyond.com/spells/2619007-scrying",
+    "https://www.dndbeyond.com/spells/2619009-searing-smite",
+    "https://www.dndbeyond.com/spells/2619103-dispel-magic",
+    "https://www.dndbeyond.com/spells/2619182-thunderous-smite",
+    "https://www.dndbeyond.com/spells/2619192-enthrall",
+    "https://www.dndbeyond.com/spells/2619199-true-resurrection",
+    "https://www.dndbeyond.com/spells/2619220-wrathful-smite",
+    "https://www.dndbeyond.com/spells/2619221-zone-of-truth"
+  ],
+  "tables": [
+    {
+      "id": "CenserSpellsTable",
+      "title": "Censer Spells",
+      "rows": [
+        [
+          "Spell",
+          "Charge Cost"
+        ],
+        [
+          "Banishment",
+          "4"
+        ],
+        [
+          "Bless",
+          "1"
+        ],
+        [
+          "Circle of Power",
+          "5"
+        ],
+        [
+          "Dispel Magic",
+          "3"
+        ],
+        [
+          "Remove Curse",
+          "3"
+        ]
+      ],
+      "csv": "tables/01-CenserSpellsTable.csv"
+    },
+    {
+      "id": "TrickWeaponsTable",
+      "title": "Table 2",
+      "rows": [
+        [
+          "1d10",
+          "The Weapon Transforms Into A …"
+        ],
+        [
+          "1",
+          "Bracelet"
+        ],
+        [
+          "2",
+          "Comb"
+        ],
+        [
+          "3",
+          "Crutch"
+        ],
+        [
+          "4",
+          "Fake coin"
+        ],
+        [
+          "5",
+          "Hairpin"
+        ],
+        [
+          "6",
+          "Jingle bell"
+        ],
+        [
+          "7",
+          "Pendant necklace"
+        ],
+        [
+          "8",
+          "Playing card"
+        ],
+        [
+          "9",
+          "Quill pen"
+        ],
+        [
+          "10",
+          "Spoon"
+        ]
+      ],
+      "csv": "tables/02-TrickWeaponsTable.csv"
+    }
+  ]
+}

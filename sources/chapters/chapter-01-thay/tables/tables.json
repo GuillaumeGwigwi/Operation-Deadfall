@@ -1,0 +1,346 @@
+[
+  {
+    "id": "RedWizardMotivationsTable",
+    "title": "Red Wizard Motivations",
+    "rows": [
+      [
+        "1d6",
+        "The Red Wizard Wants ..."
+      ],
+      [
+        "1",
+        "A hated rival to die spectacularly, but the Red Wizard can’t be seen as involved."
+      ],
+      [
+        "2",
+        "To inherit their master’s lands, but their master has six heirs."
+      ],
+      [
+        "3",
+        "To publicly assassinate a disgraced Red Wizard, but the target’s security is too strong."
+      ],
+      [
+        "4",
+        "To gain the respect and mentorship of a zulkir, but the zulkir dislikes them."
+      ],
+      [
+        "5",
+        "To train the children of a prominent Red Wizard, but the children are promised as apprentices to another."
+      ],
+      [
+        "6",
+        "To eliminate a rival’s business, but the rival is a more powerful Red Wizard."
+      ]
+    ],
+    "csv": "tables/01-RedWizardMotivationsTable.csv"
+  },
+  {
+    "id": "ZulkirsBySchoolOfMagicTable",
+    "title": "Zulkirs by School of Magic",
+    "rows": [
+      [
+        "School",
+        "Zulkir"
+      ],
+      [
+        "Abjuration",
+        "Yazir Nym"
+      ],
+      [
+        "Conjuration",
+        "Nevron"
+      ],
+      [
+        "Divination",
+        "Lethnar"
+      ],
+      [
+        "Enchantment",
+        "Delraz"
+      ],
+      [
+        "Evocation",
+        "Xelnene Thrul"
+      ],
+      [
+        "Illusion",
+        "Mythrellaa"
+      ],
+      [
+        "Necromancy",
+        "Szass Tam"
+      ],
+      [
+        "Transmutation",
+        "Nzas"
+      ]
+    ],
+    "csv": "tables/02-ZulkirsBySchoolOfMagicTable.csv"
+  },
+  {
+    "id": "RedWizardTasksTable",
+    "title": "Red Wizard Tasks",
+    "rows": [
+      [
+        "1d4",
+        "The Characters Must…"
+      ],
+      [
+        "1",
+        "Retrieve a rare spell component from a dangerous cave."
+      ],
+      [
+        "2",
+        "Seek a strange magic item from a ruin rumored to be haunted."
+      ],
+      [
+        "3",
+        "Recover arcane lore from an ancient Red Wizard’s abandoned tower."
+      ],
+      [
+        "4",
+        "Retrieve the spellbook of a Red Wizard who died in a treacherous mountain pass."
+      ]
+    ],
+    "csv": "tables/03-RedWizardTasksTable.csv"
+  },
+  {
+    "id": "WeatherPhenomenaTable",
+    "title": "Weather Phenomena",
+    "rows": [
+      [
+        "1d4",
+        "The Characters Experience…"
+      ],
+      [
+        "1",
+        "An intense downpour while the sun shines brightly."
+      ],
+      [
+        "2",
+        "Light drizzle that lasts for hours, though dry air stings the eyes."
+      ],
+      [
+        "3",
+        "Ominous banks of crimson clouds."
+      ],
+      [
+        "4",
+        "Wispy clouds racing across the sky, though there’s no wind."
+      ]
+    ],
+    "csv": "tables/04-WeatherPhenomenaTable.csv"
+  },
+  {
+    "id": "TharchsOfThayTable",
+    "title": "Tharchs of Thay",
+    "rows": [
+      [
+        "Tharch",
+        "Tharchion",
+        "Capital",
+        "Description"
+      ],
+      [
+        "The Alaor",
+        "Bavak Inkander",
+        "Ala City",
+        "Two islands harboring a navy and Thay’s shipyards"
+      ],
+      [
+        "Delhumide",
+        "Meskie Kudd",
+        "Umratharos",
+        "Haunted pastureland with ancient ruins"
+      ],
+      [
+        "Eltabbar",
+        "Zedivek Mazradash",
+        "Eltabbar",
+        "Capital region pouring out Thayan propaganda"
+      ],
+      [
+        "Gauros",
+        "Ozgund Gar",
+        "Fort Gar",
+        "Hilly hinterland where distrust of the zulkirs runs deep"
+      ],
+      [
+        "Lapendrar",
+        "Keliza Vyrizek",
+        "Escalant",
+        "Fertile countryside with dangerous borders"
+      ],
+      [
+        "Priador",
+        "Xelnene Thrul",
+        "Bezantur",
+        "Thay’s commercial hub"
+      ],
+      [
+        "Pyarados",
+        "Mevik Sasvar",
+        "Pyarados",
+        "Mountainous mining region"
+      ],
+      [
+        "Surthay",
+        "Vederax Skarsk",
+        "Surthay",
+        "Swampland bordering Rashemen"
+      ],
+      [
+        "Thaymount",
+        "Szass Tam",
+        "Szul",
+        "Mountainous abode of Red Wizards; forbidden to others"
+      ],
+      [
+        "Thazalhar",
+        "Jynnril",
+        "Thazalhar Station",
+        "Fortified river lands bordering Mulhorand"
+      ],
+      [
+        "Tyraturos",
+        "Bulgor Ograzep",
+        "Tyraturos",
+        "Urbane mercantile hub"
+      ]
+    ],
+    "csv": "tables/05-TharchsOfThayTable.csv"
+  },
+  {
+    "id": "TharchionOfThayTable",
+    "title": "Tharchions of Thay",
+    "rows": [
+      [
+        "Tharchion",
+        "Tharch",
+        "Stat Block",
+        "Tharchion Details"
+      ],
+      [
+        "Bavak Inkander",
+        "The Alaor",
+        "Noble Prodigy (Medium, Lawful Neutral)",
+        "Human shipbuilding and naval genius"
+      ],
+      [
+        "Bulgor Ograzep",
+        "Tyraturos",
+        "Bandit Crime Lord (Medium, Lawful Evil)",
+        "Human highway thief turned politician"
+      ],
+      [
+        "Jynnril",
+        "Thazalhar",
+        "Questing Knight (Small)",
+        "Human veteran of border conflicts"
+      ],
+      [
+        "Keliza Vyrizek",
+        "Lapendrar",
+        "Spy Master (Medium, Neutral Evil)",
+        "Human international espionage mastermind"
+      ],
+      [
+        "Meskie Kudd",
+        "Delhumide",
+        "Spy Master (Medium, Chaotic Neutral)",
+        "Human cattle rancher and spy for the zulkirs"
+      ],
+      [
+        "Mevik Sasvar",
+        "Pyarados",
+        "Performer Legend (Medium, Lawful Evil)",
+        "Silver-tongued tiefling tyrant"
+      ],
+      [
+        "Ozgund Gar",
+        "Gauros",
+        "Warrior Commander (Medium, Lawful Evil)",
+        "Short-tempered orc military veteran"
+      ],
+      [
+        "Szass Tam",
+        "Thaymount",
+        "See appendix B (Medium, Lawful Evil)",
+        "Lich zulkir of necromancy"
+      ],
+      [
+        "Vederax Skarsk",
+        "Surthay",
+        "Warrior Commander (Medium, Chaotic Evil)",
+        "Dragonborn and militant Thayan patriot"
+      ],
+      [
+        "Xelnene Thrul",
+        "Priador",
+        "See appendix B (Medium, Neutral Good)",
+        "Human zulkir of evocation"
+      ],
+      [
+        "Zedivek Mazradash",
+        "Eltabbar",
+        "Vampire Umbral Lord (Medium)",
+        "Former elf who serves the zulkir of illusion"
+      ]
+    ],
+    "csv": "tables/06-TharchionOfThayTable.csv"
+  },
+  {
+    "id": "CityWatchEncountersTable",
+    "title": "City Watch Encounters",
+    "rows": [
+      [
+        "1d4",
+        "Encounter"
+      ],
+      [
+        "1",
+        "Four watch Guards chase a Bandit toward a waiting Guard Captain ."
+      ],
+      [
+        "2",
+        "Three watch captains ( Warrior Veterans ) order those in the street to make way for a Red Wizard’s entourage."
+      ],
+      [
+        "3",
+        "Two Mage Apprentices are engaging in a dangerous spell duel on a crowded street. Two watch Guards and a captain ( Warrior Veteran ) call for any nearby Red Wizards to help while they struggle to separate the mages."
+      ],
+      [
+        "4",
+        "A Red Wizard’s assistant ( Noble Prodigy ) loudly denies accusations of shoplifting from a merchant; three watch Guards threaten to fine the merchant for interfering with a Red Wizard."
+      ]
+    ],
+    "csv": "tables/07-CityWatchEncountersTable.csv"
+  },
+  {
+    "id": "EltabbarAdventuresTable",
+    "title": "Eltabbar Adventures",
+    "rows": [
+      [
+        "1d4",
+        "The Characters Must…"
+      ],
+      [
+        "1",
+        "Retrieve a strange magical device from the Necromancer’s Bookshelf for their Red Wizard patron."
+      ],
+      [
+        "2",
+        "Recover a missing shipment of magic items for their merchant patron, who suspects the stolen shipment is hidden in Two Plateaus Shipping Company ."
+      ],
+      [
+        "3",
+        "Recover their Red Wizard patron’s magical research, which was stolen by a rival and hidden in a spire in the Ward of Towers ."
+      ],
+      [
+        "4",
+        "Break out an innocent friend from the City Guardhouse’s jail ."
+      ]
+    ],
+    "csv": "tables/08-EltabbarAdventuresTable.csv"
+  }
+]

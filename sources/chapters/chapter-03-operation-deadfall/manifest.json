@@ -1,0 +1,581 @@
+{
+  "source_url": "https://www.dndbeyond.com/sources/dnd/aud/chapter-3-operation-deadfall",
+  "provenance": "HTML directly supplied by the user; not fetched from D&D Beyond",
+  "audience": "mj",
+  "title": "Chapter 3: Operation Deadfall",
+  "source_sha256": "2e94ae0188f102a4325e82296becb54a95408948b281b3a28709e7e61fbf7ad4",
+  "counts": {
+    "sections": 19,
+    "assets": 18,
+    "tables": 2,
+    "zulkirs": 0,
+    "tharchs": 0,
+    "wards": 0
+  },
+  "assets": [
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-001.ch-3-splash.png",
+      "path": "assets/illustrations/03-001.ch-3-splash.png",
+      "audience": "mj",
+      "artist": "SIDHARTH CHATURVEDI",
+      "caption": "Malefites attack Eltabbar’s bazaar.",
+      "figure_id": "Ch3SplashImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 993,
+      "height": 1105,
+      "bytes": 489112,
+      "sha256": "9ee9b1efdd0c58ebd67bc4507318c0d3dd36b3d7cff1629072f24eecea7df7a2"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-01.bazaar-bridge.png",
+      "path": "assets/maps/mj/map-03-01.bazaar-bridge.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 3.1: Bazaar Bridge View Player Version",
+      "figure_id": "BazaarBridgeImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 3277,
+      "height": 4096,
+      "bytes": 7090215,
+      "sha256": "c6c7337a1fe34f517d2238f401f88e22da3ed2cedb9c9dae32cbedb5b508b416"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-01.bazaar-bridge-player.png",
+      "path": "assets/maps/players/map-03-01.bazaar-bridge-player.png",
+      "audience": "players",
+      "artist": "Gerralt Landman",
+      "caption": "Map 3.1: Bazaar Bridge View Player Version",
+      "figure_id": "BazaarBridgeImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 3277,
+      "height": 4096,
+      "bytes": 7209443,
+      "sha256": "04c54517fb18feef39ad07b3c1b82423ac655d18322001adaa16257091d4beed"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-002.wynston-wrynn.png",
+      "path": "assets/illustrations/03-002.wynston-wrynn.png",
+      "audience": "mj",
+      "artist": "EKATERINA BURMAK",
+      "caption": "Wynston Wrynn",
+      "figure_id": "WynstonWrynnImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 1674,
+      "bytes": 468270,
+      "sha256": "014b7e3f6cb593700727df8afc1328eae0d332860fffcd04bab7016177a83214"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-003.handout-mysterious-note.png",
+      "path": "assets/illustrations/03-003.handout-mysterious-note.png",
+      "audience": "mj",
+      "artist": "",
+      "caption": "Handout: Mysterious Note",
+      "figure_id": "MysteriousNoteImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 497,
+      "bytes": 328201,
+      "sha256": "62a0bca1eaae0ce5434d44b026ed61c1c5934025648a4dc4c8867324d0f09aee"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-02.wrynns-bespoke-vestments.png",
+      "path": "assets/maps/mj/map-03-02.wrynns-bespoke-vestments.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 3.2: Wrynn's Bespoke Vestments View Player Version",
+      "figure_id": "Map0302wrynnsbespokevestments",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 3277,
+      "height": 4096,
+      "bytes": 6441272,
+      "sha256": "90a23b67e541b9fd6cb2dbbe7c2d23399a824ee5edff545a499b1067c2796809"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-03.zulkir-thruls-demiplane.png",
+      "path": "assets/maps/mj/map-03-03.zulkir-thruls-demiplane.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 3.3: Zulkir Thrul's Demiplane View Player Version",
+      "figure_id": "ZulkirThrulsDemiplaneMapImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 3277,
+      "height": 4096,
+      "bytes": 6294547,
+      "sha256": "4b76a1354e561a4a2b85d45206733d7be0e5334181d5c65bb48e7b1fc8e2ffe3"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-03.zulkir-thruls-demiplane-player.png",
+      "path": "assets/maps/players/map-03-03.zulkir-thruls-demiplane-player.png",
+      "audience": "players",
+      "artist": "Gerralt Landman",
+      "caption": "Map 3.3: Zulkir Thrul's Demiplane View Player Version",
+      "figure_id": "ZulkirThrulsDemiplaneMapImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 3277,
+      "height": 4096,
+      "bytes": 6294547,
+      "sha256": "4b76a1354e561a4a2b85d45206733d7be0e5334181d5c65bb48e7b1fc8e2ffe3"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-004.zulkir-thrul-and-wynston-wrynn.png",
+      "path": "assets/illustrations/03-004.zulkir-thrul-and-wynston-wrynn.png",
+      "audience": "mj",
+      "artist": "Bubble Cat Studio",
+      "caption": "Zulkir Xelnene Thrul and her spy master, Wynston Wrynn, seek to recruit the characters.",
+      "figure_id": "ThrulAndWinstonImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1038,
+      "bytes": 711516,
+      "sha256": "a5530f7032c457cdf7084eb977cd033bba870c054f7dd4597a4c2d20b5578105"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-005.masqueraders-brooch.png",
+      "path": "assets/illustrations/03-005.masqueraders-brooch.png",
+      "audience": "mj",
+      "artist": "Linda Lithen",
+      "caption": "Masquerader’s Brooch from Zulkir Thrul",
+      "figure_id": "MasqueradersBroochImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 866,
+      "bytes": 290330,
+      "sha256": "eb884dd59d51de8d40eb3e3853db39d4eaf3704373802054d7badbe6fc179d62"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-04.the-hooded-lantern.png",
+      "path": "assets/maps/mj/map-03-04.the-hooded-lantern.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 3.4: The Hooded Lantern View Player Version",
+      "figure_id": "Map0304TheHoodedLanternImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 3277,
+      "height": 4096,
+      "bytes": 6059143,
+      "sha256": "0b7e6adccca4554df45856647acfbfd753264bd905080b555d519501d25be2c8"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-006.the-gamblers.png",
+      "path": "assets/illustrations/03-006.the-gamblers.png",
+      "audience": "mj",
+      "artist": "Katerina Ladon",
+      "caption": "From Left to Right: the Gamblers Belinda, Thellania Marr, Gilda, and Terk.",
+      "figure_id": "TheGamblersImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1140,
+      "bytes": 997122,
+      "sha256": "4d5eeaa5568ef9a1217c4df5513aac57f98b2fa619128c4a0ec29d1e76a3ab3f"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-05.nym-building-3.png",
+      "path": "assets/maps/mj/map-03-05.nym-building-3.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 3.5: Nym Building 3 View Player Version",
+      "figure_id": "Map-03-05.NymBuilding3Img",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 3277,
+      "height": 4096,
+      "bytes": 5944970,
+      "sha256": "527993688a41196d7fa1d5d90cba73b80f1070296c109a738ed912ffb3b93283"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-06.lower-ward-alley.png",
+      "path": "assets/maps/mj/map-03-06.lower-ward-alley.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 3.6: Lower Ward Alley View Player Version",
+      "figure_id": "Map0306lowerwardalley",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 3277,
+      "height": 4096,
+      "bytes": 6328182,
+      "sha256": "21a57567e0d49b69750581fd7f78663b2577cd419b6fbed86a5cd77bedde3388"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-06.lower-ward-alley-player.png",
+      "path": "assets/maps/players/map-03-06.lower-ward-alley-player.png",
+      "audience": "players",
+      "artist": "Gerralt Landman",
+      "caption": "Map 3.6: Lower Ward Alley View Player Version",
+      "figure_id": "Map0306lowerwardalley",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 3277,
+      "height": 4096,
+      "bytes": 6345374,
+      "sha256": "4f85a672e9e7f5825f30b7b26a362682806c523e0e6a6cc1edb9608b9f7dd302"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-007.inventory-shipment.png",
+      "path": "assets/illustrations/03-007.inventory-shipment.png",
+      "audience": "mj",
+      "artist": "Zuzanna Wuzyk",
+      "caption": "Iskan Iskari and an employee inventory a shipment of magic items for a Red Wizard client.",
+      "figure_id": "InventoryShipmentImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1062,
+      "bytes": 722078,
+      "sha256": "e9ad40c7fef3b8d989add3dab94eccd5c22b69882e4a4d37444b6ccaef51cfab"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-07.two-plateaus-shipping-company.png",
+      "path": "assets/maps/mj/map-03-07.two-plateaus-shipping-company.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 3.7: Two Plateaus Shipping Company View Player Version",
+      "figure_id": "map-03-07.two-plateaus-shipping-company",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 4096,
+      "height": 2650,
+      "bytes": 6138981,
+      "sha256": "abff8f86327da9800044769f5213ac1bbf8842f5b740524bf6d6d9eb8c86d41a"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-008.the-sparrow-handout.png",
+      "path": "assets/illustrations/03-008.the-sparrow-handout.png",
+      "audience": "mj",
+      "artist": "",
+      "caption": "Handout: Gift Note",
+      "figure_id": "HandoutGiftNoteImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 268,
+      "bytes": 163184,
+      "sha256": "87ee3aaf1140ed65d50c538d6ee760a2e2f0ad52c01a8fad18759dbf56ae745c"
+    }
+  ],
+  "sections": [
+    {
+      "id": "Introduction",
+      "title": "Introduction"
+    },
+    {
+      "id": "KeyPlotPoints",
+      "title": "Key Plot Points"
+    },
+    {
+      "id": "Preparation",
+      "title": "Preparation"
+    },
+    {
+      "id": "CampaignBackground",
+      "title": "Campaign Background"
+    },
+    {
+      "id": "RunningThisChapter",
+      "title": "Running This Chapter"
+    },
+    {
+      "id": "TerrorAtTheBazaar",
+      "title": "Terror at the Bazaar"
+    },
+    {
+      "id": "WrynnsBespokeVestments",
+      "title": "Wrynn’s Bespoke Vestments"
+    },
+    {
+      "id": "OperationDeadfall2",
+      "title": "Operation Deadfall"
+    },
+    {
+      "id": "FirstMission",
+      "title": "First Mission"
+    },
+    {
+      "id": "TheHoodedLantern",
+      "title": "The Hooded Lantern"
+    },
+    {
+      "id": "NymBuilding3",
+      "title": "Nym Building 3"
+    },
+    {
+      "id": "LowerWardAlley",
+      "title": "Lower Ward Alley"
+    },
+    {
+      "id": "ConcludingTheMission",
+      "title": "Concluding the Mission"
+    },
+    {
+      "id": "ReturningToTheZulkir",
+      "title": "Returning to the Zulkir"
+    },
+    {
+      "id": "SecondMission",
+      "title": "Second Mission"
+    },
+    {
+      "id": "UnwelcomeCompany",
+      "title": "Unwelcome Company"
+    },
+    {
+      "id": "TwoPlateausShipping",
+      "title": "Two Plateaus Shipping"
+    },
+    {
+      "id": "HydraMissionConclusion",
+      "title": "Concluding the Mission"
+    },
+    {
+      "id": "GiftFromTheSparrow",
+      "title": "Gift from the Sparrow"
+    }
+  ],
+  "entities": [],
+  "links": [
+    "https://media-stg.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-02.wrynns-bespoke-vestments-player.png",
+    "https://media-stg.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-04.the-hooded-lantern-player.png",
+    "https://media-stg.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-05.nym-building-3-player.png",
+    "https://media-stg.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-07.two-plateaus-shipping-company-player.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-001.ch-3-splash.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-002.wynston-wrynn.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-003.handout-mysterious-note.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-004.zulkir-thrul-and-wynston-wrynn.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-005.masqueraders-brooch.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-006.the-gamblers.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-007.inventory-shipment.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/03-008.the-sparrow-handout.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-01.bazaar-bridge-player.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-01.bazaar-bridge.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-02.wrynns-bespoke-vestments.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-03.zulkir-thruls-demiplane-player.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-03.zulkir-thruls-demiplane.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-04.the-hooded-lantern.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-05.nym-building-3.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-06.lower-ward-alley-player.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-06.lower-ward-alley.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-03-07.two-plateaus-shipping-company.png",
+    "https://www.dndbeyond.com/equipment/427-spyglass",
+    "https://www.dndbeyond.com/equipment/495-thieves-tools",
+    "https://www.dndbeyond.com/equipment/539-fine-clothes",
+    "https://www.dndbeyond.com/equipment/71-potion-of-healing",
+    "https://www.dndbeyond.com/magic-items/11914526-eyes-of-deceit",
+    "https://www.dndbeyond.com/magic-items/11914527-life-sapping-blade",
+    "https://www.dndbeyond.com/magic-items/11914533-masqueraders-brooch",
+    "https://www.dndbeyond.com/magic-items/11914537-snipers-bracelet",
+    "https://www.dndbeyond.com/magic-items/11914593-trick-weapon",
+    "https://www.dndbeyond.com/magic-items/11914595-wand-of-enthralling",
+    "https://www.dndbeyond.com/magic-items/27040-cloak-of-billowing",
+    "https://www.dndbeyond.com/magic-items/27041-cloak-of-many-fashions",
+    "https://www.dndbeyond.com/magic-items/36839-walloping-ammunition",
+    "https://www.dndbeyond.com/magic-items/4604-cloak-of-arachnida",
+    "https://www.dndbeyond.com/magic-items/4654-helm-of-comprehending-languages",
+    "https://www.dndbeyond.com/magic-items/4656-helm-of-teleportation",
+    "https://www.dndbeyond.com/magic-items/4673-mantle-of-spell-resistance",
+    "https://www.dndbeyond.com/magic-items/4730-ring-of-spell-storing",
+    "https://www.dndbeyond.com/magic-items/5124-nine-lives-stealer-longsword",
+    "https://www.dndbeyond.com/magic-items/9180147-sending-stones",
+    "https://www.dndbeyond.com/magic-items/9228372-broom-of-flying",
+    "https://www.dndbeyond.com/magic-items/9228376-cape-of-the-mountebank",
+    "https://www.dndbeyond.com/magic-items/9228405-chime-of-opening",
+    "https://www.dndbeyond.com/magic-items/9228521-driftglobe",
+    "https://www.dndbeyond.com/magic-items/9228528-efreeti-bottle",
+    "https://www.dndbeyond.com/magic-items/9228536-elemental-gem",
+    "https://www.dndbeyond.com/magic-items/9228652-gem-of-brightness",
+    "https://www.dndbeyond.com/magic-items/9228653-gem-of-seeing",
+    "https://www.dndbeyond.com/magic-items/9228722-hewards-handy-haversack",
+    "https://www.dndbeyond.com/magic-items/9228809-keoghtoms-ointment",
+    "https://www.dndbeyond.com/magic-items/9228811-lantern-of-revealing",
+    "https://www.dndbeyond.com/magic-items/9228932-portable-hole",
+    "https://www.dndbeyond.com/magic-items/9228976-robe-of-eyes",
+    "https://www.dndbeyond.com/magic-items/9229085-spell-scroll",
+    "https://www.dndbeyond.com/magic-items/9229184-wand-of-enemy-detection",
+    "https://www.dndbeyond.com/magic-items/9229190-wand-of-paralysis",
+    "https://www.dndbeyond.com/monsters/4775841-skeleton",
+    "https://www.dndbeyond.com/monsters/4831023-mage",
+    "https://www.dndbeyond.com/monsters/4904746-cultist-fanatic",
+    "https://www.dndbeyond.com/monsters/4904850-stone-golem",
+    "https://www.dndbeyond.com/monsters/5194902-archmage",
+    "https://www.dndbeyond.com/monsters/5194903-archpriest",
+    "https://www.dndbeyond.com/monsters/5194904-assassin",
+    "https://www.dndbeyond.com/monsters/5194913-bandit-crime-lord",
+    "https://www.dndbeyond.com/monsters/5194914-bandit-deceiver",
+    "https://www.dndbeyond.com/monsters/5194951-commoner",
+    "https://www.dndbeyond.com/monsters/5194955-cultist-hierophant",
+    "https://www.dndbeyond.com/monsters/5194965-death-tyrant",
+    "https://www.dndbeyond.com/monsters/5195042-gladiator",
+    "https://www.dndbeyond.com/monsters/5195145-noble",
+    "https://www.dndbeyond.com/monsters/5195178-rakshasa",
+    "https://www.dndbeyond.com/monsters/5195216-spy-master",
+    "https://www.dndbeyond.com/monsters/5195258-warrior-commander",
+    "https://www.dndbeyond.com/monsters/6719634-xelnene-thrul",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-a-magic-items#LifeSappingBlade",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-a-magic-items#MasqueradersBrooch",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-b-bestiary#XelneneThrul",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-1-thay-dominion-of-red-wizards#CouncilOfZulkirs",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-1-thay-dominion-of-red-wizards#EltabbarThaysCapital",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-1-thay-dominion-of-red-wizards#WarehouseWard",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-2-thay-in-danger#CodeNames",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-2-thay-in-danger#DemonicRitual",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-2-thay-in-danger#ImportanceOfSecrecy",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-2-thay-in-danger#RunningMagicalSpy",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-2-thay-in-danger#ThaysOnlyHope",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-4-peril-in-pyarados#ThirdAndFourthMissions",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#Doors",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#PoisonedNeedle",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/lore-glossary#SzassTam",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/lore-glossary#UnderdarkThe",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/playing-the-game#Skills",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#BrightLight",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Cover",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Darkness",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DifficultTerrain",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DimLight",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Disadvantage",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#InfluenceAction",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ProneCondition",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#SearchAction",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#StudyAction",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#UtilizeAction",
+    "https://www.dndbeyond.com/sources/dnd/mm-2024",
+    "https://www.dndbeyond.com/spells/2618846-alter-self",
+    "https://www.dndbeyond.com/spells/2619065-continual-flame",
+    "https://www.dndbeyond.com/spells/2619088-demiplane",
+    "https://www.dndbeyond.com/spells/2619102-disguise-self",
+    "https://www.dndbeyond.com/spells/2619109-modify-memory",
+    "https://www.dndbeyond.com/spells/2619163-teleport",
+    "https://www.dndbeyond.com/spells/2619173-illusory-script",
+    "https://www.dndbeyond.com/spells/2619213-wish"
+  ],
+  "tables": [
+    {
+      "id": "KeyNPCsTable",
+      "title": "Key NPCs",
+      "rows": [
+        [
+          "Name",
+          "Role",
+          "Stat Block",
+          "Location"
+        ],
+        [
+          "Alik Nal",
+          "Elf shipping agent",
+          "Mage (Medium)",
+          "T10"
+        ],
+        [
+          "Iskan Iskari",
+          "Szass Tam’s intel courier and owner of Two Plateaus Shipping Company",
+          "Rakshasa",
+          "T14"
+        ],
+        [
+          "Knudrek",
+          "Human owner of a gambling den",
+          "Gladiator (Medium)",
+          "H1"
+        ],
+        [
+          "Pryas Nym",
+          "Human landlord and spy target",
+          "Warrior Commander (Medium)",
+          "N4"
+        ],
+        [
+          "Rathan Jur",
+          "Goliath racketeer and spy target",
+          "Bandit Crime Lord (Medium, Neutral Evil)",
+          "“ Encountering Rathan Jur ”"
+        ],
+        [
+          "Thellania Marr",
+          "Human Red Wizard, gambler, and spy target",
+          "Cultist Hierophant (Medium)",
+          "H3"
+        ],
+        [
+          "Thom",
+          "Human receptionist",
+          "Noble (Medium)",
+          "T1"
+        ],
+        [
+          "Wynston Wrynn",
+          "Human tailor and Zulkir Thrul’s spy master",
+          "Spy Master (Medium, Neutral Good)",
+          "“ Mysterious Messenger ”"
+        ],
+        [
+          "Xelnene Thrul",
+          "Human zulkir of evocation and Operation Deadfall leader",
+          "See appendix B",
+          "“ Zulkir Thrul’s Demiplane ”"
+        ]
+      ],
+      "csv": "tables/01-KeyNPCsTable.csv"
+    },
+    {
+      "id": "BlackmailingIskariEvidenceTable",
+      "title": "Blackmailing Iskari",
+      "rows": [
+        [
+          "Pieces of Evidence",
+          "DC"
+        ],
+        [
+          "None",
+          "Impossible"
+        ],
+        [
+          "1",
+          "25"
+        ],
+        [
+          "2",
+          "20"
+        ],
+        [
+          "3",
+          "15"
+        ],
+        [
+          "4",
+          "10"
+        ]
+      ],
+      "csv": "tables/02-BlackmailingIskariEvidenceTable.csv"
+    }
+  ]
+}

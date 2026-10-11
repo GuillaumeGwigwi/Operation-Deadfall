@@ -1,0 +1,340 @@
+{
+  "source_url": "https://www.dndbeyond.com/sources/dnd/aud/chapter-4-peril-in-pyarados",
+  "provenance": "HTML directly supplied by the user; not fetched from D&D Beyond",
+  "audience": "mj",
+  "title": "Chapter 4: Peril in Pyarados",
+  "source_sha256": "b9de806e2ece90bc3c7db07382194c25fd6586389e7abb353778f66be5329e59",
+  "counts": {
+    "sections": 13,
+    "assets": 8,
+    "tables": 1,
+    "zulkirs": 0,
+    "tharchs": 0,
+    "wards": 0
+  },
+  "assets": [
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/04-001.ch-4-splash.png",
+      "path": "assets/illustrations/04-001.ch-4-splash.png",
+      "audience": "mj",
+      "artist": "EILENE CHERIE",
+      "caption": "Heroes battle ancient guardians outside the Temple of the Red Knight.",
+      "figure_id": "Ch4SplashImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 2228,
+      "bytes": 995630,
+      "sha256": "d0187cc9a42b57e87f999c53020ee4b44b275c8ebac46e0e072b4f98cd14511c"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-04-01.eastern-pyarados-trail.png",
+      "path": "assets/maps/mj/map-04-01.eastern-pyarados-trail.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman, Brian Valeza",
+      "caption": "Map 4.1: Eastern Pyarados Trail View Player Version",
+      "figure_id": "Map0401EasternPyaradosTrailImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 3277,
+      "height": 4096,
+      "bytes": 6981950,
+      "sha256": "8a44c89482ae99fcdf9f0e611290fd2c73134a39646622bd73ea791a6e810d29"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-04-02.tax-station-number-18.png",
+      "path": "assets/maps/mj/map-04-02.tax-station-number-18.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 4.2: Tax Station Number 18 View Player Version",
+      "figure_id": "map-04-02.tax-station-number-18",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 4096,
+      "height": 2650,
+      "bytes": 4868744,
+      "sha256": "bdaa961fc1dc7641fd3ae272813b2789adba769deda9443cf0a814ca4c33bc8b"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/04-002.demons-murder.png",
+      "path": "assets/illustrations/04-002.demons-murder.png",
+      "audience": "mj",
+      "artist": "BRIAN VALEZA",
+      "caption": "If the characters don’t act quickly, demons murder the inhabitants of the tax station.",
+      "figure_id": "DemonsMurderImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1399,
+      "bytes": 1001336,
+      "sha256": "3fb12503a92cb9d21a20b8fcee3602dc472616f4aac0cbb25c16ee1db792baec"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/04-003.red-knights-holy-symbol.png",
+      "path": "assets/illustrations/04-003.red-knights-holy-symbol.png",
+      "audience": "mj",
+      "artist": "Swatches Studio",
+      "caption": "The Red Knight’s Holy Symbol",
+      "figure_id": "RedKnightsHolySymbolImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 962,
+      "bytes": 333465,
+      "sha256": "65d3ceffa62dcdf4d79de81e54adfd0df395658d86ee130c7b6ba0f41d5f0d07"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-04-03.temple-of-the-red-knight.png",
+      "path": "assets/maps/mj/map-04-03.temple-of-the-red-knight.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 4.3: Temple of the Red Knight View Player Version",
+      "figure_id": "Map0403TempleOfTheRedKnightImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 4096,
+      "height": 2650,
+      "bytes": 6182184,
+      "sha256": "4c0b5f108135fe810a64877937bc74b9bc64e780318a8b790e4dd9383203febc"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/04-004.death-knight-rises.png",
+      "path": "assets/illustrations/04-004.death-knight-rises.png",
+      "audience": "mj",
+      "artist": "SYLVAIN SARRAILH",
+      "caption": "An ancient general rises as a death knight to fight the characters.",
+      "figure_id": "DeathKnightRisesImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1194,
+      "bytes": 965831,
+      "sha256": "4bc8930115fb48ff848c28c837684192ac55806f995bf4668e8142ba65d59ac9"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/04-005.spirit-binding-censer.png",
+      "path": "assets/illustrations/04-005.spirit-binding-censer.png",
+      "audience": "mj",
+      "artist": "Alejandro Pacheco",
+      "caption": "Spirit-Binding Censer",
+      "figure_id": "SpiritBindingCenserImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 950,
+      "bytes": 339949,
+      "sha256": "9097442106cdc987f9853521306f47249d5d593d5961561d7b6ea1bb1fcf2e95"
+    }
+  ],
+  "sections": [
+    {
+      "id": "Introduction",
+      "title": "Introduction"
+    },
+    {
+      "id": "KeyPlotPoints",
+      "title": "Key Plot Points"
+    },
+    {
+      "id": "Preparation",
+      "title": "Preparation"
+    },
+    {
+      "id": "RunningThisChapter",
+      "title": "Running This Chapter"
+    },
+    {
+      "id": "ReturningToTheZulkir",
+      "title": "Returning to the Zulkir"
+    },
+    {
+      "id": "ThirdAndFourthMissions",
+      "title": "Third and Fourth Missions"
+    },
+    {
+      "id": "PyaradosMilitia",
+      "title": "Pyarados Militia"
+    },
+    {
+      "id": "TaxStationNumber18",
+      "title": "Tax Station Number 18"
+    },
+    {
+      "id": "ConcludingTaxStationNumber18Mission",
+      "title": "Concluding the Mission"
+    },
+    {
+      "id": "AnAncientTemple",
+      "title": "An Ancient Temple"
+    },
+    {
+      "id": "TempleOfTheRedKnight",
+      "title": "Temple of the Red Knight"
+    },
+    {
+      "id": "ConcludingTheMission2",
+      "title": "Concluding the Mission"
+    },
+    {
+      "id": "SzassTamsAgents",
+      "title": "Szass Tam’s Agents"
+    }
+  ],
+  "entities": [],
+  "links": [
+    "https://media-stg.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-04-01.eastern-pyarados-trail-player.png",
+    "https://media-stg.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-04-02.tax-station-number-18-player.png",
+    "https://media-stg.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-04-03.temple-of-the-red-knight-player.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/04-001.ch-4-splash.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/04-002.demons-murder.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/04-003.red-knights-holy-symbol.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/04-004.death-knight-rises.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/04-005.spirit-binding-censer.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-04-01.eastern-pyarados-trail.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-04-02.tax-station-number-18.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-04-03.temple-of-the-red-knight.png",
+    "https://www.dndbeyond.com/equipment/495-thieves-tools",
+    "https://www.dndbeyond.com/equipment/507-holy-water",
+    "https://www.dndbeyond.com/magic-items/11854137-flame-tongue-longsword",
+    "https://www.dndbeyond.com/magic-items/11914557-spirit-binding-censer",
+    "https://www.dndbeyond.com/magic-items/4701-potion-of-clairvoyance",
+    "https://www.dndbeyond.com/magic-items/4852-adamantine-plate",
+    "https://www.dndbeyond.com/magic-items/4867-dancing-scimitar",
+    "https://www.dndbeyond.com/magic-items/5351-elixir-of-health",
+    "https://www.dndbeyond.com/magic-items/5359-potion-of-longevity",
+    "https://www.dndbeyond.com/magic-items/9180147-sending-stones",
+    "https://www.dndbeyond.com/magic-items/9228417-dark-shard-amulet",
+    "https://www.dndbeyond.com/magic-items/9228621-figurine-of-wondrous-power",
+    "https://www.dndbeyond.com/magic-items/9228835-mace-of-terror",
+    "https://www.dndbeyond.com/magic-items/9228908-oil-of-sharpness",
+    "https://www.dndbeyond.com/magic-items/9228939-potion-of-speed",
+    "https://www.dndbeyond.com/magic-items/9228969-ring-of-spell-turning",
+    "https://www.dndbeyond.com/magic-items/9229085-spell-scroll",
+    "https://www.dndbeyond.com/magic-items/9229193-wand-of-secrets",
+    "https://www.dndbeyond.com/monsters/4831023-mage",
+    "https://www.dndbeyond.com/monsters/4904850-stone-golem",
+    "https://www.dndbeyond.com/monsters/5174960-wraith",
+    "https://www.dndbeyond.com/monsters/5194902-archmage",
+    "https://www.dndbeyond.com/monsters/5194924-berserker-commander",
+    "https://www.dndbeyond.com/monsters/5194939-centaur-trooper",
+    "https://www.dndbeyond.com/monsters/5194951-commoner",
+    "https://www.dndbeyond.com/monsters/5194963-death-knight",
+    "https://www.dndbeyond.com/monsters/5194967-demilich",
+    "https://www.dndbeyond.com/monsters/5194996-flaming-skeleton",
+    "https://www.dndbeyond.com/monsters/5195006-ghast-gravecaller",
+    "https://www.dndbeyond.com/monsters/5195041-glabrezu",
+    "https://www.dndbeyond.com/monsters/5195082-horned-devil",
+    "https://www.dndbeyond.com/monsters/5195090-iron-golem",
+    "https://www.dndbeyond.com/monsters/5195109-mage-apprentice",
+    "https://www.dndbeyond.com/monsters/5195117-marilith",
+    "https://www.dndbeyond.com/monsters/5195134-mummy-lord",
+    "https://www.dndbeyond.com/monsters/5195216-spy-master",
+    "https://www.dndbeyond.com/monsters/5195258-warrior-commander",
+    "https://www.dndbeyond.com/monsters/5195260-warrior-veteran",
+    "https://www.dndbeyond.com/monsters/6719629-abveku",
+    "https://www.dndbeyond.com/monsters/6719631-rendelith",
+    "https://www.dndbeyond.com/monsters/6719633-szass-tam",
+    "https://www.dndbeyond.com/monsters/6719634-xelnene-thrul",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-a-magic-items#SpiritBindingCenser",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-1-thay-dominion-of-red-wizards#CityOfPyarados",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-2-thay-in-danger#ImportanceOfSecrecy",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-3-operation-deadfall#DeadfallMissionRewards",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-3-operation-deadfall#Map0306lowerwardalley",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#Doors",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#PoisonedDarts",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/playing-the-game#Skills",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Advantage",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#BrightLight",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Darkness",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DifficultTerrain",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DimLight",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#SearchAction",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#StudyAction",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#UtilizeAction",
+    "https://www.dndbeyond.com/sources/dnd/mm-2024",
+    "https://www.dndbeyond.com/sources/dnd/mm-2024/monsters-m#MummyLordLairs",
+    "https://www.dndbeyond.com/spells/2618891-aura-of-vitality",
+    "https://www.dndbeyond.com/spells/2618909-fly",
+    "https://www.dndbeyond.com/spells/2619018-magic-circle",
+    "https://www.dndbeyond.com/spells/2619065-continual-flame",
+    "https://www.dndbeyond.com/spells/2619088-demiplane",
+    "https://www.dndbeyond.com/spells/2619163-teleport"
+  ],
+  "tables": [
+    {
+      "id": "KeyNPCsTable",
+      "title": "Key NPCs",
+      "rows": [
+        [
+          "Name",
+          "Role",
+          "Stat Block",
+          "Location"
+        ],
+        [
+          "Ezkaar Softhoof, Tilda Ven, and Yaris",
+          "Militia members ambushed by demons",
+          "Centaur Trooper and Warrior Veterans (Medium, Neutral Good)",
+          "“ Eastern Pyarados Trail ”"
+        ],
+        [
+          "Fallon Nor",
+          "Human leader of the Pyarados militia",
+          "Warrior Commander (Medium, Neutral Good)",
+          "S3"
+        ],
+        [
+          "Garos",
+          "Goliath Thayan knight who serves Omina",
+          "Berserker Commander (Medium, Neutral Evil)",
+          "“ Eastern Pyarados Trail ”"
+        ],
+        [
+          "Kellen Toll, Merias, and Serafina",
+          "Human and tiefling militia members under attack by demons",
+          "Warrior Veterans (Medium)",
+          "S1"
+        ],
+        [
+          "Nazemm",
+          "Dead human Red Wizard scholar",
+          "—",
+          "E10"
+        ],
+        [
+          "Omina",
+          "Human Red Wizard besieging the Pyarados militia’s base",
+          "Mage (Medium, Neutral Evil)",
+          "“ Eastern Pyarados Trail ”"
+        ],
+        [
+          "Valzaa",
+          "Human, only survivor of an undead attack in the ancient temple",
+          "Mage Apprentice (Medium, Chaotic Good)",
+          "E10"
+        ],
+        [
+          "Wynston Wrynn",
+          "Human tailor and Zulkir Thrul’s spy master",
+          "Spy Master (Medium, Neutral Good)",
+          "“ Third and Fourth Missions ”"
+        ],
+        [
+          "Xelnene Thrul",
+          "Human zulkir of evocation and Operation Deadfall leader",
+          "See appendix B",
+          "“ Third and Fourth Missions ”"
+        ]
+      ],
+      "csv": "tables/01-KeyNPCsTable.csv"
+    }
+  ]
+}

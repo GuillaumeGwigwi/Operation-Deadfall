@@ -1,0 +1,101 @@
+[
+  {
+    "id": "KeyNPCsTable",
+    "title": "Key NPCs",
+    "rows": [
+      [
+        "Name",
+        "Role",
+        "Stat Block",
+        "Location"
+      ],
+      [
+        "Abadesh",
+        "Human dissident Red Wizard",
+        "Archmage (Medium)",
+        "V4"
+      ],
+      [
+        "Darvyn Yev",
+        "Human dissident Red Wizard and owner of the Veiled Tower",
+        "Archmage (Medium)",
+        "V4"
+      ],
+      [
+        "Iorru",
+        "Human dissident Red Wizard",
+        "Archmage (Medium)",
+        "V4"
+      ],
+      [
+        "Sabinia Dau",
+        "Tiefling dissident Red Wizard",
+        "Archmage (Medium)",
+        "V4"
+      ],
+      [
+        "Sharlei",
+        "Human leader of pirate crew at Blackrock Cove",
+        "Pirate Admiral (Medium)",
+        "B4"
+      ],
+      [
+        "Szass Tam",
+        "Lich plotting to conquer Thay and primary target of Operation Deadfall",
+        "See appendix B",
+        "“ Enemy Ambush ”"
+      ],
+      [
+        "Wynston Wrynn",
+        "Human tailor and Zulkir Thrul’s spy master",
+        "Spy Master (Medium, Neutral Good)",
+        "“ Fifth and Sixth Missions ”"
+      ],
+      [
+        "Xelnene Thrul",
+        "Human zulkir of evocation and Operation Deadfall’s leader",
+        "See appendix B",
+        "“ Fifth and Sixth Missions ”"
+      ],
+      [
+        "Zeil",
+        "Human dissident Red Wizard",
+        "Archmage (Medium)",
+        "V4"
+      ]
+    ],
+    "csv": "tables/01-KeyNPCsTable.csv"
+  },
+  {
+    "id": "BoatRentalsTable",
+    "title": "Boat Rentals",
+    "rows": [
+      [
+        "1d4",
+        "Keelboat",
+        "Captain"
+      ],
+      [
+        "1",
+        "Basilisk’s Gaze",
+        "Moira ( Pirate Captain ), a gregarious orc"
+      ],
+      [
+        "2",
+        "Brimstone",
+        "Harvey Dee (Neutral Evil Pirate ), a grumpy human"
+      ],
+      [
+        "3",
+        "Gecko’s Tail",
+        "Splinters ( Pirate ), a gnome raconteur"
+      ],
+      [
+        "4",
+        "Razor Blade",
+        "Manz ( Pirate Captain ), a jocular tiefling"
+      ]
+    ],
+    "csv": "tables/02-BoatRentalsTable.csv"
+  }
+]

@@ -1,0 +1,247 @@
+{
+  "input_directory": "/home/gwi/Operation-Deadfall/sources/raw",
+  "output_directory": "/home/gwi/Operation-Deadfall/sources",
+  "download_images": true,
+  "counts": {
+    "inputs": 9,
+    "imported": 9,
+    "skipped": 0,
+    "errors": 0,
+    "image_errors": 0,
+    "catalog_entries": 518,
+    "rewritten_local_links": 548,
+    "images_pending": 0,
+    "link_warnings": 6,
+    "assets": 72,
+    "tables": 40
+  },
+  "files": [
+    {
+      "input": "/home/gwi/Operation-Deadfall/sources/raw/chapter-01-thay.html",
+      "status": "imported",
+      "directory": "chapters/chapter-01-thay",
+      "title": "Chapter 1: Thay, Dominion of Red Wizards",
+      "source_url": "https://www.dndbeyond.com/sources/dnd/aud/chapter-1-thay-dominion-of-red-wizards",
+      "url_provenance": "inferred-not-fetched",
+      "counts": {
+        "sections": 12,
+        "assets": 17,
+        "tables": 8,
+        "zulkirs": 8,
+        "tharchs": 11,
+        "wards": 10
+      },
+      "entries": 108,
+      "source_sha256": "bdf03354fc182714d79f6a11158d6bed3fdcad1f403dd962987a26a10b1335ef",
+      "text_verified": true,
+      "image_errors": [],
+      "images_pending": [],
+      "link_warnings": []
+    },
+    {
+      "input": "/home/gwi/Operation-Deadfall/sources/raw/chapter-02-thay-in-danger.html",
+      "status": "imported",
+      "directory": "chapters/chapter-02-thay-in-danger",
+      "title": "Chapter 2: Thay In Danger",
+      "source_url": "https://www.dndbeyond.com/sources/dnd/aud/chapter-2-thay-in-danger",
+      "url_provenance": "inferred-not-fetched",
+      "counts": {
+        "sections": 7,
+        "assets": 3,
+        "tables": 8,
+        "zulkirs": 0,
+        "tharchs": 0,
+        "wards": 0
+      },
+      "entries": 33,
+      "source_sha256": "a9ae411f68e78b0b614f7fb794f81f28bb1e78b564f24e18802fb9b11454fe35",
+      "text_verified": true,
+      "image_errors": [],
+      "images_pending": [],
+      "link_warnings": [
+        {
+          "href": "#heading-aud--playing-thayan-knight",
+          "reason": "Anchor absent in the supplied original HTML; preserved without guessing a replacement"
+        }
+      ]
+    },
+    {
+      "input": "/home/gwi/Operation-Deadfall/sources/raw/chapter-3-operation-deadfall.html",
+      "status": "imported",
+      "directory": "chapters/chapter-03-operation-deadfall",
+      "title": "Chapter 3: Operation Deadfall",
+      "source_url": "https://www.dndbeyond.com/sources/dnd/aud/chapter-3-operation-deadfall",
+      "url_provenance": "inferred-not-fetched",
+      "counts": {
+        "sections": 19,
+        "assets": 18,
+        "tables": 2,
+        "zulkirs": 0,
+        "tharchs": 0,
+        "wards": 0
+      },
+      "entries": 115,
+      "source_sha256": "2e94ae0188f102a4325e82296becb54a95408948b281b3a28709e7e61fbf7ad4",
+      "text_verified": true,
+      "image_errors": [],
+      "images_pending": [],
+      "link_warnings": []
+    },
+    {
+      "input": "/home/gwi/Operation-Deadfall/sources/raw/chapter-4-peril-in-pyarados.html",
+      "status": "imported",
+      "directory": "chapters/chapter-04-peril-in-pyarados",
+      "title": "Chapter 4: Peril in Pyarados",
+      "source_url": "https://www.dndbeyond.com/sources/dnd/aud/chapter-4-peril-in-pyarados",
+      "url_provenance": "inferred-not-fetched",
+      "counts": {
+        "sections": 13,
+        "assets": 8,
+        "tables": 1,
+        "zulkirs": 0,
+        "tharchs": 0,
+        "wards": 0
+      },
+      "entries": 51,
+      "source_sha256": "b9de806e2ece90bc3c7db07382194c25fd6586389e7abb353778f66be5329e59",
+      "text_verified": true,
+      "image_errors": [],
+      "images_pending": [],
+      "link_warnings": [
+        {
+          "href": "#heading-aud--mummy-lord-s",
+          "reason": "Anchor absent in the supplied original HTML; preserved without guessing a replacement"
+        },
+        {
+          "href": "#E4StorageChamber",
+          "reason": "Anchor absent in the supplied original HTML; preserved without guessing a replacement"
+        }
+      ]
+    },
+    {
+      "input": "/home/gwi/Operation-Deadfall/sources/raw/chapter-05-rebel-alliances.html",
+      "status": "imported",
+      "directory": "chapters/chapter-05-rebel-alliances",
+      "title": "Chapter 5: Rebel Alliances",
+      "source_url": "https://www.dndbeyond.com/sources/dnd/aud/chapter-5-rebel-alliances",
+      "url_provenance": "inferred-not-fetched",
+      "counts": {
+        "sections": 13,
+        "assets": 5,
+        "tables": 2,
+        "zulkirs": 0,
+        "tharchs": 0,
+        "wards": 0
+      },
+      "entries": 60,
+      "source_sha256": "71f8f3ce6f1d5233fb6798ee2f5f89a797e584bdfc9c742ffc35fdabdff9589b",
+      "text_verified": true,
+      "image_errors": [],
+      "images_pending": [],
+      "link_warnings": []
+    },
+    {
+      "input": "/home/gwi/Operation-Deadfall/sources/raw/chapter-6-precipice-of-oblivion.html",
+      "status": "imported",
+      "directory": "chapters/chapter-06-precipice-of-oblivion",
+      "title": "Chapter 6: Precipice of Oblivion",
+      "source_url": "https://www.dndbeyond.com/sources/dnd/aud/chapter-6-precipice-of-oblivion",
+      "url_provenance": "inferred-not-fetched",
+      "counts": {
+        "sections": 12,
+        "assets": 8,
+        "tables": 4,
+        "zulkirs": 0,
+        "tharchs": 0,
+        "wards": 0
+      },
+      "entries": 89,
+      "source_sha256": "4752703f614b74c4cd017dd38c4ee5b5bedc596ee2e709e91dcac1f4b1931bed",
+      "text_verified": true,
+      "image_errors": [],
+      "images_pending": [],
+      "link_warnings": [
+        {
+          "href": "#CastleThrulAbyssalBarriers",
+          "reason": "Anchor absent in the supplied original HTML; preserved without guessing a replacement"
+        },
+        {
+          "href": "#F15: Storage",
+          "reason": "Anchor absent in the supplied original HTML; preserved without guessing a replacement"
+        }
+      ]
+    },
+    {
+      "input": "/home/gwi/Operation-Deadfall/sources/raw/chapter-7-szass-tam-must-die.html",
+      "status": "imported",
+      "directory": "chapters/chapter-07-szass-tam-must-die",
+      "title": "Chapter 7: Szass Tam Must Die",
+      "source_url": "https://www.dndbeyond.com/sources/dnd/aud/chapter-7-szass-tam-must-die",
+      "url_provenance": "inferred-not-fetched",
+      "counts": {
+        "sections": 8,
+        "assets": 3,
+        "tables": 1,
+        "zulkirs": 0,
+        "tharchs": 0,
+        "wards": 0
+      },
+      "entries": 32,
+      "source_sha256": "d8f18dbb563e118b3361b29fa6a53d83c36da020b3bd678bc872514bb98ec640",
+      "text_verified": true,
+      "image_errors": [],
+      "images_pending": [],
+      "link_warnings": []
+    },
+    {
+      "input": "/home/gwi/Operation-Deadfall/sources/raw/appendix-a-magic-item.html",
+      "status": "imported",
+      "directory": "chapters/appendix-a-magic-item",
+      "title": "Appendix A: Magic Items",
+      "source_url": "https://www.dndbeyond.com/sources/dnd/aud/appendix-a-magic-items",
+      "url_provenance": "inferred-not-fetched",
+      "counts": {
+        "sections": 12,
+        "assets": 5,
+        "tables": 2,
+        "zulkirs": 0,
+        "tharchs": 0,
+        "wards": 0
+      },
+      "entries": 13,
+      "source_sha256": "3e40097d5e35a494af99bdae3409b8d537ef3a55116a054196483af0c77bd0bc",
+      "text_verified": true,
+      "image_errors": [],
+      "images_pending": [],
+      "link_warnings": [
+        {
+          "href": "#ScarletSpellbook",
+          "reason": "Anchor absent in the supplied original HTML; preserved without guessing a replacement"
+        }
+      ]
+    },
+    {
+      "input": "/home/gwi/Operation-Deadfall/sources/raw/appendix-b-bestiary.html",
+      "status": "imported",
+      "directory": "chapters/appendix-b-bestiary",
+      "title": "Appendix B: Bestiary",
+      "source_url": "https://www.dndbeyond.com/sources/dnd/aud/appendix-b-bestiary",
+      "url_provenance": "inferred-not-fetched",
+      "counts": {
+        "sections": 6,
+        "assets": 5,
+        "tables": 12,
+        "zulkirs": 0,
+        "tharchs": 0,
+        "wards": 0
+      },
+      "entries": 17,
+      "source_sha256": "963384fc90d1d3b513aeed7671d88d643a3ea41314973dcbe996e62b385c8710",
+      "text_verified": true,
+      "image_errors": [],
+      "images_pending": [],
+      "link_warnings": []
+    }
+  ],
+  "scope": "Only locally supplied HTML; source pages and linked stat blocks are never fetched"
+}

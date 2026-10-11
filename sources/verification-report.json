@@ -1,0 +1,119 @@
+{
+  "verified": true,
+  "files": [
+    {
+      "input": "chapter-01-thay.html",
+      "text_verified": true,
+      "original_bytes_identical": true,
+      "images": 17,
+      "tables": 8,
+      "entries": 108
+    },
+    {
+      "input": "chapter-02-thay-in-danger.html",
+      "text_verified": true,
+      "original_bytes_identical": true,
+      "images": 3,
+      "tables": 8,
+      "entries": 33
+    },
+    {
+      "input": "chapter-3-operation-deadfall.html",
+      "text_verified": true,
+      "original_bytes_identical": true,
+      "images": 18,
+      "tables": 2,
+      "entries": 115
+    },
+    {
+      "input": "chapter-4-peril-in-pyarados.html",
+      "text_verified": true,
+      "original_bytes_identical": true,
+      "images": 8,
+      "tables": 1,
+      "entries": 51
+    },
+    {
+      "input": "chapter-05-rebel-alliances.html",
+      "text_verified": true,
+      "original_bytes_identical": true,
+      "images": 5,
+      "tables": 2,
+      "entries": 60
+    },
+    {
+      "input": "chapter-6-precipice-of-oblivion.html",
+      "text_verified": true,
+      "original_bytes_identical": true,
+      "images": 8,
+      "tables": 4,
+      "entries": 89
+    },
+    {
+      "input": "chapter-7-szass-tam-must-die.html",
+      "text_verified": true,
+      "original_bytes_identical": true,
+      "images": 3,
+      "tables": 1,
+      "entries": 32
+    },
+    {
+      "input": "appendix-a-magic-item.html",
+      "text_verified": true,
+      "original_bytes_identical": true,
+      "images": 5,
+      "tables": 2,
+      "entries": 13
+    },
+    {
+      "input": "appendix-b-bestiary.html",
+      "text_verified": true,
+      "original_bytes_identical": true,
+      "images": 5,
+      "tables": 12,
+      "entries": 17
+    }
+  ],
+  "totals": {
+    "pages": 9,
+    "images": 72,
+    "tables": 40,
+    "catalog_entries": 518,
+    "local_html_links_checked": 1097,
+    "broken_local_links": 6
+  },
+  "link_warnings": [
+    [
+      "/home/gwi/Operation-Deadfall/sources/chapters/chapter-02-thay-in-danger",
+      "#heading-aud--playing-thayan-knight",
+      "missing anchor"
+    ],
+    [
+      "/home/gwi/Operation-Deadfall/sources/chapters/chapter-04-peril-in-pyarados",
+      "#heading-aud--mummy-lord-s",
+      "missing anchor"
+    ],
+    [
+      "/home/gwi/Operation-Deadfall/sources/chapters/chapter-04-peril-in-pyarados",
+      "#E4StorageChamber",
+      "missing anchor"
+    ],
+    [
+      "/home/gwi/Operation-Deadfall/sources/chapters/chapter-06-precipice-of-oblivion",
+      "#CastleThrulAbyssalBarriers",
+      "missing anchor"
+    ],
+    [
+      "/home/gwi/Operation-Deadfall/sources/chapters/chapter-06-precipice-of-oblivion",
+      "#F15: Storage",
+      "missing anchor"
+    ],
+    [
+      "/home/gwi/Operation-Deadfall/sources/chapters/appendix-a-magic-item",
+      "#ScarletSpellbook",
+      "missing anchor"
+    ]
+  ],
+  "verification_scope": "Source bytes, text, images and tables verified; all observed link warnings are already present in supplied source HTML",
+  "source_link_warnings": 6
+}

@@ -1,0 +1,493 @@
+{
+  "source_url": "https://www.dndbeyond.com/sources/dnd/aud/chapter-6-precipice-of-oblivion",
+  "provenance": "HTML directly supplied by the user; not fetched from D&D Beyond",
+  "audience": "mj",
+  "title": "Chapter 6: Precipice of Oblivion",
+  "source_sha256": "4752703f614b74c4cd017dd38c4ee5b5bedc596ee2e709e91dcac1f4b1931bed",
+  "counts": {
+    "sections": 12,
+    "assets": 8,
+    "tables": 4,
+    "zulkirs": 0,
+    "tharchs": 0,
+    "wards": 0
+  },
+  "assets": [
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/06-001.ch-6-splash.png",
+      "path": "assets/illustrations/06-001.ch-6-splash.png",
+      "audience": "mj",
+      "artist": "JOSHUA RAPHAEL",
+      "caption": "Demons are rampaging throughout Thaymount, and the Red Wizards can’t stop them.",
+      "figure_id": "Ch6SplashImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1740,
+      "bytes": 996869,
+      "sha256": "4dde13195d8136b09145756b471a4f2a16a2132e81a448e34ea27182e3466f55"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/06-002.harbinger-of-horror.png",
+      "path": "assets/illustrations/06-002.harbinger-of-horror.png",
+      "audience": "mj",
+      "artist": "TARAS SUSAK",
+      "caption": "In Eltabbar, illusory scenes—such as this death knight commanding demons to attack—are harbingers of the horrors to come.",
+      "figure_id": "HarbingerOfHorrorImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1100,
+      "bytes": 915142,
+      "sha256": "7bfb280fa7c32f933dfb53ce70d637d696733cd290aff63e63c810ded825b238"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/06-003.potions-of-healing-greater.png",
+      "path": "assets/illustrations/06-003.potions-of-healing-greater.png",
+      "audience": "mj",
+      "artist": "CoupleOfKooks",
+      "caption": "The zulkir’s payment includes five Potions of Healing (greater).",
+      "figure_id": "PotionOfHealingGreaterImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 1027,
+      "bytes": 277737,
+      "sha256": "8db28287eadb933690c6cad95f4f0d0f4482203d7c0f82e4cac2cc72098bc73c"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-06-01.central-thaymount.png",
+      "path": "assets/maps/mj/map-06-01.central-thaymount.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 6.1: Central Thaymount View Player Version",
+      "figure_id": "Map6.1CentralThaymountImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 4096,
+      "height": 2650,
+      "bytes": 5477123,
+      "sha256": "1d0a2c5195f49ff3c765dc7e00cb9c2b71904e0b30180290172f58ad5f5e0fa8"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-06-01.central-thaymount-player.png",
+      "path": "assets/maps/players/map-06-01.central-thaymount-player.png",
+      "audience": "players",
+      "artist": "Gerralt Landman",
+      "caption": "Map 6.1: Central Thaymount View Player Version",
+      "figure_id": "Map6.1CentralThaymountImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 4096,
+      "height": 2650,
+      "bytes": 5449763,
+      "sha256": "298621d0ef03e240092e89f1495bfcf0cd8542ad2fc836bacfc6558d018ad141"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-06-02.fortress-of-opposition.png",
+      "path": "assets/maps/mj/map-06-02.fortress-of-opposition.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 6.2: Fortress of Opposition View Player Version",
+      "figure_id": "MapFortressOfOppositionImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 4096,
+      "height": 2650,
+      "bytes": 6409920,
+      "sha256": "45d87f89f1fa86be50ebd15c8221bd7e1d263d701bd1d308a5b0f9d572b24790"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-06-03.castle-thrul.png",
+      "path": "assets/maps/mj/map-06-03.castle-thrul.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 6.3: Castle Thrul View Player Version",
+      "figure_id": "Map06-03CastleThrulImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 4096,
+      "height": 2650,
+      "bytes": 5343700,
+      "sha256": "6d1f3b7c249a294e1d33af17a53b7bf2ba67e7d074c8dd97f8004c13982ed658"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/06-004.thrul-in-danger.png",
+      "path": "assets/illustrations/06-004.thrul-in-danger.png",
+      "audience": "mj",
+      "artist": "BRIAN VALEZA",
+      "caption": "Szass Tam’s forces have created this illusion of Zulkir Thrul in danger.",
+      "figure_id": "ThayInDangerImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1170,
+      "bytes": 912518,
+      "sha256": "189f37a02c2aefca89dec3597c7a8606fec1dd7f62d36e98059379f23eb44d7a"
+    }
+  ],
+  "sections": [
+    {
+      "id": "Introduction",
+      "title": "Introduction"
+    },
+    {
+      "id": "KeyPlotPoints",
+      "title": "Key Plot Points"
+    },
+    {
+      "id": "Preparation",
+      "title": "Preparation"
+    },
+    {
+      "id": "RunningThisChapter",
+      "title": "Running This Chapter"
+    },
+    {
+      "id": "ReturnToEltabbar",
+      "title": "Return to Eltabbar"
+    },
+    {
+      "id": "WrynnsBespokeVestments",
+      "title": "Wrynn’s Bespoke Vestments"
+    },
+    {
+      "id": "GrimMessage",
+      "title": "Grim Message"
+    },
+    {
+      "id": "ReachingThaymount",
+      "title": "Reaching Thaymount"
+    },
+    {
+      "id": "CentralThaymount",
+      "title": "Central Thaymount"
+    },
+    {
+      "id": "FortressOfOpposition",
+      "title": "Fortress of Opposition"
+    },
+    {
+      "id": "CastleThrul",
+      "title": "Castle Thrul"
+    },
+    {
+      "id": "NextSteps",
+      "title": "Next Steps"
+    }
+  ],
+  "entities": [],
+  "links": [
+    "https://media-stg.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-06-02.fortress-of-opposition-player.png",
+    "https://media-stg.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-06-03.castle-thrul-player.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/06-001.ch-6-splash.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/06-002.harbinger-of-horror.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/06-003.potions-of-healing-greater.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/06-004.thrul-in-danger.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-06-01.central-thaymount-player.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-06-01.central-thaymount.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-06-02.fortress-of-opposition.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-06-03.castle-thrul.png",
+    "https://www.dndbeyond.com/equipment/12-chain-shirt",
+    "https://www.dndbeyond.com/equipment/14-spear",
+    "https://www.dndbeyond.com/equipment/18-plate",
+    "https://www.dndbeyond.com/equipment/22-greatsword",
+    "https://www.dndbeyond.com/equipment/36-crossbow-heavy",
+    "https://www.dndbeyond.com/equipment/37-longbow",
+    "https://www.dndbeyond.com/equipment/398-basic-poison",
+    "https://www.dndbeyond.com/equipment/4-longsword",
+    "https://www.dndbeyond.com/equipment/500-acid",
+    "https://www.dndbeyond.com/equipment/504-alchemists-fire",
+    "https://www.dndbeyond.com/equipment/520-antitoxin",
+    "https://www.dndbeyond.com/equipment/539-fine-clothes",
+    "https://www.dndbeyond.com/equipment/541-travelers-clothes",
+    "https://www.dndbeyond.com/equipment/6-scale-mail",
+    "https://www.dndbeyond.com/magic-items/10609326-rod-of-resurrection",
+    "https://www.dndbeyond.com/magic-items/11914525-crystal-ball-of-ominous-portent",
+    "https://www.dndbeyond.com/magic-items/11914533-masqueraders-brooch",
+    "https://www.dndbeyond.com/magic-items/11914534-ring-of-candor",
+    "https://www.dndbeyond.com/magic-items/27045-dread-helm",
+    "https://www.dndbeyond.com/magic-items/4571-animated-shield",
+    "https://www.dndbeyond.com/magic-items/4652-headband-of-intellect",
+    "https://www.dndbeyond.com/magic-items/4705-potion-of-gaseous-form",
+    "https://www.dndbeyond.com/magic-items/4709-potion-of-heroism",
+    "https://www.dndbeyond.com/magic-items/4742-robe-of-the-archmagi",
+    "https://www.dndbeyond.com/magic-items/4757-spellguard-shield",
+    "https://www.dndbeyond.com/magic-items/4781-tome-of-clear-thought",
+    "https://www.dndbeyond.com/magic-items/4782-tome-of-leadership-and-influence",
+    "https://www.dndbeyond.com/magic-items/4783-tome-of-understanding",
+    "https://www.dndbeyond.com/magic-items/5133-potion-of-healing-greater",
+    "https://www.dndbeyond.com/magic-items/5134-potion-of-healing-superior",
+    "https://www.dndbeyond.com/magic-items/5238-greatsword-1",
+    "https://www.dndbeyond.com/magic-items/5320-longsword-3",
+    "https://www.dndbeyond.com/magic-items/5416-manual-of-golems",
+    "https://www.dndbeyond.com/magic-items/9180147-sending-stones",
+    "https://www.dndbeyond.com/magic-items/9228343-alchemy-jug",
+    "https://www.dndbeyond.com/magic-items/9228407-cloak-of-displacement",
+    "https://www.dndbeyond.com/magic-items/9228419-decanter-of-endless-water",
+    "https://www.dndbeyond.com/magic-items/9228928-plate-armor-of-etherealness",
+    "https://www.dndbeyond.com/magic-items/9229085-spell-scroll",
+    "https://www.dndbeyond.com/magic-items/9229101-staff-of-the-magi",
+    "https://www.dndbeyond.com/magic-items/9229178-vorpal-greatsword",
+    "https://www.dndbeyond.com/magic-items/954138-potion-of-comprehension",
+    "https://www.dndbeyond.com/monsters/4775841-skeleton",
+    "https://www.dndbeyond.com/monsters/4775851-zombie",
+    "https://www.dndbeyond.com/monsters/4831023-mage",
+    "https://www.dndbeyond.com/monsters/5194902-archmage",
+    "https://www.dndbeyond.com/monsters/5194903-archpriest",
+    "https://www.dndbeyond.com/monsters/5194911-balor",
+    "https://www.dndbeyond.com/monsters/5194960-death-cultist",
+    "https://www.dndbeyond.com/monsters/5194962-death-knight-aspirant",
+    "https://www.dndbeyond.com/monsters/5194963-death-knight",
+    "https://www.dndbeyond.com/monsters/5194967-demilich",
+    "https://www.dndbeyond.com/monsters/5195006-ghast-gravecaller",
+    "https://www.dndbeyond.com/monsters/5195053-goristro",
+    "https://www.dndbeyond.com/monsters/5195073-hezrou",
+    "https://www.dndbeyond.com/monsters/5195109-mage-apprentice",
+    "https://www.dndbeyond.com/monsters/5195117-marilith",
+    "https://www.dndbeyond.com/monsters/5195140-nalfeshnee",
+    "https://www.dndbeyond.com/monsters/5195145-noble",
+    "https://www.dndbeyond.com/monsters/5195216-spy-master",
+    "https://www.dndbeyond.com/monsters/5195249-vampire-spawn",
+    "https://www.dndbeyond.com/monsters/5195250-vampire-umbral-lord",
+    "https://www.dndbeyond.com/monsters/5195258-warrior-commander",
+    "https://www.dndbeyond.com/monsters/6719629-abveku",
+    "https://www.dndbeyond.com/monsters/6719631-rendelith",
+    "https://www.dndbeyond.com/monsters/6719633-szass-tam",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-b-bestiary#Abveku",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-b-bestiary#XelneneThrulHistory",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-1-thay-dominion-of-red-wizards#DreadLegion",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-1-thay-dominion-of-red-wizards#Thaymount",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-1-thay-dominion-of-red-wizards#ThaymountPlateau",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-3-operation-deadfall#Map0302wrynnsbespokevestments",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-3-operation-deadfall#W3SecretOffice",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-4-peril-in-pyarados#Map0401EasternPyaradosTrailImg",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-5-rebel-alliances",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-5-rebel-alliances##V5AEBedrooms",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-5-rebel-alliances#Map-05-01VeiledTowerImg",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-5-rebel-alliances#V4Lounge",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-5-rebel-alliances#V5AEBedrooms",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-6-precipice-of-oblivion#FortressFeatures",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-6-precipice-of-oblivion#MagicOnThaymount",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-6-precipice-of-oblivion#NextSteps",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-7-szass-tam-must-die",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/cosmology#Abyss",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#DemonicPossession",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#Doors",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/playing-the-game#Skills",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Bloodied",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#BrightLight",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Cover",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DifficultTerrain",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DimLight",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#FriendlyAttitude",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#InfluenceAction",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#SearchAction",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#StudyAction",
+    "https://www.dndbeyond.com/sources/dnd/mm-2024",
+    "https://www.dndbeyond.com/spells/2618852-passwall",
+    "https://www.dndbeyond.com/spells/2618860-antimagic-field",
+    "https://www.dndbeyond.com/spells/2618863-arcane-eye",
+    "https://www.dndbeyond.com/spells/2618868-arcane-lock",
+    "https://www.dndbeyond.com/spells/2618902-programmed-illusion",
+    "https://www.dndbeyond.com/spells/2618903-project-image",
+    "https://www.dndbeyond.com/spells/2618914-beast-sense",
+    "https://www.dndbeyond.com/spells/2618953-resurrection",
+    "https://www.dndbeyond.com/spells/2618970-circle-of-power",
+    "https://www.dndbeyond.com/spells/2618972-clairvoyance",
+    "https://www.dndbeyond.com/spells/2619001-locate-creature",
+    "https://www.dndbeyond.com/spells/2619002-locate-object",
+    "https://www.dndbeyond.com/spells/2619007-scrying",
+    "https://www.dndbeyond.com/spells/2619015-sending",
+    "https://www.dndbeyond.com/spells/2619052-contact-other-plane",
+    "https://www.dndbeyond.com/spells/2619065-continual-flame",
+    "https://www.dndbeyond.com/spells/2619088-demiplane",
+    "https://www.dndbeyond.com/spells/2619094-disintegrate",
+    "https://www.dndbeyond.com/spells/2619095-stoneskin",
+    "https://www.dndbeyond.com/spells/2619173-illusory-script",
+    "https://www.dndbeyond.com/spells/2619194-wall-of-force",
+    "https://www.dndbeyond.com/spells/2619201-true-seeing"
+  ],
+  "tables": [
+    {
+      "id": "KeyNPCsTable",
+      "title": "Key NPCs",
+      "rows": [
+        [
+          "Name",
+          "Role",
+          "Stat Block",
+          "Location"
+        ],
+        [
+          "Aventril",
+          "Human Dau family staff member",
+          "Noble (Medium)",
+          "F3"
+        ],
+        [
+          "Darvyn Yev",
+          "Human dissident Red Wizard",
+          "Archmage (Medium)",
+          "“ The Mavericks Assist ”"
+        ],
+        [
+          "Goreth Blacktooth",
+          "Dragonborn Dread Legion officer attacking the Fortress of Opposition",
+          "Warrior Commander (Medium, Neutral Evil)",
+          "F11"
+        ],
+        [
+          "Jarek",
+          "Human Red Wizard coleader of forces assaulting Castle Thrul",
+          "Archmage (Medium)",
+          "C15"
+        ],
+        [
+          "Jerica Rey",
+          "Gnome Dau family friend",
+          "Mage Apprentice (Small)",
+          "F5"
+        ],
+        [
+          "Molly Malu",
+          "Human Dau family staff member",
+          "Noble (Medium)",
+          "F4"
+        ],
+        [
+          "Sabinia Dau",
+          "Tiefling dissident Red Wizard",
+          "Archmage (Medium)",
+          "“ Speaking with Sabinia Dau ”"
+        ],
+        [
+          "Saraphine Dau",
+          "Sabinia Dau’s sister; trapped human inhabitant of the Fortress of Opposition",
+          "Mage (Medium)",
+          "F14"
+        ],
+        [
+          "Viln Crocus",
+          "Szass Tam’s lieutenant",
+          "Vampire Umbral Lord (Medium)",
+          "“ Assault on the Shop ”"
+        ],
+        [
+          "Wynston Wrynn",
+          "Human tailor and Zulkir Thrul’s spy master",
+          "Spy Master (Medium, Neutral Good)",
+          "“ Assault on the Shop ”"
+        ],
+        [
+          "Xelnene Thrul",
+          "Human zulkir of evocation and Operation Deadfall’s missing leader",
+          "—",
+          "“ Grim Message ”"
+        ],
+        [
+          "Xelnius Thrul",
+          "Dead brother of Zulkir Thrul",
+          "—",
+          "C3"
+        ],
+        [
+          "Yoreth",
+          "Coleader of forces assaulting Castle Thrul",
+          "Demilich",
+          "C15"
+        ]
+      ],
+      "csv": "tables/01-KeyNPCsTable.csv"
+    },
+    {
+      "id": "EltabbarsDemonicScenesTable",
+      "title": "Eltabbar’s Demonic Scenes",
+      "rows": [
+        [
+          "1d4",
+          "Encounter"
+        ],
+        [
+          "1",
+          "A goristro slavers and roars while a hezrou chases panicking bystanders."
+        ],
+        [
+          "2",
+          "Two glabrezus chase passersby in a crowded square as an abveku (see appendix B ) pounces on bystanders."
+        ],
+        [
+          "3",
+          "A balor leaps from the top of a building onto a screaming crowd."
+        ],
+        [
+          "4",
+          "A marilith and two hezrous run across an empty bridge toward a crowd."
+        ]
+      ],
+      "csv": "tables/02-EltabbarsDemonicScenesTable.csv"
+    },
+    {
+      "id": "ThaymountEncountersTable",
+      "title": "Thaymount Encounters",
+      "rows": [
+        [
+          "1d4",
+          "Encounter"
+        ],
+        [
+          "1",
+          "A Death Knight directs four Hezrous to dig in the rocky soil of an ancient graveyard. The demons search for dead spellcasters who will animate once Szass Tam completes his ritual."
+        ],
+        [
+          "2",
+          "A Balor guarded by three Death Cultists tries to open a portal to the Abyss. Nearby are the corpses of a dozen Red Wizards who tried to stop them."
+        ],
+        [
+          "3",
+          "A Marilith and three Death Knight Aspirants hunt for vulnerable people to slaughter."
+        ],
+        [
+          "4",
+          "Two Goristros make their way west to attack mages’ fortresses nearby."
+        ]
+      ],
+      "csv": "tables/03-ThaymountEncountersTable.csv"
+    },
+    {
+      "id": "TrappedInhabitantsTable",
+      "title": "Trapped Inhabitants",
+      "rows": [
+        [
+          "Name",
+          "Area Found"
+        ],
+        [
+          "Aventril",
+          "F3"
+        ],
+        [
+          "Jerica Rey",
+          "F5"
+        ],
+        [
+          "Molly Malu",
+          "F4"
+        ],
+        [
+          "Saraphine Dau",
+          "F14"
+        ]
+      ],
+      "csv": "tables/04-TrappedInhabitantsTable.csv"
+    }
+  ]
+}

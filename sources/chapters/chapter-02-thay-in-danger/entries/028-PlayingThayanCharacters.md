@@ -1,0 +1,22 @@
+<!-- Notes MJ : contenu fourni par l’utilisateur, non destiné au partage public. -->
+
+<a id="PlayingThayanCharacters"></a>
+
+
+#### Playing Thayan Characters
+
+Roll on or choose results from the Thayan Character Motivations table to help players develop their characters’ backstories.
+
+<a id="ThayanCharacterMotivations"></a>
+
+
+#### Thayan Character Motivations
+
+| 1d6 | Details |
+| --- | --- |
+| 1 | The character’s loved one was murdered by a Red Wizard who served Szass Tam. The character has plotted against those loyalists, accepting mercenary work that targets such Red Wizards and their allies. |
+| 2 | The character’s loved one aspired to serve Szass Tam. The character tried to dissuade the loved one, who died due to their ambitions. |
+| 3 | The character’s family was prominent in Thayan society, but an ancestor opposed Szass Tam, who killed the ancestor and ruined the family. The character blames the lich for their family’s misfortunes. |
+| 4 | The character was on track to become a Red Wizard or a Thayan knight but spoke against Szass Tam, whose allies killed the character’s employers. The character took mercenary work to survive. |
+| 5 | The character’s parents were in the magic items trade. They competed with Szass Tam, whose allies framed the family for treason. The character now seeks revenge. |
+| 6 | The character is an Open Eyes rebel and might come from a long line of Thayan political dissidents. The character hates Szass Tam and other evil Red Wizards. |

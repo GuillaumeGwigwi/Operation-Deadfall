@@ -1,0 +1,563 @@
+{
+  "source_url": "https://www.dndbeyond.com/sources/dnd/aud/appendix-b-bestiary",
+  "provenance": "HTML directly supplied by the user; not fetched from D&D Beyond",
+  "audience": "mj",
+  "title": "Appendix B: Bestiary",
+  "source_sha256": "963384fc90d1d3b513aeed7671d88d643a3ea41314973dcbe996e62b385c8710",
+  "counts": {
+    "sections": 6,
+    "assets": 5,
+    "tables": 12,
+    "zulkirs": 0,
+    "tharchs": 0,
+    "wards": 0
+  },
+  "assets": [
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/09-001.abveku.png",
+      "path": "assets/illustrations/09-001.abveku.png",
+      "audience": "mj",
+      "artist": "Kent Davis",
+      "caption": "",
+      "figure_id": "image-aud--abveku",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 955,
+      "bytes": 507566,
+      "sha256": "0b48c74d82735291075f350ebbf882981cea235ceba1eeef5e369061973186f4"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/09-002.rendelith.png",
+      "path": "assets/illustrations/09-002.rendelith.png",
+      "audience": "mj",
+      "artist": "Kent Davis",
+      "caption": "",
+      "figure_id": "RendelithImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 1057,
+      "bytes": 522560,
+      "sha256": "22d6e16bbdf0d3fedf5720022c9fb06047c5f48d1bcafb3f2c5709cd30433f1f"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/09-003.sarrukh.png",
+      "path": "assets/illustrations/09-003.sarrukh.png",
+      "audience": "mj",
+      "artist": "Brian Valeza",
+      "caption": "An arisen sarrukh commands two sarrukh tyrants.",
+      "figure_id": "SarrukhImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1379,
+      "bytes": 996775,
+      "sha256": "648f3ba5cf59d791c6ecc774405c6760ffb2b85e962ab8ab25ee5658f8fcf92d"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/09-004.szass-tam.png",
+      "path": "assets/illustrations/09-004.szass-tam.png",
+      "audience": "mj",
+      "artist": "Bubble Cat Studio",
+      "caption": "",
+      "figure_id": "SzassTamImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 1853,
+      "bytes": 781379,
+      "sha256": "fb91d05be98803f62235048d67b79950f2da459b3eef53022426c5be6be6521d"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/09-005.xelnene-thrul.png",
+      "path": "assets/illustrations/09-005.xelnene-thrul.png",
+      "audience": "mj",
+      "artist": "Alexandre Honoré",
+      "caption": "",
+      "figure_id": "XelneneThrulImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 1148,
+      "bytes": 414790,
+      "sha256": "3ff1722876c8c236ff2c9e8bef1854c805f47502b2193d0bfbd6ecd4cabff9fb"
+    }
+  ],
+  "sections": [
+    {
+      "id": "Introduction",
+      "title": "Introduction"
+    },
+    {
+      "id": "Abveku",
+      "title": "Abveku"
+    },
+    {
+      "id": "Rendelith",
+      "title": "Rendelith"
+    },
+    {
+      "id": "Sarrukhs",
+      "title": "Sarrukhs"
+    },
+    {
+      "id": "SzassTam",
+      "title": "Szass Tam"
+    },
+    {
+      "id": "XelneneThrul",
+      "title": "Xelnene Thrul"
+    }
+  ],
+  "entities": [],
+  "links": [
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/09-001.abveku.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/09-002.rendelith.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/09-003.sarrukh.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/09-004.szass-tam.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/09-005.xelnene-thrul.png",
+    "https://www.dndbeyond.com/equipment/31-trident",
+    "https://www.dndbeyond.com/equipment/526-orb",
+    "https://www.dndbeyond.com/equipment/538-component-pouch",
+    "https://www.dndbeyond.com/monsters/6719629-abveku",
+    "https://www.dndbeyond.com/monsters/6719630-arisen-sarrukh",
+    "https://www.dndbeyond.com/monsters/6719631-rendelith",
+    "https://www.dndbeyond.com/monsters/6719632-sarrukh-tyrant",
+    "https://www.dndbeyond.com/monsters/6719633-szass-tam",
+    "https://www.dndbeyond.com/monsters/6719634-xelnene-thrul",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/random-magic-items#ArmamentsTables",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/random-magic-items#RelicsTables",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/playing-the-game#Skills",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Advantage",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#CharmedCondition",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Darkness",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DimLight",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Disadvantage",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#EmanationAreaofEffect",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ExhaustionCondition",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#FrightenedCondition",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#HideAction",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#OpportunityAttack",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ParalyzedCondition",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#PoisonedCondition",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ProneCondition",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#StunnedCondition",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Truesight",
+    "https://www.dndbeyond.com/sources/dnd/mm-2024/how-to-use-a-monster",
+    "https://www.dndbeyond.com/spells/2618846-alter-self",
+    "https://www.dndbeyond.com/spells/2618852-passwall",
+    "https://www.dndbeyond.com/spells/2618853-animate-dead",
+    "https://www.dndbeyond.com/spells/2618867-plane-shift",
+    "https://www.dndbeyond.com/spells/2618876-polymorph",
+    "https://www.dndbeyond.com/spells/2618885-finger-of-death",
+    "https://www.dndbeyond.com/spells/2618886-power-word-kill",
+    "https://www.dndbeyond.com/spells/2618887-fireball",
+    "https://www.dndbeyond.com/spells/2618893-prestidigitation",
+    "https://www.dndbeyond.com/spells/2618903-project-image",
+    "https://www.dndbeyond.com/spells/2618934-blight",
+    "https://www.dndbeyond.com/spells/2618960-chain-lightning",
+    "https://www.dndbeyond.com/spells/2618999-lightning-bolt",
+    "https://www.dndbeyond.com/spells/2619006-mage-armor",
+    "https://www.dndbeyond.com/spells/2619007-scrying",
+    "https://www.dndbeyond.com/spells/2619008-mage-hand",
+    "https://www.dndbeyond.com/spells/2619015-sending",
+    "https://www.dndbeyond.com/spells/2619017-shatter",
+    "https://www.dndbeyond.com/spells/2619019-shield",
+    "https://www.dndbeyond.com/spells/2619072-counterspell",
+    "https://www.dndbeyond.com/spells/2619088-demiplane",
+    "https://www.dndbeyond.com/spells/2619097-detect-magic",
+    "https://www.dndbeyond.com/spells/2619099-detect-thoughts",
+    "https://www.dndbeyond.com/spells/2619100-dimension-door",
+    "https://www.dndbeyond.com/spells/2619103-dispel-magic",
+    "https://www.dndbeyond.com/spells/2619109-modify-memory",
+    "https://www.dndbeyond.com/spells/2619116-invisibility",
+    "https://www.dndbeyond.com/spells/2619120-move-earth",
+    "https://www.dndbeyond.com/spells/2619123-sunburst",
+    "https://www.dndbeyond.com/spells/2619163-teleport",
+    "https://www.dndbeyond.com/spells/2619173-illusory-script",
+    "https://www.dndbeyond.com/spells/2619194-wall-of-force",
+    "https://www.dndbeyond.com/spells/2619199-true-resurrection",
+    "https://www.dndbeyond.com/spells/2619200-wall-of-stone",
+    "https://www.dndbeyond.com/spells/2619213-wish"
+  ],
+  "tables": [
+    {
+      "id": "table-1",
+      "title": "Table 1",
+      "rows": [
+        [
+          "",
+          "",
+          "Mod",
+          "Save"
+        ],
+        [
+          "Str",
+          "16",
+          "+3",
+          "+8"
+        ],
+        [
+          "Dex",
+          "22",
+          "+6",
+          "+11"
+        ],
+        [
+          "Con",
+          "20",
+          "+5",
+          "+5"
+        ]
+      ],
+      "csv": "tables/01-table-1.csv"
+    },
+    {
+      "id": "table-2",
+      "title": "Table 2",
+      "rows": [
+        [
+          "",
+          "",
+          "Mod",
+          "Save"
+        ],
+        [
+          "Int",
+          "17",
+          "+3",
+          "+8"
+        ],
+        [
+          "Wis",
+          "18",
+          "+4",
+          "+9"
+        ],
+        [
+          "Cha",
+          "15",
+          "+2",
+          "+2"
+        ]
+      ],
+      "csv": "tables/02-table-2.csv"
+    },
+    {
+      "id": "table-3",
+      "title": "Table 3",
+      "rows": [
+        [
+          "",
+          "",
+          "Mod",
+          "Save"
+        ],
+        [
+          "Str",
+          "25",
+          "+7",
+          "+13"
+        ],
+        [
+          "Dex",
+          "12",
+          "+1",
+          "+7"
+        ],
+        [
+          "Con",
+          "19",
+          "+4",
+          "+10"
+        ]
+      ],
+      "csv": "tables/03-table-3.csv"
+    },
+    {
+      "id": "table-4",
+      "title": "Table 4",
+      "rows": [
+        [
+          "",
+          "",
+          "Mod",
+          "Save"
+        ],
+        [
+          "Int",
+          "20",
+          "+5",
+          "+5"
+        ],
+        [
+          "Wis",
+          "17",
+          "+3",
+          "+9"
+        ],
+        [
+          "Cha",
+          "18",
+          "+4",
+          "+4"
+        ]
+      ],
+      "csv": "tables/04-table-4.csv"
+    },
+    {
+      "id": "table-5",
+      "title": "Table 5",
+      "rows": [
+        [
+          "",
+          "",
+          "Mod",
+          "Save"
+        ],
+        [
+          "Str",
+          "22",
+          "+6",
+          "+6"
+        ],
+        [
+          "Dex",
+          "15",
+          "+2",
+          "+8"
+        ],
+        [
+          "Con",
+          "20",
+          "+5",
+          "+5"
+        ]
+      ],
+      "csv": "tables/05-table-5.csv"
+    },
+    {
+      "id": "table-6",
+      "title": "Table 6",
+      "rows": [
+        [
+          "",
+          "",
+          "Mod",
+          "Save"
+        ],
+        [
+          "Int",
+          "23",
+          "+6",
+          "+12"
+        ],
+        [
+          "Wis",
+          "19",
+          "+4",
+          "+10"
+        ],
+        [
+          "Cha",
+          "18",
+          "+4",
+          "+10"
+        ]
+      ],
+      "csv": "tables/06-table-6.csv"
+    },
+    {
+      "id": "table-7",
+      "title": "Table 7",
+      "rows": [
+        [
+          "",
+          "",
+          "Mod",
+          "Save"
+        ],
+        [
+          "Str",
+          "23",
+          "+6",
+          "+12"
+        ],
+        [
+          "Dex",
+          "17",
+          "+3",
+          "+9"
+        ],
+        [
+          "Con",
+          "22",
+          "+6",
+          "+12"
+        ]
+      ],
+      "csv": "tables/07-table-7.csv"
+    },
+    {
+      "id": "table-8",
+      "title": "Table 8",
+      "rows": [
+        [
+          "",
+          "",
+          "Mod",
+          "Save"
+        ],
+        [
+          "Int",
+          "18",
+          "+4",
+          "+4"
+        ],
+        [
+          "Wis",
+          "17",
+          "+3",
+          "+9"
+        ],
+        [
+          "Cha",
+          "18",
+          "+4",
+          "+4"
+        ]
+      ],
+      "csv": "tables/08-table-8.csv"
+    },
+    {
+      "id": "table-9",
+      "title": "Table 9",
+      "rows": [
+        [
+          "",
+          "",
+          "Mod",
+          "Save"
+        ],
+        [
+          "Str",
+          "12",
+          "+1",
+          "+1"
+        ],
+        [
+          "Dex",
+          "14",
+          "+2",
+          "+9"
+        ],
+        [
+          "Con",
+          "16",
+          "+3",
+          "+10"
+        ]
+      ],
+      "csv": "tables/09-table-9.csv"
+    },
+    {
+      "id": "table-10",
+      "title": "Table 10",
+      "rows": [
+        [
+          "",
+          "",
+          "Mod",
+          "Save"
+        ],
+        [
+          "Int",
+          "23",
+          "+6",
+          "+13"
+        ],
+        [
+          "Wis",
+          "18",
+          "+4",
+          "+11"
+        ],
+        [
+          "Cha",
+          "19",
+          "+4",
+          "+4"
+        ]
+      ],
+      "csv": "tables/10-table-10.csv"
+    },
+    {
+      "id": "table-11",
+      "title": "Table 11",
+      "rows": [
+        [
+          "",
+          "",
+          "Mod",
+          "Save"
+        ],
+        [
+          "Str",
+          "10",
+          "+0",
+          "+0"
+        ],
+        [
+          "Dex",
+          "18",
+          "+4",
+          "+4"
+        ],
+        [
+          "Con",
+          "15",
+          "+2",
+          "+8"
+        ]
+      ],
+      "csv": "tables/11-table-11.csv"
+    },
+    {
+      "id": "table-12",
+      "title": "Table 12",
+      "rows": [
+        [
+          "",
+          "",
+          "Mod",
+          "Save"
+        ],
+        [
+          "Int",
+          "21",
+          "+5",
+          "+11"
+        ],
+        [
+          "Wis",
+          "16",
+          "+3",
+          "+9"
+        ],
+        [
+          "Cha",
+          "19",
+          "+4",
+          "+4"
+        ]
+      ],
+      "csv": "tables/12-table-12.csv"
+    }
+  ]
+}

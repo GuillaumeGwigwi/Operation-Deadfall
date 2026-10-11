@@ -1,0 +1,281 @@
+[
+  {
+    "id": "GroupCodeNamesTable",
+    "title": "Group Code Names",
+    "rows": [
+      [
+        "1d10",
+        "Type"
+      ],
+      [
+        "1",
+        "Bakers"
+      ],
+      [
+        "2",
+        "Chandlers"
+      ],
+      [
+        "3",
+        "Doppelgangers"
+      ],
+      [
+        "4",
+        "Gardeners"
+      ],
+      [
+        "5",
+        "Patricians"
+      ],
+      [
+        "6",
+        "Phantoms"
+      ],
+      [
+        "7",
+        "Rat Catchers"
+      ],
+      [
+        "8",
+        "Serpents"
+      ],
+      [
+        "9",
+        "Weavers"
+      ],
+      [
+        "10",
+        "Zero Team"
+      ]
+    ],
+    "csv": "tables/01-GroupCodeNamesTable.csv"
+  },
+  {
+    "id": "CharacterCodeNamesTable",
+    "title": "Character Code Names",
+    "rows": [
+      [
+        "1d10",
+        "Type"
+      ],
+      [
+        "1",
+        "Ace"
+      ],
+      [
+        "2",
+        "Ghost"
+      ],
+      [
+        "3",
+        "Hawk"
+      ],
+      [
+        "4",
+        "Listener"
+      ],
+      [
+        "5",
+        "Onyx"
+      ],
+      [
+        "6",
+        "Peril"
+      ],
+      [
+        "7",
+        "Shadow"
+      ],
+      [
+        "8",
+        "Sunny"
+      ],
+      [
+        "9",
+        "Wyrm"
+      ],
+      [
+        "10",
+        "Zenith"
+      ]
+    ],
+    "csv": "tables/02-CharacterCodeNamesTable.csv"
+  },
+  {
+    "id": "ThayanCharacterMotivationsTable",
+    "title": "Thayan Character Motivations",
+    "rows": [
+      [
+        "1d6",
+        "Details"
+      ],
+      [
+        "1",
+        "The character’s loved one was murdered by a Red Wizard who served Szass Tam. The character has plotted against those loyalists, accepting mercenary work that targets such Red Wizards and their allies."
+      ],
+      [
+        "2",
+        "The character’s loved one aspired to serve Szass Tam. The character tried to dissuade the loved one, who died due to their ambitions."
+      ],
+      [
+        "3",
+        "The character’s family was prominent in Thayan society, but an ancestor opposed Szass Tam, who killed the ancestor and ruined the family. The character blames the lich for their family’s misfortunes."
+      ],
+      [
+        "4",
+        "The character was on track to become a Red Wizard or a Thayan knight but spoke against Szass Tam, whose allies killed the character’s employers. The character took mercenary work to survive."
+      ],
+      [
+        "5",
+        "The character’s parents were in the magic items trade. They competed with Szass Tam, whose allies framed the family for treason. The character now seeks revenge."
+      ],
+      [
+        "6",
+        "The character is an Open Eyes rebel and might come from a long line of Thayan political dissidents. The character hates Szass Tam and other evil Red Wizards."
+      ]
+    ],
+    "csv": "tables/03-ThayanCharacterMotivationsTable.csv"
+  },
+  {
+    "id": "RedWizardClassOptionsTable",
+    "title": "Red Wizard Class Options",
+    "rows": [
+      [
+        "Class",
+        "Suggested Subclasses"
+      ],
+      [
+        "Sorcerer",
+        "Aberrant Sorcery"
+      ],
+      [
+        "Warlock",
+        "Fiend Patron, Great Old One Patron"
+      ],
+      [
+        "Wizard",
+        "Abjurer, Conjurer*, Enchanter*, Diviner, Evoker, Illusionist, Necromancer*, Transmuter*"
+      ],
+      [
+        "*See Arcana Unleashed ."
+      ]
+    ],
+    "csv": "tables/04-RedWizardClassOptionsTable.csv"
+  },
+  {
+    "id": "ThayanKnightClassOptionsTable",
+    "title": "Thayan Knight Class Options",
+    "rows": [
+      [
+        "Class",
+        "Suggested Subclasses"
+      ],
+      [
+        "Barbarian",
+        "Path of the Berserker"
+      ],
+      [
+        "Fighter",
+        "Champion, Eldritch Knight"
+      ],
+      [
+        "Paladin",
+        "Oath of Glory"
+      ]
+    ],
+    "csv": "tables/05-ThayanKnightClassOptionsTable.csv"
+  },
+  {
+    "id": "GeneralCharacterMotivationsTable",
+    "title": "General Character Motivations",
+    "rows": [
+      [
+        "1d6",
+        "Details"
+      ],
+      [
+        "1",
+        "The character has sworn an oath to oppose tyranny and seek justice for the downtrodden. They believe Szass Tam is one of the world’s worst tyrants and must be stopped."
+      ],
+      [
+        "2",
+        "The character suffered at the hands of an evil necromancer. They find Szass Tam abhorrent and believe he must be destroyed."
+      ],
+      [
+        "3",
+        "The character hails from a nation that borders Thay. Their homeland would suffer greatly if Thay falls to Szass Tam."
+      ],
+      [
+        "4",
+        "The character has close ties to benevolent necromancers or is one. The character finds Szass Tam’s evil necromancy an abomination that must be stopped."
+      ],
+      [
+        "5",
+        "The character is fascinated by the Red Wizards’ approach to magic; they might even be a mage. They fear for the safety of Red Wizards who oppose Szass Tam should he again rise to power."
+      ],
+      [
+        "6",
+        "The character is associated with a good god and finds association with demons hateful. Once they learn Szass Tam’s plan, they decide he must be stopped."
+      ]
+    ],
+    "csv": "tables/06-GeneralCharacterMotivationsTable.csv"
+  },
+  {
+    "id": "PurposeInEltabbarTable",
+    "title": "Purpose in Eltabbar",
+    "rows": [
+      [
+        "1d4",
+        "Reason"
+      ],
+      [
+        "1",
+        "The character is an expert at retrieving kidnapped individuals. A wealthy Thayan family has paid the character to travel to Eltabbar and retrieve their scion from a powerful Red Wizard whose employ the scion wants to leave."
+      ],
+      [
+        "2",
+        "The character studies demonology or necromancy and has heard rumors of powerful energy spikes in Thay. The character believes this is an ill omen and has traveled to Eltabbar to investigate."
+      ],
+      [
+        "3",
+        "The character is a mercenary whose mysterious employer paid them to come to Eltabbar and destroy magic item shipments or sabotage meetings. The character later learns their employer works for Zulkir Thrul."
+      ],
+      [
+        "4",
+        "The character is a political activist who understands that when powerful nations fall under the yoke of tyranny, the whole world suffers. They’ve traveled to Eltabbar to investigate rumors that Szass Tam seeks to regain his regency."
+      ]
+    ],
+    "csv": "tables/07-PurposeInEltabbarTable.csv"
+  },
+  {
+    "id": "RecommendedCharacterLevelsTable",
+    "title": "Recommended Character Levels",
+    "rows": [
+      [
+        "Chapter",
+        "Starting Level"
+      ],
+      [
+        "3",
+        "11"
+      ],
+      [
+        "4",
+        "13"
+      ],
+      [
+        "5",
+        "15"
+      ],
+      [
+        "6",
+        "17"
+      ],
+      [
+        "7",
+        "19"
+      ]
+    ],
+    "csv": "tables/08-RecommendedCharacterLevelsTable.csv"
+  }
+]

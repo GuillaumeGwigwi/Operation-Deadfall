@@ -1,0 +1,327 @@
+{
+  "source_url": "https://www.dndbeyond.com/sources/dnd/aud/chapter-5-rebel-alliances",
+  "provenance": "HTML directly supplied by the user; not fetched from D&D Beyond",
+  "audience": "mj",
+  "title": "Chapter 5: Rebel Alliances",
+  "source_sha256": "71f8f3ce6f1d5233fb6798ee2f5f89a797e584bdfc9c742ffc35fdabdff9589b",
+  "counts": {
+    "sections": 13,
+    "assets": 5,
+    "tables": 2,
+    "zulkirs": 0,
+    "tharchs": 0,
+    "wards": 0
+  },
+  "assets": [
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/05-001.ch-5-splash.png",
+      "path": "assets/illustrations/05-001.ch-5-splash.png",
+      "audience": "mj",
+      "artist": "KEVIN GLINT",
+      "caption": "From Left to Right: the Red Wizards Abadesh, Darvyn Yev, Iorru, Sabinia Dau, and Zeil",
+      "figure_id": "Ch5SplashImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 2403,
+      "bytes": 959519,
+      "sha256": "ca3c95da1711e94fcfe57bda0ae02b58a907fec902a58b0d2e2ec8da3baa6a1d"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/05-002.purple-worm-attack.png",
+      "path": "assets/illustrations/05-002.purple-worm-attack.png",
+      "audience": "mj",
+      "artist": "Scott Murphy",
+      "caption": "The Red Wizard Darvyn Yev has a deadly surprise for unwelcome visitors.",
+      "figure_id": "PurpleWormAttackImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1144,
+      "bytes": 977606,
+      "sha256": "1a539eeb7698a165ca96789e43fda7f6d5c49efc6cf34b9351b262c29ec69cdc"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-05-01.veiled-tower.png",
+      "path": "assets/maps/mj/map-05-01.veiled-tower.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 5.1: Veiled Tower View Player Version",
+      "figure_id": "Map-05-01VeiledTowerImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 4096,
+      "height": 2650,
+      "bytes": 5985348,
+      "sha256": "c614d2d5653ab231118be565c20695a9e6724e8ffa2d787af9947779747cb38f"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/05-003.dragon-turtle-attack.png",
+      "path": "assets/illustrations/05-003.dragon-turtle-attack.png",
+      "audience": "mj",
+      "artist": "Sam Keiser",
+      "caption": "A dragon turtle guards Blackrock Cove.",
+      "figure_id": "DragonTurtleAttackImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1049,
+      "bytes": 939550,
+      "sha256": "686b53e45fa1d0fd691b3280e976a520b154160a120ce560ecd0c06df854e468"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-05-02.blackrock-cove.png",
+      "path": "assets/maps/mj/map-05-02.blackrock-cove.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 5.2: Blackrock Cove View Player Version",
+      "figure_id": "BlackrockCoveMapImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 4096,
+      "height": 2650,
+      "bytes": 5750549,
+      "sha256": "f12d0f2c6ce045244093f8d258a6cd79c2fc10da8fe1a04d297bb68fc2f91c7b"
+    }
+  ],
+  "sections": [
+    {
+      "id": "Introduction",
+      "title": "Introduction"
+    },
+    {
+      "id": "KeyPlotPoints",
+      "title": "Key Plot Points"
+    },
+    {
+      "id": "Preparation",
+      "title": "Preparation"
+    },
+    {
+      "id": "RunningThisChapter",
+      "title": "Running This Chapter"
+    },
+    {
+      "id": "ReturningToTheZulkir",
+      "title": "Returning to the Zulkir"
+    },
+    {
+      "id": "FifthAndSixthMissions",
+      "title": "Fifth and Sixth Missions"
+    },
+    {
+      "id": "VeiledTower",
+      "title": "Veiled Tower"
+    },
+    {
+      "id": "ConcludingTowerMission",
+      "title": "Concluding the Mission"
+    },
+    {
+      "id": "MagicalPortal",
+      "title": "Magical Portal"
+    },
+    {
+      "id": "AlaHarbor",
+      "title": "Ala Harbor"
+    },
+    {
+      "id": "BlackrockCove",
+      "title": "Blackrock Cove"
+    },
+    {
+      "id": "ConcludingMagicPortal",
+      "title": "Concluding the Mission"
+    },
+    {
+      "id": "EnemyAmbush",
+      "title": "Enemy Ambush"
+    }
+  ],
+  "entities": [],
+  "links": [
+    "https://media-stg.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-05-01.veiled-tower-player.png",
+    "https://media-stg.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-05-02.blackrock-cove-player.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/05-001.ch-5-splash.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/05-002.purple-worm-attack.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/05-003.dragon-turtle-attack.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-05-01.veiled-tower.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-05-02.blackrock-cove.png",
+    "https://www.dndbeyond.com/equipment/411-rations",
+    "https://www.dndbeyond.com/equipment/539-fine-clothes",
+    "https://www.dndbeyond.com/magic-items/11914525-crystal-ball-of-ominous-portent",
+    "https://www.dndbeyond.com/magic-items/11914535-robe-of-thayan-arcana",
+    "https://www.dndbeyond.com/magic-items/11914536-scarlet-spellbook",
+    "https://www.dndbeyond.com/magic-items/11914544-spell-fueling-armor",
+    "https://www.dndbeyond.com/magic-items/11914558-staff-of-the-spirit-aegis",
+    "https://www.dndbeyond.com/magic-items/11914562-thayan-sword",
+    "https://www.dndbeyond.com/magic-items/4704-potion-of-flying",
+    "https://www.dndbeyond.com/magic-items/5351-elixir-of-health",
+    "https://www.dndbeyond.com/magic-items/8960641-potion-of-healing",
+    "https://www.dndbeyond.com/magic-items/9180147-sending-stones",
+    "https://www.dndbeyond.com/magic-items/9228935-potion-of-invisibility",
+    "https://www.dndbeyond.com/magic-items/9229085-spell-scroll",
+    "https://www.dndbeyond.com/magic-items/9229098-staff-of-power",
+    "https://www.dndbeyond.com/monsters/4904830-pirate",
+    "https://www.dndbeyond.com/monsters/4904838-pirate-captain",
+    "https://www.dndbeyond.com/monsters/4904850-stone-golem",
+    "https://www.dndbeyond.com/monsters/5194902-archmage",
+    "https://www.dndbeyond.com/monsters/5194962-death-knight-aspirant",
+    "https://www.dndbeyond.com/monsters/5194963-death-knight",
+    "https://www.dndbeyond.com/monsters/5194973-dragon-turtle",
+    "https://www.dndbeyond.com/monsters/5195090-iron-golem",
+    "https://www.dndbeyond.com/monsters/5195144-noble-prodigy",
+    "https://www.dndbeyond.com/monsters/5195161-pirate-admiral",
+    "https://www.dndbeyond.com/monsters/5195174-purple-worm",
+    "https://www.dndbeyond.com/monsters/5195216-spy-master",
+    "https://www.dndbeyond.com/monsters/6719634-xelnene-thrul",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-b-bestiary#SzassTam",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-b-bestiary#XelneneThrul",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-1-thay-dominion-of-red-wizards#TheAlaor",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-3-operation-deadfall#OperatonDeadfallRewards",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-4-peril-in-pyarados#Map0401EasternPyaradosTrailImg",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-5-rebel-alliances#MagicalPortal",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-6-precipice-of-oblivion#FortressOfOpposition",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-6-precipice-of-oblivion#MagicOnThaymount",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-6-precipice-of-oblivion#TheMavericksAreDead",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-6-precipice-of-oblivion#WrynnsBespokeVestments",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#Doors",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#Traps",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/playing-the-game#Skills",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Bloodied",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#BrightLight",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ConeAreaofEffect",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Cover",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Darkness",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DimLight",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#FriendlyAttitude",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#InfluenceAction",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#StudyAction",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Truesight",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#UtilizeAction",
+    "https://www.dndbeyond.com/sources/dnd/mm-2024",
+    "https://www.dndbeyond.com/sources/dnd/phb-2024/equipment#AirborneandWaterborneVehicles",
+    "https://www.dndbeyond.com/spells/2618868-arcane-lock",
+    "https://www.dndbeyond.com/spells/2618903-project-image",
+    "https://www.dndbeyond.com/spells/2618909-fly",
+    "https://www.dndbeyond.com/spells/2618950-globe-of-invulnerability",
+    "https://www.dndbeyond.com/spells/2619015-sending",
+    "https://www.dndbeyond.com/spells/2619017-shatter",
+    "https://www.dndbeyond.com/spells/2619023-magic-mouth",
+    "https://www.dndbeyond.com/spells/2619040-mirage-arcane",
+    "https://www.dndbeyond.com/spells/2619065-continual-flame",
+    "https://www.dndbeyond.com/spells/2619088-demiplane",
+    "https://www.dndbeyond.com/spells/2619128-otilukes-resilient-sphere",
+    "https://www.dndbeyond.com/spells/2619163-teleport",
+    "https://www.dndbeyond.com/spells/2619173-illusory-script",
+    "https://www.dndbeyond.com/spells/2619201-true-seeing",
+    "https://www.dndbeyond.com/vehicles/keelboat"
+  ],
+  "tables": [
+    {
+      "id": "KeyNPCsTable",
+      "title": "Key NPCs",
+      "rows": [
+        [
+          "Name",
+          "Role",
+          "Stat Block",
+          "Location"
+        ],
+        [
+          "Abadesh",
+          "Human dissident Red Wizard",
+          "Archmage (Medium)",
+          "V4"
+        ],
+        [
+          "Darvyn Yev",
+          "Human dissident Red Wizard and owner of the Veiled Tower",
+          "Archmage (Medium)",
+          "V4"
+        ],
+        [
+          "Iorru",
+          "Human dissident Red Wizard",
+          "Archmage (Medium)",
+          "V4"
+        ],
+        [
+          "Sabinia Dau",
+          "Tiefling dissident Red Wizard",
+          "Archmage (Medium)",
+          "V4"
+        ],
+        [
+          "Sharlei",
+          "Human leader of pirate crew at Blackrock Cove",
+          "Pirate Admiral (Medium)",
+          "B4"
+        ],
+        [
+          "Szass Tam",
+          "Lich plotting to conquer Thay and primary target of Operation Deadfall",
+          "See appendix B",
+          "“ Enemy Ambush ”"
+        ],
+        [
+          "Wynston Wrynn",
+          "Human tailor and Zulkir Thrul’s spy master",
+          "Spy Master (Medium, Neutral Good)",
+          "“ Fifth and Sixth Missions ”"
+        ],
+        [
+          "Xelnene Thrul",
+          "Human zulkir of evocation and Operation Deadfall’s leader",
+          "See appendix B",
+          "“ Fifth and Sixth Missions ”"
+        ],
+        [
+          "Zeil",
+          "Human dissident Red Wizard",
+          "Archmage (Medium)",
+          "V4"
+        ]
+      ],
+      "csv": "tables/01-KeyNPCsTable.csv"
+    },
+    {
+      "id": "BoatRentalsTable",
+      "title": "Boat Rentals",
+      "rows": [
+        [
+          "1d4",
+          "Keelboat",
+          "Captain"
+        ],
+        [
+          "1",
+          "Basilisk’s Gaze",
+          "Moira ( Pirate Captain ), a gregarious orc"
+        ],
+        [
+          "2",
+          "Brimstone",
+          "Harvey Dee (Neutral Evil Pirate ), a grumpy human"
+        ],
+        [
+          "3",
+          "Gecko’s Tail",
+          "Splinters ( Pirate ), a gnome raconteur"
+        ],
+        [
+          "4",
+          "Razor Blade",
+          "Manz ( Pirate Captain ), a jocular tiefling"
+        ]
+      ],
+      "csv": "tables/02-BoatRentalsTable.csv"
+    }
+  ]
+}

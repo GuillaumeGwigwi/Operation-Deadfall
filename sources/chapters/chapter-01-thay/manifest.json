@@ -1,0 +1,889 @@
+{
+  "source_url": "https://www.dndbeyond.com/sources/dnd/aud/chapter-1-thay-dominion-of-red-wizards",
+  "provenance": "HTML directly supplied by the user; not fetched from D&D Beyond",
+  "audience": "mj",
+  "title": "Chapter 1: Thay, Dominion of Red Wizards",
+  "source_sha256": "bdf03354fc182714d79f6a11158d6bed3fdcad1f403dd962987a26a10b1335ef",
+  "counts": {
+    "sections": 12,
+    "assets": 17,
+    "tables": 8,
+    "zulkirs": 8,
+    "tharchs": 11,
+    "wards": 10
+  },
+  "assets": [
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-001.ch-1-splash.png",
+      "path": "assets/illustrations/01-001.ch-1-splash.png",
+      "audience": "mj",
+      "artist": "Joshua Raphael",
+      "caption": "Red Wizards rain ruin on those who dare defy them.",
+      "figure_id": "Chapter1SplashImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1847,
+      "bytes": 1004920,
+      "sha256": "64815e89182ce20500f891d60578a72ab5b8b50f1a7228400c5ce76916ba34d9"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-002.symbol-of-the-red-wizards.png",
+      "path": "assets/illustrations/01-002.symbol-of-the-red-wizards.png",
+      "audience": "mj",
+      "artist": "Swatches Studio",
+      "caption": "Symbol of the Red Wizards",
+      "figure_id": "RedWizardsSymbolImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 880,
+      "bytes": 200418,
+      "sha256": "f5a89d8c96440341dd898750d0f5d58e707ab285bbfc7df4fe756c4bf8cd3b80"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-003.zulkir.png",
+      "path": "assets/illustrations/01-003.zulkir.png",
+      "audience": "mj",
+      "artist": "Bubble Cat Studio",
+      "caption": "Shown Clockwise from Left: Zulkirs Lethnar, Delraz, Mythrellaa, Szass Tam, Xelnene Thrul, Yazir Nym, Nzas, and Nevron",
+      "figure_id": "ZulkirImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1178,
+      "bytes": 924799,
+      "sha256": "9f9970c248c0b0874db92a4657421789af05826f6f216f9a4f25c84cbd71747d"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-004.tax-station.png",
+      "path": "assets/illustrations/01-004.tax-station.png",
+      "audience": "mj",
+      "artist": "Álvaro Calvo Escudero",
+      "caption": "Tax stations such as this one are common throughout Thay.",
+      "figure_id": "TaxStationImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1185,
+      "bytes": 1001395,
+      "sha256": "f30155f721c4d2e2443c0ae02cc28a7ddfba2ad8f15599bf3772f9572a677f9c"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-005.red-wizard-suffering.png",
+      "path": "assets/illustrations/01-005.red-wizard-suffering.png",
+      "audience": "mj",
+      "artist": "Johan Grenier",
+      "caption": "Thay’s conflicts with its neighbors cause substantial suffering to all involved.",
+      "figure_id": "RedWizardSufferingImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1148,
+      "bytes": 962903,
+      "sha256": "77e6461d902b1a9585cacb7598f7641859cc5e614f541ee0e4ffa0df66c615cf"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-006.thayan-life.png",
+      "path": "assets/illustrations/01-006.thayan-life.png",
+      "audience": "mj",
+      "artist": "SWATCHES STUDIO",
+      "caption": "Red Wizards lord over all aspects of Thayan life.",
+      "figure_id": "ThayanLifeImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 850,
+      "height": 1909,
+      "bytes": 723013,
+      "sha256": "8f48aa87b39a84f2d8727c8f0385c5e6d07415ac713884893cdba74d2cec9de4"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-01-01.thay.jpg",
+      "path": "assets/maps/mj/map-01-01.thay.jpg",
+      "audience": "mj",
+      "artist": "FRANCESCA BAERALD",
+      "caption": "Map 1.1: Thay View Player Version",
+      "figure_id": "Map0101thayImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "JPEG",
+      "width": 3186,
+      "height": 4096,
+      "bytes": 6630309,
+      "sha256": "1628002284ff4acab813bceb61b5cd65c4ec84331cde5bee53e4e805d519ad29"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-01-01.thay-player.jpg",
+      "path": "assets/maps/players/map-01-01.thay-player.jpg",
+      "audience": "players",
+      "artist": "FRANCESCA BAERALD",
+      "caption": "Map 1.1: Thay View Player Version",
+      "figure_id": "Map0101thayImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "JPEG",
+      "width": 3186,
+      "height": 4096,
+      "bytes": 6576918,
+      "sha256": "80b5238243070aea640d50a7bd8b3cf13ba1f6c47f1b415b915ee0752136a311"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-007.ala-harbor-merchants.png",
+      "path": "assets/illustrations/01-007.ala-harbor-merchants.png",
+      "audience": "mj",
+      "artist": "Kevin Glint, Álvaro Calvo Escudero",
+      "caption": "Merchants in Ala Harbor unload their cargo while a Red Wizard looks on.",
+      "figure_id": "AlaHarborMerchantsImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1222,
+      "bytes": 992015,
+      "sha256": "3da41132f5df4895fb98de4c7e95ebf4a1736ec46962c24703adc955bec03c40"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-008.vrock-terrorizing-farmer.png",
+      "path": "assets/illustrations/01-008.vrock-terrorizing-farmer.png",
+      "audience": "mj",
+      "artist": "ÁLVARO CALVO ESCUDERO",
+      "caption": "A vrock terrorizes a farmer in Delhumide.",
+      "figure_id": "VrockTerrorizingFarmerImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1352,
+      "bytes": 966478,
+      "sha256": "26828e696e5e5dbf68aa66de9ce8ae0bd106ed8f4effe93b5b1502f463b846d1"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-009.tharch-of-gauros.png",
+      "path": "assets/illustrations/01-009.tharch-of-gauros.png",
+      "audience": "mj",
+      "artist": "David Frasheski",
+      "caption": "The sparsely populated landscape of the tharch of Gauros is breathtaking.",
+      "figure_id": "TharchOfGaurosImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1015,
+      "bytes": 702668,
+      "sha256": "b8797bdba609693465774d200b132db20b76281a3322622326d0e53c550365e1"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-010.xorn-in-pyarados-mine.png",
+      "path": "assets/illustrations/01-010.xorn-in-pyarados-mine.png",
+      "audience": "mj",
+      "artist": "LOÏC CANAVAGGIA",
+      "caption": "A xorn wanders through a mine in Pyarados.",
+      "figure_id": "XornInPyaradosMineImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1257,
+      "bytes": 1003327,
+      "sha256": "02dd1e18eccef193d6345eedbef6b523a3789b82fa1e2cb628a89de691f086ab"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-011.dread-legion.png",
+      "path": "assets/illustrations/01-011.dread-legion.png",
+      "audience": "mj",
+      "artist": "Loïc Canavaggia, Helge C. Balzer",
+      "caption": "The Dread Legion includes all manner of undead, including this ogre zombie.",
+      "figure_id": "DreadLegionImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1227,
+      "bytes": 969246,
+      "sha256": "523243cdd516f3530e81cca1b8a3d5ed4a491cc078d9a992adf695a94420d7bb"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-012.the-thay-crossing-bridge.png",
+      "path": "assets/illustrations/01-012.the-thay-crossing-bridge.png",
+      "audience": "mj",
+      "artist": "Andrey Kuzinskiy",
+      "caption": "Two Mulhorandi merchants on the Thay Crossing bridge chat while a Red Wizard looks on.",
+      "figure_id": "ThayCrossingBridgeImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1148,
+      "bytes": 1004718,
+      "sha256": "97c2187a2eff5ef765fc12770877640b90a31fcd0979cda628f1cc66ae77e223"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-01-02.eltabbar.png",
+      "path": "assets/maps/mj/map-01-02.eltabbar.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 1.2: Eltabbar View Player Version",
+      "figure_id": "Map0102EltabbarImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 4096,
+      "height": 2650,
+      "bytes": 7171973,
+      "sha256": "e3257d1ab3e41f180d27a5c267373551a75f673bf4b1980d8f5c050493922890"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-01-02.eltabbar-player.png",
+      "path": "assets/maps/players/map-01-02.eltabbar-player.png",
+      "audience": "players",
+      "artist": "Gerralt Landman",
+      "caption": "Map 1.2: Eltabbar View Player Version",
+      "figure_id": "Map0102EltabbarImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 4096,
+      "height": 2650,
+      "bytes": 7383989,
+      "sha256": "9b5135b6af86c19d3129e48f7f167f3ef8f2726bd326548164454ac5e51e5b20"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-013.fortress-eltab.png",
+      "path": "assets/illustrations/01-013.fortress-eltab.png",
+      "audience": "mj",
+      "artist": "Sylvain Sarrailh",
+      "caption": "Fortress Eltab stands ominously on the shores of Lake Thaylambar.",
+      "figure_id": "FortressEltabImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 1251,
+      "bytes": 871449,
+      "sha256": "1141d3f7e15c62654a04d1c8d1af0f40e07fd3bbf281f64777d0037ff2ab5d1b"
+    }
+  ],
+  "sections": [
+    {
+      "id": "Introduction",
+      "title": "Introduction"
+    },
+    {
+      "id": "ImportantTerms",
+      "title": "Important Terms"
+    },
+    {
+      "id": "RedWizards",
+      "title": "Red Wizards"
+    },
+    {
+      "id": "CouncilOfZulkirs",
+      "title": "Council of Zulkirs"
+    },
+    {
+      "id": "ThayDetails",
+      "title": "Thay Details"
+    },
+    {
+      "id": "ThayanWealth",
+      "title": "Thayan Wealth"
+    },
+    {
+      "id": "MagicalMilitary",
+      "title": "Magical Military"
+    },
+    {
+      "id": "LifeInThay",
+      "title": "Life in Thay"
+    },
+    {
+      "id": "AdventuringInThay",
+      "title": "Adventuring in Thay"
+    },
+    {
+      "id": "ClimateAndGeography",
+      "title": "Climate and Geography"
+    },
+    {
+      "id": "TharchDescriptions",
+      "title": "Tharch Descriptions"
+    },
+    {
+      "id": "EltabbarThaysCapital",
+      "title": "Eltabbar, Thay’s Capital"
+    }
+  ],
+  "entities": [
+    {
+      "id": "Delraz",
+      "title": "Delraz",
+      "category": "zulkirs"
+    },
+    {
+      "id": "Lethnar",
+      "title": "Lethnar",
+      "category": "zulkirs"
+    },
+    {
+      "id": "Mythrellaa",
+      "title": "Mythrellaa",
+      "category": "zulkirs"
+    },
+    {
+      "id": "Nzas",
+      "title": "Nzas",
+      "category": "zulkirs"
+    },
+    {
+      "id": "Nevron",
+      "title": "Nevron",
+      "category": "zulkirs"
+    },
+    {
+      "id": "SzassTam",
+      "title": "Szass Tam",
+      "category": "zulkirs"
+    },
+    {
+      "id": "XelneneThrul",
+      "title": "Xelnene Thrul",
+      "category": "zulkirs"
+    },
+    {
+      "id": "YazirNym",
+      "title": "Yazir Nym",
+      "category": "zulkirs"
+    },
+    {
+      "id": "TheAlaor",
+      "title": "The Alaor",
+      "category": "tharchs"
+    },
+    {
+      "id": "Delhumide",
+      "title": "Delhumide",
+      "category": "tharchs"
+    },
+    {
+      "id": "Eltabbar",
+      "title": "Eltabbar",
+      "category": "tharchs"
+    },
+    {
+      "id": "Gauros",
+      "title": "Gauros",
+      "category": "tharchs"
+    },
+    {
+      "id": "Lapendrar",
+      "title": "Lapendrar",
+      "category": "tharchs"
+    },
+    {
+      "id": "Priador",
+      "title": "Priador",
+      "category": "tharchs"
+    },
+    {
+      "id": "Pyarados",
+      "title": "Pyarados",
+      "category": "tharchs"
+    },
+    {
+      "id": "Surthay",
+      "title": "Surthay",
+      "category": "tharchs"
+    },
+    {
+      "id": "ThaymountPlateau",
+      "title": "Thaymount",
+      "category": "tharchs"
+    },
+    {
+      "id": "Thazalhar",
+      "title": "Thazalhar",
+      "category": "tharchs"
+    },
+    {
+      "id": "Tyraturos",
+      "title": "Tyraturos",
+      "category": "tharchs"
+    },
+    {
+      "id": "ApprenticesWard",
+      "title": "Apprentices’ Ward",
+      "category": "wards"
+    },
+    {
+      "id": "BazaarWard",
+      "title": "Bazaar Ward",
+      "category": "wards"
+    },
+    {
+      "id": "CanalWard",
+      "title": "Canal Ward",
+      "category": "wards"
+    },
+    {
+      "id": "EltabsWard",
+      "title": "Eltab’s Ward",
+      "category": "wards"
+    },
+    {
+      "id": "LowerWard",
+      "title": "Lower Ward",
+      "category": "wards"
+    },
+    {
+      "id": "MagesWard",
+      "title": "Mages’ Ward",
+      "category": "wards"
+    },
+    {
+      "id": "WardOfTowers",
+      "title": "Ward of Towers",
+      "category": "wards"
+    },
+    {
+      "id": "WarehouseWard",
+      "title": "Warehouse Ward",
+      "category": "wards"
+    },
+    {
+      "id": "WorkshopWard",
+      "title": "Workshop Ward",
+      "category": "wards"
+    },
+    {
+      "id": "ZulkirsWard",
+      "title": "Zulkirs’ Ward",
+      "category": "wards"
+    }
+  ],
+  "links": [
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-001.ch-1-splash.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-002.symbol-of-the-red-wizards.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-003.zulkir.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-004.tax-station.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-005.red-wizard-suffering.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-006.thayan-life.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-007.ala-harbor-merchants.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-008.vrock-terrorizing-farmer.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-009.tharch-of-gauros.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-010.xorn-in-pyarados-mine.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-011.dread-legion.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-012.the-thay-crossing-bridge.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/01-013.fortress-eltab.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-01-01.thay-player.jpg",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-01-01.thay.jpg",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-01-02.eltabbar-player.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-01-02.eltabbar.png",
+    "https://www.dndbeyond.com/magic-items/9229085-spell-scroll",
+    "https://www.dndbeyond.com/monsters/4831023-mage",
+    "https://www.dndbeyond.com/monsters/5194899-arcanaloth",
+    "https://www.dndbeyond.com/monsters/5194902-archmage",
+    "https://www.dndbeyond.com/monsters/5194903-archpriest",
+    "https://www.dndbeyond.com/monsters/5194913-bandit-crime-lord",
+    "https://www.dndbeyond.com/monsters/5194915-bandit",
+    "https://www.dndbeyond.com/monsters/5194955-cultist-hierophant",
+    "https://www.dndbeyond.com/monsters/5194963-death-knight",
+    "https://www.dndbeyond.com/monsters/5195006-ghast-gravecaller",
+    "https://www.dndbeyond.com/monsters/5195041-glabrezu",
+    "https://www.dndbeyond.com/monsters/5195064-guard-captain",
+    "https://www.dndbeyond.com/monsters/5195065-guard",
+    "https://www.dndbeyond.com/monsters/5195108-lizardfolk-sovereign",
+    "https://www.dndbeyond.com/monsters/5195109-mage-apprentice",
+    "https://www.dndbeyond.com/monsters/5195144-noble-prodigy",
+    "https://www.dndbeyond.com/monsters/5195145-noble",
+    "https://www.dndbeyond.com/monsters/5195154-performer-legend",
+    "https://www.dndbeyond.com/monsters/5195177-questing-knight",
+    "https://www.dndbeyond.com/monsters/5195178-rakshasa",
+    "https://www.dndbeyond.com/monsters/5195197-scout-captain",
+    "https://www.dndbeyond.com/monsters/5195216-spy-master",
+    "https://www.dndbeyond.com/monsters/5195250-vampire-umbral-lord",
+    "https://www.dndbeyond.com/monsters/5195258-warrior-commander",
+    "https://www.dndbeyond.com/monsters/5195260-warrior-veteran",
+    "https://www.dndbeyond.com/monsters/6719566-abjurer-archmage",
+    "https://www.dndbeyond.com/monsters/6719568-conjurer-archmage",
+    "https://www.dndbeyond.com/monsters/6719570-diviner-archmage",
+    "https://www.dndbeyond.com/monsters/6719571-enchanter-archmage",
+    "https://www.dndbeyond.com/monsters/6719576-illusionist-archmage",
+    "https://www.dndbeyond.com/monsters/6719583-transmuter-archmage",
+    "https://www.dndbeyond.com/monsters/6719633-szass-tam",
+    "https://www.dndbeyond.com/monsters/6719634-xelnene-thrul",
+    "https://www.dndbeyond.com/sources/dnd/au/chapter-6-magical-creatures#Archmages",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-b-bestiary",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-b-bestiary#Sarrukhs",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-b-bestiary#SzassTam",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-b-bestiary#XelneneThrul",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-2-thay-in-danger#DemonicRitual",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-2-thay-in-danger#PlayingRedWizard",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-3-operation-deadfall#PrivateAudience",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-3-operation-deadfall#TwoPlateausShipping",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-3-operation-deadfall#WrynnsBespokeVestments",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-6-precipice-of-oblivion#MagicOnThaymount",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/cosmology#Abyss",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/cosmology#Shadowfell",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#EnvironmentalEffects",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/lore-glossary#BaldursGate",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/lore-glossary#SzassTam",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/lore-glossary#Waterdeep",
+    "https://www.dndbeyond.com/sources/dnd/frhof/factions-of-the-realms",
+    "https://www.dndbeyond.com/sources/dnd/phb-2024",
+    "https://www.dndbeyond.com/spells/2619068-speak-with-dead",
+    "https://www.dndbeyond.com/spells/2619221-zone-of-truth"
+  ],
+  "tables": [
+    {
+      "id": "RedWizardMotivationsTable",
+      "title": "Red Wizard Motivations",
+      "rows": [
+        [
+          "1d6",
+          "The Red Wizard Wants ..."
+        ],
+        [
+          "1",
+          "A hated rival to die spectacularly, but the Red Wizard can’t be seen as involved."
+        ],
+        [
+          "2",
+          "To inherit their master’s lands, but their master has six heirs."
+        ],
+        [
+          "3",
+          "To publicly assassinate a disgraced Red Wizard, but the target’s security is too strong."
+        ],
+        [
+          "4",
+          "To gain the respect and mentorship of a zulkir, but the zulkir dislikes them."
+        ],
+        [
+          "5",
+          "To train the children of a prominent Red Wizard, but the children are promised as apprentices to another."
+        ],
+        [
+          "6",
+          "To eliminate a rival’s business, but the rival is a more powerful Red Wizard."
+        ]
+      ],
+      "csv": "tables/01-RedWizardMotivationsTable.csv"
+    },
+    {
+      "id": "ZulkirsBySchoolOfMagicTable",
+      "title": "Zulkirs by School of Magic",
+      "rows": [
+        [
+          "School",
+          "Zulkir"
+        ],
+        [
+          "Abjuration",
+          "Yazir Nym"
+        ],
+        [
+          "Conjuration",
+          "Nevron"
+        ],
+        [
+          "Divination",
+          "Lethnar"
+        ],
+        [
+          "Enchantment",
+          "Delraz"
+        ],
+        [
+          "Evocation",
+          "Xelnene Thrul"
+        ],
+        [
+          "Illusion",
+          "Mythrellaa"
+        ],
+        [
+          "Necromancy",
+          "Szass Tam"
+        ],
+        [
+          "Transmutation",
+          "Nzas"
+        ]
+      ],
+      "csv": "tables/02-ZulkirsBySchoolOfMagicTable.csv"
+    },
+    {
+      "id": "RedWizardTasksTable",
+      "title": "Red Wizard Tasks",
+      "rows": [
+        [
+          "1d4",
+          "The Characters Must…"
+        ],
+        [
+          "1",
+          "Retrieve a rare spell component from a dangerous cave."
+        ],
+        [
+          "2",
+          "Seek a strange magic item from a ruin rumored to be haunted."
+        ],
+        [
+          "3",
+          "Recover arcane lore from an ancient Red Wizard’s abandoned tower."
+        ],
+        [
+          "4",
+          "Retrieve the spellbook of a Red Wizard who died in a treacherous mountain pass."
+        ]
+      ],
+      "csv": "tables/03-RedWizardTasksTable.csv"
+    },
+    {
+      "id": "WeatherPhenomenaTable",
+      "title": "Weather Phenomena",
+      "rows": [
+        [
+          "1d4",
+          "The Characters Experience…"
+        ],
+        [
+          "1",
+          "An intense downpour while the sun shines brightly."
+        ],
+        [
+          "2",
+          "Light drizzle that lasts for hours, though dry air stings the eyes."
+        ],
+        [
+          "3",
+          "Ominous banks of crimson clouds."
+        ],
+        [
+          "4",
+          "Wispy clouds racing across the sky, though there’s no wind."
+        ]
+      ],
+      "csv": "tables/04-WeatherPhenomenaTable.csv"
+    },
+    {
+      "id": "TharchsOfThayTable",
+      "title": "Tharchs of Thay",
+      "rows": [
+        [
+          "Tharch",
+          "Tharchion",
+          "Capital",
+          "Description"
+        ],
+        [
+          "The Alaor",
+          "Bavak Inkander",
+          "Ala City",
+          "Two islands harboring a navy and Thay’s shipyards"
+        ],
+        [
+          "Delhumide",
+          "Meskie Kudd",
+          "Umratharos",
+          "Haunted pastureland with ancient ruins"
+        ],
+        [
+          "Eltabbar",
+          "Zedivek Mazradash",
+          "Eltabbar",
+          "Capital region pouring out Thayan propaganda"
+        ],
+        [
+          "Gauros",
+          "Ozgund Gar",
+          "Fort Gar",
+          "Hilly hinterland where distrust of the zulkirs runs deep"
+        ],
+        [
+          "Lapendrar",
+          "Keliza Vyrizek",
+          "Escalant",
+          "Fertile countryside with dangerous borders"
+        ],
+        [
+          "Priador",
+          "Xelnene Thrul",
+          "Bezantur",
+          "Thay’s commercial hub"
+        ],
+        [
+          "Pyarados",
+          "Mevik Sasvar",
+          "Pyarados",
+          "Mountainous mining region"
+        ],
+        [
+          "Surthay",
+          "Vederax Skarsk",
+          "Surthay",
+          "Swampland bordering Rashemen"
+        ],
+        [
+          "Thaymount",
+          "Szass Tam",
+          "Szul",
+          "Mountainous abode of Red Wizards; forbidden to others"
+        ],
+        [
+          "Thazalhar",
+          "Jynnril",
+          "Thazalhar Station",
+          "Fortified river lands bordering Mulhorand"
+        ],
+        [
+          "Tyraturos",
+          "Bulgor Ograzep",
+          "Tyraturos",
+          "Urbane mercantile hub"
+        ]
+      ],
+      "csv": "tables/05-TharchsOfThayTable.csv"
+    },
+    {
+      "id": "TharchionOfThayTable",
+      "title": "Tharchions of Thay",
+      "rows": [
+        [
+          "Tharchion",
+          "Tharch",
+          "Stat Block",
+          "Tharchion Details"
+        ],
+        [
+          "Bavak Inkander",
+          "The Alaor",
+          "Noble Prodigy (Medium, Lawful Neutral)",
+          "Human shipbuilding and naval genius"
+        ],
+        [
+          "Bulgor Ograzep",
+          "Tyraturos",
+          "Bandit Crime Lord (Medium, Lawful Evil)",
+          "Human highway thief turned politician"
+        ],
+        [
+          "Jynnril",
+          "Thazalhar",
+          "Questing Knight (Small)",
+          "Human veteran of border conflicts"
+        ],
+        [
+          "Keliza Vyrizek",
+          "Lapendrar",
+          "Spy Master (Medium, Neutral Evil)",
+          "Human international espionage mastermind"
+        ],
+        [
+          "Meskie Kudd",
+          "Delhumide",
+          "Spy Master (Medium, Chaotic Neutral)",
+          "Human cattle rancher and spy for the zulkirs"
+        ],
+        [
+          "Mevik Sasvar",
+          "Pyarados",
+          "Performer Legend (Medium, Lawful Evil)",
+          "Silver-tongued tiefling tyrant"
+        ],
+        [
+          "Ozgund Gar",
+          "Gauros",
+          "Warrior Commander (Medium, Lawful Evil)",
+          "Short-tempered orc military veteran"
+        ],
+        [
+          "Szass Tam",
+          "Thaymount",
+          "See appendix B (Medium, Lawful Evil)",
+          "Lich zulkir of necromancy"
+        ],
+        [
+          "Vederax Skarsk",
+          "Surthay",
+          "Warrior Commander (Medium, Chaotic Evil)",
+          "Dragonborn and militant Thayan patriot"
+        ],
+        [
+          "Xelnene Thrul",
+          "Priador",
+          "See appendix B (Medium, Neutral Good)",
+          "Human zulkir of evocation"
+        ],
+        [
+          "Zedivek Mazradash",
+          "Eltabbar",
+          "Vampire Umbral Lord (Medium)",
+          "Former elf who serves the zulkir of illusion"
+        ]
+      ],
+      "csv": "tables/06-TharchionOfThayTable.csv"
+    },
+    {
+      "id": "CityWatchEncountersTable",
+      "title": "City Watch Encounters",
+      "rows": [
+        [
+          "1d4",
+          "Encounter"
+        ],
+        [
+          "1",
+          "Four watch Guards chase a Bandit toward a waiting Guard Captain ."
+        ],
+        [
+          "2",
+          "Three watch captains ( Warrior Veterans ) order those in the street to make way for a Red Wizard’s entourage."
+        ],
+        [
+          "3",
+          "Two Mage Apprentices are engaging in a dangerous spell duel on a crowded street. Two watch Guards and a captain ( Warrior Veteran ) call for any nearby Red Wizards to help while they struggle to separate the mages."
+        ],
+        [
+          "4",
+          "A Red Wizard’s assistant ( Noble Prodigy ) loudly denies accusations of shoplifting from a merchant; three watch Guards threaten to fine the merchant for interfering with a Red Wizard."
+        ]
+      ],
+      "csv": "tables/07-CityWatchEncountersTable.csv"
+    },
+    {
+      "id": "EltabbarAdventuresTable",
+      "title": "Eltabbar Adventures",
+      "rows": [
+        [
+          "1d4",
+          "The Characters Must…"
+        ],
+        [
+          "1",
+          "Retrieve a strange magical device from the Necromancer’s Bookshelf for their Red Wizard patron."
+        ],
+        [
+          "2",
+          "Recover a missing shipment of magic items for their merchant patron, who suspects the stolen shipment is hidden in Two Plateaus Shipping Company ."
+        ],
+        [
+          "3",
+          "Recover their Red Wizard patron’s magical research, which was stolen by a rival and hidden in a spire in the Ward of Towers ."
+        ],
+        [
+          "4",
+          "Break out an innocent friend from the City Guardhouse’s jail ."
+        ]
+      ],
+      "csv": "tables/08-EltabbarAdventuresTable.csv"
+    }
+  ]
+}

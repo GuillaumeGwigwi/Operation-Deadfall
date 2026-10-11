@@ -1,0 +1,199 @@
+{
+  "source_url": "https://www.dndbeyond.com/sources/dnd/aud/chapter-7-szass-tam-must-die",
+  "provenance": "HTML directly supplied by the user; not fetched from D&D Beyond",
+  "audience": "mj",
+  "title": "Chapter 7: Szass Tam Must Die",
+  "source_sha256": "d8f18dbb563e118b3361b29fa6a53d83c36da020b3bd678bc872514bb98ec640",
+  "counts": {
+    "sections": 8,
+    "assets": 3,
+    "tables": 1,
+    "zulkirs": 0,
+    "tharchs": 0,
+    "wards": 0
+  },
+  "assets": [
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/07-001.ch-7-splash.png",
+      "path": "assets/illustrations/07-001.ch-7-splash.png",
+      "audience": "mj",
+      "artist": "ANDREY KUZINSKIY",
+      "caption": "Szass Tam nears the end of his ritual to raise an overwhelming horde of malefites.",
+      "figure_id": "Ch7SplashImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 2233,
+      "bytes": 856049,
+      "sha256": "e13f9ddc89b9a3f907b76335332cd539e0307b864120ccd1ac08a7316194cf6c"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-07-01.szass-tams-sanctum.png",
+      "path": "assets/maps/mj/map-07-01.szass-tams-sanctum.png",
+      "audience": "mj",
+      "artist": "Gerralt Landman",
+      "caption": "Map 7.1: Szass Tam’s Sanctum View Player Version",
+      "figure_id": "map-07-01.szass-tams-sanctum",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1583,
+      "height": 4096,
+      "bytes": 3514588,
+      "sha256": "6dcb45dd72ef0f2149348661549a1c1c280a73dac8f3f2091ab7f3f1ef44452c"
+    },
+    {
+      "url": "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/07-002.sarrukh-guards.png",
+      "path": "assets/illustrations/07-002.sarrukh-guards.png",
+      "audience": "mj",
+      "artist": "JORDAN KERBOW",
+      "caption": "Heroes prepare to confront the sarrukhs who guard an antechamber in Szass Tam’s sanctum.",
+      "figure_id": "SarrukhGuardsImg",
+      "status": "cached",
+      "kind": "cdn",
+      "format": "PNG",
+      "width": 1700,
+      "height": 2305,
+      "bytes": 966537,
+      "sha256": "f1bbada8747141d36d8f879512a5c62b2ca415d5db529c1b8dfdf40f989cbca3"
+    }
+  ],
+  "sections": [
+    {
+      "id": "Introduction",
+      "title": "Introduction"
+    },
+    {
+      "id": "KeyPlotPoints",
+      "title": "Key Plot Points"
+    },
+    {
+      "id": "Preparation",
+      "title": "Preparation"
+    },
+    {
+      "id": "RunningThisChapter",
+      "title": "Running This Chapter"
+    },
+    {
+      "id": "CharacterAdvancement",
+      "title": "Character Advancement"
+    },
+    {
+      "id": "ReachingTheCitadel",
+      "title": "Reaching the Citadel"
+    },
+    {
+      "id": "SzassTamsSanctum",
+      "title": "Szass Tam’s Sanctum"
+    },
+    {
+      "id": "Conclusion",
+      "title": "Conclusion"
+    }
+  ],
+  "entities": [],
+  "links": [
+    "https://media-stg.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-07-01.szass-tams-sanctum-player.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/07-001.ch-7-splash.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/07-002.sarrukh-guards.png",
+    "https://media.dndbeyond.com/compendium-images/aud/aqZhSuV5QislqWyN/map-07-01.szass-tams-sanctum.png",
+    "https://www.dndbeyond.com/equipment/395-parchment",
+    "https://www.dndbeyond.com/equipment/404-calligraphers-supplies",
+    "https://www.dndbeyond.com/equipment/411-rations",
+    "https://www.dndbeyond.com/equipment/503-ink",
+    "https://www.dndbeyond.com/magic-items/11914557-spirit-binding-censer",
+    "https://www.dndbeyond.com/magic-items/5135-potion-of-healing-supreme",
+    "https://www.dndbeyond.com/magic-items/5360-potion-of-vitality",
+    "https://www.dndbeyond.com/magic-items/5418-spell-scroll",
+    "https://www.dndbeyond.com/magic-items/9228363-book-of-exalted-deeds",
+    "https://www.dndbeyond.com/magic-items/9229085-spell-scroll",
+    "https://www.dndbeyond.com/monsters/5194972-dracolich",
+    "https://www.dndbeyond.com/monsters/5195140-nalfeshnee",
+    "https://www.dndbeyond.com/monsters/5195250-vampire-umbral-lord",
+    "https://www.dndbeyond.com/monsters/6719630-arisen-sarrukh",
+    "https://www.dndbeyond.com/monsters/6719632-sarrukh-tyrant",
+    "https://www.dndbeyond.com/monsters/6719633-szass-tam",
+    "https://www.dndbeyond.com/monsters/6719634-xelnene-thrul",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-b-bestiary#SzassTam",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-b-bestiary#SzassTamsLair",
+    "https://www.dndbeyond.com/sources/dnd/aud/appendix-b-bestiary#XelneneThrul",
+    "https://www.dndbeyond.com/sources/dnd/aud/chapter-4-peril-in-pyarados#AnAncientTemple",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#Doors",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#PoisonedDarts",
+    "https://www.dndbeyond.com/sources/dnd/dmg-2024/maps#UnderdarkWarren",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/playing-the-game#Skills",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Bloodied",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#BrightLight",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Concentration",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ConeAreaofEffect",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Darkness",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DifficultTerrain",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DimLight",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Disadvantage",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#SearchAction",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#StudyAction",
+    "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#StunnedCondition",
+    "https://www.dndbeyond.com/sources/dnd/phb-2024",
+    "https://www.dndbeyond.com/spells/2618860-antimagic-field",
+    "https://www.dndbeyond.com/spells/2618868-arcane-lock",
+    "https://www.dndbeyond.com/spells/2618889-power-word-stun",
+    "https://www.dndbeyond.com/spells/2619065-continual-flame",
+    "https://www.dndbeyond.com/spells/2619086-delayed-blast-fireball",
+    "https://www.dndbeyond.com/spells/2619138-hallow",
+    "https://www.dndbeyond.com/spells/2619175-imprisonment",
+    "https://www.dndbeyond.com/spells/2619185-time-stop"
+  ],
+  "tables": [
+    {
+      "id": "KeyNPCsTable",
+      "title": "Key NPCs",
+      "rows": [
+        [
+          "Name",
+          "Role",
+          "Stat Block",
+          "Location"
+        ],
+        [
+          "Drevoralyx",
+          "Draconic malefite allied with Szass Tam",
+          "Dracolich (Huge)",
+          "Z13"
+        ],
+        [
+          "Nara Crocus",
+          "Szass Tam’s lieutenant",
+          "Vampire Umbral Lord (Medium)",
+          "Z14"
+        ],
+        [
+          "Szass Tam",
+          "Lich plotting to unleash a malefite horde against Thay",
+          "See appendix B",
+          "Z14"
+        ],
+        [
+          "Vartheeth",
+          "Sarrukh who might surrender",
+          "Sarrukh Tyrant (see appendix B)",
+          "Z2"
+        ],
+        [
+          "Vorsoth and Xileesh",
+          "Sarrukh clan leaders and Szass Tam’s allies",
+          "Arisen Sarrukhs (see appendix B)",
+          "Z13"
+        ],
+        [
+          "Xelnene Thrul",
+          "Human zulkir of evocation and Operation Deadfall’s leader",
+          "See appendix B",
+          "Z14"
+        ]
+      ],
+      "csv": "tables/01-KeyNPCsTable.csv"
+    }
+  ]
+}

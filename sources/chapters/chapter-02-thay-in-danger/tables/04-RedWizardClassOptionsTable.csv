@@ -1,0 +1,5 @@
+Class,Suggested Subclasses
+Sorcerer,Aberrant Sorcery
+Warlock,"Fiend Patron, Great Old One Patron"
+Wizard,"Abjurer, Conjurer*, Enchanter*, Diviner, Evoker, Illusionist, Necromancer*, Transmuter*"
+*See Arcana Unleashed .
