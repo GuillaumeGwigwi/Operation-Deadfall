@@ -1,0 +1,1840 @@
+{
+  "themes": [
+    {
+      "id": "institutions",
+      "title": "Institutions et administration",
+      "facts": [
+        {
+          "text": "Thay est gouverné par les Magiciens Rouges, dont les décisions font loi.",
+          "source": "sources/chapters/chapter-01-thay/sections/01-ImportantTerms.md",
+          "lines": [
+            10,
+            10
+          ]
+        },
+        {
+          "text": "Un tharch est une province ; son gouverneur porte le titre de tharchion.",
+          "source": "sources/chapters/chapter-01-thay/sections/01-ImportantTerms.md",
+          "lines": [
+            11,
+            12
+          ]
+        },
+        {
+          "text": "Un zulkir est le plus puissant mage thayen de son école de magie. Le Conseil des zulkirs dirige le pays et commande les tharchions.",
+          "source": "sources/chapters/chapter-01-thay/sections/01-ImportantTerms.md",
+          "lines": [
+            13,
+            14
+          ]
+        },
+        {
+          "text": "Le Conseil des zulkirs décide des affaires commerciales et militaires ; les autres questions de gouvernement relèvent de la bureaucratie.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            8,
+            8
+          ]
+        },
+        {
+          "text": "Lorsqu’un siège de zulkir devient vacant, le Conseil choisit par vote un remplaçant parmi les Magiciens Rouges les plus éminents.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            12,
+            12
+          ]
+        },
+        {
+          "text": "Le gouvernement comprend une vaste bureaucratie placée sous l’influence des Magiciens Rouges.",
+          "source": "sources/chapters/chapter-01-thay/sections/04-ThayDetails.md",
+          "lines": [
+            15,
+            15
+          ]
+        },
+        {
+          "text": "Le Conseil nomme les tharchions et fixe la durée de leur mandat. La plupart ne sont pas des Magiciens Rouges ; ils doivent répondre aux zulkirs et aux Magiciens Rouges qui les interrogent.",
+          "source": "sources/chapters/chapter-01-thay/sections/04-ThayDetails.md",
+          "lines": [
+            22,
+            22
+          ]
+        },
+        {
+          "text": "Les tharchions administrent autrement leur province de façon autonome : infrastructures, commerce, lois de la population et forces militaires. La plupart sont d’anciens commandants militaires.",
+          "source": "sources/chapters/chapter-01-thay/sections/04-ThayDetails.md",
+          "lines": [
+            22,
+            24
+          ]
+        },
+        {
+          "text": "Les tharchions nomment les autharchs, fonctionnaires locaux qui peuvent servir de maires ou de magistrats. Ces titulaires sont fréquemment remplacés.",
+          "source": "sources/chapters/chapter-01-thay/sections/04-ThayDetails.md",
+          "lines": [
+            31,
+            31
+          ]
+        }
+      ],
+      "attachTo": [
+        "Thay"
+      ]
+    },
+    {
+      "id": "autorites",
+      "title": "Conseil : noms et fonctions publiques",
+      "facts": [
+        {
+          "text": "Yazir Nym est zulkir de l’abjuration.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            41,
+            41
+          ]
+        },
+        {
+          "text": "Nevron est zulkir de l’invocation.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            42,
+            42
+          ]
+        },
+        {
+          "text": "Lethnar est zulkir de la divination.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            43,
+            43
+          ]
+        },
+        {
+          "text": "Delraz est zulkir de l’enchantement.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            44,
+            44
+          ]
+        },
+        {
+          "text": "Xelnene Thrul est zulkir de l’évocation.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            45,
+            45
+          ]
+        },
+        {
+          "text": "Mythrellaa est zulkir de l’illusion.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            46,
+            46
+          ]
+        },
+        {
+          "text": "Szass Tam est zulkir de la nécromancie.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            47,
+            47
+          ]
+        },
+        {
+          "text": "Nzas est zulkir de la transmutation.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            48,
+            48
+          ]
+        },
+        {
+          "text": "Les zulkirs possèdent chacun au moins une résidence dans le quartier des Zulkirs à Eltabbar et une autre à Thaymount. Ils emploient de nombreux serviteurs et soldats.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            19,
+            19
+          ]
+        },
+        {
+          "text": "Delraz impose de lourdes taxes aux marchands thayens.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            67,
+            67
+          ]
+        }
+      ],
+      "attachTo": [
+        "Thay",
+        "Eltabbar",
+        "Thaymount"
+      ]
+    },
+    {
+      "id": "magiciens-rouges",
+      "title": "Magiciens Rouges : place publique et signes distinctifs",
+      "facts": [
+        {
+          "text": "Les Magiciens Rouges disposent d’une grande latitude pour renforcer la puissance économique et militaire de Thay.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            15,
+            15
+          ]
+        },
+        {
+          "text": "Ils occupent les sommets de la société : chefs de riches familles, propriétaires et gestionnaires de domaines, acteurs politiques, savants de la magie et grands entrepreneurs.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            17,
+            17
+          ]
+        },
+        {
+          "text": "Le rouge est réservé aux Magiciens Rouges. Leurs demeures et lieux de prestige arborent aussi cette couleur, qui signale les affaires officielles de Thay.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            39,
+            39
+          ]
+        },
+        {
+          "text": "Leurs têtes sont rasées et tatouées ; certains tatouages signalent une origine familiale ou une fidélité à un zulkir, et d’autres sont magiques.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            40,
+            40
+          ]
+        },
+        {
+          "text": "Les Magiciens Rouges prêtent allégeance à des mages plus puissants de leur ordre.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            41,
+            41
+          ]
+        },
+        {
+          "text": "La population évite souvent de les fréquenter, car la désobéissance peut entraîner de lourdes sanctions. Seul un Magicien Rouge plus puissant peut contester leurs décisions.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            42,
+            44
+          ]
+        },
+        {
+          "text": "Le titre de Magicien Rouge est conféré officiellement par un membre établi qui forme des apprentis. Les jeunes issus de familles importantes accèdent plus facilement à cette formation.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            98,
+            98
+          ]
+        },
+        {
+          "text": "Les aspirants se spécialisent généralement dans une école de magie ; lors de leur accession au titre, ils jurent fidélité à un ou plusieurs zulkirs.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            100,
+            100
+          ]
+        },
+        {
+          "text": "La formation dure le plus souvent cinq ans, mais chaque maître fixe son calendrier ; elle peut être plus courte, durer dix ans ou davantage, ou se terminer par un renvoi et de lourdes sanctions.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            107,
+            107
+          ]
+        },
+        {
+          "text": "Les débutants restent appelés apprentis jusqu’à ce que leurs accomplissements leur apportent du prestige. La plupart portent le titre de maître, les plus anciens celui de sage.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            114,
+            114
+          ]
+        },
+        {
+          "text": "L’admission d’apprentis nés hors de Thay est rare.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            121,
+            121
+          ]
+        },
+        {
+          "text": "De nombreux Magiciens Rouges de haut rang disposent de chevaliers thayens, guerriers entraînés pour protéger l’élite. Le mage ou sa famille organise habituellement leur formation.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            151,
+            151
+          ]
+        },
+        {
+          "text": "Un chevalier thayen sert son mage à vie ; si le mage meurt avant lui, la famille décide de son affectation à un autre mage ou de sa libération.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            153,
+            153
+          ]
+        },
+        {
+          "text": "Les chevaliers thayens ont souvent le crâne rasé et tatoué, portent une armure et des armes, connaissent la magie et peuvent parfois l’employer au combat.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            155,
+            155
+          ]
+        }
+      ],
+      "attachTo": [
+        "Thay"
+      ]
+    },
+    {
+      "id": "lois",
+      "title": "Lois et justice",
+      "facts": [
+        {
+          "text": "La législation est complexe et parfois contradictoire ; les Magiciens Rouges l’appliquent de manière inégale. Les gens du commun ne peuvent guère espérer de recours, sauf si un Magicien Rouge rival accepte de les défendre.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            15,
+            15
+          ]
+        },
+        {
+          "text": "Seuls les Magiciens Rouges peuvent porter du rouge.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            19,
+            19
+          ]
+        },
+        {
+          "text": "Leurs ordres doivent être suivis ; en cas d’ordres contradictoires, celui du Magicien Rouge le plus haut placé prévaut.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            20,
+            20
+          ]
+        },
+        {
+          "text": "Le manque de respect envers un Magicien Rouge est une trahison, laissée à son appréciation.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            21,
+            21
+          ]
+        },
+        {
+          "text": "Les violences et les dégradations sont aussi interdites, mais ces lois sont moins souvent appliquées. Les sanctions vont de l’amende ou de l’emprisonnement à la mort.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            23,
+            23
+          ]
+        }
+      ],
+      "attachTo": [
+        "Thay",
+        "Bezantur"
+      ]
+    },
+    {
+      "id": "peages",
+      "title": "Voyager : postes fiscaux et péages",
+      "facts": [
+        {
+          "text": "De petites forteresses fiscales jalonnent les frontières nationales, les routes et les limites internes ; leurs soldats perçoivent les péages fixés par le tharchion compétent.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            15,
+            15
+          ]
+        },
+        {
+          "text": "Les péages changent chaque jour selon un calendrier compliqué ; ils s’élèvent habituellement à 3 pièces d’argent et ne dépassent jamais 1 pièce d’or.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            15,
+            17
+          ]
+        },
+        {
+          "text": "Des documents émanant d’un Magicien Rouge ou d’un représentant du gouvernement peuvent permettre une réduction ou une exemption ; un service ou une faveur peut également être accepté.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            17,
+            17
+          ]
+        },
+        {
+          "text": "Des percepteurs corrompus peuvent réclamer des frais à leur profit.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            17,
+            17
+          ]
+        }
+      ],
+      "attachTo": [
+        "Thay"
+      ]
+    },
+    {
+      "id": "economie",
+      "title": "Économie et commerce international",
+      "facts": [
+        {
+          "text": "L’économie repose sur une fiscalité lourde et l’exportation d’objets magiques. Thay compte parmi les nations les plus riches de Faerûn malgré la pauvreté de nombreux habitants.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            8,
+            8
+          ]
+        },
+        {
+          "text": "La Guilde du commerce extérieur organise des exportations importantes et lucratives d’objets magiques vers les enclaves thayennes à l’étranger.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            30,
+            30
+          ]
+        },
+        {
+          "text": "Les prix bas et la facilité d’achat des objets magiques thayens n’ont pas de concurrence équivalente.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            30,
+            30
+          ]
+        },
+        {
+          "text": "Les enclaves sont des comptoirs fortifiés dans des villes de Faerûn ; elles abritent quelques Magiciens Rouges, leurs gardes et chevaliers, une garnison et un marché florissant d’objets magiques.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            39,
+            39
+          ]
+        },
+        {
+          "text": "Les bénéfices des enclaves reviennent à Thay. Ces établissements appliquent le droit thayen avec une souplesse particulière pour les visiteurs afin de préserver les affaires.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            41,
+            41
+          ]
+        },
+        {
+          "text": "Le port du rouge n’est pas interdit aux visiteurs des enclaves, mais des Magiciens Rouges peuvent refuser de négocier avec des étrangers ainsi vêtus.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            41,
+            41
+          ]
+        }
+      ],
+      "attachTo": [
+        "Thay",
+        "Bezantur"
+      ]
+    },
+    {
+      "id": "societe",
+      "title": "Vie quotidienne et société",
+      "facts": [
+        {
+          "text": "Sous l’aristocratie des Magiciens Rouges se trouve une classe moyenne de fonctionnaires, marchands, soldats, prêtres et artisans, puis une population de travailleurs.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            37,
+            37
+          ]
+        },
+        {
+          "text": "La plupart des travailleurs passent leur vie à quelques milles de leur lieu de naissance. L’ascension sociale passe par le talent magique, l’armée, le commerce ou la criminalité.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            37,
+            37
+          ]
+        },
+        {
+          "text": "Les travailleurs accomplissent des tâches pénibles dans les villes, les champs, les mines et les voies d’eau ; les rapports sociaux sont marqués par l’oppression des rangs inférieurs.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            46,
+            46
+          ]
+        },
+        {
+          "text": "De nombreux habitants des classes moyennes et populaires suivent la tradition des « Yeux fermés » : silence, non-intervention et attention aux besoins quotidiens plutôt qu’aux problèmes d’autrui.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            53,
+            53
+          ]
+        },
+        {
+          "text": "Cette tradition prend pour modèle les grues qui nichent et migrent à travers le pays.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            53,
+            53
+          ]
+        },
+        {
+          "text": "Les vols, pots-de-vin, contrebande, assassinats et chantages sont courants ; chaque province possède son milieu criminel, et les voyageurs sont exposés à ces délits.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            30,
+            30
+          ]
+        }
+      ],
+      "attachTo": [
+        "Thay"
+      ]
+    },
+    {
+      "id": "religions",
+      "title": "Cultes répandus",
+      "facts": [
+        {
+          "text": "Baine, dieu de la tyrannie, est la divinité la plus couramment vénérée, notamment parmi les Magiciens Rouges, marchands et fonctionnaires.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            75,
+            75
+          ]
+        },
+        {
+          "text": "Chauntéa, divinité de l’agriculture, est appréciée des agriculteurs et des gens de métier.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            76,
+            76
+          ]
+        },
+        {
+          "text": "Cyric, dieu du mensonge, attire les criminels et les habitants qui recourent à la tromperie pour éviter la colère des Magiciens Rouges.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            77,
+            77
+          ]
+        },
+        {
+          "text": "Kossuth est un être primordial du Plan élémentaire du Feu, vénéré comme dieu de la purification par le feu, notamment par des Magiciens Rouges.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            78,
+            78
+          ]
+        },
+        {
+          "text": "Mask, dieu des voleurs, est populaire parmi les bandits des routes et des villes.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            79,
+            79
+          ]
+        },
+        {
+          "text": "Mystra, divinité de la magie, reçoit peu de culte à Thay : les Magiciens Rouges préfèrent d’autres dieux, et les gens du commun évitent les divinités de la magie.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            80,
+            80
+          ]
+        },
+        {
+          "text": "Shar, déesse de la perte et de l’oubli, est populaire chez les habitants frappés par la tragédie ou les injustices.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            81,
+            81
+          ]
+        }
+      ],
+      "attachTo": [
+        "Thay"
+      ]
+    },
+    {
+      "id": "forces-armees",
+      "title": "Organisation militaire publique",
+      "facts": [
+        {
+          "text": "Les forces thayennes rassemblent des mages et guerriers entraînés. Pour les habitants pauvres, l’engagement offre nourriture, logement, formation et un maigre revenu, ce qui attire des milliers de recrues.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            14,
+            14
+          ]
+        },
+        {
+          "text": "Chaque force compte rarement plus de cent combattants, mais leur effectif cumulé est considérable.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            14,
+            14
+          ]
+        },
+        {
+          "text": "Il n’existe pas de commandement unifié : beaucoup d’armées appartiennent à des Magiciens Rouges puissants, d’autres aux tharchions. Des tensions et parfois des escarmouches surviennent entre elles ; les zulkirs les répriment rapidement.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            21,
+            21
+          ]
+        },
+        {
+          "text": "Les zulkirs et d’autres Magiciens Rouges puissants entretiennent et cantonnent leurs armées privées à leurs frais ; leur spécialité magique influence ces forces.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            28,
+            28
+          ]
+        },
+        {
+          "text": "La plupart des tharchions disposent aussi de leurs propres troupes ; certaines ont mené des invasions de pays voisins.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            42,
+            42
+          ]
+        }
+      ],
+      "attachTo": [
+        "Thay",
+        "The Alaor",
+        "Thaymount"
+      ]
+    },
+    {
+      "id": "climat-agriculture",
+      "title": "Climat et ressources agricoles",
+      "facts": [
+        {
+          "text": "Thay est naturellement désertique. Des enchantements permanents établis il y a des siècles par les Magiciens Rouges lui apportent assez de pluie pour entretenir une population importante.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            15,
+            15
+          ]
+        },
+        {
+          "text": "Le sol volcanique permet de cultiver blé, olives, agrumes et raisin ; le pays n’a pas besoin d’importations pour nourrir sa population.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            22,
+            22
+          ]
+        },
+        {
+          "text": "Les basses terres nourrissent de grands troupeaux de bovins et de moutons, sources de viande et de fibres ; en altitude, yaks et chèvres font vivre les communautés montagnardes.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            22,
+            22
+          ]
+        },
+        {
+          "text": "La magie qui régule le climat provoque fréquemment des phénomènes météorologiques inhabituels.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            29,
+            29
+          ]
+        }
+      ],
+      "attachTo": [
+        "Thay",
+        "Lower Thay",
+        "Thayan Plateau",
+        "Thaymount"
+      ]
+    },
+    {
+      "id": "histoire-territoriale",
+      "title": "Repères historiques territoriaux",
+      "facts": [
+        {
+          "text": "En −1087 CV, Thayd conduit une révolte contre Mulhorand et Unther, s’empare de leurs provinces septentrionales et proclame l’indépendance. En −1081 CV, la révolte est vaincue et les empires reprennent ces terres.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            67,
+            69
+          ]
+        },
+        {
+          "text": "En 922 CV, les Magiciens Rouges menés par Ythazz Buvaar se révoltent contre Mulhorand, mettent à sac Delhumide et fondent Thay.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            71,
+            71
+          ]
+        },
+        {
+          "text": "En 934 CV, l’invasion thayenne de Rashemen échoue. En 976 CV, Mulhorand échoue à reprendre Thay.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            73,
+            75
+          ]
+        },
+        {
+          "text": "En 1030 CV, les mages les plus puissants de chaque école forment le Conseil des zulkirs et proclament leur gouvernement commun. Leur autorité est imposée en 1074 CV.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            77,
+            79
+          ]
+        },
+        {
+          "text": "En 1375 CV, une guerre civile oppose les zulkirs ; Szass Tam prend le contrôle du pays et se proclame régent.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            87,
+            87
+          ]
+        },
+        {
+          "text": "Le Conseil des zulkirs est rétabli en 1478 CV ; les mages de toutes les écoles participent de nouveau à la compétition politique.",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            89,
+            89
+          ]
+        },
+        {
+          "text": "La date courante donnée par le chapitre est 1501 CV (DR dans la source).",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            91,
+            91
+          ]
+        }
+      ],
+      "attachTo": [
+        "Thay",
+        "Delhumide",
+        "Mulhorand",
+        "Rashemen"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "Thay",
+      "facts": [
+        {
+          "text": "Le pays comprend onze provinces.",
+          "source": "sources/chapters/chapter-01-thay/sections/00-Introduction.md",
+          "lines": [
+            28,
+            28
+          ]
+        },
+        {
+          "text": "Thay s’étend sur deux immenses plateaux superposés ; une bande de terres au niveau de la mer entoure le plateau principal. Ce relief forme une protection naturelle contre les armées ennemies.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            48,
+            48
+          ]
+        },
+        {
+          "text": "Thay entretient avec Thesk des relations commerciales tendues mais stables ; ses autres voisins le considèrent comme une puissance hostile.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            49,
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lower Thay",
+      "facts": [
+        {
+          "text": "Le Bas-Thay est la bande de terres au niveau de la mer autour du plateau principal.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            48,
+            48
+          ]
+        },
+        {
+          "text": "Cette région fertile suit la frontière occidentale, de Surthay sur le lac Mulsantir à Priador sur la mer d’Alamber.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            61,
+            61
+          ]
+        },
+        {
+          "text": "La plupart des guerres frontalières thayennes s’y sont déroulées. Ses côtes et cultures lui donnent une importance stratégique, et elle sert de point de départ aux invasions.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            61,
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "name": "First Escarpment",
+      "facts": [
+        {
+          "text": "Le Premier Escarpement est la succession de hautes falaises qui mène du Bas-Thay au Plateau thayen sur environ dix milles.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            61,
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thayan Plateau",
+      "facts": [
+        {
+          "text": "Le Plateau thayen est le plateau principal, où se trouve la majeure partie du pays.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            48,
+            48
+          ]
+        },
+        {
+          "text": "C’est la région la plus peuplée : paysages ondulés, villes, bourgs, mesas basses et ruines ponctuent son étendue.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            87,
+            87
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Second Escarpment",
+      "facts": [
+        {
+          "text": "Au centre du Plateau thayen, les falaises du Second Escarpement mènent au plateau supérieur de Thaymount.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            87,
+            87
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Alaor",
+      "facts": [
+        {
+          "text": "Province formée de deux îles abritant la marine et les chantiers navals de Thay.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            70,
+            70
+          ]
+        },
+        {
+          "text": "Le tharchion de The Alaor est Bavak Inkander ; la capitale provinciale est Ala City.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            70,
+            70
+          ]
+        },
+        {
+          "text": "Ses chantiers navals accueillent une puissante flotte.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            42,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ala City",
+      "facts": [
+        {
+          "text": "Ala City est la capitale de la province de The Alaor.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            70,
+            70
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Delhumide",
+      "facts": [
+        {
+          "text": "Province de pâturages et de ruines anciennes.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            71,
+            71
+          ]
+        },
+        {
+          "text": "Le tharchion de Delhumide est Meskie Kudd ; la capitale provinciale est Umratharos.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            71,
+            71
+          ]
+        },
+        {
+          "text": "Cette province a un caractère sauvage et possède davantage de ruines que de centres habités.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            87,
+            87
+          ]
+        },
+        {
+          "text": "Les ruines de l’ancienne cité impériale de Delhumide se trouvent à Thay.",
+          "source": "sources/chapters/chapter-01-thay/sections/08-AdventuringInThay.md",
+          "lines": [
+            17,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Umratharos",
+      "facts": [
+        {
+          "text": "Umratharos est la capitale de la province de Delhumide.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            71,
+            71
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eltabbar",
+      "facts": [
+        {
+          "text": "Région de la capitale, où est diffusée la propagande thayenne.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            72,
+            72
+          ]
+        },
+        {
+          "text": "Le tharchion de Eltabbar est Zedivek Mazradash ; la capitale provinciale est Eltabbar.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            72,
+            72
+          ]
+        },
+        {
+          "text": "Eltabbar est aussi la capitale nationale de Thay.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            19,
+            19
+          ]
+        },
+        {
+          "text": "La ville comporte dix quartiers.",
+          "source": "sources/chapters/chapter-01-thay/sections/00-Introduction.md",
+          "lines": [
+            29,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gauros",
+      "facts": [
+        {
+          "text": "Arrière-pays vallonné.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            73,
+            73
+          ]
+        },
+        {
+          "text": "Le tharchion de Gauros est Ozgund Gar ; la capitale provinciale est Fort Gar.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            73,
+            73
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fort Gar",
+      "facts": [
+        {
+          "text": "Fort Gar est la capitale de la province de Gauros.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            73,
+            73
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lapendrar",
+      "facts": [
+        {
+          "text": "Campagnes fertiles aux frontières dangereuses.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            74,
+            74
+          ]
+        },
+        {
+          "text": "Le tharchion de Lapendrar est Keliza Vyrizek ; la capitale provinciale est Escalant.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            74,
+            74
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Escalant",
+      "facts": [
+        {
+          "text": "Escalant est la capitale de la province de Lapendrar.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            74,
+            74
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Priador",
+      "facts": [
+        {
+          "text": "Centre commercial de Thay.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            75,
+            75
+          ]
+        },
+        {
+          "text": "Le tharchion de Priador est Xelnene Thrul ; la capitale provinciale est Bezantur.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            75,
+            75
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bezantur",
+      "facts": [
+        {
+          "text": "Bezantur est la capitale de la province de Priador.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            75,
+            75
+          ]
+        },
+        {
+          "text": "La Guilde du commerce extérieur y a son siège et de vastes entrepôts d’objets magiques, principalement communs et peu communs, destinés à l’exportation.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            30,
+            30
+          ]
+        },
+        {
+          "text": "La guilde est dirigée par Gulga Vull, une Magicienne Rouge humaine originaire de Bezantur.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            32,
+            32
+          ]
+        },
+        {
+          "text": "Lethnar y supervise un tribunal pénal : des Magiciens Rouges choisis par le zulkir jugent les infractions aux lois sur l’usage de la magie par les autres habitants et prononcent de lourdes peines.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            86,
+            86
+          ]
+        },
+        {
+          "text": "Nzas y cantonne une armée.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            124,
+            124
+          ]
+        },
+        {
+          "text": "La ville abrite de grandes guildes criminelles.",
+          "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+          "lines": [
+            30,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pyarados",
+      "facts": [
+        {
+          "text": "Région minière montagneuse.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            76,
+            76
+          ]
+        },
+        {
+          "text": "Le tharchion de Pyarados est Mevik Sasvar ; la capitale provinciale est Pyarados.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            76,
+            76
+          ]
+        },
+        {
+          "text": "Des tombeaux d’anciens rois-dieux mulhorandis se trouvent dans cette région.",
+          "source": "sources/chapters/chapter-01-thay/sections/08-AdventuringInThay.md",
+          "lines": [
+            17,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Surthay",
+      "facts": [
+        {
+          "text": "Marécages limitrophes de Rashemen.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            77,
+            77
+          ]
+        },
+        {
+          "text": "Le tharchion de Surthay est Vederax Skarsk ; la capitale provinciale est Surthay.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            77,
+            77
+          ]
+        },
+        {
+          "text": "Surthay est située sur le lac Mulsantir, à une extrémité du parcours du Bas-Thay décrit le long de la frontière occidentale.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            61,
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thaymount",
+      "facts": [
+        {
+          "text": "Province montagneuse où résident les Magiciens Rouges.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            78,
+            78
+          ]
+        },
+        {
+          "text": "Le tharchion de Thaymount est Szass Tam ; la capitale provinciale est Szul.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            78,
+            78
+          ]
+        },
+        {
+          "text": "Thaymount désigne à la fois la province et le plateau supérieur, dont le centre comporte des sommets volcaniques. Seuls les Magiciens Rouges et leurs invités peuvent y entrer.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            94,
+            94
+          ]
+        },
+        {
+          "text": "La province occupe le centre du pays ; Szass Tam cumule sa fonction de tharchion avec celle de zulkir de la nécromancie.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            150,
+            162
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Szul",
+      "facts": [
+        {
+          "text": "Szul est la capitale de la province de Thaymount.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            78,
+            78
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thazalhar",
+      "facts": [
+        {
+          "text": "Terres fluviales fortifiées à la frontière de Mulhorand.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            79,
+            79
+          ]
+        },
+        {
+          "text": "Le tharchion de Thazalhar est Jynnril ; la capitale provinciale est Thazalhar Station.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            79,
+            79
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thazalhar Station",
+      "facts": [
+        {
+          "text": "Thazalhar Station est la capitale de la province de Thazalhar.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            79,
+            79
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tyraturos",
+      "facts": [
+        {
+          "text": "Centre urbain du commerce.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            80,
+            80
+          ]
+        },
+        {
+          "text": "Le tharchion de Tyraturos est Bulgor Ograzep ; la capitale provinciale est Tyraturos.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            80,
+            80
+          ]
+        },
+        {
+          "text": "Des villes et villages parsèment les plaines arides de cette province sur le Plateau thayen.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            87,
+            87
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quartier des Zulkirs",
+      "facts": [
+        {
+          "text": "Ce quartier d’Eltabbar accueille au moins une résidence de chacun des zulkirs.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            19,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Citadel",
+      "facts": [
+        {
+          "text": "La Citadelle de Thaymount abrite Szass Tam et la garnison de sa Dread Legion, l’armée privée la plus célèbre de Thay, composée surtout de morts-vivants et de quelques soldats vivants.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            35,
+            35
+          ]
+        },
+        {
+          "text": "Les deux généraux de cette légion sont Slethisz Vendrein et Hazrash Kulmantle.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            35,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thesk",
+      "facts": [
+        {
+          "text": "Thesk entretient avec Thay un commerce stable malgré des relations tendues.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            49,
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aglarond",
+      "facts": [
+        {
+          "text": "Les puissants ensorceleurs d’Aglarond ont repoussé à plusieurs reprises les invasions thayennes.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            56,
+            56
+          ]
+        },
+        {
+          "text": "Wizards’ Reach longe sa frontière méridionale avec Thay ; Aglarond y exerce une souveraineté nominale.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            58,
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wizards’ Reach",
+      "facts": [
+        {
+          "text": "Cette bande de terres au sud d’Aglarond, à la frontière de Thay, est le territoire le plus disputé du conflit entre les deux pays. L’influence des Magiciens Rouges y augmente vers l’est.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            58,
+            58
+          ]
+        },
+        {
+          "text": "Plusieurs villes disputées se trouvent dans cette région le long de la frontière sud-ouest de Thay ; l’armée de Yazir Nym y mène des incursions.",
+          "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+          "lines": [
+            200,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mulhorand",
+      "facts": [
+        {
+          "text": "Mulhorand et Thay sont des ennemis ancestraux ; Mulhorand considère Thay comme une ancienne province à ramener sous son autorité.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            65,
+            65
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sunrise Mountains",
+      "facts": [
+        {
+          "text": "Les monts du Levant constituent une barrière imposante entre Thay et Mulhorand.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            65,
+            65
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rashemen",
+      "facts": [
+        {
+          "text": "Rashemen et le nord de Thay se sont envahis réciproquement à de nombreuses reprises. Rashemen tire des richesses de ses mines de fer.",
+          "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+          "lines": [
+            72,
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lake Mulsantir",
+      "facts": [
+        {
+          "text": "Surthay se trouve au bord du lac Mulsantir, sur le parcours du Bas-Thay le long de la frontière occidentale.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            61,
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alamber Sea",
+      "facts": [
+        {
+          "text": "Le Bas-Thay s’étend vers Priador, sur la mer d’Alamber.",
+          "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+          "lines": [
+            61,
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scardale Town",
+      "facts": [
+        {
+          "text": "Scardale Town, dans les Vaux, possède une importante enclave commerciale thayenne.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            48,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Calimport",
+      "facts": [
+        {
+          "text": "Calimport, dans Calimshan, possède une importante enclave commerciale thayenne.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            48,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kingsbay",
+      "facts": [
+        {
+          "text": "Kingsbay, dans les îles Moonshae, possède une importante enclave commerciale thayenne.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            48,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Baldur’s Gate",
+      "facts": [
+        {
+          "text": "Les Magiciens Rouges cherchent à rétablir une enclave commerciale à Baldur’s Gate, où la précédente a été détruite.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            48,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Waterdeep",
+      "facts": [
+        {
+          "text": "Les Magiciens Rouges cherchent à rétablir une enclave commerciale à Waterdeep, où la précédente a été détruite.",
+          "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+          "lines": [
+            48,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Procampur",
+      "facts": [
+        {
+          "text": "La Guilde du commerce extérieur a établi sa première enclave commerciale à Procampur, dans le nord de Faerûn, en 1344 CV (DR dans la source).",
+          "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+          "lines": [
+            85,
+            85
+          ]
+        }
+      ]
+    }
+  ],
+  "excludedTopics": [
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/00-Introduction.md",
+      "lines": [
+        23,
+        23
+      ],
+      "reason": "Projet caché de Szass Tam et conséquences de son plan."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/00-Introduction.md",
+      "lines": [
+        25,
+        31
+      ],
+      "reason": "Consignes de lecture au MJ et cadre de campagne ; seuls les renseignements géographiques indépendants sont retenus."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+      "lines": [
+        8,
+        8
+      ],
+      "reason": "Ambition générale de domination : motivation, non géographie publique."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+      "lines": [
+        43,
+        43
+      ],
+      "reason": "Interprétation des intentions privées ; les comportements et obligations publics sont retenus ailleurs."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+      "lines": [
+        53,
+        61
+      ],
+      "reason": "Vision du monde, ambitions et fidélités cachées."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+      "lines": [
+        81,
+        83
+      ],
+      "reason": "Assassinat et transformation : révélations biographiques non nécessaires à l’atlas."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+      "lines": [
+        89,
+        89
+      ],
+      "reason": "Rituel et projet divin exclus ; seul le rétablissement public du Conseil est retenu."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+      "lines": [
+        121,
+        121
+      ],
+      "reason": "Exemple de progression par missions et conditions de recrutement non pertinents pour l’atlas."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/02-RedWizards.md",
+      "lines": [
+        123,
+        144
+      ],
+      "reason": "Intrigues, motivations de méchants et table MJ."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+      "lines": [
+        10,
+        10
+      ],
+      "reason": "Conflits clandestins et intérêts privés ; la communication publique ne prouve pas leur réalité."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+      "lines": [
+        12,
+        12
+      ],
+      "reason": "Modalités d’éviction par ruse ou assassinat : non retenues comme information publique."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+      "lines": [
+        19,
+        19
+      ],
+      "reason": "Secrets et protection des secrets à Thaymount ; seules les résidences et ressources publiques sont retenues."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+      "lines": [
+        32,
+        32
+      ],
+      "reason": "Renvois aux profils de créatures et règles."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+      "lines": [
+        57,
+        65
+      ],
+      "reason": "Profil, alignement, traits et ambition de Delraz."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+      "lines": [
+        67,
+        67
+      ],
+      "reason": "Détournement des taxes et manipulation magique ; seul l’impôt observable est retenu."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+      "lines": [
+        76,
+        84
+      ],
+      "reason": "Profil, alignement, traits et ambition de Lethnar."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+      "lines": [
+        86,
+        86
+      ],
+      "reason": "Motivations supposées liées à une divination ; tribunal public retenu."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+      "lines": [
+        95,
+        105
+      ],
+      "reason": "Profil et histoire révélée de Mythrellaa, séjour secret, pouvoirs et projet de régence."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+      "lines": [
+        114,
+        124
+      ],
+      "reason": "Profil, pouvoirs violents et recherches militaires de Nzas ; seule la garnison est retenue."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+      "lines": [
+        133,
+        143
+      ],
+      "reason": "Profil de Nevron, pacte démoniaque, histoire et ambitions."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+      "lines": [
+        152,
+        162
+      ],
+      "reason": "Statistiques, alignement, ambition et rituel de Szass Tam ; seules fonctions publiques et localisation sont retenues."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+      "lines": [
+        171,
+        181
+      ],
+      "reason": "Profil et espoirs personnels de Xelnene Thrul ; fonctions publiques retenues."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+      "lines": [
+        190,
+        200
+      ],
+      "reason": "Profil, ambitions et méthodes de torture de Yazir Nym ; seules incursions et région disputée sont retenues."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/04-ThayDetails.md",
+      "lines": [
+        31,
+        31
+      ],
+      "reason": "Motif politique secret de remplacement des autharchs."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+      "lines": [
+        32,
+        32
+      ],
+      "reason": "Statistiques et ambition personnelle de Gulga Vull ; nom, rôle et origine retenus."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+      "lines": [
+        28,
+        28
+      ],
+      "reason": "Descriptions tactiques des pièges et destructions : hors besoins de l’atlas."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+      "lines": [
+        35,
+        35
+      ],
+      "reason": "Statistiques des généraux ; identité et garnison publiques retenues."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+      "lines": [
+        56,
+        56
+      ],
+      "reason": "Objectif stratégique des zulkirs sur la mer des Étoiles."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+      "lines": [
+        65,
+        65
+      ],
+      "reason": "Objectifs de conquête, vulnérabilité militaire et contraintes de guerre non nécessaires à l’atlas."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/06-MagicalMilitary.md",
+      "lines": [
+        72,
+        72
+      ],
+      "reason": "Motivations de convoitise ou de fierté des belligérants ; conflits et mines retenus."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+      "lines": [
+        46,
+        46
+      ],
+      "reason": "Murmures de rébellion et renvoi à la résistance."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/07-LifeInThay.md",
+      "lines": [
+        55,
+        66
+      ],
+      "reason": "Conseils d’impunité, espionnage, cellules rebelles, actes clandestins et potentiel de révolte."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/08-AdventuringInThay.md",
+      "lines": [
+        17,
+        19
+      ],
+      "reason": "Crochets d’aventure, trésors à récupérer, héritages et sabotage ; seules les localisations historiques explicites sont retenues."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/08-AdventuringInThay.md",
+      "lines": [
+        21,
+        52
+      ],
+      "reason": "Création de personnages, missions, patronage et table de tâches."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+      "lines": [
+        29,
+        41
+      ],
+      "reason": "Instructions de tirage et table météorologique ; seul le caractère courant des anomalies est retenu."
+    }
+  ],
+  "ambiguities": [
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+      "lines": [
+        71,
+        71
+      ],
+      "reason": "La qualification de pâturages « hantés » à Delhumide ne permet pas de distinguer une réputation publique d’une vérité réservée au MJ ; omise des faits."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+      "lines": [
+        73,
+        73
+      ],
+      "reason": "La défiance profonde envers les zulkirs à Gauros relève d’un sentiment collectif dont la publicité n’est pas établie ; seul le relief est retenu."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/05-ThayanWealth.md",
+      "lines": [
+        30,
+        30
+      ],
+      "reason": "Le texte qualifie la guilde de corrompue et ses pratiques d’immorales sans préciser la publicité de ces éléments ; ces jugements sont omis."
+    },
+    {
+      "source": "sources/chapters/chapter-01-thay/sections/09-ClimateAndGeography.md",
+      "lines": [
+        36,
+        41
+      ],
+      "reason": "Les phénomènes météorologiques particuliers sont présentés uniquement dans une table MJ : ils restent exclus en l’absence de confirmation de leur emploi comme savoir public."
+    }
+  ],
+  "sectionsReviewed": [
+    "00-Introduction.md",
+    "01-ImportantTerms.md",
+    "02-RedWizards.md",
+    "03-CouncilOfZulkirs.md",
+    "04-ThayDetails.md",
+    "05-ThayanWealth.md",
+    "06-MagicalMilitary.md",
+    "07-LifeInThay.md",
+    "08-AdventuringInThay.md",
+    "09-ClimateAndGeography.md"
+  ]
+}

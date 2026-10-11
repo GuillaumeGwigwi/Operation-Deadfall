@@ -1,0 +1,422 @@
+{
+  "width": 3186,
+  "height": 4096,
+  "imageSHA256": "7b545b30e8bd39e5c784403fc9d7be356ac7845b1accb60d386f18fc8aa07647",
+  "method": "Revue visuelle de la carte annotée à résolution native ; centres des symboles vérifiés par ajustement local de disque ou bordure. Provinces : noms de régions ; nature : zones représentées ; route : tronçon dessiné. Les ancres de zones ne sont pas des points de ville.",
+  "anchors": [
+    {
+      "id": "alaor",
+      "name": "Alaor",
+      "anchor": "region-label",
+      "pixel": [
+        1364.86,
+        3336.0
+      ]
+    },
+    {
+      "id": "delhumide",
+      "name": "Delhumide",
+      "anchor": "region-label",
+      "pixel": [
+        1905.2,
+        1396.0
+      ]
+    },
+    {
+      "id": "eltabbar-region",
+      "name": "Eltabbar — province",
+      "anchor": "region-label",
+      "pixel": [
+        1264.79,
+        1480.0
+      ]
+    },
+    {
+      "id": "gauros",
+      "name": "Gauros",
+      "anchor": "region-label",
+      "pixel": [
+        2381.49,
+        1408.0
+      ]
+    },
+    {
+      "id": "lapendrar",
+      "name": "Lapendrar",
+      "anchor": "region-label",
+      "pixel": [
+        1048.66,
+        2380.0
+      ]
+    },
+    {
+      "id": "priador",
+      "name": "Priador",
+      "anchor": "region-label",
+      "pixel": [
+        1100.69,
+        3008.0
+      ]
+    },
+    {
+      "id": "pyarados-region",
+      "name": "Pyarados — province",
+      "anchor": "region-label",
+      "pixel": [
+        2045.28,
+        2660.0
+      ]
+    },
+    {
+      "id": "surthay-region",
+      "name": "Surthay — province",
+      "anchor": "region-label",
+      "pixel": [
+        1540.97,
+        1016.0
+      ]
+    },
+    {
+      "id": "thaymount",
+      "name": "Thaymount",
+      "anchor": "region-label",
+      "pixel": [
+        1448.91,
+        1700.0
+      ]
+    },
+    {
+      "id": "thazalhar",
+      "name": "Thazalhar",
+      "anchor": "region-label",
+      "pixel": [
+        2309.45,
+        2776.0
+      ]
+    },
+    {
+      "id": "tyraturos-region",
+      "name": "Tyraturos — province",
+      "anchor": "region-label",
+      "pixel": [
+        1789.12,
+        2452.0
+      ]
+    },
+    {
+      "id": "ala-city",
+      "name": "Ala City",
+      "anchor": "symbol",
+      "pixel": [
+        1436,
+        3398
+      ]
+    },
+    {
+      "id": "umratharos",
+      "name": "Umratharos",
+      "anchor": "symbol",
+      "pixel": [
+        1869,
+        1539
+      ]
+    },
+    {
+      "id": "eltabbar",
+      "name": "Eltabbar",
+      "anchor": "symbol",
+      "pixel": [
+        1901,
+        2025
+      ]
+    },
+    {
+      "id": "fort-gar",
+      "name": "Fort Gar",
+      "anchor": "symbol",
+      "pixel": [
+        2184,
+        1537
+      ]
+    },
+    {
+      "id": "escalant",
+      "name": "Escalant",
+      "anchor": "symbol",
+      "pixel": [
+        576,
+        2956
+      ]
+    },
+    {
+      "id": "bezantur",
+      "name": "Bezantur",
+      "anchor": "symbol",
+      "pixel": [
+        1434,
+        2940
+      ]
+    },
+    {
+      "id": "pyarados",
+      "name": "Pyarados",
+      "anchor": "symbol",
+      "pixel": [
+        2232,
+        2631
+      ]
+    },
+    {
+      "id": "surthay",
+      "name": "Surthay",
+      "anchor": "symbol",
+      "pixel": [
+        1425,
+        1054
+      ]
+    },
+    {
+      "id": "szul",
+      "name": "Szul",
+      "anchor": "symbol",
+      "pixel": [
+        1585,
+        2160
+      ]
+    },
+    {
+      "id": "thazalhar-station",
+      "name": "Thazalhar Station",
+      "anchor": "symbol",
+      "pixel": [
+        2113,
+        3056
+      ]
+    },
+    {
+      "id": "tyraturos",
+      "name": "Tyraturos",
+      "anchor": "symbol",
+      "pixel": [
+        1802,
+        2536
+      ]
+    },
+    {
+      "id": "amruthar",
+      "name": "Amruthar",
+      "anchor": "symbol",
+      "pixel": [
+        1405,
+        2459
+      ]
+    },
+    {
+      "id": "mulsantir",
+      "name": "Lac Mulsantir",
+      "anchor": "natural-area",
+      "pixel": [
+        1444.91,
+        840.0
+      ]
+    },
+    {
+      "id": "thaylambar",
+      "name": "Lac Thaylambar",
+      "anchor": "natural-area",
+      "pixel": [
+        2065.3,
+        1904.0
+      ]
+    },
+    {
+      "id": "umber",
+      "name": "Lac Umber",
+      "anchor": "natural-area",
+      "pixel": [
+        844.53,
+        2188.0
+      ]
+    },
+    {
+      "id": "surmarsh",
+      "name": "Surmarsh",
+      "anchor": "natural-area",
+      "pixel": [
+        1280.8,
+        1212.0
+      ]
+    },
+    {
+      "id": "sunrise",
+      "name": "Monts du Levant",
+      "anchor": "natural-area",
+      "pixel": [
+        2473.55,
+        1036.0
+      ]
+    },
+    {
+      "id": "high-road",
+      "name": "Grande Route",
+      "anchor": "road",
+      "pixel": [
+        1685,
+        2517
+      ]
+    },
+    {
+      "id": "ruins-delhumide",
+      "name": "Ruines de Delhumide",
+      "anchor": "symbol",
+      "pixel": [
+        2069.5,
+        1697.5
+      ]
+    },
+    {
+      "id": "nuthretos",
+      "name": "Nuthretos",
+      "anchor": "symbol",
+      "pixel": [
+        1863,
+        2190
+      ]
+    },
+    {
+      "id": "surag",
+      "name": "Surag",
+      "anchor": "symbol",
+      "pixel": [
+        2044,
+        2216
+      ]
+    },
+    {
+      "id": "hurkh",
+      "name": "Hurkh",
+      "anchor": "symbol",
+      "pixel": [
+        1661,
+        2348
+      ]
+    },
+    {
+      "id": "mothur",
+      "name": "Mothur",
+      "anchor": "symbol",
+      "pixel": [
+        1845,
+        2351
+      ]
+    },
+    {
+      "id": "thazrumaros",
+      "name": "Thazrumaros",
+      "anchor": "symbol",
+      "pixel": [
+        2052,
+        2384
+      ]
+    },
+    {
+      "id": "solzepar",
+      "name": "Solzepar",
+      "anchor": "symbol",
+      "pixel": [
+        1553,
+        2502
+      ]
+    },
+    {
+      "id": "zolum",
+      "name": "Zolum",
+      "anchor": "symbol",
+      "pixel": [
+        1441,
+        2624
+      ]
+    },
+    {
+      "id": "delabbar",
+      "name": "Delabbar",
+      "anchor": "symbol",
+      "pixel": [
+        1704,
+        2637
+      ]
+    },
+    {
+      "id": "ankhur",
+      "name": "Ankhur",
+      "anchor": "symbol",
+      "pixel": [
+        1534,
+        2728
+      ]
+    },
+    {
+      "id": "belizir",
+      "name": "Belizir",
+      "anchor": "symbol",
+      "pixel": [
+        1843,
+        2682
+      ]
+    },
+    {
+      "id": "sekelmur",
+      "name": "Sekelmur",
+      "anchor": "symbol",
+      "pixel": [
+        1978,
+        2569
+      ]
+    },
+    {
+      "id": "gauros-keep",
+      "name": "Gauros Keep",
+      "anchor": "symbol",
+      "pixel": [
+        2070.0,
+        1256.5
+      ]
+    },
+    {
+      "id": "denzar",
+      "name": "Denzar",
+      "anchor": "symbol",
+      "pixel": [
+        2261,
+        1618
+      ]
+    },
+    {
+      "id": "citadel",
+      "name": "Citadelle",
+      "anchor": "symbol",
+      "pixel": [
+        1529.5,
+        1973.5
+      ]
+    },
+    {
+      "id": "alaor-major",
+      "name": "Alaor Major",
+      "anchor": "natural-area",
+      "pixel": [
+        1433,
+        3458
+      ]
+    },
+    {
+      "id": "alaor-minor",
+      "name": "Alaor Minor",
+      "anchor": "natural-area",
+      "pixel": [
+        1505,
+        3333
+      ]
+    }
+  ]
+}

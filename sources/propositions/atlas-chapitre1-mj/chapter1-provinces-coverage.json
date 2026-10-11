@@ -1,0 +1,238 @@
+{
+  "scope": "Sélection joueurs des informations publiques du chapitre 1 ; pas de reproduction exhaustive des notes MJ.",
+  "sourceSections": [
+    "09-ClimateAndGeography.md",
+    "10-TharchDescriptions.md",
+    "11-EltabbarThaysCapital.md"
+  ],
+  "landmarks": [
+    "alaor",
+    "delhumide",
+    "eltabbar-region",
+    "gauros",
+    "lapendrar",
+    "priador",
+    "pyarados-region",
+    "surthay-region",
+    "thaymount",
+    "thazalhar",
+    "tyraturos-region",
+    "ala-city",
+    "umratharos",
+    "eltabbar",
+    "fort-gar",
+    "escalant",
+    "bezantur",
+    "pyarados",
+    "surthay",
+    "szul",
+    "thazalhar-station",
+    "tyraturos",
+    "amruthar",
+    "mulsantir",
+    "thaylambar",
+    "umber",
+    "surmarsh",
+    "sunrise",
+    "high-road",
+    "ruins-delhumide",
+    "alaor-major",
+    "alaor-minor",
+    "denzar",
+    "gauros-keep",
+    "citadel",
+    "ankhur",
+    "belizir",
+    "delabbar",
+    "hurkh",
+    "mothur",
+    "nuthretos",
+    "sekelmur",
+    "solzepar",
+    "surag",
+    "thazrumaros",
+    "zolum"
+  ],
+  "newLandmarks": [
+    "alaor-major",
+    "alaor-minor",
+    "denzar",
+    "gauros-keep",
+    "citadel",
+    "ankhur",
+    "belizir",
+    "delabbar",
+    "hurkh",
+    "mothur",
+    "nuthretos",
+    "sekelmur",
+    "solzepar",
+    "surag",
+    "thazrumaros",
+    "zolum"
+  ],
+  "included": {
+    "Alaor": [
+      21,
+      58
+    ],
+    "Delhumide": [
+      65,
+      89
+    ],
+    "Eltabbar": [
+      96,
+      103
+    ],
+    "Gauros": [
+      116,
+      127
+    ],
+    "Lapendrar": [
+      136,
+      156
+    ],
+    "Priador": [
+      163,
+      174
+    ],
+    "Pyarados": [
+      181,
+      198
+    ],
+    "Surthay": [
+      205,
+      219
+    ],
+    "Thaymount": [
+      234,
+      260
+    ],
+    "Thazalhar": [
+      273,
+      282
+    ],
+    "Tyraturos": [
+      289,
+      298
+    ]
+  },
+  "excluded": [
+    {
+      "lines": [
+        28,
+        40
+      ],
+      "reason": "Stat blocks, alignements et rôles cachés de dirigeants : seule identité publique retenue."
+    },
+    {
+      "lines": [
+        65,
+        80
+      ],
+      "reason": "Contenu occulte des ruines, malédictions et créatures spécifiques non publiés."
+    },
+    {
+      "lines": [
+        89,
+        89
+      ],
+      "reason": "Motivation privée de la dirigeante non publiée."
+    },
+    {
+      "lines": [
+        129,
+        129
+      ],
+      "reason": "Menace militaire à venir et identité du commandant : intrigue MJ."
+    },
+    {
+      "lines": [
+        143,
+        149
+      ],
+      "reason": "Craintes et raisons magiques privées du pacte non publiées ; contrôles observables retenus."
+    },
+    {
+      "lines": [
+        156,
+        156
+      ],
+      "reason": "Espionnage, prisonniers et accroche de libération non publiés."
+    },
+    {
+      "lines": [
+        183,
+        183
+      ],
+      "reason": "Rencontre de mine précise non publiée ; dangers généraux conservés."
+    },
+    {
+      "lines": [
+        212,
+        212
+      ],
+      "reason": "Avis privé des zulkirs sur le gouverneur non publié."
+    },
+    {
+      "lines": [
+        221,
+        221
+      ],
+      "reason": "Dirigeants du marais, unification et attaque à venir non publiés."
+    },
+    {
+      "lines": [
+        236,
+        256
+      ],
+      "reason": "Contournements, protections détaillées, expériences, souterrains, origine et projets de Citadelle non publiés."
+    },
+    {
+      "lines": [
+        296,
+        296
+      ],
+      "reason": "Bribes et arrangements privés de nomination non publiés."
+    }
+  ],
+  "embeddedWithoutPin": [
+    "Ala Harbor dans Ala City",
+    "Thay Crossing dans Thazalhar et Thazalhar Station",
+    "Red Hall dans Szul",
+    "Bas-Thay et deux escarpements dans guide-thay",
+    "Quartiers et commerces d’Eltabbar dans eltabbar"
+  ],
+  "sparseEntries": "Les onze autres villes de Tyraturos ne reçoivent pas de commerces, populations chiffrées ou histoire inventés ; seules les informations du chapitre et leur position cartographique sont utilisées.",
+  "sourceReviews": [
+    "chapter1-public-review.json",
+    "eltabbar-public-coverage.json"
+  ],
+  "includedSourceThemes": [
+    "institutions",
+    "autorites",
+    "magiciens-rouges",
+    "lois",
+    "peages",
+    "economie",
+    "societe",
+    "religions",
+    "forces-armees",
+    "climat-agriculture",
+    "histoire-territoriale"
+  ],
+  "externalReferencesInGuide": [
+    "Thesk",
+    "Aglarond",
+    "Wizards’ Reach",
+    "Mulhorand",
+    "Rashemen",
+    "Scardale Town",
+    "Calimport",
+    "Kingsbay",
+    "Baldur’s Gate",
+    "Waterdeep",
+    "Procampur"
+  ],
+  "privacy": "Audits MJ non embarqués. Les faits publics seuls alimentent les Markdown ; les exclusions, profils, secrets et instructions au MJ restent hors du HTML."
+}

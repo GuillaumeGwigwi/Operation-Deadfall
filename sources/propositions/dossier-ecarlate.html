@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#151719">
+<title>Le Dossier écarlate, planche graphique, Operation Deadfall</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<noscript><style>.dossier__panel[hidden]{display:block!important;opacity:1!important;transform:none!important}.dossier__bascule{display:none}</style></noscript>
+<style>
+:root{
+  --obsidienne:#151719;
+  --ardoise:#232629;
+  --ivoire:#E8E0D2;
+  --cendre:#B9B0A2;
+  --ecarlate:#8F2432;
+  --laiton:#B6975C;
+  --papier:#DDD3C1;
+  --encre:#242125;
+  --spectral:#78A889;
+
+  --ecarlate-survol:#9c2b3a; /* écarlate éclairci de 12 % vers l'ivoire, état de survol uniquement */
+  --filet:rgba(182,151,92,.42);
+  --focus:var(--ivoire);
+
+  --titres:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --texte:"Source Sans 3",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --codes:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+
+  --grain-clair:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 .09 0 0 0 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+  --grain-sombre:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .16 0 0 0 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+
+  --marge:clamp(1.25rem,4.5vw,4rem);
+  --largeur:78rem;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{
+  margin:0;
+  background-color:var(--obsidienne);
+  background-image:var(--grain-clair);
+  color:var(--ivoire);
+  font:400 1.125rem/1.6 var(--texte);
+  overflow-x:hidden;
+}
+@media (max-width:40rem){body{font-size:1.0625rem}}
+h1,h2,h3{font-family:var(--titres);font-weight:600;line-height:1.08;margin:0;text-wrap:balance}
+p{margin:0;text-wrap:pretty}
+::selection{background:var(--ecarlate);color:var(--ivoire)}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+a{color:var(--ivoire);text-decoration-color:var(--laiton);text-decoration-thickness:1px;text-underline-offset:.22em}
+a:hover{text-decoration-thickness:2px;color:#fff8ec}
+
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.code{font-family:var(--codes);font-size:.8125rem;letter-spacing:0;color:var(--laiton)}
+
+.evitement{
+  position:absolute;left:var(--marge);top:-4rem;z-index:10;
+  background:var(--ecarlate);color:var(--ivoire);padding:.6rem 1rem;border-radius:2px;
+}
+.evitement:focus{top:1rem}
+
+/* En-tête */
+.entete{
+  max-width:var(--largeur);margin:0 auto;padding:1.25rem var(--marge);
+  display:flex;flex-wrap:wrap;gap:.75rem 2rem;align-items:center;justify-content:space-between;
+  border-bottom:1px solid var(--filet);
+}
+.entete__marque{display:flex;align-items:center;gap:.75rem;font-family:var(--titres);font-size:1.3rem;font-weight:600}
+.entete__marque svg{flex:none}
+.etiquette-exemple{
+  display:inline-flex;align-items:center;gap:.5rem;
+  font-size:.875rem;color:var(--cendre);
+  border:1px solid var(--filet);border-radius:2px;padding:.3rem .65rem;
+}
+.etiquette-exemple::before{content:"";width:.5rem;height:.5rem;background:var(--laiton);transform:rotate(45deg)}
+.sommaire ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.25rem 1.25rem}
+.sommaire a{display:inline-block;padding:.5rem 0;font-size:.9375rem;color:var(--cendre);text-decoration:none}
+.sommaire a:hover{color:var(--ivoire);text-decoration:underline;text-decoration-color:var(--laiton)}
+
+/* Ouverture */
+.ouverture{
+  position:relative;isolation:isolate;
+  max-width:var(--largeur);margin:0 auto;
+  padding:clamp(3rem,9vw,7.5rem) var(--marge) clamp(2.5rem,6vw,4.5rem);
+  display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:2rem 1.5rem;
+  border-bottom:1px solid var(--filet);
+  overflow:hidden;
+}
+.ouverture__laque{
+  position:absolute;z-index:-1;top:0;bottom:0;
+  left:calc(var(--marge) + clamp(3.2rem,12vw,11.5rem));
+  width:clamp(3.25rem,9vw,7.5rem);
+  background:var(--ecarlate);
+  background-image:var(--grain-sombre);
+  transform-origin:top;
+}
+.ouverture__laque::after{
+  content:"";position:absolute;inset:0 auto 0 -6px;width:1px;background:var(--laiton);opacity:.7;
+}
+@media (prefers-reduced-motion:no-preference){
+  .ouverture__laque{animation:laque 900ms cubic-bezier(.2,.7,.1,1) both 120ms}
+  @keyframes laque{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+}
+.ouverture__gravure{
+  position:absolute;z-index:-2;right:-8rem;top:-6rem;
+  width:min(46rem,90vw);height:auto;color:var(--laiton);opacity:.38;pointer-events:none;
+}
+.titre{grid-column:1 / span 10;font-weight:600;line-height:.84;letter-spacing:-.012em}
+.titre__ligne{display:block}
+.titre__ligne--a{font-size:clamp(2.6rem,8.4vw,7rem);padding-left:clamp(.1rem,1vw,1rem)}
+.titre__ligne--b{font-size:clamp(4.6rem,18.5vw,16rem);margin-top:-.04em;padding-left:clamp(2.1rem,8.5vw,8rem)}
+.ouverture__sous-titre{
+  grid-column:1 / span 7;
+  padding-left:clamp(2.1rem,8.5vw,8rem);
+  font-family:var(--titres);font-style:italic;font-weight:500;
+  font-size:clamp(1.35rem,2.4vw,1.9rem);line-height:1.3;color:var(--ivoire);max-width:34ch;
+}
+.ouverture__note{
+  grid-column:9 / span 4;grid-row:2 / span 2;align-self:end;
+  position:relative;padding:1.4rem 1.4rem 1.5rem;
+  background:rgba(35,38,41,.82);
+}
+.ouverture__note p{color:var(--cendre);font-size:1rem}
+.fiche-meta{margin:1.1rem 0 0;display:grid;grid-template-columns:auto 1fr;gap:.35rem 1rem;font-size:.9375rem}
+.fiche-meta dt{color:var(--laiton);font-family:var(--codes);font-size:.8125rem;padding-top:.15rem}
+.fiche-meta dd{margin:0;color:var(--ivoire)}
+
+/* Angles gravés */
+.grave::before,.grave::after{
+  content:"";position:absolute;width:16px;height:16px;pointer-events:none;
+  border:solid var(--laiton);
+}
+.grave::before{top:-1px;left:-1px;border-width:1px 0 0 1px}
+.grave::after{bottom:-1px;right:-1px;border-width:0 1px 1px 0}
+
+/* Pièces */
+main{max-width:var(--largeur);margin:0 auto;padding:0 var(--marge)}
+.piece{
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.7fr);gap:2rem clamp(2rem,5vw,5rem);
+  padding:clamp(3.5rem,8vw,6rem) 0;border-bottom:1px solid var(--filet);
+  scroll-margin-top:1rem;
+}
+.piece__tete{align-self:start}
+@media (min-width:56rem){.piece__tete{position:sticky;top:2rem}}
+.piece__tete h2{font-size:clamp(2.1rem,4vw,3.15rem);margin-top:.5rem}
+.piece__tete p:not(.code){margin-top:1rem;color:var(--cendre);font-size:1rem;max-width:30ch}
+.piece__corps{min-width:0}
+
+/* Manifeste */
+.manifeste__accroche{
+  font-family:var(--titres);font-weight:500;
+  font-size:clamp(1.65rem,3.3vw,2.5rem);line-height:1.22;max-width:26ch;
+}
+.principes{list-style:none;margin:clamp(2.5rem,5vw,3.5rem) 0 0;padding:0;max-width:44rem}
+.principes li{display:grid;grid-template-columns:minmax(9rem,13rem) 1fr;gap:.5rem 2rem;padding:1.1rem 0;border-top:1px solid var(--filet)}
+.principes strong{font-family:var(--titres);font-weight:600;font-size:1.35rem;line-height:1.25}
+.principes span{color:var(--cendre)}
+
+/* Palette */
+.proportions{display:flex;height:4.5rem;border:1px solid var(--filet);margin-bottom:.6rem}
+.proportions span{display:block;height:100%}
+.legende{font-size:.875rem;color:var(--cendre);margin-bottom:2.5rem}
+.nuancier{width:100%;border-collapse:collapse;font-size:1rem}
+.nuancier caption{text-align:left;font-family:var(--titres);font-size:1.5rem;padding-bottom:.75rem}
+.nuancier th,.nuancier td{text-align:left;vertical-align:top;padding:.9rem 1rem .9rem 0;border-top:1px solid var(--filet)}
+.nuancier thead th{font-weight:600;font-size:.875rem;color:var(--cendre);border-top:0;padding-top:0}
+.nuancier tbody th{font-weight:600;white-space:nowrap}
+.nuancier td:last-child{color:var(--cendre);padding-right:0}
+.pastille{display:block;width:3.25rem;height:3.25rem;border:1px solid rgba(232,224,210,.22)}
+.hex{font-family:var(--codes);font-size:.9375rem;color:var(--ivoire);user-select:all}
+.nuancier tr.rare th::after{content:" (rare)";font-weight:400;color:var(--cendre)}
+
+/* Typographies */
+.specimen{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:1.5rem 2.5rem;padding:2rem 0;border-top:1px solid var(--filet)}
+.specimen:first-child{border-top:0;padding-top:0}
+.specimen__echantillon{min-width:0;overflow-wrap:anywhere}
+.specimen__fiche h3{font-size:1.5rem}
+.specimen__fiche p{color:var(--cendre);font-size:1rem;margin-top:.5rem}
+.specimen__fiche .code{display:block;margin-top:.75rem}
+.ech-titre{font-family:var(--titres);font-weight:600;font-size:clamp(3rem,7vw,5.6rem);line-height:.95}
+.ech-titre small{display:block;font-size:.34em;line-height:1.3;margin-top:.8rem;font-weight:500}
+.ech-texte{font-family:var(--texte);max-width:65ch}
+.ech-texte b{font-weight:600}
+.ech-code{font-family:var(--codes);font-size:1rem;line-height:1.9;color:var(--ivoire)}
+.ech-code span{color:var(--laiton)}
+.echelle{margin-top:1rem;border-top:1px solid var(--filet);padding-top:2rem}
+.echelle h3{font-size:1.5rem;margin-bottom:1.25rem}
+.echelle ol{list-style:none;margin:0;padding:0}
+.echelle li{display:grid;grid-template-columns:7.5rem minmax(0,1fr);gap:1rem;align-items:baseline;padding:.35rem 0}
+.echelle li .code{color:var(--cendre)}
+.echelle li span:last-child{font-family:var(--titres);font-weight:600;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.echelle li.corps span:last-child{font-family:var(--texte);font-weight:400}
+.replis{margin-top:1.5rem;font-size:.9375rem;color:var(--cendre)}
+
+/* Boutons */
+.rangee{display:flex;flex-wrap:wrap;gap:1rem 1.25rem;align-items:center}
+.btn{
+  -webkit-appearance:none;appearance:none;
+  display:inline-flex;align-items:center;gap:.6rem;
+  min-height:2.875rem;padding:.7rem 1.35rem;
+  font:600 1rem/1.2 var(--texte);letter-spacing:.005em;
+  border:1px solid transparent;border-radius:2px;cursor:pointer;
+  touch-action:manipulation;
+  transition:background-color .15s ease,border-color .15s ease,color .15s ease;
+}
+.btn--principal{background:var(--ecarlate);color:var(--ivoire);border-color:rgba(182,151,92,.55)}
+.btn--principal:hover{background:var(--ecarlate-survol)}
+.btn--principal:active{background:var(--ecarlate);border-color:var(--laiton)}
+.btn--secondaire{background:transparent;color:var(--ivoire);border-color:var(--laiton)}
+.btn--secondaire:hover{background:var(--ardoise)}
+.btn--discret{background:transparent;color:var(--ivoire);padding-inline:.35rem;text-decoration:underline;text-decoration-color:var(--laiton);text-underline-offset:.25em}
+.btn--discret:hover{text-decoration-thickness:2px}
+.btn:disabled{cursor:not-allowed;background:transparent;color:var(--cendre);border:1px dashed rgba(185,176,162,.55)}
+.etats{margin-top:2.25rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:0 2rem}
+.etats div{padding:1rem 0;border-top:1px solid var(--filet)}
+.etats dt{font-weight:600}
+.etats dd{margin:.25rem 0 0;color:var(--cendre);font-size:1rem}
+.sortie{
+  margin-top:1.75rem;padding:.9rem 1.1rem;min-height:3.2rem;
+  background:var(--ardoise);border-left:2px solid var(--laiton);
+  font-size:1rem;color:var(--ivoire);
+}
+.lien-demo{margin-top:1.5rem;font-size:1rem;color:var(--cendre)}
+
+/* Dossier */
+.dossier{position:relative;max-width:50rem;padding-top:2.1rem}
+.dossier__onglet{
+  position:absolute;top:0;left:1.75rem;height:2.15rem;
+  display:flex;align-items:center;padding:0 1.6rem;
+  background:var(--ardoise);background-image:var(--grain-clair);
+  clip-path:polygon(10px 0,calc(100% - 10px) 0,100% 100%,0 100%);
+  border-top:1px solid var(--filet);
+}
+.dossier__couverture{
+  position:relative;
+  background:var(--ardoise);background-image:var(--grain-clair);
+  border:1px solid var(--filet);
+  padding:clamp(1.5rem,4vw,2.5rem);
+  padding-right:clamp(6rem,14vw,9rem);
+}
+.dossier__couverture h3{font-size:clamp(1.8rem,4vw,2.6rem)}
+.dossier__couverture > p{margin-top:.5rem;color:var(--cendre);font-size:1rem;max-width:42ch}
+.dossier__couverture .btn{margin-top:1.75rem}
+.chevron{width:.75rem;height:.75rem;transition:transform .25s ease}
+[aria-expanded="true"] .chevron{transform:rotate(180deg)}
+.sceau{
+  position:absolute;right:clamp(1.25rem,3vw,2.25rem);top:clamp(1.25rem,3vw,2rem);
+  width:clamp(4.25rem,9vw,5.5rem);height:auto;
+  transition:transform .45s cubic-bezier(.3,.7,.2,1),opacity .45s ease;
+}
+.dossier.est-ouvert .sceau{transform:rotate(-14deg) translateY(4px);opacity:.5}
+
+.dossier__panel{
+  margin-top:-1px;padding:1.5rem 0 0;
+  opacity:0;transform:translateY(-10px);
+  transition:opacity .3s ease,transform .3s ease;
+}
+.dossier__panel.est-visible{opacity:1;transform:none}
+.barre-doc{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.75rem 1.5rem;margin-bottom:1rem}
+.barre-doc p{font-size:.9375rem;color:var(--cendre)}
+
+.bascule{
+  -webkit-appearance:none;appearance:none;
+  display:inline-flex;align-items:center;gap:.75rem;
+  min-height:2.75rem;padding:.4rem .9rem .4rem .5rem;
+  background:transparent;color:var(--ivoire);
+  border:1px solid var(--filet);border-radius:2px;
+  font:600 .9375rem/1.2 var(--texte);cursor:pointer;
+}
+.bascule:hover{border-color:var(--laiton)}
+.bascule__piste{
+  position:relative;width:2.75rem;height:1.5rem;flex:none;
+  background:var(--papier);border:1px solid var(--laiton);border-radius:2px;
+  transition:background-color .2s ease;
+}
+.bascule__piste::after{
+  content:"";position:absolute;top:2px;left:2px;width:1.1rem;height:calc(100% - 4px);
+  background:var(--encre);border-radius:1px;transition:transform .2s ease,background-color .2s ease;
+}
+.bascule[aria-pressed="true"] .bascule__piste{background:var(--obsidienne)}
+.bascule[aria-pressed="true"] .bascule__piste::after{transform:translateX(1.15rem);background:var(--ivoire)}
+.bascule__etat{font-weight:400;color:var(--cendre)}
+
+.document{
+  --doc-fond:var(--papier);
+  --doc-texte:var(--encre);
+  --doc-attenue:#4a4448;
+  --doc-filet:rgba(36,33,37,.28);
+  --doc-grain:var(--grain-sombre);
+  --doc-pli:#c4b9a5;
+  --tampon-texte:var(--ecarlate);
+  --tampon-fond:transparent;
+  position:relative;
+  background-color:var(--doc-fond);background-image:var(--doc-grain);
+  color:var(--doc-texte);
+  padding:clamp(1.5rem,5vw,3.25rem);
+  clip-path:polygon(0 0,calc(100% - 1.6rem) 0,100% 1.6rem,100% 100%,0 100%);
+  transition:background-color .3s ease,color .3s ease;
+}
+.document[data-fond="sombre"]{
+  --doc-fond:var(--ardoise);
+  --doc-texte:var(--ivoire);
+  --doc-attenue:var(--cendre);
+  --doc-filet:rgba(182,151,92,.4);
+  --doc-grain:var(--grain-clair);
+  --doc-pli:#34383c;
+  --tampon-texte:var(--ivoire);
+  --tampon-fond:var(--ecarlate);
+}
+.document::after{
+  content:"";position:absolute;top:0;right:0;width:1.6rem;height:1.6rem;
+  background:linear-gradient(225deg,transparent 50%,var(--doc-pli) 50%);
+}
+.document__tete{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem 2rem;align-items:flex-start;padding-bottom:1.25rem;border-bottom:1px solid var(--doc-filet)}
+.document__tete h4{font-family:var(--titres);font-weight:600;font-size:clamp(1.7rem,3.6vw,2.3rem);line-height:1.1;margin:0}
+.document .code{color:var(--doc-attenue);display:block;margin-top:.4rem}
+.tampon{
+  flex:none;display:inline-block;transform:rotate(-4deg);
+  padding:.35rem .8rem;border:2px solid var(--ecarlate);border-radius:2px;
+  color:var(--tampon-texte);background:var(--tampon-fond);
+  font:600 1rem/1.2 var(--titres);letter-spacing:.02em;
+}
+.document__meta{display:grid;grid-template-columns:auto 1fr;gap:.4rem 1.5rem;margin:1.25rem 0 1.75rem;font-size:1rem}
+.document__meta dt{font-family:var(--codes);font-size:.8125rem;color:var(--doc-attenue);padding-top:.2rem}
+.document__meta dd{margin:0}
+.document__texte{display:grid;grid-template-columns:minmax(0,1fr) minmax(10rem,14rem);gap:1.5rem 2.25rem}
+.document__texte .colonne > * + *{margin-top:1rem}
+.document__texte p{max-width:62ch}
+.annotation{align-self:start;border-left:1px solid var(--laiton);padding:.2rem 0 .2rem 1rem;font-size:.9375rem;color:var(--doc-attenue)}
+.annotation strong{display:block;color:var(--doc-texte);font-family:var(--titres);font-size:1.15rem;font-weight:600;margin-bottom:.25rem}
+.anomalie{
+  display:inline-flex;align-items:center;gap:.6rem;margin-top:1rem;
+  font-size:.9375rem;color:var(--doc-texte);
+}
+.anomalie__signe{
+  display:grid;place-items:center;flex:none;width:1.75rem;height:1.75rem;
+  background:var(--obsidienne);border:1px solid var(--spectral);border-radius:50%;color:var(--spectral);
+}
+.document__pied{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--doc-filet);font-size:.875rem;color:var(--doc-attenue)}
+
+/* Pied de page */
+.pied{max-width:var(--largeur);margin:0 auto;padding:2.5rem var(--marge) 3.5rem;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1rem 3rem;font-size:.9375rem;color:var(--cendre)}
+.pied strong{color:var(--ivoire);font-weight:600}
+
+/* Adaptation */
+@media (max-width:56rem){
+  .piece{grid-template-columns:1fr}
+  .piece__tete p:not(.code){max-width:52ch}
+  .ouverture__note{grid-column:1 / -1;grid-row:auto;max-width:34rem;margin-left:clamp(2.1rem,8.5vw,8rem)}
+  .titre{grid-column:1 / -1}
+  .ouverture__sous-titre{grid-column:1 / -1}
+  .specimen{grid-template-columns:1fr}
+  .pied{grid-template-columns:1fr}
+}
+@media (max-width:40rem){
+  .ouverture__note{margin-left:0}
+  .ouverture__gravure{right:-12rem;top:-4rem;opacity:.28}
+  .principes li{grid-template-columns:1fr}
+  .nuancier thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .nuancier,.nuancier tbody{display:block}
+  .nuancier tr{display:grid;grid-template-columns:3.25rem 1fr;gap:.2rem 1rem;padding:1rem 0;border-top:1px solid var(--filet)}
+  .nuancier th,.nuancier td{border:0;padding:0}
+  .nuancier td:first-child{grid-row:span 4}
+  .document__texte{grid-template-columns:1fr}
+  .dossier__couverture{padding-right:clamp(1.5rem,4vw,2.5rem);padding-top:5.5rem}
+  .echelle li{grid-template-columns:1fr;gap:0}
+}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+@media (forced-colors:active){
+  .btn,.bascule,.bascule__piste{border:1px solid ButtonText}
+  .ouverture__laque{forced-color-adjust:none}
+}
+</style>
+</head>
+<body>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+
+<header class="entete">
+  <div class="entete__marque">
+    <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true"><rect x="4" y="4" width="20" height="20" transform="rotate(45 14 14)" fill="none" stroke="#B6975C"/><rect x="9" y="9" width="10" height="10" transform="rotate(45 14 14)" fill="#8F2432"/></svg>
+    <span>Le Dossier écarlate</span>
+  </div>
+  <nav class="sommaire" aria-label="Sections de la planche">
+    <ul>
+      <li><a href="#manifeste">Manifeste</a></li>
+      <li><a href="#palette">Palette</a></li>
+      <li><a href="#typographies">Typographies</a></li>
+      <li><a href="#boutons">Boutons</a></li>
+      <li><a href="#dossier">Dossier</a></li>
+    </ul>
+  </nav>
+  <p class="etiquette-exemple">Exemple graphique, sans contenu de campagne</p>
+</header>
+
+<section class="ouverture" aria-labelledby="titre-principal">
+  <div class="ouverture__laque" aria-hidden="true"></div>
+  <svg class="ouverture__gravure" viewBox="0 0 600 600" aria-hidden="true" fill="none" stroke="currentColor">
+    <circle cx="300" cy="300" r="280" stroke-width="1"/>
+    <circle cx="300" cy="300" r="262" stroke-width="18" stroke-dasharray="1 7"/>
+    <circle cx="300" cy="300" r="236" stroke-width=".75"/>
+    <circle cx="300" cy="300" r="198" stroke-width="44" stroke-dasharray="1.2 16" opacity=".7"/>
+    <circle cx="300" cy="300" r="168" stroke-width=".75"/>
+    <circle cx="300" cy="300" r="150" stroke-width="10" stroke-dasharray="22 10" opacity=".55"/>
+    <circle cx="300" cy="300" r="118" stroke-width=".75"/>
+    <path d="M300 40 L300 560 M40 300 L560 300 M116 116 L484 484 M484 116 L116 484" stroke-width=".5" opacity=".6"/>
+    <rect x="248" y="248" width="104" height="104" transform="rotate(45 300 300)" stroke-width="1"/>
+    <rect x="270" y="270" width="60" height="60" transform="rotate(45 300 300)" stroke-width=".75"/>
+  </svg>
+
+  <h1 class="titre" id="titre-principal">
+    <span class="titre__ligne titre__ligne--a">Operation</span>
+    <span class="titre__ligne titre__ligne--b">Deadfall</span>
+  </h1>
+  <p class="ouverture__sous-titre">Direction artistique&#8239;: le Dossier écarlate, planche de référence.</p>
+  <aside class="ouverture__note grave" aria-label="Fiche de la planche">
+    <p>Obsidienne, encre, laque rouge, laiton patiné et papier minéral. Une interface lisible comme aujourd’hui, faite de matières anciennes.</p>
+    <dl class="fiche-meta">
+      <dt>Statut</dt><dd>Direction validée par le MJ</dd>
+      <dt>Portée</dt><dd>Planche graphique, pas le site</dd>
+      <dt>Contenu</dt><dd>Exemples neutres uniquement</dd>
+    </dl>
+  </aside>
+</section>
+
+<main id="contenu" tabindex="-1">
+
+  <section class="piece" id="manifeste" aria-labelledby="t-manifeste">
+    <header class="piece__tete">
+      <p class="code">Pièce A</p>
+      <h2 id="t-manifeste">Manifeste</h2>
+      <p>Ce que la direction protège, en cinq règles courtes.</p>
+    </header>
+    <div class="piece__corps">
+      <p class="manifeste__accroche">Un dossier clandestin dans un empire de magiciens&#8239;: contemporain par sa lisibilité, ancien par ses matières.</p>
+      <ul class="principes">
+        <li><strong>Le document d’abord</strong><span>Le papier clair porte la lecture. L’obsidienne l’entoure sans jamais lui faire concurrence.</span></li>
+        <li><strong>L’écarlate engage</strong><span>La laque est réservée aux actions principales et aux sceaux. Jamais de petit texte rouge sur fond sombre.</span></li>
+        <li><strong>Le laiton structure</strong><span>Filets fins et angle gravé sur les éléments importants, pas de cadre ornemental autour de chaque bloc.</span></li>
+        <li><strong>La magie reste rare</strong><span>Le vert spectral signale une anomalie, toujours accompagné d’un libellé ou d’un signe.</span></li>
+        <li><strong>Le mouvement répond</strong><span>Des transitions courtes, déclenchées par un geste, coupées quand le système demande moins de mouvement.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="piece" id="palette" aria-labelledby="t-palette">
+    <header class="piece__tete">
+      <p class="code">Pièce B</p>
+      <h2 id="t-palette">Palette</h2>
+      <p>Neuf couleurs, aucune ajoutée. La bande indique le poids visuel visé de chacune.</p>
+    </header>
+    <div class="piece__corps">
+      <div class="proportions" role="img" aria-label="Proportions indicatives&nbsp;: obsidienne dominante, puis ardoise, papier minéral, ivoire, cendre chaude, encre, laiton patiné, laque écarlate, et une trace de vert spectral.">
+        <span style="flex:38;background:#151719"></span>
+        <span style="flex:17;background:#232629"></span>
+        <span style="flex:15;background:#DDD3C1"></span>
+        <span style="flex:10;background:#E8E0D2"></span>
+        <span style="flex:6;background:#B9B0A2"></span>
+        <span style="flex:5;background:#242125"></span>
+        <span style="flex:4;background:#B6975C"></span>
+        <span style="flex:4;background:#8F2432"></span>
+        <span style="flex:1;background:#78A889"></span>
+      </div>
+      <p class="legende">Proportions indicatives, de la plus présente à la plus rare.</p>
+
+      <table class="nuancier">
+        <caption>Nuancier et règles d’emploi</caption>
+        <thead>
+          <tr><th scope="col"><span class="sr">Échantillon</span></th><th scope="col">Nom</th><th scope="col">Hex</th><th scope="col">Usage</th><th scope="col">Règle d’emploi</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><span class="pastille" style="background:#151719"></span></td><th scope="row">Obsidienne</th><td class="hex">#151719</td><td>Fond principal</td><td>Base de toutes les paires sombres.</td></tr>
+          <tr><td><span class="pastille" style="background:#232629"></span></td><th scope="row">Ardoise</th><td class="hex">#232629</td><td>Surfaces secondaires</td><td>Couvertures, encarts, zones de commande.</td></tr>
+          <tr><td><span class="pastille" style="background:#E8E0D2"></span></td><th scope="row">Ivoire</th><td class="hex">#E8E0D2</td><td>Texte principal</td><td>13,71:1 sur obsidienne.</td></tr>
+          <tr><td><span class="pastille" style="background:#B9B0A2"></span></td><th scope="row">Cendre chaude</th><td class="hex">#B9B0A2</td><td>Texte secondaire</td><td>8,38:1 sur obsidienne.</td></tr>
+          <tr><td><span class="pastille" style="background:#8F2432"></span></td><th scope="row">Laque écarlate</th><td class="hex">#8F2432</td><td>Actions principales et sceaux</td><td>Ivoire sur écarlate 6,50:1. Jamais en petit texte sur obsidienne.</td></tr>
+          <tr><td><span class="pastille" style="background:#B6975C"></span></td><th scope="row">Laiton patiné</th><td class="hex">#B6975C</td><td>Filets et petits accents</td><td>6,48:1 sur obsidienne.</td></tr>
+          <tr><td><span class="pastille" style="background:#DDD3C1"></span></td><th scope="row">Papier minéral</th><td class="hex">#DDD3C1</td><td>Fond documentaire clair</td><td>Grain léger en fond, jamais sur le texte.</td></tr>
+          <tr><td><span class="pastille" style="background:#242125"></span></td><th scope="row">Encre</th><td class="hex">#242125</td><td>Texte sur document clair</td><td>10,73:1 sur papier minéral.</td></tr>
+          <tr class="rare"><td><span class="pastille" style="background:#78A889"></span></td><th scope="row">Vert spectral</th><td class="hex">#78A889</td><td>Manifestations magiques rares</td><td>Jamais une couleur d’action. Toujours avec un libellé.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="piece" id="typographies" aria-labelledby="t-typo">
+    <header class="piece__tete">
+      <p class="code">Pièce C</p>
+      <h2 id="t-typo">Typographies</h2>
+      <p>Trois familles aux rôles distincts. Le monospace reste ponctuel.</p>
+    </header>
+    <div class="piece__corps">
+      <div class="specimen">
+        <div class="specimen__echantillon ech-titre" lang="fr">Aa Ég&amp;
+          <small>Une lettre close, un filet de laiton, une marge annotée.</small>
+        </div>
+        <div class="specimen__fiche">
+          <h3>Cormorant Garamond</h3>
+          <p>SemiBold pour les titres. Ample, littéraire, élégante, jamais gothique.</p>
+          <span class="code">Repli&#8239;: Georgia</span>
+        </div>
+      </div>
+      <div class="specimen">
+        <div class="specimen__echantillon ech-texte">
+          <p><b>Texte courant et navigation.</b> Le corps est composé à 18&nbsp;pixels sur ordinateur, entre 16 et 18 sur mobile, avec un interligne de 1,6. La ligne de lecture reste sous 75&nbsp;caractères pour que les fiches se lisent d’un coup d’œil à la table, même à la lumière d’une lampe.</p>
+        </div>
+        <div class="specimen__fiche">
+          <h3>Source Sans 3</h3>
+          <p>Regular et SemiBold. Lecture nette pour les fiches et l’usage en séance.</p>
+          <span class="code">Repli&#8239;: system-ui</span>
+        </div>
+      </div>
+      <div class="specimen">
+        <div class="specimen__echantillon ech-code">
+          <span>Réf.</span> EX-0000<br>
+          <span>Pièce</span> C / exemple<br>
+          <span>Classement</span> planche
+        </div>
+        <div class="specimen__fiche">
+          <h3>IBM Plex Mono</h3>
+          <p>Codes de dossier et métadonnées courtes, très ponctuellement. Pas d’esthétique de terminal.</p>
+          <span class="code">Repli&#8239;: monospace</span>
+        </div>
+      </div>
+
+      <div class="echelle">
+        <h3>Échelle, rapport de quarte (1,333)</h3>
+        <ol>
+          <li><span class="code">4,21 rem</span><span style="font-size:clamp(2.4rem,6vw,4.21rem)">Titre de page</span></li>
+          <li><span class="code">3,16 rem</span><span style="font-size:clamp(2rem,4.6vw,3.16rem)">Titre de section</span></li>
+          <li><span class="code">2,37 rem</span><span style="font-size:clamp(1.7rem,3.6vw,2.37rem)">Titre de fiche</span></li>
+          <li><span class="code">1,78 rem</span><span style="font-size:1.78rem">Intertitre</span></li>
+          <li class="corps"><span class="code">1,125 rem</span><span style="font-size:1.125rem">Texte courant, 18 pixels</span></li>
+          <li class="corps"><span class="code">0,875 rem</span><span style="font-size:.875rem">Note et légende</span></li>
+        </ol>
+        <p class="replis">Si Google Fonts est indisponible, la planche bascule sur Georgia, la police système et le monospace du système, sans perte de hiérarchie.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="piece" id="boutons" aria-labelledby="t-boutons">
+    <header class="piece__tete">
+      <p class="code">Pièce D</p>
+      <h2 id="t-boutons">Boutons</h2>
+      <p>Écarlate pour l’action principale, laiton pour l’alternative. Essayez-les à la souris ou au clavier avec Tab.</p>
+    </header>
+    <div class="piece__corps">
+      <div class="rangee">
+        <button type="button" class="btn btn--principal" data-demo="Action principale">Action principale</button>
+        <button type="button" class="btn btn--secondaire" data-demo="Action secondaire">Action secondaire</button>
+        <button type="button" class="btn btn--discret" data-demo="Action discrète">Action discrète</button>
+        <button type="button" class="btn" disabled>Action indisponible</button>
+      </div>
+      <p class="sortie" id="sortie-boutons" role="status">Aucune action déclenchée pour l’instant.</p>
+
+      <dl class="etats">
+        <div><dt>Survol</dt><dd>Changement léger de teinte, sans déplacement ni ombre.</dd></div>
+        <div><dt>Focus clavier</dt><dd>Contour ivoire de 2&nbsp;pixels, décalé du bord, toujours visible.</dd></div>
+        <div><dt>Indisponible</dt><dd>Contour pointillé et libellé explicite, pas seulement une couleur éteinte.</dd></div>
+      </dl>
+      <p class="lien-demo">Les liens de texte sont soulignés de laiton, comme ce <a href="#palette">retour à la palette</a>.</p>
+    </div>
+  </section>
+
+  <section class="piece" id="dossier" aria-labelledby="t-dossier">
+    <header class="piece__tete">
+      <p class="code">Pièce E</p>
+      <h2 id="t-dossier">Dossier</h2>
+      <p>Une couverture d’ardoise scellée, un document en papier minéral. Ouvrez-le, changez son fond, refermez-le.</p>
+    </header>
+    <div class="piece__corps">
+      <div class="dossier" id="dossier-demo">
+        <div class="dossier__onglet" aria-hidden="true"><span class="code">EX-0000</span></div>
+        <div class="dossier__couverture grave">
+          <svg class="sceau" viewBox="0 0 100 100" aria-hidden="true">
+            <path fill="#8F2432" d="M50 3c6 0 8 4 13 5s10-1 14 3 2 9 5 13 8 6 8 12-4 8-4 14 4 8 3 14-6 7-9 11-1 10-6 13-9 0-14 2-7 5-12 5-8-3-13-4-10 1-14-3-2-9-5-13-8-6-8-12 4-8 4-14-4-8-3-14 6-7 9-11 1-10 6-13 9 0 14-2 7-5 12-5z"/>
+            <circle cx="50" cy="50" r="31" fill="none" stroke="#E8E0D2" stroke-opacity=".35" stroke-width="6" stroke-dasharray="1 4"/>
+            <circle cx="50" cy="50" r="24" fill="none" stroke="#B6975C" stroke-width="1.2"/>
+            <rect x="40" y="40" width="20" height="20" transform="rotate(45 50 50)" fill="none" stroke="#E8E0D2" stroke-opacity=".75" stroke-width="1.5"/>
+          </svg>
+          <h3>Dossier de démonstration</h3>
+          <p>Exemple graphique&#8239;: le contenu sert uniquement à montrer la mise en page d’une fiche.</p>
+          <button type="button" class="btn btn--principal dossier__bascule" id="bouton-dossier" aria-expanded="false" aria-controls="panneau-dossier">
+            <span class="libelle">Ouvrir le dossier</span>
+            <svg class="chevron" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          </button>
+        </div>
+
+        <div class="dossier__panel" id="panneau-dossier" hidden>
+          <div class="barre-doc">
+            <p>Fond du document, indépendant du reste de la planche.</p>
+            <button type="button" class="bascule" id="bouton-fond" aria-pressed="false">
+              <span class="bascule__piste" aria-hidden="true"></span>
+              Document sombre
+              <span class="bascule__etat" aria-hidden="true">désactivé</span>
+            </button>
+          </div>
+
+          <article class="document" id="document-demo" data-fond="clair" aria-labelledby="t-fiche">
+            <div class="document__tete">
+              <div>
+                <h4 id="t-fiche">Fiche de démonstration</h4>
+                <span class="code">Réf. EX-0000 / exemple graphique</span>
+              </div>
+              <span class="tampon">Exemple</span>
+            </div>
+            <dl class="document__meta">
+              <dt>Objet</dt><dd>Montrer la hiérarchie d’une fiche sur papier minéral.</dd>
+              <dt>État</dt><dd>Exemple graphique, sans valeur de campagne</dd>
+              <dt>Classement</dt><dd>Planche de direction artistique</dd>
+            </dl>
+            <div class="document__texte">
+              <div class="colonne">
+                <p>Le corps du document est composé en Source Sans 3, encre sur papier. Les paragraphes restent courts et la mesure ne dépasse pas soixante-quinze caractères, pour une lecture rapide pendant la partie.</p>
+                <p>Les titres de fiche reprennent Cormorant Garamond. Les références, en IBM Plex Mono, tiennent sur une ligne et ne se répètent pas.</p>
+                <p class="anomalie"><span class="anomalie__signe" aria-hidden="true">✦</span>Anomalie signalée&nbsp;: exemple du traitement spectral, rare et toujours libellé.</p>
+              </div>
+              <aside class="annotation" aria-label="Annotation en marge">
+                <strong>Note de marge</strong>
+                Un filet de laiton suffit à distinguer une annotation du texte principal. Pas de couleur seule pour porter le sens.
+              </aside>
+            </div>
+            <p class="document__pied">Contenu neutre de démonstration. Aucun événement, personnage ni lieu de campagne.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="pied">
+  <p><strong>Le Dossier écarlate.</strong> Planche de référence en fichier autonome&#8239;: aucun serveur, aucune dépendance, aucune donnée envoyée hormis le chargement éventuel des polices.</p>
+  <p>Mouvement réduit demandé par votre système&#8239;: <strong id="etat-mouvement">non détecté</strong>. Quand il l’est, le ruban de laque et les transitions du dossier sont coupés.</p>
+</footer>
+
+<script>
+(function () {
+  var reduit = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var etatMouvement = document.getElementById('etat-mouvement');
+  function majMouvement() { etatMouvement.textContent = reduit.matches ? 'oui' : 'non'; }
+  majMouvement();
+  if (reduit.addEventListener) reduit.addEventListener('change', majMouvement);
+  else if (reduit.addListener) reduit.addListener(majMouvement);
+
+  // Boutons de démonstration
+  var sortie = document.getElementById('sortie-boutons');
+  document.querySelectorAll('[data-demo]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      sortie.textContent = b.dataset.demo + ' déclenchée. Exemple graphique, rien n’est envoyé ni enregistré.';
+    });
+  });
+
+  // Dossier ouvrable
+  var dossier = document.getElementById('dossier-demo');
+  var bouton = document.getElementById('bouton-dossier');
+  var libelle = bouton.querySelector('.libelle');
+  var panneau = document.getElementById('panneau-dossier');
+
+  function ouvrir(ouvert) {
+    bouton.setAttribute('aria-expanded', String(ouvert));
+    libelle.textContent = ouvert ? 'Refermer le dossier' : 'Ouvrir le dossier';
+    dossier.classList.toggle('est-ouvert', ouvert);
+    if (ouvert) {
+      panneau.hidden = false;
+      void panneau.offsetHeight; // force le style initial avant la transition
+      panneau.classList.add('est-visible');
+    } else {
+      panneau.classList.remove('est-visible');
+      setTimeout(function () {
+        if (bouton.getAttribute('aria-expanded') === 'false') panneau.hidden = true;
+      }, reduit.matches ? 0 : 320);
+    }
+  }
+  bouton.addEventListener('click', function () {
+    ouvrir(bouton.getAttribute('aria-expanded') !== 'true');
+  });
+  dossier.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && bouton.getAttribute('aria-expanded') === 'true') {
+      ouvrir(false);
+      bouton.focus();
+    }
+  });
+
+  // Fond clair / sombre du document
+  var bascule = document.getElementById('bouton-fond');
+  var etatBascule = bascule.querySelector('.bascule__etat');
+  var documentDemo = document.getElementById('document-demo');
+  bascule.addEventListener('click', function () {
+    var sombre = bascule.getAttribute('aria-pressed') !== 'true';
+    bascule.setAttribute('aria-pressed', String(sombre));
+    etatBascule.textContent = sombre ? 'activé' : 'désactivé';
+    documentDemo.dataset.fond = sombre ? 'sombre' : 'clair';
+  });
+})();
+</script>
+</body>
+</html>
