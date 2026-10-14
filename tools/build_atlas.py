@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Construit site/index.html avec toutes ses ressources embarquées."""
+"""Construit site/atlas-de-thay.html avec toutes ses ressources embarquées."""
 import base64
 import json
 import re
@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT/'sources/site/atlas'
-OUTPUT=ROOT/'site/index.html'
+OUTPUT=ROOT/'site/atlas-de-thay.html'
 
 def data_uri(path):
     return 'data:image/jpeg;base64,'+base64.b64encode(path.read_bytes()).decode('ascii')

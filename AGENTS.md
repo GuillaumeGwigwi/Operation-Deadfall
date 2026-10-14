@@ -13,3 +13,9 @@ Vérifier dans un navigateur une copie isolée du HTML : images, interactions, m
 ## Public joueurs
 
 « Pour les joueurs » signifie sans spoilers, y compris dans les données, images, noms de fichiers, métadonnées et code embarqués. Ne pas embarquer les sources MJ, même masquées dans l’interface. Une exception de divulgation validée par le MJ doit rester limitée à son périmètre et être consignée dans les notes de campagne, hors du livrable.
+
+## Illustrations et rédaction
+
+Utiliser d’abord les assets récupérés du projet, puis chercher sur le web si aucun asset pertinent ne convient. Créer une image seulement en dernier recours. Vérifier la confidentialité et la pertinence d’une image avant de l’embarquer ; ne pas présenter une illustration générique comme un portrait identifié. Embarquer les images dans le HTML sans métadonnées superflues.
+
+Supprimer les phrases de remplissage et les répétitions éditoriales ; conserver les faits utiles et les libellés nécessaires aux interactions.

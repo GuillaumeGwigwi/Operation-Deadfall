@@ -4,7 +4,7 @@ from playwright.async_api import async_playwright
 ROOT=Path(__file__).resolve().parents[1]
 async def main():
  with tempfile.TemporaryDirectory(prefix='atlas-search-') as tmp:
-  path=Path(tmp)/'atlas.html';shutil.copy2(ROOT/'site/index.html',path)
+  path=Path(tmp)/'atlas.html';shutil.copy2(ROOT/'site/atlas-de-thay.html',path)
   async with async_playwright() as p:
    exe=next(Path('/home/gwi/.cache/ms-playwright').glob('chromium-*/**/chrome'))
    browser=await p.chromium.launch(executable_path=str(exe),headless=True,args=['--no-sandbox'])

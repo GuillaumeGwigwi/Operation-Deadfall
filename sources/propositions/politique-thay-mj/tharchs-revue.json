@@ -1,0 +1,109 @@
+{
+  "included": [
+    {
+      "id": "alaor",
+      "source": "10-TharchDescriptions.md",
+      "lines": [
+        21,
+        47,
+        49,
+        51
+      ]
+    },
+    {
+      "id": "delhumide",
+      "source": "10-TharchDescriptions.md",
+      "lines": [
+        34,
+        65,
+        78,
+        87,
+        89
+      ]
+    },
+    {
+      "id": "eltabbar",
+      "source": "10-TharchDescriptions.md",
+      "lines": [
+        40,
+        96,
+        103
+      ]
+    },
+    {
+      "id": "gauros",
+      "source": "10-TharchDescriptions.md",
+      "lines": [
+        116,
+        120,
+        127
+      ]
+    },
+    {
+      "id": "lapendrar",
+      "source": "10-TharchDescriptions.md",
+      "lines": [
+        136,
+        147,
+        156
+      ]
+    },
+    {
+      "id": "priador",
+      "source": "10-TharchDescriptions.md",
+      "lines": [
+        163,
+        170,
+        172
+      ]
+    },
+    {
+      "id": "pyarados",
+      "source": "10-TharchDescriptions.md",
+      "lines": [
+        181,
+        198
+      ]
+    },
+    {
+      "id": "surthay",
+      "source": "10-TharchDescriptions.md",
+      "lines": [
+        205,
+        212,
+        219
+      ]
+    },
+    {
+      "id": "thaymount",
+      "source": "10-TharchDescriptions.md",
+      "lines": [
+        234,
+        236,
+        260
+      ]
+    },
+    {
+      "id": "thazalhar",
+      "source": "10-TharchDescriptions.md",
+      "lines": [
+        273,
+        280,
+        282
+      ]
+    },
+    {
+      "id": "tyraturos",
+      "source": "10-TharchDescriptions.md",
+      "lines": [
+        289,
+        296,
+        298
+      ]
+    }
+  ],
+  "additionalPublicLink": {
+    "eltabbar": "Service de Zedivek Mazradash auprès de Mythrellaa, déjà validé dans la fiche joueurs de Mythrellaa."
+  },
+  "excluded": "Profils, alignements et natures cachées ; espionnage ; motivations de carrière ; pots-de-vin ; menaces et attaques planifiées ; souterrains, accès et protections techniques ; rencontres et accroches."
+}

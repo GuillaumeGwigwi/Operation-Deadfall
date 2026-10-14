@@ -13,7 +13,7 @@ class ResourceParser(HTMLParser):
             if not attrs.get('src','').startswith('data:image/'): self.external.append(attrs.get('src',''))
 class StandaloneTest(unittest.TestCase):
     def test_html_contains_every_resource(self):
-        text=(ROOT/'site/index.html').read_text()
+        text=(ROOT/'site/atlas-de-thay.html').read_text()
         parser=ResourceParser(); parser.feed(text)
         self.assertEqual(parser.external,[], 'Le HTML dépend encore de fichiers voisins ou de ressources distantes')
         self.assertTrue(parser.images)

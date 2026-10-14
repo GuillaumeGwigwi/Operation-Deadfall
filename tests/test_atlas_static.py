@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 class AtlasPublicTest(unittest.TestCase):
     def setUp(self):
-        self.html=(ROOT/'site/index.html').read_text()
+        self.html=(ROOT/'site/atlas-de-thay.html').read_text()
         match=re.search(r'<script id="atlas-public-data" type="application/json">(.*?)</script>',self.html,re.S)
         self.assertIsNotNone(match,'Données publiques embarquées absentes')
         self.data=json.loads(match.group(1))
@@ -41,7 +41,7 @@ class AtlasPublicTest(unittest.TestCase):
 
     def test_delivery_directory_contains_only_standalone_html(self):
         files=list((ROOT/'site').iterdir())
-        self.assertIn('index.html',{p.name for p in files})
+        self.assertIn('atlas-de-thay.html',{p.name for p in files})
         self.assertTrue(all(p.is_file() and p.suffix=='.html' for p in files),'Le dossier de livraison ne doit contenir que des sites HTML autonomes')
 
 if __name__=='__main__': unittest.main()

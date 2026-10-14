@@ -3,7 +3,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 class ChapterAtlasTest(unittest.TestCase):
  def setUp(self):
-  html=(ROOT/'site/index.html').read_text()
+  html=(ROOT/'site/atlas-de-thay.html').read_text()
   self.data=json.loads(re.search(r'<script id="atlas-public-data" type="application/json">(.*?)</script>',html,re.S).group(1))
   self.places={x['id']:x for x in self.data['landmarks']}
  def test_eltabbar_includes_public_wards_and_establishments(self):

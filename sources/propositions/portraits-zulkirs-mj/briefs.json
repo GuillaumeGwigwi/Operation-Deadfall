@@ -1,0 +1,62 @@
+{
+  "status": "Six portraits validés par le MJ pour intégration visuelle au site joueurs ; briefs et notes réservés au MJ",
+  "source": "sources/chapters/chapter-01-thay/sections/03-CouncilOfZulkirs.md",
+  "reference_image": "sources/chapters/chapter-01-thay/assets/illustrations/01-003.zulkir.png",
+  "common_prompt": "Generate exactly ONE original painted fantasy character portrait for a tabletop RPG handout. The supplied image is a reference for painterly visual language, red robes, subdued blue-black shadows, warm scarlet fabric and gold trim; do not reproduce the whole group scene or any other character. Single isolated character, mid-thigh-up vertical composition, face and both hands readable unless the brief explicitly conceals the face. Detailed naturalistic fantasy book illustration, subtle brushwork, dramatic but restrained lighting, muted charcoal background softly fading at the edges, no architecture, no battle, no extra characters, no labels, no text, no watermark, no frames, no game statistics. Red ceremonial wizard robes with restrained gold detailing, matching the existing campaign artwork. No invented faction emblem, no demons, no secret plot clues, no special magical power effect unless explicitly requested below. Unspecified clothing construction, facial features, pose and age are artistic choices, not claims of official canon. Follow the character brief below carefully.",
+  "portraits": [
+    {
+      "id": "yazir-nym",
+      "name": "Yazir Nym",
+      "school": "Abjuration",
+      "source_lines": "186–200",
+      "source_facts": ["Elfe", "Pronoms masculins dans le texte", "Tempérament agressif"],
+      "artistic_choices": ["Crâne rasé", "Tatouages discrets", "Pose frontale autoritaire", "Traits précis et coupe de robe"],
+      "brief": "Yazir Nym, an adult male elf wizard. Clearly elongated pointed elven ears, lean elegant elven facial structure, shaved head with subtle arcane tattoos, an aggressive authoritative expression with controlled menace. Upright posture, one hand held still near his chest, the other resting naturally at his waist. Both hands are normal. Scarlet robes, high collar, modest gold trim. No weapon, no torture imagery, no soldiers, no healing effect."
+    },
+    {
+      "id": "nevron",
+      "name": "Nevron",
+      "school": "Invocation",
+      "source_lines": "129–143",
+      "source_facts": ["Tieffelin", "Pronoms masculins dans le texte", "Tempérament méprisant"],
+      "artistic_choices": ["Teinte gris-brun de la peau", "Forme des cornes", "Crâne rasé", "Pose et costume"],
+      "brief": "Nevron, an adult male tiefling wizard. Two modest swept-back horns, dusky gray-brown skin, shaved head, refined but severe facial features and a contemptuous expression. Human-proportioned body with ordinary hands, no tentacles. Rich dark scarlet ceremonial robe, restrained gold trim, layered collar. A proud still pose with one hand lightly touching the robe. No summoned creature, no demonic companion, no portal, no backstory imagery, no skull or trophies."
+    },
+    {
+      "id": "lethnar",
+      "name": "Lethnar",
+      "school": "Divination",
+      "source_lines": "72–86",
+      "source_facts": ["Gnome", "Genre non fixé par le texte", "Tempérament pratique et impitoyable"],
+      "artistic_choices": ["Visage androgyne", "Crâne rasé", "Morphologie gnome et traits précis", "Mains jointes"],
+      "brief": "Lethnar, an adult gnome wizard of intentionally androgynous appearance, do not assign a pronounced masculine or feminine presentation. Short compact gnomish build, broad expressive nose, slightly pointed ears, shaved head, sharp attentive eyes, practical unsentimental stern expression. Hands folded calmly at the waist, ordinary hands. Scarlet ceremonial robe appropriately tailored to a compact gnome, restrained gold trim. No crystal ball, no visions, no court scene, no invented prophecy."
+    },
+    {
+      "id": "delraz",
+      "name": "Delraz",
+      "school": "Enchantement",
+      "source_lines": "53–67",
+      "source_facts": ["Humain", "Pronoms masculins dans le texte", "Tempérament manipulateur"],
+      "artistic_choices": ["Âge mûr apparent", "Crâne rasé", "Visage anguleux", "Pose et robe"],
+      "brief": "Delraz, an adult human male wizard. Shaved head with faint decorative arcane tattoos, angular human face, a calculating composed expression and a subtle restrained self-satisfied smile. Upright formal posture, one ordinary hand gently adjusting his sleeve and the other resting naturally. Elaborate but tasteful scarlet robe with small gold edging. No mind-control effect, no victims, no money bags, no secret ambition, no overt supernatural appearance."
+    },
+    {
+      "id": "mythrellaa",
+      "name": "Mythrellaa",
+      "school": "Illusion",
+      "source_lines": "91–105",
+      "source_facts": ["Humaine", "Pronoms féminins dans le texte", "Tempérament calculateur"],
+      "artistic_choices": ["Apparence adulte sans âge précis", "Crâne rasé", "Teint pâle", "Pose et drapé"],
+      "brief": "Mythrellaa, an adult human woman wizard, clearly HUMAN, not an elf, not undead. Shaved head, pale living human complexion, subtle decorative arcane tattoos, cool calculating gaze, composed dignified expression. Long scarlet ceremonial robe with a structured shoulder mantle and restrained gold trim. One normal hand raised slightly in a poised speaking gesture, the other loosely gathering the robe. No shadow realm scenery, no ghost, no duplicate body, no spell-draining effect, no crown, no plot clue."
+    },
+    {
+      "id": "nzas",
+      "name": "Nzas",
+      "school": "Transmutation",
+      "source_lines": "110–124",
+      "source_facts": ["Humaine", "Pronoms féminins dans le texte", "Visage dissimulé par des ombres", "Tempérament mystérieux"],
+      "artistic_choices": ["Structure de la capuche", "Pose des mains", "Coupe de robe", "Fond neutre"],
+      "brief": "Nzas, an adult human woman wizard veiled in shadows that conceal her visage. Scarlet ceremonial robe and dark red hood with subtle gold trim. The face must remain genuinely obscured in deep naturalistic shadow: no visible facial features, no glowing eyes, not a skull, not a monster. Calm ominous still posture, human female silhouette, two ordinary untransformed hands partially visible outside the sleeves. No tentacles, no bone spikes, no hooks, no soldiers, no experiments, no visible transformation, no plot clue."
+    }
+  ]
+}

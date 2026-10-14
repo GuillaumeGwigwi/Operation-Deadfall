@@ -1,0 +1,62 @@
+{
+  "nevron": {
+    "success": false,
+    "image": null,
+    "error": "OpenAI image generation via Codex auth failed: Codex Responses API returned HTTP 400: {\"detail\":\"The 'gpt-5.5' model is not supported when using Codex with a ChatGPT account.\"}",
+    "error_type": "api_error",
+    "model": "gpt-image-2-medium",
+    "aspect_ratio": "portrait",
+    "provider": "openai-codex",
+    "name": "Nevron"
+  },
+  "yazir-nym": {
+    "success": false,
+    "image": null,
+    "error": "OpenAI image generation via Codex auth failed: Codex Responses API returned HTTP 400: {\"detail\":\"The 'gpt-5.5' model is not supported when using Codex with a ChatGPT account.\"}",
+    "error_type": "api_error",
+    "model": "gpt-image-2-medium",
+    "aspect_ratio": "portrait",
+    "provider": "openai-codex",
+    "name": "Yazir Nym"
+  },
+  "lethnar": {
+    "success": false,
+    "image": null,
+    "error": "OpenAI image generation via Codex auth failed: Codex Responses API returned HTTP 400: {\"detail\":\"The 'gpt-5.5' model is not supported when using Codex with a ChatGPT account.\"}",
+    "error_type": "api_error",
+    "model": "gpt-image-2-medium",
+    "aspect_ratio": "portrait",
+    "provider": "openai-codex",
+    "name": "Lethnar"
+  },
+  "delraz": {
+    "success": false,
+    "image": null,
+    "error": "OpenAI image generation via Codex auth failed: Codex Responses API returned HTTP 400: {\"detail\":\"The 'gpt-5.5' model is not supported when using Codex with a ChatGPT account.\"}",
+    "error_type": "api_error",
+    "model": "gpt-image-2-medium",
+    "aspect_ratio": "portrait",
+    "provider": "openai-codex",
+    "name": "Delraz"
+  },
+  "nzas": {
+    "success": false,
+    "image": null,
+    "error": "OpenAI image generation via Codex auth failed: Codex Responses API returned HTTP 400: {\"detail\":\"The 'gpt-5.5' model is not supported when using Codex with a ChatGPT account.\"}",
+    "error_type": "api_error",
+    "model": "gpt-image-2-medium",
+    "aspect_ratio": "portrait",
+    "provider": "openai-codex",
+    "name": "Nzas"
+  },
+  "mythrellaa": {
+    "success": false,
+    "image": null,
+    "error": "OpenAI image generation via Codex auth failed: Codex Responses API returned HTTP 400: {\"detail\":\"The 'gpt-5.5' model is not supported when using Codex with a ChatGPT account.\"}",
+    "error_type": "api_error",
+    "model": "gpt-image-2-medium",
+    "aspect_ratio": "portrait",
+    "provider": "openai-codex",
+    "name": "Mythrellaa"
+  }
+}

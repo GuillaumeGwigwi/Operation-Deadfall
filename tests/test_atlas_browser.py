@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 async def main():
  isolated=tempfile.TemporaryDirectory(prefix='thay-atlas-seul-')
  standalone=Path(isolated.name)/'atlas-partage.html'
- shutil.copy2(ROOT/'site/index.html',standalone)
+ shutil.copy2(ROOT/'site/atlas-de-thay.html',standalone)
  assert len(list(Path(isolated.name).iterdir()))==1
  async with async_playwright() as p:
   exe=next(Path('/home/gwi/.cache/ms-playwright/chromium-1208').glob('**/chrome'))

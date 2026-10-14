@@ -1,0 +1,1128 @@
+{
+  "retrieved_utc": "2026-10-12T18:22:21.114103+00:00",
+  "site_version": "3.24.1",
+  "repository": "https://github.com/naturalcrit/homebrewery",
+  "reference_commit": "01a14c2b00957ff4883193f8b7a3bd0e06346e0b",
+  "reference_commit_is_deployment_proof": false,
+  "stylesheet_order": [
+    "https://homebrewery.naturalcrit.com/brewRenderer/brewRenderer.css",
+    "https://homebrewery.naturalcrit.com/themes/V3/Blank/style.css",
+    "https://homebrewery.naturalcrit.com/themes/V3/5ePHB/style.css"
+  ],
+  "stylesheets": [
+    {
+      "url": "https://homebrewery.naturalcrit.com/brewRenderer/brewRenderer.css",
+      "bytes": 10751,
+      "sha256": "0a2909e79f2909d571e8a248d7b297422bfc285d369aa4a9f6938bce450e8b54",
+      "verified_url_only_transformation": true
+    },
+    {
+      "url": "https://homebrewery.naturalcrit.com/themes/V3/Blank/style.css",
+      "bytes": 138932,
+      "sha256": "cdcdb3ca81bcc17492c49372e550181b44d9f1fa1fcf366a17a4a93e3df8466a",
+      "verified_url_only_transformation": true
+    },
+    {
+      "url": "https://homebrewery.naturalcrit.com/themes/V3/5ePHB/style.css",
+      "bytes": 17642,
+      "sha256": "53116de5dc88e3baf235e00189d0f06317117302eea0413986dffc1b002b0122",
+      "verified_url_only_transformation": true
+    }
+  ],
+  "resources": [
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/CODE%20Bold/CODE%20Bold.otf",
+      "download_url": "https://homebrewery.naturalcrit.com/CODE%20Bold/CODE%20Bold.otf",
+      "bytes": 24108,
+      "sha256": "5316b73721ccec1480817bf9a5739a88b4ff8d570e9fd45f2086bf9fb7c63966",
+      "mime": "font/otf",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/CODE%20Light/CODE%20Light.otf",
+      "download_url": "https://homebrewery.naturalcrit.com/CODE%20Light/CODE%20Light.otf",
+      "bytes": 22920,
+      "sha256": "852ae57d9a8407062ceb09f44325d2058547c193138e59fe46cd063856baa350",
+      "mime": "font/otf",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/PHB_footerAccent.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/PHB_footerAccent.png",
+      "bytes": 7580,
+      "sha256": "ac40bf1bd1b89ee916da23291a02589b9efeff4887e1e3ee0b774e0dd82cc503",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/backCover.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/backCover.png",
+      "bytes": 146144,
+      "sha256": "135698c846abf8e95523b8e6f7fc3b3659c7fdd534c6a5fb3ae63879e8f3d05e",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/classTableDecoration.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/classTableDecoration.png",
+      "bytes": 68540,
+      "sha256": "727e9c045e6a5a6a2f319af7381448e5f3307ff39098e6a925ffd66195e155c7",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/codeBorder.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/codeBorder.png",
+      "bytes": 3276,
+      "sha256": "b2b920eb952b3482adc182a001eba68f50dbb1375b5b4837de423d374414b7ec",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/coverPageBanner.svg",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/coverPageBanner.svg",
+      "bytes": 1775,
+      "sha256": "c223ae06d6df2ee1fedd1686c85932dcf40f6d95aa38646ca2d459ecd451a059",
+      "mime": "image/svg+xml",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/descriptiveBorder.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/descriptiveBorder.png",
+      "bytes": 311,
+      "sha256": "c7d196f2fb1dbc7d956eba550446ef7b145d3581b1f997f68ffdd32373fdbc88",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/frameBorder.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/frameBorder.png",
+      "bytes": 9168,
+      "sha256": "84c3c2fa81f5d39f2fa3f1184bf059b9b7718fc963b0fc6515c3889479ce9c21",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/horizontalRule.svg",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/horizontalRule.svg",
+      "bytes": 335,
+      "sha256": "d6df3c535305e365e60184d43ead7a60d51c0ea7d2fd9b325c9b6ef8a573b407",
+      "mime": "image/svg+xml",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/monsterBorderFancy.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/monsterBorderFancy.png",
+      "bytes": 18708,
+      "sha256": "31602047d3745d979cb94daf48c8d1e50af9fc5bfaab891d3d0bfb113e3fe0eb",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/naturalCritLogoWhite.svg",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/naturalCritLogoWhite.svg",
+      "bytes": 2252,
+      "sha256": "c9662b96d4b464ef7b3df0612b758e3ca4aba30877c89451269e91a93f4e4722",
+      "mime": "image/svg+xml",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/noteBorder.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/noteBorder.png",
+      "bytes": 274,
+      "sha256": "8f61f158ae83a86994d01556ae733ca72774244151db4b8b3673b50d05cb2fc8",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/parchmentBackground.jpg",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/parchmentBackground.jpg",
+      "bytes": 174383,
+      "sha256": "fc153294b70f6aac4d2ce48c7e9d015945b87c48f584db29da30cbbd5b876d1c",
+      "mime": "image/jpeg",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/parchmentBackgroundGrayscale.jpg",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/parchmentBackgroundGrayscale.jpg",
+      "bytes": 163927,
+      "sha256": "fee031d8f639fec593828ae14cea9bb8737d24620c51711dd1016ac3dbffb8cb",
+      "mime": "image/jpeg",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/partCoverHeaderPHB.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/partCoverHeaderPHB.png",
+      "bytes": 168456,
+      "sha256": "289d4a042da945e270fbea03497d3032b515e396e68b17ded7b98ccec522cedc",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/redTriangle.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/redTriangle.png",
+      "bytes": 864,
+      "sha256": "463f55f586669d3b57a4fb9dc93b36e0112e3e37d12d965238d2831c79dc516a",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/scriptBorder.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/scriptBorder.png",
+      "bytes": 4143,
+      "sha256": "548b5e8d49f9023b86ff248c1a2f05e35d051220488abe7dfbda1a2a5d05a055",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0001.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0001.webp",
+      "bytes": 77578,
+      "sha256": "a9fa45c5fa24a414b3da84a8a377815a75864f52acbc87113f9edb33dc4e60ca",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0002.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0002.webp",
+      "bytes": 82200,
+      "sha256": "388c6abddfc2ef786e994beadacb01c631637ec67953324e25cfb4023b0ebd54",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0003.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0003.webp",
+      "bytes": 71430,
+      "sha256": "6c4b40504ed352df56ad453f29a30ff129e64c59f81f333ebf812b44b21d6d50",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0004.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0004.webp",
+      "bytes": 98942,
+      "sha256": "04d3f7a405e21b72a0de683544a7c0fe31662792fa8f745ef9cc721dba02897d",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0005.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0005.webp",
+      "bytes": 86692,
+      "sha256": "80078c177616e807ebbe0544d90f4a406f0db97a215769bd4420c64da463f733",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0006.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0006.webp",
+      "bytes": 69654,
+      "sha256": "318d435b513df1ed9ab527d56bcb98f979173127c131bcfa1a9abd7a210ab93c",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0007.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0007.webp",
+      "bytes": 79700,
+      "sha256": "3b9f8f407e4c741f3db8bbe5906af98d9bc577c47f621b5e309d8b81fd094714",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0008.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0008.webp",
+      "bytes": 74064,
+      "sha256": "6efa49b9002b50e069e6163bb046953273c01958fa7d9c45d75735fa3164d538",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0009.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0009.webp",
+      "bytes": 79400,
+      "sha256": "785a7f6538fe0bcaed28529a792782c43333237dace89e2e0607b413e9a1e44a",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0010.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0010.webp",
+      "bytes": 80676,
+      "sha256": "b9499c21545fe0e333edc8d74fef2e1325335c3fcf9a7601accaa46334f46c43",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0011.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0011.webp",
+      "bytes": 63496,
+      "sha256": "d909159ebab90031563ebe8abe72938d86c4d218cec30d1ed44c5aef3f7afa9a",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0012.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0012.webp",
+      "bytes": 62184,
+      "sha256": "266fb420730a665b966b6e362971b1cbbb6b128054588dd823199f3825d8ed28",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0013.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0013.webp",
+      "bytes": 59022,
+      "sha256": "19b52a1ba6010f06b634581b19b2985a52082d3249aad8299460779d8138cba4",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0014.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0014.webp",
+      "bytes": 58200,
+      "sha256": "ac371a08d4530bf46eeeb9621b0ed93e1c75003425c230554e444643109115cc",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0015.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0015.webp",
+      "bytes": 64920,
+      "sha256": "41537fd59e3e702c257001a5df262732faa0b175f38a7d07f8d78b5927e44df3",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0016.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/0016.webp",
+      "bytes": 44630,
+      "sha256": "79c4c00d38b34e14429ccd1fc7bbb358c5294897b10722df32039a0cec5b574b",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/special.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/center/special.webp",
+      "bytes": 79566,
+      "sha256": "6d38770b8086e870c233f1c4fb6dfb1b0e07461ad21a5d926598317c0186d3a3",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0001.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0001.webp",
+      "bytes": 122364,
+      "sha256": "7c6b464d39a7347ca9bc39cfe49f880cad856120fbd7abaa8ec5ecfe7ce72a6a",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0002.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0002.webp",
+      "bytes": 146608,
+      "sha256": "253c1d0969e388eba218da059989048a0320ee52c3327221a99fd3fed6206310",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0003.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0003.webp",
+      "bytes": 107516,
+      "sha256": "343793b06b4807cb08f366f7cff65903ee18c09784e4ef6400217701a617235a",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0004.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0004.webp",
+      "bytes": 180816,
+      "sha256": "36e1e44cb93d9f59e0cea9d13f25fea9eb4334ad8317df387c3d4a465d2d64fe",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0005.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0005.webp",
+      "bytes": 144474,
+      "sha256": "59d5c510e841c55563e89e24707911ee2ccf24da2a214d900c7f760eaf2dad41",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0006.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0006.webp",
+      "bytes": 141416,
+      "sha256": "69c423c1122f282de43d4caf08abb18eac61946242f1e168ec2b5b6485abe079",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0007.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0007.webp",
+      "bytes": 138046,
+      "sha256": "0a816365654a102a88cf3db443eb7e421d8bd78f3c543a976c7a243720c0a130",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0008.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0008.webp",
+      "bytes": 103088,
+      "sha256": "258ae636056aa198d5b3efb6197cf6455c4255b0d673cbbf3db6b48ed7f420b2",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0009.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0009.webp",
+      "bytes": 135470,
+      "sha256": "c000b1dfb5746b5103b8c198eca512514bdd23b0700e3d463e770075b5f43992",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0010.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0010.webp",
+      "bytes": 142994,
+      "sha256": "05c99603bc223f0569d71f6ad65660f528bbd64e5b490abd855d45493885381a",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0011.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0011.webp",
+      "bytes": 210678,
+      "sha256": "232d290cd3cbc1ac7e7c2ff262afafbe953134fd162baba452d5d25668f397dd",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0012.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0012.webp",
+      "bytes": 242150,
+      "sha256": "2aa2bba2fab4bb5fcb91115a91a5855f612153b91855ffa01f7e59ef0424f834",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0013.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0013.webp",
+      "bytes": 217116,
+      "sha256": "321c989cd6c8100fac782c9bc77a81bc13760254da7ba2b6f96ba0b372911822",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0014.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0014.webp",
+      "bytes": 291540,
+      "sha256": "12198118c5cb7a45900df59ee9cd267e352782aa46be02934febcab1ced931be",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0015.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0015.webp",
+      "bytes": 117282,
+      "sha256": "89730b2c99b6eae20e37a34b5b53a183df22179e7fd638b6b3f2f70bc077db7a",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0016.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0016.webp",
+      "bytes": 107874,
+      "sha256": "e20a177c7941c5663bf2e025a1645dc4c21ef4f7d62a70b563dcdf64bcadaac8",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0017.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0017.webp",
+      "bytes": 171692,
+      "sha256": "ba82d76bdedef20797ec121c9f0b446a935cd1361ce8a3e150818f958c10d49e",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0018.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0018.webp",
+      "bytes": 333636,
+      "sha256": "aa9e30aef5f49316601e10e93fdd5f1a60c8d826ce12271374149b0c521cd92a",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0019.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0019.webp",
+      "bytes": 160236,
+      "sha256": "47050ea728e8f57451e4c9e05a15d051171501da73619b5fb0ae5baf3a51df5d",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0020.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0020.webp",
+      "bytes": 150572,
+      "sha256": "5812a090c9e03d0d765c61d68f453013abe8d4cd073483ba0143b74c6273c7d2",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0021.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0021.webp",
+      "bytes": 142798,
+      "sha256": "b6391efa64e5e2ff1fd372aa265d932e177f31f28d632bb41ea389c417ae9ba4",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0022.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0022.webp",
+      "bytes": 342484,
+      "sha256": "0e061963e662a48d8619c379687b98ea6f8cbc2b4ba01552490c86ccb74b2ca2",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0023.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0023.webp",
+      "bytes": 158198,
+      "sha256": "b30b5ef6ae9277dc92ab1098ec281adc12ed7382b67d973674632273bd0f5fc4",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0024.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0024.webp",
+      "bytes": 297450,
+      "sha256": "b09f0cbb3e2975cb45ca27653325ce6cd45204e297ce7d827b533ee001ed8f97",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0025.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0025.webp",
+      "bytes": 178506,
+      "sha256": "090589fbbf3296f1ee1628b3cdea1f168a3a795268df52ae9c7cc0bcef7e9966",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0026.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0026.webp",
+      "bytes": 271664,
+      "sha256": "f858c7bbfd9ea4bd7d6c1a36e5d0c684453656857db1531b2942aca3d6935d51",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0027.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0027.webp",
+      "bytes": 142846,
+      "sha256": "fbd9848cb2f87a70b54cc2af783d9deea076dc029b6a5d7bf305ba1c38f09c94",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0028.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0028.webp",
+      "bytes": 326858,
+      "sha256": "c250e868121be74705de953d89052d708b7399e2fbd28ec156483ba4ff20f290",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0029.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0029.webp",
+      "bytes": 220948,
+      "sha256": "27fcb9dbbc59ec4eadba6b951eab7650e44c2205006cc729248e12517af71428",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0030.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0030.webp",
+      "bytes": 261654,
+      "sha256": "64fcb5d3b31dc28366bf87789fb7e852846324f9bc21a2a121e1e4c51987cb01",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0031.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0031.webp",
+      "bytes": 141234,
+      "sha256": "a47458e953dcc9ee0cc417cc4403efc2a0bf68779977e1bfe299aa2d7349f826",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0032.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0032.webp",
+      "bytes": 127078,
+      "sha256": "b278ccc139585a6f4bdf64889c998be91fb3d896ec698a0d8b492cda86f83fc3",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0033.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0033.webp",
+      "bytes": 135062,
+      "sha256": "5811b8e5c9c8abc6a5f1b12727b51d4d7b4be3837898c1350fb5287cfe33e229",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0034.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0034.webp",
+      "bytes": 143862,
+      "sha256": "b48b42b0ead46aab9a538ee307e2b30549dc030dd094b53c3d2966ccef53f7f8",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0035.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0035.webp",
+      "bytes": 165314,
+      "sha256": "3e935e4778e052492467dc4d18015fa80b75b0cd2ee2c7f743e0b36474d8ce5b",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0036.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0036.webp",
+      "bytes": 316814,
+      "sha256": "e26149b8808c7cae81101b9e108829bfb816e7f571868dbdeda83d9a7af30634",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0037.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/corner/0037.webp",
+      "bytes": 263314,
+      "sha256": "6795aaebde560107b51a695b5b96dd0a81178b67c6f9b21f90ac5e87d84ac592",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0001.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0001.webp",
+      "bytes": 35216,
+      "sha256": "14e1c5b842ecb59256b7a9bf837ec5ac2783db51b7426d495d93cff400af8ff7",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0002.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0002.webp",
+      "bytes": 57442,
+      "sha256": "bd5370407a139a6ee641922f93d1b3395a97cd26a07275f2c152d63e0516e38b",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0003.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0003.webp",
+      "bytes": 52768,
+      "sha256": "bb45c940980e07bd3e7915c9f1bb4358855627ef3072ca558c956f5a788b4e04",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0004.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0004.webp",
+      "bytes": 42194,
+      "sha256": "c020ba7b9cb1e14a19e5a50654f1d3bd59587235a9f4da3b2f973df1d3da675a",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0005.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0005.webp",
+      "bytes": 42204,
+      "sha256": "c250c08e61f749bc85e4f0def1f507deba7b968192eb7a5e09e4e82853622667",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0006.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0006.webp",
+      "bytes": 44642,
+      "sha256": "189f44a0ee3bfaf519cc43caf722edf60779550d9f56a497f7a20086e5bbcee0",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0007.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0007.webp",
+      "bytes": 25498,
+      "sha256": "50f865d355accacb91ba168bb91efe296368ed63e0e7e1b2f7938e1f94c0f9ae",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0008.webp",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/edge/0008.webp",
+      "bytes": 33856,
+      "sha256": "4b73687a8ec28ff5a7e6c0b8ced239aab3a8dab72efa94e2e857e410f08427d0",
+      "mime": "image/webp",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/missingImage.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/waterColorMasks/missingImage.png",
+      "bytes": 135,
+      "sha256": "b0a59605941178b9e3366398c21963e3d94f2d4d89c5c0d06c4950e14e088f76",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor1.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor1.png",
+      "bytes": 165163,
+      "sha256": "b84ce18eb2c19e32c26e9c8ea06a09dc5b542603e43f86026647737410552acd",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor10.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor10.png",
+      "bytes": 117253,
+      "sha256": "0a36b39fc157220cba9d25417888c13c97a57d6606031419bda839a20bfb1db4",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor11.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor11.png",
+      "bytes": 79832,
+      "sha256": "bd4df168a1d3f24fd1bc7591892c04c9a70f23dd3eff17c5476d6006d990ed5f",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor12.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor12.png",
+      "bytes": 34526,
+      "sha256": "7787cbdfe0c1855a607b713e959c5c8e12303ceceba8c4977771af5ceb951160",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor2.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor2.png",
+      "bytes": 66157,
+      "sha256": "067258509cc1c997c59d79c05b24159804c9fc953087a4960f1c2cfc60545e0f",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor3.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor3.png",
+      "bytes": 81629,
+      "sha256": "b8a37b2b781061a1d2e0bb43877dc9f1cc16dc3517d29c1b41a83bbfd24ea958",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor4.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor4.png",
+      "bytes": 67706,
+      "sha256": "49ffc397d4a8c4039e18968f37c242efcba328858d33496b187cb4b260240ef6",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor5.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor5.png",
+      "bytes": 79434,
+      "sha256": "4bc67e6cda9e5c8088cdbd75d3e00417742c7fd7c0036bc0584f25af8bbb0f04",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor6.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor6.png",
+      "bytes": 63920,
+      "sha256": "23e29671ff5b674cd5909f337fcb0da09febd454c64bf2f6e34357034af64912",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor7.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor7.png",
+      "bytes": 119066,
+      "sha256": "8786971e51049edc080742cbef42bb43a82e5678eebc9cf8b95e3a205e3bc94b",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor8.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor8.png",
+      "bytes": 72654,
+      "sha256": "43df47ec26a4cdc20c2fd9efdb47ba090ce5b21ac9f8c7bf7dbaba81b332c68a",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor9.png",
+      "download_url": "https://homebrewery.naturalcrit.com/assets/watercolor/watercolor9.png",
+      "bytes": 74460,
+      "sha256": "1dc653609ba05d13c29279056acf38df395254893c961b8ed361d07a84819d76",
+      "mime": "image/png",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Bookinsanity Bold Italic.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Bookinsanity%20Bold%20Italic.woff2",
+      "bytes": 15512,
+      "sha256": "2db2d0f54b23f22128d1b7ba67070bf97193c79b44df2930d3fbe3e21526a211",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Bookinsanity Bold.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Bookinsanity%20Bold.woff2",
+      "bytes": 14656,
+      "sha256": "29469e1eda67450666546e11566e67b4cc5cbe064fd5a14ca3f7dd5f802981ff",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Bookinsanity Italic.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Bookinsanity%20Italic.woff2",
+      "bytes": 11160,
+      "sha256": "2e211cc36a6fb06a47192bd55131770edf6483447941d7a1b061f09b0ab10607",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Bookinsanity.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Bookinsanity.woff2",
+      "bytes": 11996,
+      "sha256": "021294e6da102587d463fa8de64d5f1b61606f2c1d5453ebe04ccedf365cedfe",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Davek.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Davek.woff2",
+      "bytes": 18108,
+      "sha256": "228dd99feff08178ee85571a8adf0c63c73864b5ab512d13b403052b2f37805a",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Iokharic.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Iokharic.woff2",
+      "bytes": 9528,
+      "sha256": "b6a8246305dfdc0637cc70dcb53356e52309ab29810308f16a548086dad01810",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Mr Eaves Small Caps.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Mr%20Eaves%20Small%20Caps.woff2",
+      "bytes": 12844,
+      "sha256": "bf9b0757223b1386256369c628349f08cdb8ecfc0e42a9572f63584a97215555",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Nodesto Caps Condensed Bold Italic.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Nodesto%20Caps%20Condensed%20Bold%20Italic.woff2",
+      "bytes": 12444,
+      "sha256": "64c238f8419a7fc6e57c9ef8f952be71f6be21cd1686a3534f56973c6476837e",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Nodesto Caps Condensed Bold.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Nodesto%20Caps%20Condensed%20Bold.woff2",
+      "bytes": 11668,
+      "sha256": "2241d3b7a3a91b9f9b9f3913cf210df454e5cac2f44d13bf10a0fa259d6ab322",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Nodesto Caps Condensed Italic.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Nodesto%20Caps%20Condensed%20Italic.woff2",
+      "bytes": 13876,
+      "sha256": "fda92db2d5545b46fcafed50d30c34d8e412ac446015d5bd9ffd8b82d801facd",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Nodesto Caps Condensed.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Nodesto%20Caps%20Condensed.woff2",
+      "bytes": 11316,
+      "sha256": "444809c93c9b8a62039c8a22ac0fe0d8a03d05ffd50903b2d9f7ba92761090fd",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Nodesto Caps Wide.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Nodesto%20Caps%20Wide.woff2",
+      "bytes": 11840,
+      "sha256": "834497cb24381fed8ef9f9e64494aedbbddad622336bede7207af4c5c750ca13",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Overpass Medium.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Overpass%20Medium.woff2",
+      "bytes": 70148,
+      "sha256": "934cdf4777b5b7c3a44949ba6a039ef22d4b86c80813a9f7a7e1a400f26b00a0",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Rellanic.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Rellanic.woff2",
+      "bytes": 14196,
+      "sha256": "b1e36d47cc69df0d3caea5c2727a8d25e694230cacf2059bcd5efe1a7cda81f4",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Scaly Sans Bold Italic.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Scaly%20Sans%20Bold%20Italic.woff2",
+      "bytes": 12760,
+      "sha256": "d281c4ca2b8249821a00cf58928b00b034e7793151b3d4aa327b4633f3883ac2",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Scaly Sans Bold.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Scaly%20Sans%20Bold.woff2",
+      "bytes": 11828,
+      "sha256": "d70bc4b26a870f882d44ab2b240f9b9d29ccf19ecbd81f538ba9ea0615bab34f",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Scaly Sans Caps.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Scaly%20Sans%20Caps.woff2",
+      "bytes": 9688,
+      "sha256": "7801bc8c0bfc6be64e1b7b664de0bc87c91d79fffbedb75d5c1e9e5e14786152",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Scaly Sans Italic.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Scaly%20Sans%20Italic.woff2",
+      "bytes": 17116,
+      "sha256": "46ac08b2502f0323f6c83612c07ea1b6499b1f7c699bec775091737a0e482219",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Scaly Sans.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Scaly%20Sans.woff2",
+      "bytes": 10916,
+      "sha256": "6d182431734fcedb5408219e6480abf116b7ac51e39d9fd69861f8349cf43d7d",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/Solbera Imitation Tweak.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/Solbera%20Imitation%20Tweak.woff2",
+      "bytes": 14304,
+      "sha256": "f7f8f6a71d3295be817ca8e19e6f64f0926ee7aac1c3beabb30fdb8cb1a9ebb1",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/5e/WalterTurncoat-Regular.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/5e/WalterTurncoat-Regular.woff2",
+      "bytes": 61412,
+      "sha256": "486284c4480b49426abe0bb191717486994eeedc015d32494521fae89dd0c6c6",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/Blank/texgyrepagella-bold.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/Blank/texgyrepagella-bold.woff2",
+      "bytes": 94300,
+      "sha256": "8140256af8b2c3efac0de041a829c17f15f53b1613d23ecdabdb9203938e9a3e",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/Blank/texgyrepagella-bolditalic.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/Blank/texgyrepagella-bolditalic.woff2",
+      "bytes": 96424,
+      "sha256": "011ae60a8db658dd5789bafce935b2f371ff4d090c9a373e3e9eb3ee004a005b",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/Blank/texgyrepagella-italic.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/Blank/texgyrepagella-italic.woff2",
+      "bytes": 96860,
+      "sha256": "6f9a18422c298ed722810b4f65e9eeb92ca16b6b58afb13570adcc5ac48754e4",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/Blank/texgyrepagella-regular.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/Blank/texgyrepagella-regular.woff2",
+      "bytes": 93240,
+      "sha256": "f6d13a0557d26ebe7dacab387668fd53500f777b5d220c5da8d63fbb65a3a9e9",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/Journal/FrederickaTheGreat-Regular.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/Journal/FrederickaTheGreat-Regular.woff2",
+      "bytes": 208680,
+      "sha256": "e9866b6b8a02b4647d3047160c7c7eb82d4a191b8aa22458e65609b93da52dda",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/Journal/PermanentMarker-Regular.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/Journal/PermanentMarker-Regular.woff2",
+      "bytes": 29276,
+      "sha256": "6b8f4ed10af58b1e6382b89efb96f129844e881ac23ee1a8be3161670840dc47",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/Journal/ReenieBeanie-Regular.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/Journal/ReenieBeanie-Regular.woff2",
+      "bytes": 33984,
+      "sha256": "5eea6d2c2e4e2496dfb817c483919719d078df5fc6a6a102efcd2efaac976af5",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/diceFont.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/diceFont.woff2",
+      "bytes": 9392,
+      "sha256": "b60431e7804a0109e1a50093fa26ccd9b557df1851c621715e4be65aaeac72c0",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/elderberryInn.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/elderberryInn.woff2",
+      "bytes": 56164,
+      "sha256": "7eccb447a38d70423fd6ba8c80b7e0a9c86e6ff36240e829d2efefca0bc527cd",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/fa-brands-400.ttf",
+      "download_url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/webfonts/fa-brands-400.ttf",
+      "bytes": 210792,
+      "sha256": "0821aa9ca9cc259fad64b1dc7f1cc5be71faaee46bb945ede763fca0c4166bed",
+      "mime": "font/ttf",
+      "failed_attempts": [
+        "HTML fallback or empty response: https://homebrewery.naturalcrit.com/fonts/iconFonts/fa-brands-400.ttf"
+      ]
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/fa-brands-400.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/fa-brands-400.woff2",
+      "bytes": 118684,
+      "sha256": "d7236a19bf23cbb2027280e8f51dc99d6c45976a2ed60de73382b034b18a2b68",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/fa-regular-400.ttf",
+      "download_url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/webfonts/fa-regular-400.ttf",
+      "bytes": 68064,
+      "sha256": "557e6966ad8dba7352ac6d350c1546b685b13d68db26f09cba45cadd660d45db",
+      "mime": "font/ttf",
+      "failed_attempts": [
+        "HTML fallback or empty response: https://homebrewery.naturalcrit.com/fonts/iconFonts/fa-regular-400.ttf"
+      ]
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/fa-regular-400.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/fa-regular-400.woff2",
+      "bytes": 25472,
+      "sha256": "e3456d1283b9d75337a773dfd147bf908fd02c01b4bf48576d8603a69b13cbe5",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/fa-solid-900.ttf",
+      "download_url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/webfonts/fa-solid-900.ttf",
+      "bytes": 426112,
+      "sha256": "af19d135d3a935b3ebfbd80320716ffe1202052c5f68dc2c5f1abc57005ac605",
+      "mime": "font/ttf",
+      "failed_attempts": [
+        "HTML fallback or empty response: https://homebrewery.naturalcrit.com/fonts/iconFonts/fa-solid-900.ttf"
+      ]
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/fa-solid-900.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/fa-solid-900.woff2",
+      "bytes": 158220,
+      "sha256": "aa75998623a391e61c6901794ace832e3ecdd288b56d608f21bea0411acc0b8e",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/gameIcons.woff",
+      "download_url": "https://homebrewery.naturalcrit.com/fonts/iconFonts/gameIcons.woff",
+      "bytes": 158800,
+      "sha256": "f258ccc505118aa8d19973c1a480e7c8e2666599a2eb6fd2028334129caffeca",
+      "mime": "font/woff",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/open-sans-latin-400-normal/open-sans-latin-400-normal.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/open-sans-latin-400-normal/open-sans-latin-400-normal.woff2",
+      "bytes": 18640,
+      "sha256": "0e44026ad31376af1b56593cd4acb4f353f8e8789c51759e18f64578e4ef296a",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    },
+    {
+      "original_url": "https://homebrewery.naturalcrit.com/open-sans-latin-700-normal/open-sans-latin-700-normal.woff2",
+      "download_url": "https://homebrewery.naturalcrit.com/open-sans-latin-700-normal/open-sans-latin-700-normal.woff2",
+      "bytes": 18204,
+      "sha256": "594a622208d1dad5d1dd58aef74f212ce7132d8f0aa5bacea6cfeb86d308c17a",
+      "mime": "font/woff2",
+      "failed_attempts": []
+    }
+  ],
+  "bundle": {
+    "path": "/home/gwi/Operation-Deadfall/sources/site/politique/homebrewery-officiel/homebrewery-v3-phb.offline.css",
+    "bytes": 18931773,
+    "sha256": "3f001e220c7c10385d65ab9b741077e15f9dd624162814d0b8897aeee1156e5e",
+    "url_count": 154,
+    "unique_resource_count": 132,
+    "external_url_count": 0,
+    "imports": 0
+  },
+  "verification": {
+    "embedded_resource_hashes_match_manifest": true,
+    "all_data_uri_count": 154,
+    "svg_nested_external_references": 0,
+    "fontawesome_comparison": [
+      {
+        "font": "fa-brands-400",
+        "upstream_woff2_sha256": "b10a049b201da5518120d35dc74ad7f5ef328ca1e8b7f9d3f6ad11bc76115eeb",
+        "matches_deployed_woff2": false
+      },
+      {
+        "font": "fa-regular-400",
+        "upstream_woff2_sha256": "dc9e5038a1401446549f7eb3c23911cfac844b3b4a3a3b76c33c34962ee652cb",
+        "matches_deployed_woff2": false
+      },
+      {
+        "font": "fa-solid-900",
+        "upstream_woff2_sha256": "6a3b4536c389c82a2a2e160e7ab15f6c8acef77f42e04d4c697f1cbfa9e90026",
+        "matches_deployed_woff2": false
+      }
+    ],
+    "browser_verification": "Blocked: browser-harness chrome-not-running; no browser could be launched. No visual verification claimed."
+  }
+}

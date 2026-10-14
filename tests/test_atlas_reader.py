@@ -4,7 +4,7 @@ from playwright.async_api import async_playwright
 ROOT=Path(__file__).resolve().parents[1]
 async def main():
  with tempfile.TemporaryDirectory(prefix='atlas-reader-') as tmp:
-  file=Path(tmp)/'atlas.html'; shutil.copy2(ROOT/'site/index.html',file)
+  file=Path(tmp)/'atlas.html'; shutil.copy2(ROOT/'site/atlas-de-thay.html',file)
   async with async_playwright() as p:
    exe=next(Path('/home/gwi/.cache/ms-playwright/chromium-1208').glob('**/chrome'))
    browser=await p.chromium.launch(executable_path=str(exe),headless=True,args=['--no-sandbox'])

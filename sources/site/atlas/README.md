@@ -1,6 +1,6 @@
 # Sources d’édition de l’atlas de Thay
 
-Le livrable joueurs est uniquement `site/index.html`, à la racine du projet. Ce fichier HTML autonome contient CSS, JavaScript, 46 notices, un guide de Thay et cinq images. Il fonctionne hors connexion, sans serveur ni fichiers voisins. Ne transmettre ni ce dossier de travail ni les audits MJ.
+Le livrable joueurs est uniquement `site/atlas-de-thay.html`, à la racine du projet. Ce fichier HTML autonome contient CSS, JavaScript, 46 notices, un guide de Thay et cinq images. Il fonctionne hors connexion, sans serveur ni fichiers voisins. Ne transmettre ni ce dossier de travail ni les audits MJ.
 
 ## Édition et génération
 
@@ -64,7 +64,7 @@ Les contrôles navigateur copient seulement le HTML dans un dossier vide et le r
 
 ## Alerte du convertisseur local
 
-L’audit npm de cette installation signale une vulnérabilité critique d’`expr-eval`, transitive via `marked-variables` et `marked-hbfm`, sans correction proposée pour cette chaîne verrouillée. La conversion a porté uniquement sur les Markdown publics reformulés et revus dans ce projet. Ne pas utiliser ce convertisseur sur des Markdown externes non vérifiés. Ces paquets servent à la préparation locale et ne sont pas embarqués dans `site/index.html` ; la consultation de l’atlas ne lance pas ce convertisseur. Cette distinction ne constitue pas une garantie de sécurité générale du paquet.
+L’audit npm de cette installation signale une vulnérabilité critique d’`expr-eval`, transitive via `marked-variables` et `marked-hbfm`, sans correction proposée pour cette chaîne verrouillée. La conversion a porté uniquement sur les Markdown publics reformulés et revus dans ce projet. Ne pas utiliser ce convertisseur sur des Markdown externes non vérifiés. Ces paquets servent à la préparation locale et ne sont pas embarqués dans `site/atlas-de-thay.html` ; la consultation de l’atlas ne lance pas ce convertisseur. Cette distinction ne constitue pas une garantie de sécurité générale du paquet.
 
 ## Ressources et droits
 

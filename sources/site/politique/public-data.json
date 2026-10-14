@@ -1,38 +1,197 @@
 {
  "roles": [
-  {"id":"conseil","title":"Conseil des zulkirs","label":"Gouvernement national","body":"Les zulkirs sont les Magiciens Rouges de plus haut rang. Leur Conseil dirige Thay et décide des affaires commerciales et militaires. Les autres questions de gouvernement sont confiées à une vaste bureaucratie.","facts":["Chaque école de magie est représentée par un zulkir.","Le Conseil nomme les gouverneurs des provinces et décide de la durée de leur mandat.","Lorsqu’un siège devient vacant, le Conseil vote pour un remplaçant parmi les Magiciens Rouges les plus éminents.","Les zulkirs possèdent des résidences à Eltabbar et à Thaymount, ainsi que de nombreux employés et soldats."]},
-  {"id":"tharchions","title":"Tharchions","label":"Gouverneurs des onze provinces","body":"Un tharch est une province. Son tharchion est nommé par le Conseil des zulkirs et reste en fonction aussi longtemps que le Conseil le décide. La plupart des tharchions ne sont pas des Magiciens Rouges.","facts":["Ils doivent rendre des comptes aux zulkirs et aux Magiciens Rouges qui les interrogent.","Ils gouvernent autrement leur province de façon autonome : infrastructures, commerce, lois applicables à la population et forces militaires.","La plupart sont d’anciens commandants militaires.","Ils nomment les autharchs chargés des fonctions locales."]},
-  {"id":"autharchs","title":"Autharchs","label":"Administration locale","body":"Les autharchs sont des fonctionnaires de rang inférieur, nommés par les tharchions. Ils peuvent exercer comme maires, magistrats ou autres administrateurs locaux.","facts":["Leur nomination relève du gouverneur provincial.","Leurs fonctions varient selon leur poste : le titre ne désigne pas uniquement un maire.","Ils sont fréquemment remplacés."]},
-  {"id":"rouges","title":"Magiciens Rouges","label":"Une autorité qui traverse l’administration","body":"Les Magiciens Rouges constituent l’aristocratie dirigeante de Thay. Ce titre n’est pas un échelon situé sous les autharchs : leur autorité dépasse la chaîne administrative ordinaire, et les zulkirs appartiennent eux-mêmes à cet ordre.","facts":["Leurs décisions font loi ; leurs ordres doivent être suivis.","Seul un Magicien Rouge plus puissant peut contester les décisions d’un autre.","Ils occupent des fonctions politiques et dirigent domaines, familles, recherches et entreprises.","Ils prêtent allégeance à des mages plus puissants de leur ordre.","Le rouge leur est réservé ; crânes rasés et tatouages sont des signes distinctifs courants."]}
+  {
+   "id": "conseil",
+   "title": "Conseil des zulkirs",
+   "label": "Gouvernement national",
+   "body": "Les zulkirs sont les Magiciens Rouges de plus haut rang. Leur Conseil dirige Thay et décide des affaires commerciales et militaires. Les autres questions de gouvernement sont confiées à une vaste bureaucratie.",
+   "facts": [
+    "Chaque école de magie est représentée par un zulkir.",
+    "Le Conseil nomme les gouverneurs des provinces et décide de la durée de leur mandat.",
+    "Lorsqu’un siège devient vacant, le Conseil vote pour un remplaçant parmi les Magiciens Rouges les plus éminents.",
+    "Les zulkirs possèdent des résidences à Eltabbar et à Thaymount, ainsi que de nombreux employés et soldats."
+   ]
+  },
+  {
+   "id": "tharchions",
+   "title": "Tharchions",
+   "label": "Gouverneurs des onze provinces",
+   "body": "Un tharch est une province. Son tharchion est nommé par le Conseil des zulkirs et reste en fonction aussi longtemps que le Conseil le décide. La plupart des tharchions ne sont pas des Magiciens Rouges.",
+   "facts": [
+    "Ils doivent rendre des comptes aux zulkirs et aux Magiciens Rouges qui les interrogent.",
+    "Ils gouvernent autrement leur province de façon autonome : infrastructures, commerce, lois applicables à la population et forces militaires.",
+    "La plupart sont d’anciens commandants militaires.",
+    "Ils nomment les autharchs chargés des fonctions locales."
+   ]
+  },
+  {
+   "id": "autharchs",
+   "title": "Autharchs",
+   "label": "Administration locale",
+   "body": "Les autharchs sont des fonctionnaires de rang inférieur, nommés par les tharchions. Ils peuvent exercer comme maires, magistrats ou autres administrateurs locaux.",
+   "facts": [
+    "Leur nomination relève du gouverneur provincial.",
+    "Leurs fonctions varient selon leur poste : le titre ne désigne pas uniquement un maire.",
+    "Ils sont fréquemment remplacés."
+   ]
+  },
+  {
+   "id": "rouges",
+   "title": "Magiciens Rouges",
+   "label": "Une autorité qui traverse l’administration",
+   "body": "Les Magiciens Rouges constituent l’aristocratie dirigeante de Thay. Ce titre n’est pas un échelon situé sous les autharchs : leur autorité dépasse la chaîne administrative ordinaire, et les zulkirs appartiennent eux-mêmes à cet ordre.",
+   "facts": [
+    "Leurs décisions font loi ; leurs ordres doivent être suivis.",
+    "Seul un Magicien Rouge plus puissant peut contester les décisions d’un autre.",
+    "Ils occupent des fonctions politiques et dirigent domaines, familles, recherches et entreprises.",
+    "Ils prêtent allégeance à des mages plus puissants de leur ordre.",
+    "Le rouge leur est réservé ; crânes rasés et tatouages sont des signes distinctifs courants."
+   ]
+  }
  ],
  "council": [
-  {"name":"Yazir Nym","school":"Abjuration","note":"Siège de l’abjuration au Conseil des zulkirs."},
-  {"name":"Nevron","school":"Invocation","note":"Siège de l’invocation au Conseil des zulkirs."},
-  {"name":"Lethnar","school":"Divination","note":"À Bezantur, Lethnar supervise un tribunal pénal chargé des infractions aux lois sur l’usage de la magie par les habitants autres que les Magiciens Rouges."},
-  {"name":"Delraz","school":"Enchantement","note":"Delraz impose de lourdes taxes aux marchands thayens."},
-  {"name":"Xelnene Thrul","school":"Évocation","note":"Xelnene Thrul cumule ce siège avec le gouvernement de Priador, depuis Bezantur."},
-  {"name":"Mythrellaa","school":"Illusion","note":"Le tharchion d’Eltabbar, Zedivek Mazradash, est au service de Mythrellaa."},
-  {"name":"Szass Tam","school":"Nécromancie","note":"Szass Tam cumule ce siège avec le gouvernement de Thaymount."},
-  {"name":"Nzas","school":"Transmutation","note":"Nzas entretient une armée cantonnée à Bezantur."}
+  {
+   "id": "abjuration",
+   "name": "Yazir Nym",
+   "school": "Abjuration",
+   "note": "Garnison à Escalant, Lapendrar."
+  },
+  {
+   "id": "invocation",
+   "name": "Nevron",
+   "school": "Invocation",
+   "note": ""
+  },
+  {
+   "id": "divination",
+   "name": "Lethnar",
+   "school": "Divination",
+   "note": "Tribunal pénal de Bezantur."
+  },
+  {
+   "id": "enchantement",
+   "name": "Delraz",
+   "school": "Enchantement",
+   "note": "Taxes sur les marchands thayens."
+  },
+  {
+   "id": "evocation",
+   "name": "Xelnene Thrul",
+   "school": "Évocation",
+   "note": "Tharchionne de Priador, à Bezantur."
+  },
+  {
+   "id": "illusion",
+   "name": "Mythrellaa",
+   "school": "Illusion",
+   "note": "Zedivek Mazradash, tharchion d’Eltabbar, à son service."
+  },
+  {
+   "id": "necromancie",
+   "name": "Szass Tam",
+   "school": "Nécromancie",
+   "note": "Tharchion de Thaymount."
+  },
+  {
+   "id": "transmutation",
+   "name": "Nzas",
+   "school": "Transmutation",
+   "note": "Armée cantonnée à Bezantur."
+  }
  ],
  "provinces": [
-  {"name":"Alaor","ruler":"Bavak Inkander","capital":"Ala City"},
-  {"name":"Delhumide","ruler":"Meskie Kudd","capital":"Umratharos"},
-  {"name":"Eltabbar","ruler":"Zedivek Mazradash","capital":"Eltabbar"},
-  {"name":"Gauros","ruler":"Ozgund Gar","capital":"Fort Gar"},
-  {"name":"Lapendrar","ruler":"Keliza Vyrizek","capital":"Escalant"},
-  {"name":"Priador","ruler":"Xelnene Thrul","capital":"Bezantur"},
-  {"name":"Pyarados","ruler":"Mevik Sasvar","capital":"Pyarados"},
-  {"name":"Surthay","ruler":"Vederax Skarsk","capital":"Surthay"},
-  {"name":"Thaymount","ruler":"Szass Tam","capital":"Szul"},
-  {"name":"Thazalhar","ruler":"Jynnril","capital":"Thazalhar Station"},
-  {"name":"Tyraturos","ruler":"Bulgor Ograzep","capital":"Tyraturos"}
+  {
+   "name": "Alaor",
+   "ruler": "Bavak Inkander",
+   "capital": "Ala City",
+   "id": "alaor"
+  },
+  {
+   "name": "Delhumide",
+   "ruler": "Meskie Kudd",
+   "capital": "Umratharos",
+   "id": "delhumide"
+  },
+  {
+   "name": "Eltabbar",
+   "ruler": "Zedivek Mazradash",
+   "capital": "Eltabbar",
+   "id": "eltabbar"
+  },
+  {
+   "name": "Gauros",
+   "ruler": "Ozgund Gar",
+   "capital": "Fort Gar",
+   "id": "gauros"
+  },
+  {
+   "name": "Lapendrar",
+   "ruler": "Keliza Vyrizek",
+   "capital": "Escalant",
+   "id": "lapendrar"
+  },
+  {
+   "name": "Priador",
+   "ruler": "Xelnene Thrul",
+   "capital": "Bezantur",
+   "id": "priador"
+  },
+  {
+   "name": "Pyarados",
+   "ruler": "Mevik Sasvar",
+   "capital": "Pyarados",
+   "id": "pyarados"
+  },
+  {
+   "name": "Surthay",
+   "ruler": "Vederax Skarsk",
+   "capital": "Surthay",
+   "id": "surthay"
+  },
+  {
+   "name": "Thaymount",
+   "ruler": "Szass Tam",
+   "capital": "Szul",
+   "id": "thaymount"
+  },
+  {
+   "name": "Thazalhar",
+   "ruler": "Jynnril",
+   "capital": "Thazalhar Station",
+   "id": "thazalhar"
+  },
+  {
+   "name": "Tyraturos",
+   "ruler": "Bulgor Ograzep",
+   "capital": "Tyraturos",
+   "id": "tyraturos"
+  }
  ],
  "situations": [
-  {"id":"local","title":"Une question d’administration locale","body":"L’autharch local peut exercer les fonctions de maire, de magistrat ou d’administrateur. La fonction exacte dépend du poste. Pour une question qui relève de toute la province, le tharchion gouverne infrastructures, commerce et lois locales."},
-  {"id":"peage","title":"Un péage ou une formalité de voyage","body":"Les soldats des postes fiscaux perçoivent les péages fixés par le tharchion compétent. Le montant habituel est de 3 PA, avec un maximum de 1 PO. Un document émanant d’un Magicien Rouge ou d’un représentant du gouvernement peut permettre une réduction ou une exemption ; cela n’est pas automatique."},
-  {"id":"contradiction","title":"Deux Magiciens Rouges donnent des ordres contradictoires","body":"La loi impose d’obéir au Magicien Rouge le plus haut placé. Le titre de gouverneur n’indique pas à lui seul le rang d’un mage : la plupart des tharchions ne sont pas des Magiciens Rouges."},
-  {"id":"eltabbar","title":"Une accusation à Eltabbar","body":"Le guet intervient dans les rues quand les Magiciens Rouges ne s’en chargent pas eux-mêmes. La commandante Renatta Vott dirige le corps de garde et prononce les sanctions. Les patrouilles peuvent imposer des amendes jusqu’à 250 PO ; les personnes qui refusent de payer ou ne le peuvent pas sont conduites au corps de garde pour y être jugées."},
-  {"id":"enclave","title":"Faire du commerce dans une enclave à l’étranger","body":"Les enclaves commerciales appliquent le droit thayen avec davantage de souplesse envers les visiteurs. Le port du rouge n’y est pas interdit aux visiteurs, même si des Magiciens Rouges peuvent refuser de négocier avec des étrangers ainsi vêtus. Ce n’est pas la règle appliquée sur le territoire de Thay."}
+  {
+   "id": "local",
+   "title": "Une question d’administration locale",
+   "body": "L’autharch local peut exercer les fonctions de maire, de magistrat ou d’administrateur. La fonction exacte dépend du poste. Pour une question qui relève de toute la province, le tharchion gouverne infrastructures, commerce et lois locales."
+  },
+  {
+   "id": "peage",
+   "title": "Un péage ou une formalité de voyage",
+   "body": "Les soldats des postes fiscaux perçoivent les péages fixés par le tharchion compétent. Le montant habituel est de 3 PA, avec un maximum de 1 PO. Un document émanant d’un Magicien Rouge ou d’un représentant du gouvernement peut permettre une réduction ou une exemption ; cela n’est pas automatique."
+  },
+  {
+   "id": "contradiction",
+   "title": "Deux Magiciens Rouges donnent des ordres contradictoires",
+   "body": "La loi impose d’obéir au Magicien Rouge le plus haut placé. Le titre de gouverneur n’indique pas à lui seul le rang d’un mage : la plupart des tharchions ne sont pas des Magiciens Rouges."
+  },
+  {
+   "id": "eltabbar",
+   "title": "Une accusation à Eltabbar",
+   "body": "Le guet intervient dans les rues quand les Magiciens Rouges ne s’en chargent pas eux-mêmes. La commandante Renatta Vott dirige le corps de garde et prononce les sanctions. Les patrouilles peuvent imposer des amendes jusqu’à 250 PO ; les personnes qui refusent de payer ou ne le peuvent pas sont conduites au corps de garde pour y être jugées."
+  },
+  {
+   "id": "enclave",
+   "title": "Faire du commerce dans une enclave à l’étranger",
+   "body": "Les enclaves commerciales appliquent le droit thayen avec davantage de souplesse envers les visiteurs. Le port du rouge n’y est pas interdit aux visiteurs, même si des Magiciens Rouges peuvent refuser de négocier avec des étrangers ainsi vêtus. Ce n’est pas la règle appliquée sur le territoire de Thay."
+  }
  ]
 }
