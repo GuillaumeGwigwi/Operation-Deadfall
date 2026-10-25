@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "image": "/home/gwi/.hermes/profiles/dnd-assistant/cache/images/openai_codex_gpt-image-2-high_20261018_183153_8c54f05b.png",
+  "model": "gpt-image-2-high",
+  "aspect_ratio": "portrait",
+  "modality": "image",
+  "provider": "openai-codex",
+  "size": "1024x1536",
+  "quality": "high",
+  "input_image_count": 1,
+  "image_source": "final",
+  "requested_size": "1024x1536",
+  "pixel_size": "1024x1536",
+  "edit_of": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/originaux/yelena.png",
+  "prompt": "Edit the supplied portrait, do not create a different portrait. Keep exactly the same human woman, facial identity, age, shaved head, expression, gaze, pose, anatomy of both hands, red robe, chair, table, window, lighting, painterly rendering, parchment background, soft brush edges and portrait composition. Add the missing distinctive tattoos of a Red Wizard of Thay. Clearly visible refined dark charcoal-black ink tattoos on the shaved scalp and forehead, flowing onto BOTH temples and the visible cheekbones in elegant asymmetric geometric arcane linework. Add related clearly visible tattoo patterns on the backs of BOTH exposed hands and visible skin at the wrists, following anatomy naturally. Her sleeves stay intact: do not expose or invent bare forearms. These are permanent ink markings, not makeup, shadow, jewelry, glowing magic, scars or burns. The marks should be unmistakable at book illustration size while leaving the face recognizable and expressive, the eyes and lips uncovered. Do not use a specific faction emblem, skull, bell, readable text or story-revealing symbol. No added character, object, finger or limb. Only change the bare skin by adding the tattoos. Retain the original image dimensions and all other features.",
+  "host_model": "gpt-6.1-sol",
+  "candidate": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/retouches/yelena-tatouages.png"
+}

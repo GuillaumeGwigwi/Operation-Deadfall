@@ -1,0 +1,469 @@
+{
+  "source": "/home/gwi/Operation-Deadfall/sources/raw/dragon-delves-the-dragon-of-najkir/dragon-of-najkir.html",
+  "source_url": null,
+  "provenance": "User-supplied local HTML; no external origin inferred or fetched",
+  "sha256": "7f14a6535a6882310c6de3e72c6c89b13404976e475f467e54360cfbb1970226",
+  "scope": "Supplied HTML only, not the full Dragon Delves book; includes embedded stat blocks present in the supplied document",
+  "headings": [
+    {
+      "level": "h1",
+      "title": "The Dragon of Najkir"
+    },
+    {
+      "level": "h1",
+      "title": "Key Plot Points"
+    },
+    {
+      "level": "h1",
+      "title": "Preparation"
+    },
+    {
+      "level": "h1",
+      "title": "Assassin"
+    },
+    {
+      "level": "h3",
+      "title": "Traits"
+    },
+    {
+      "level": "h3",
+      "title": "Actions"
+    },
+    {
+      "level": "h3",
+      "title": "Bonus Actions"
+    },
+    {
+      "level": "h1",
+      "title": "Bronze Dragons"
+    },
+    {
+      "level": "h2",
+      "title": "Bronze Dragon Lairs"
+    },
+    {
+      "level": "h1",
+      "title": "Young Bronze Dragon"
+    },
+    {
+      "level": "h3",
+      "title": "Traits"
+    },
+    {
+      "level": "h3",
+      "title": "Actions"
+    },
+    {
+      "level": "h1",
+      "title": "Commoner"
+    },
+    {
+      "level": "h3",
+      "title": "Traits"
+    },
+    {
+      "level": "h3",
+      "title": "Actions"
+    },
+    {
+      "level": "h1",
+      "title": "Doppelganger"
+    },
+    {
+      "level": "h3",
+      "title": "Actions"
+    },
+    {
+      "level": "h3",
+      "title": "Bonus Actions"
+    },
+    {
+      "level": "h1",
+      "title": "Goat"
+    },
+    {
+      "level": "h3",
+      "title": "Actions"
+    },
+    {
+      "level": "h1",
+      "title": "Running for One Character"
+    },
+    {
+      "level": "h1",
+      "title": "Adventure Background"
+    },
+    {
+      "level": "h2",
+      "title": "A Sordid Past"
+    },
+    {
+      "level": "h1",
+      "title": "Beginning the Adventure"
+    },
+    {
+      "level": "h1",
+      "title": "Skalanthas Strikes!"
+    },
+    {
+      "level": "h2",
+      "title": "Running the Encounter"
+    },
+    {
+      "level": "h3",
+      "title": "Fate of the Wavemount"
+    },
+    {
+      "level": "h1",
+      "title": "Najkir Monastery"
+    },
+    {
+      "level": "h2",
+      "title": "The Monks"
+    },
+    {
+      "level": "h3",
+      "title": "Monk Names"
+    },
+    {
+      "level": "h2",
+      "title": "Survivors of the Naiad"
+    },
+    {
+      "level": "h2",
+      "title": "What the Residents Know"
+    },
+    {
+      "level": "h2",
+      "title": "Monastery Features"
+    },
+    {
+      "level": "h3",
+      "title": "Caves"
+    },
+    {
+      "level": "h3",
+      "title": "Ceilings"
+    },
+    {
+      "level": "h3",
+      "title": "Doors"
+    },
+    {
+      "level": "h3",
+      "title": "Lighting"
+    },
+    {
+      "level": "h3",
+      "title": "Windows"
+    },
+    {
+      "level": "h2",
+      "title": "Upper Level Locations"
+    },
+    {
+      "level": "h3",
+      "title": "M1: Cliffside Walkway"
+    },
+    {
+      "level": "h3",
+      "title": "M2: Sea Cave"
+    },
+    {
+      "level": "h3",
+      "title": "M3: Dock"
+    },
+    {
+      "level": "h3",
+      "title": "M4: Barred Entrance"
+    },
+    {
+      "level": "h3",
+      "title": "M5: Aviary"
+    },
+    {
+      "level": "h3",
+      "title": "M6: Scriptorium"
+    },
+    {
+      "level": "h3",
+      "title": "M7: Hospital"
+    },
+    {
+      "level": "h3",
+      "title": "M8: Recovery Room"
+    },
+    {
+      "level": "h3",
+      "title": "M9: Library"
+    },
+    {
+      "level": "h3",
+      "title": "M10: Kitchen"
+    },
+    {
+      "level": "h3",
+      "title": "M11: Guest Quarters"
+    },
+    {
+      "level": "h3",
+      "title": "M12: Monks' Dormitory"
+    },
+    {
+      "level": "h3",
+      "title": "M13: Dining Hall"
+    },
+    {
+      "level": "h3",
+      "title": "M14: Privy and Bathroom"
+    },
+    {
+      "level": "h3",
+      "title": "M15: Hierarch's Office"
+    },
+    {
+      "level": "h3",
+      "title": "M16: Hierarch's Quarters"
+    },
+    {
+      "level": "h3",
+      "title": "M17: Meeting and Meditation Hall"
+    },
+    {
+      "level": "h3",
+      "title": "M18: Crypt"
+    },
+    {
+      "level": "h3",
+      "title": "M19: Weavers' Room"
+    },
+    {
+      "level": "h3",
+      "title": "M20: Potters' Room"
+    },
+    {
+      "level": "h3",
+      "title": "M21: Ritual Chamber"
+    },
+    {
+      "level": "h3",
+      "title": "M22: Maze Vault"
+    },
+    {
+      "level": "h2",
+      "title": "Lower Level Locations"
+    },
+    {
+      "level": "h3",
+      "title": "M23: North Stairs"
+    },
+    {
+      "level": "h3",
+      "title": "M24: South Stairs"
+    },
+    {
+      "level": "h3",
+      "title": "M25: Bodyguards' Quarters"
+    },
+    {
+      "level": "h3",
+      "title": "M26: Ronnom's Quarters"
+    },
+    {
+      "level": "h3",
+      "title": "M27: Storeroom"
+    },
+    {
+      "level": "h3",
+      "title": "M28: Pantry"
+    },
+    {
+      "level": "h3",
+      "title": "M29: Wine Cellar"
+    },
+    {
+      "level": "h3",
+      "title": "M30: Dungeon Cell"
+    },
+    {
+      "level": "h3",
+      "title": "M31: Workroom"
+    },
+    {
+      "level": "h3",
+      "title": "M32: Dock Posts"
+    },
+    {
+      "level": "h3",
+      "title": "M33: Blocked and Submerged Tunnel"
+    },
+    {
+      "level": "h3",
+      "title": "M34: Partially Flooded Cave"
+    },
+    {
+      "level": "h3",
+      "title": "M35: Damp Stairs"
+    },
+    {
+      "level": "h3",
+      "title": "M36: Trip Wire Trap"
+    },
+    {
+      "level": "h3",
+      "title": "M37: Partially Flooded Tunnel"
+    },
+    {
+      "level": "h3",
+      "title": "M38: Skalanthas's Lair"
+    },
+    {
+      "level": "h3",
+      "title": "M39: Dead-End Cave and Sunken Hoard"
+    },
+    {
+      "level": "h1",
+      "title": "Conclusion"
+    },
+    {
+      "level": "h2",
+      "title": "Skalanthas Retreats"
+    },
+    {
+      "level": "h2",
+      "title": "Ronnom Is Slain"
+    },
+    {
+      "level": "h3",
+      "title": "Rewards"
+    },
+    {
+      "level": "h2",
+      "title": "Ronnom Is Captured"
+    },
+    {
+      "level": "h3",
+      "title": "Rewards"
+    },
+    {
+      "level": "h1",
+      "title": "History of Bronze Dragons"
+    }
+  ],
+  "sections": [
+    "sections/00-the-dragon-of-najkir.md",
+    "sections/01-key-plot-points.md",
+    "sections/02-preparation.md",
+    "sections/03-running-for-one-character.md",
+    "sections/04-adventure-background.md",
+    "sections/05-beginning-the-adventure.md",
+    "sections/06-skalanthas-strikes.md",
+    "sections/07-najkir-monastery.md",
+    "sections/08-conclusion.md",
+    "sections/09-history-of-bronze-dragons.md"
+  ],
+  "image_references": [
+    {
+      "reference": "img/adventure/DrDe/081-05-001.chapter-five-splash.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/082-05-002.the-island-najkir.webp",
+      "alt": "The Island Najkir",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/083-map-05.01-monastery-upper-level-dm.webp",
+      "alt": "Map 5.1: Monastery Upper Level",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/084-map-05.01-monastery-upper-level-player.webp",
+      "alt": "Player Version",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/085-05-003.hierarch-anish-npc-with-ram-statue.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/086-map-05.02.monastery-lower-level-dm.webp",
+      "alt": "Map 5.2: Monastery Lower Level",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/087-map-05.02.monastery-lower-level-player.webp",
+      "alt": "Player Version",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/088-05-004.ronnom-npc-with-skalanthas-dragon-npc.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/089-05-005.bronze-dragon-swimming.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/090-05-007.bronze-dragon-sinking-ship.webp",
+      "alt": "Dragons of Faith (1986)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/091-05-008.bronze-dragon-1993.webp",
+      "alt": "Monstrous Manual (1993)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/092-05-009.bronze-dragon-1977.webp",
+      "alt": "Monster Manual (1977)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/093-05-010.bronze-dragon-draconomicon.webp",
+      "alt": "Draconomicon (2003)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/094-05-012.bronze-dragon-anatomy.webp",
+      "alt": "Draconomicon (2003)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/095-05-011.bronze-dragon-mtg.webp",
+      "alt": "Commander Legends: Battle for Baldur's Gate (2022)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/096-05-013.bronze-dragon-2009.webp",
+      "alt": "Draconomicon 2 (2009)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/097-05-014.bronze-dragon-2014.webp",
+      "alt": "Monster Manual (2014)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/098-05-015.bronze-dragon-2023.webp",
+      "alt": "Concept Art (2023)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/DrDe/099-05-016.bronze-dragon-2025.webp",
+      "alt": "Monster Manual (2025)",
+      "status": "missing_local"
+    }
+  ],
+  "table_count": 32,
+  "network_requests": 0,
+  "verification": {
+    "original_byte_identical": true,
+    "sections_reassemble_markdown": true,
+    "level_7_and_one_or_two_sessions_present": true
+  }
+}

@@ -1,0 +1,32 @@
+'use strict';
+const DATA=JSON.parse(document.getElementById('prelude-data').textContent);
+window.PRELUDE=DATA;
+const $=id=>document.getElementById(id);
+const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+let official='',filter='all',selected=null,pageIndex=0,zoom=false,serial=0,iframeReady=null;
+const frame=$('reader');
+const BOOK=DATA.documents[0];
+function fit(){const w=$('reader-scroll').clientWidth,scale=zoom?1:Math.min(1,w/860);const displayHeight=$('reader-scroll').clientHeight||800;const height=Math.max(650,displayHeight/scale);frame.style.width='860px';frame.style.height=height+'px';frame.style.transform=`scale(${scale})`;$('reader-viewport').style.width=(860*scale)+'px';$('reader-viewport').style.height=(height*scale)+'px';}
+function visibleEntries(){const q=norm($('search').value.trim());return DATA.entries.filter(e=>(filter==='all'||e.kind===filter)&&(!q||norm(e.title+' '+e.text).includes(q)));}
+function list(){const entries=visibleEntries();$('entries').replaceChildren();for(const entry of entries){const b=document.createElement('button');b.className='entry';b.dataset.id=entry.id;b.dataset.kind=entry.kind;b.setAttribute('aria-current',String(selected?.id===entry.id));if(entry.kind==='topic'){const small=document.createElement('small');small.textContent='LIVRE';b.append(small);}const title=document.createElement('span');title.textContent=entry.title;b.append(title);b.onclick=()=>openEntry(entry);$('entries').append(b);}$('empty').hidden=entries.length>0;$('result-count').textContent=entries.length+' entrée'+(entries.length===1?'':'s');}
+function controls(){$('page-position').textContent=`${pageIndex+1} / ${BOOK.pages.length}`;$('previous').disabled=pageIndex===0;$('next').disabled=pageIndex===BOOK.pages.length-1;window.BOOK_PAGE=pageIndex;}
+function pageElements(){return [...frame.contentDocument.querySelectorAll('.page')];}
+function goToPage(index,anchor=null){pageIndex=Math.max(0,Math.min(BOOK.pages.length-1,index));const fd=frame.contentDocument,viewer=fd.querySelector('.brewRenderer');const target=(anchor&&fd.getElementById(anchor))||fd.getElementById('p'+(pageIndex+1));const top=target.getBoundingClientRect().top-viewer.getBoundingClientRect().top+viewer.scrollTop-28;viewer.scrollTop=Math.max(0,top);controls();}
+function trackPage(){const fd=frame.contentDocument,viewer=fd.querySelector('.brewRenderer'),line=viewer.getBoundingClientRect().top+80;let found=0;for(const [i,p] of pageElements().entries()){if(p.getBoundingClientRect().top<=line)found=i;else break;}pageIndex=found;controls();}
+function prepareFrame(){if(!iframeReady){iframeReady=new Promise(resolve=>frame.addEventListener('load',resolve,{once:true}));const pages=BOOK.pages.map((p,i)=>'<div class="page" id="p'+(i+1)+'">'+p+'<div class="pageNumber">'+(i+1)+'</div><div class="footnote">PRÉLUDE · MJ</div></div>').join('');frame.srcdoc='<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Prélude — MJ</title><style>'+official+'</style></head><body><div class="brewRenderer"><div class="pages" lang="fr">'+pages+'</div></div></body></html>';iframeReady=iframeReady.then(async()=>{await frame.contentDocument.fonts.ready;frame.contentDocument.querySelector('.brewRenderer').addEventListener('scroll',trackPage,{passive:true});frame.contentDocument.addEventListener('keydown',keyboard);});}return iframeReady;}
+async function render(){if(!selected)return;const ticket=++serial;const entry=selected;window.READER_READY=false;$('current-title').textContent=entry.title;$('section-kind').textContent=entry.kind==='room'?'REPÈRE DANS LE LIVRE / MJ':'LIVRE INTÉGRAL / MJ';$('reader-status').textContent='Chargement…';await prepareFrame();if(ticket!==serial)return;fit();goToPage(entry.page,entry.anchor);$('reader-status').textContent='Hors connexion · Homebrewery';window.READER_READY=true;}
+function openEntry(entry,changeHash=true){selected=entry;pageIndex=entry.page;list();if(matchMedia('(max-width:650px)').matches){$('entries').hidden=true;$('toc-toggle').setAttribute('aria-expanded','false');}render();if(changeHash)history.replaceState(null,'','#'+entry.id);}
+$('search').addEventListener('input',()=>{$('entries').hidden=false;$('toc-toggle').setAttribute('aria-expanded','true');list();});
+$('clear').onclick=()=>{$('search').value='';list();$('search').focus();};
+for(const b of document.querySelectorAll('[data-filter]'))b.onclick=()=>{filter=b.dataset.filter;for(const other of document.querySelectorAll('[data-filter]'))other.setAttribute('aria-pressed',String(other===b));$('entries').hidden=false;$('toc-toggle').setAttribute('aria-expanded','true');list();};
+$('toc-toggle').onclick=()=>{const expanded=$('toc-toggle').getAttribute('aria-expanded')==='true';$('toc-toggle').setAttribute('aria-expanded',String(!expanded));$('entries').hidden=expanded;};
+$('previous').onclick=()=>{if(pageIndex>0)goToPage(pageIndex-1);};
+$('next').onclick=()=>{if(pageIndex<BOOK.pages.length-1)goToPage(pageIndex+1);};
+$('zoom').onclick=()=>{zoom=!zoom;$('zoom').setAttribute('aria-pressed',String(zoom));$('zoom').textContent=zoom?'Ajuster':'100 %';fit();};
+$('print').onclick=()=>{frame.contentWindow.focus();frame.contentWindow.print();};
+window.addEventListener('resize',()=>{fit();if(!matchMedia('(max-width:650px)').matches){$('entries').hidden=false;$('toc-toggle').setAttribute('aria-expanded','true');}});
+window.addEventListener('hashchange',()=>{const e=DATA.entries.find(e=>e.id===location.hash.slice(1))||DATA.entries[0];openEntry(e,false);});
+function keyboard(event){if(event.key==='/'&&event.target.tagName!=='INPUT'){event.preventDefault();$('search').focus();}if(event.key==='Escape'&&event.target===$('search'))$('clear').click();if(event.altKey&&event.key==='ArrowRight'){event.preventDefault();$('next').click();}if(event.altKey&&event.key==='ArrowLeft'){event.preventDefault();$('previous').click();}}
+document.addEventListener('keydown',keyboard);
+async function init(){try{const raw=atob($('official-hb-style').textContent.trim());const bytes=Uint8Array.from(raw,c=>c.charCodeAt(0));official=await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text();const first=DATA.entries.find(e=>e.id===location.hash.slice(1))||DATA.entries[0];await openEntry(first,false);}catch(error){$('reader-status').textContent='Impossible de charger le livre intégré.';console.error(error);}}
+init();

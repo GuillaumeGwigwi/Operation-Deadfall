@@ -1,0 +1,35 @@
+{
+  "scope": "Narrative adaptation, GM proposals; not a completed mechanical rebalance or visual layout approval",
+  "checks": [
+    {
+      "adventure": "caves",
+      "file": "01-les-carrieres-du-serment.homebrewery.md",
+      "source_area_count": 64,
+      "adapted_area_count": 64,
+      "missing": [],
+      "duplicate_area_ids": 0,
+      "source_matches_preserved_import": true,
+      "raw_sha256": "fca2bd9365faba4c7b3efc48c4b16083c852a50f27e04bb28a25662b1d8e886b",
+      "adaptation_sha256": "440dc07f85c93b9ac1c73b7535491761bc1fa7c1a81510f6ec3d5e90e5cb8895",
+      "custom_css": false,
+      "homebrewery_syntax": "Validated separately with marked-hbfm 1.0.1; zero errors",
+      "visual_layout": "Not verified; editable Homebrewery source, not a rendered book",
+      "mechanical_limitations": "See profiles and house changes in each document"
+    },
+    {
+      "adventure": "najkir",
+      "file": "02-le-serment-des-trois-braises.homebrewery.md",
+      "source_area_count": 39,
+      "adapted_area_count": 39,
+      "missing": [],
+      "duplicate_area_ids": 0,
+      "source_matches_preserved_import": true,
+      "raw_sha256": "7f14a6535a6882310c6de3e72c6c89b13404976e475f467e54360cfbb1970226",
+      "adaptation_sha256": "e34086aa6044bd39f55ca46abc3b152f7a59f7ff51ca8fb9166dc3c4c43b1cfb",
+      "custom_css": false,
+      "homebrewery_syntax": "Validated separately with marked-hbfm 1.0.1; zero errors",
+      "visual_layout": "Not verified; editable Homebrewery source, not a rendered book",
+      "mechanical_limitations": "See profiles and house changes in each document"
+    }
+  ]
+}

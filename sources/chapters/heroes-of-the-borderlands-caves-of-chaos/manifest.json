@@ -1,0 +1,841 @@
+{
+  "source": "/home/gwi/Operation-Deadfall/sources/raw/chaos-caves/chaos-caves.html",
+  "source_url": null,
+  "provenance": "Local HTML supplied by user; no external source inferred or fetched",
+  "sha256": "fca2bd9365faba4c7b3efc48c4b16083c852a50f27e04bb28a25662b1d8e886b",
+  "coverage": "Supplied HTML only; not the complete Heroes of the Borderlands set",
+  "headings": [
+    {
+      "level": "h1",
+      "title": "Caves of Chaos"
+    },
+    {
+      "level": "h1",
+      "title": "Getting Started"
+    },
+    {
+      "level": "h1",
+      "title": "Exploring the Caves"
+    },
+    {
+      "level": "h2",
+      "title": "Cave Descriptions"
+    },
+    {
+      "level": "h2",
+      "title": "Rhythm of Play"
+    },
+    {
+      "level": "h2",
+      "title": "Combat"
+    },
+    {
+      "level": "h2",
+      "title": "Resting"
+    },
+    {
+      "level": "h2",
+      "title": "Leaving the Caves"
+    },
+    {
+      "level": "h2",
+      "title": "Character Advancement"
+    },
+    {
+      "level": "h1",
+      "title": "A: Kobold Lair"
+    },
+    {
+      "level": "h2",
+      "title": "Getting Started"
+    },
+    {
+      "level": "h2",
+      "title": "Kobold Lair Features"
+    },
+    {
+      "level": "h2",
+      "title": "Kobold Lair Locations"
+    },
+    {
+      "level": "h3",
+      "title": "A1: Entrance"
+    },
+    {
+      "level": "h3",
+      "title": "A2: Guard Nook"
+    },
+    {
+      "level": "h3",
+      "title": "A3: Centipedes' Den"
+    },
+    {
+      "level": "h3",
+      "title": "A4: Common Area"
+    },
+    {
+      "level": "h3",
+      "title": "A5: Larder"
+    },
+    {
+      "level": "h1",
+      "title": "B: Mephit Lair"
+    },
+    {
+      "level": "h2",
+      "title": "Getting Started"
+    },
+    {
+      "level": "h2",
+      "title": "Mephit Lair Features"
+    },
+    {
+      "level": "h2",
+      "title": "Mephit Lair Locations"
+    },
+    {
+      "level": "h3",
+      "title": "B1: Entrance"
+    },
+    {
+      "level": "h3",
+      "title": "B2: Balistraria"
+    },
+    {
+      "level": "h3",
+      "title": "B3: Prison Cells"
+    },
+    {
+      "level": "h3",
+      "title": "B4: Old Armory"
+    },
+    {
+      "level": "h3",
+      "title": "B5: Flooded Room"
+    },
+    {
+      "level": "h3",
+      "title": "B6: Old Barrack"
+    },
+    {
+      "level": "h3",
+      "title": "B7: Broken Fountain"
+    },
+    {
+      "level": "h3",
+      "title": "B8: Vault"
+    },
+    {
+      "level": "h1",
+      "title": "C: Nothic Lair"
+    },
+    {
+      "level": "h2",
+      "title": "Getting Started"
+    },
+    {
+      "level": "h2",
+      "title": "Nothic Lair Features"
+    },
+    {
+      "level": "h2",
+      "title": "Nothic Lair Locations"
+    },
+    {
+      "level": "h3",
+      "title": "C1: Entrance"
+    },
+    {
+      "level": "h3",
+      "title": "C2: Ritual Chamber"
+    },
+    {
+      "level": "h3",
+      "title": "C3: Library"
+    },
+    {
+      "level": "h3",
+      "title": "C4: Hallway"
+    },
+    {
+      "level": "h3",
+      "title": "C5: Wizard's Laboratory"
+    },
+    {
+      "level": "h3",
+      "title": "C6: Cell"
+    },
+    {
+      "level": "h3",
+      "title": "C7: Storage Room"
+    },
+    {
+      "level": "h1",
+      "title": "D: Goblin Lair"
+    },
+    {
+      "level": "h2",
+      "title": "Getting Started"
+    },
+    {
+      "level": "h2",
+      "title": "Goblin Lair Features"
+    },
+    {
+      "level": "h2",
+      "title": "Goblin Lair Locations"
+    },
+    {
+      "level": "h3",
+      "title": "D1: Entrance"
+    },
+    {
+      "level": "h3",
+      "title": "D2: Dead-End Tunnel"
+    },
+    {
+      "level": "h3",
+      "title": "D3: Common Room"
+    },
+    {
+      "level": "h3",
+      "title": "D4: Boss's Room"
+    },
+    {
+      "level": "h3",
+      "title": "D5: Webbed Cavern"
+    },
+    {
+      "level": "h1",
+      "title": "E: Ogre Lair"
+    },
+    {
+      "level": "h2",
+      "title": "Getting Started"
+    },
+    {
+      "level": "h2",
+      "title": "Ogre Lair Features"
+    },
+    {
+      "level": "h2",
+      "title": "Ogre Lair Locations"
+    },
+    {
+      "level": "h3",
+      "title": "E1: Entrance"
+    },
+    {
+      "level": "h3",
+      "title": "E2: Ogre Mercenary's Den"
+    },
+    {
+      "level": "h3",
+      "title": "E3: Dragon's Den"
+    },
+    {
+      "level": "h1",
+      "title": "F: Hobgoblin Lair"
+    },
+    {
+      "level": "h2",
+      "title": "Getting Started"
+    },
+    {
+      "level": "h2",
+      "title": "Hobgoblin Lair Features"
+    },
+    {
+      "level": "h2",
+      "title": "Hobgoblin Lair Locations"
+    },
+    {
+      "level": "h3",
+      "title": "F1: Entrance"
+    },
+    {
+      "level": "h4",
+      "title": "Spear Barricade"
+    },
+    {
+      "level": "h3",
+      "title": "F2: Cube Route"
+    },
+    {
+      "level": "h3",
+      "title": "F3: Mess Hall"
+    },
+    {
+      "level": "h3",
+      "title": "F4: Barrack"
+    },
+    {
+      "level": "h3",
+      "title": "F5: Training Hall"
+    },
+    {
+      "level": "h1",
+      "title": "G: Shunned Caves"
+    },
+    {
+      "level": "h2",
+      "title": "Getting Started"
+    },
+    {
+      "level": "h2",
+      "title": "Shunned Cave Features"
+    },
+    {
+      "level": "h2",
+      "title": "Shunned Cave Locations"
+    },
+    {
+      "level": "h3",
+      "title": "G1: Entrance"
+    },
+    {
+      "level": "h3",
+      "title": "G2: Shallow Pool"
+    },
+    {
+      "level": "h3",
+      "title": "G3: Tight Passage"
+    },
+    {
+      "level": "h3",
+      "title": "G4: Smelly Refuse"
+    },
+    {
+      "level": "h3",
+      "title": "G5: Owlbear Den"
+    },
+    {
+      "level": "h3",
+      "title": "G6: Cult Barrack"
+    },
+    {
+      "level": "h3",
+      "title": "G7: Crypt"
+    },
+    {
+      "level": "h1",
+      "title": "H: Bugbear Lair"
+    },
+    {
+      "level": "h2",
+      "title": "Getting Started"
+    },
+    {
+      "level": "h2",
+      "title": "Bugbear Lair Features"
+    },
+    {
+      "level": "h2",
+      "title": "Bugbear Lair Locations"
+    },
+    {
+      "level": "h3",
+      "title": "H1: Entrance"
+    },
+    {
+      "level": "h3",
+      "title": "H2: War Room"
+    },
+    {
+      "level": "h3",
+      "title": "H3: Stairway"
+    },
+    {
+      "level": "h3",
+      "title": "H4: Trophy Room"
+    },
+    {
+      "level": "h3",
+      "title": "H5: Hall"
+    },
+    {
+      "level": "h3",
+      "title": "H6: Boss's Chamber"
+    },
+    {
+      "level": "h1",
+      "title": "I: Minotaur Lair"
+    },
+    {
+      "level": "h2",
+      "title": "Getting Started"
+    },
+    {
+      "level": "h2",
+      "title": "Minotaur Lair Features"
+    },
+    {
+      "level": "h2",
+      "title": "Minotaur Lair Locations"
+    },
+    {
+      "level": "h3",
+      "title": "I1: Entrance"
+    },
+    {
+      "level": "h3",
+      "title": "I2: Stirge Lair"
+    },
+    {
+      "level": "h3",
+      "title": "I3: Fire Beetle Sanctuary"
+    },
+    {
+      "level": "h3",
+      "title": "I4: Minotaur Maze"
+    },
+    {
+      "level": "h3",
+      "title": "I5: Secret Spoils"
+    },
+    {
+      "level": "h1",
+      "title": "J: Gnoll Lair"
+    },
+    {
+      "level": "h2",
+      "title": "Getting Started"
+    },
+    {
+      "level": "h2",
+      "title": "Gnoll Lair Features"
+    },
+    {
+      "level": "h2",
+      "title": "Gnoll Lair Locations"
+    },
+    {
+      "level": "h3",
+      "title": "J1: Entrance"
+    },
+    {
+      "level": "h3",
+      "title": "J2: Junk Pile"
+    },
+    {
+      "level": "h3",
+      "title": "J3: Old Chapel"
+    },
+    {
+      "level": "h3",
+      "title": "J4: Shrine of the Laughing Devil"
+    },
+    {
+      "level": "h3",
+      "title": "J5: Hidden Crypt"
+    },
+    {
+      "level": "h1",
+      "title": "K: Shrine of Evil Chaos"
+    },
+    {
+      "level": "h2",
+      "title": "Getting Started"
+    },
+    {
+      "level": "h2",
+      "title": "Shrine Features"
+    },
+    {
+      "level": "h2",
+      "title": "Shrine Locations"
+    },
+    {
+      "level": "h3",
+      "title": "K1: Entrance"
+    },
+    {
+      "level": "h3",
+      "title": "K2: Guarded Hallway"
+    },
+    {
+      "level": "h3",
+      "title": "K3: Chapel of Evil Chaos"
+    },
+    {
+      "level": "h3",
+      "title": "K4: Undead Barrack"
+    },
+    {
+      "level": "h3",
+      "title": "K5: Altar of Evil Chaos"
+    },
+    {
+      "level": "h3",
+      "title": "K6: Visitor's Chamber"
+    },
+    {
+      "level": "h3",
+      "title": "K7: Cult Leader's Room"
+    },
+    {
+      "level": "h3",
+      "title": "K8: Secret \"Treasure\""
+    }
+  ],
+  "sections": [
+    "sections/00-caves-of-chaos.md",
+    "sections/01-getting-started.md",
+    "sections/02-exploring-the-caves.md",
+    "sections/03-a-kobold-lair.md",
+    "sections/04-b-mephit-lair.md",
+    "sections/05-c-nothic-lair.md",
+    "sections/06-d-goblin-lair.md",
+    "sections/07-e-ogre-lair.md",
+    "sections/08-f-hobgoblin-lair.md",
+    "sections/09-g-shunned-caves.md",
+    "sections/10-h-bugbear-lair.md",
+    "sections/11-i-minotaur-lair.md",
+    "sections/12-j-gnoll-lair.md",
+    "sections/13-k-shrine-of-evil-chaos.md"
+  ],
+  "image_references": [
+    {
+      "reference": "img/adventure/HotB/000-01-001.adventure-cover.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/001-map-1.01-caves-of-chaos.webp",
+      "alt": "Map: Caves of Chaos (DM Version)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/002-map-1.01-caves-of-chaos-player.webp",
+      "alt": "Player Version",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/003-map-1.02-a-kobold-cave.webp",
+      "alt": "Map A: Kobold Lair (DM's Version)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/004-map-1.02-a-kobold-cave-no-tokens.webp",
+      "alt": "Without Tokens",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/005-map-1.02-a-kobold-cave-player.webp",
+      "alt": "Player Version",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/006-01-004.kobold-warrior-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/007-01-005.giant-centipede-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/008-01-006.copper-dragon-wyrmling-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/009-map-1.03-b-mephit-lair.webp",
+      "alt": "Map B: Mephit Lair (DM's Version)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/010-map-1.03-b-mephit-lair-no-tokens.webp",
+      "alt": "Without Tokens",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/011-map-1.03-b-mephit-lair-player.webp",
+      "alt": "Player Version",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/012-01-007.steam-mephit-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/013-01-008.kuo-toa-marauder-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/014-01-009.mimic-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/015-01-011.nothic-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/016-map-1.04-c-nothic-lair.webp",
+      "alt": "Map C: Nothic Lair (DM's Version)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/017-map-1.04-c-nothic-lair-no-tokens.webp",
+      "alt": "Without Tokens",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/018-map-1.04-c-nothic-lair-player.webp",
+      "alt": "Player Version",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/019-01-010.carrion-crawler-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/020-01-012.animated-flying-sword-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/021-map-1.05-d-goblin-lair.webp",
+      "alt": "Map D: Goblin Lair (DM's Version)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/022-map-1.05-d-goblin-lair-no-tokens.webp",
+      "alt": "Without Tokens",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/023-map-1.05-d-goblin-lair-player.webp",
+      "alt": "Player Version",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/024-01-013.vinx-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/025-01-014.goblin-warrior-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/026-01-015.goblin-boss-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/027-map-1.06-ogre-lair.webp",
+      "alt": "Map E: Ogre Lair (DM's Version)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/028-map-1.06-ogre-lair-no-tokens.webp",
+      "alt": "Without Tokens",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/029-map-1.06-ogre-lair-player.webp",
+      "alt": "Player Version",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/030-01-016.ogre-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/031-01-017.red-dragon-wyrmling-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/032-map-1.07-f-hobgoblin-lair.webp",
+      "alt": "Map F: Hobgoblin Lair (DM's Version)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/033-map-1.07-f-hobgoblin-lair-no-tokens.webp",
+      "alt": "Without Tokens",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/034-map-1.07-f-hobgoblin-lair-player.webp",
+      "alt": "Player Version",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/035-01-018.hobgoblin-warrior-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/036-01-019.jelly-cube-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/037-map-1.08-g-shunned-caves.webp",
+      "alt": "Map G: Shunned Caves (DM's Version)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/038-map-1.08-g-shunned-caves-no-tokens.webp",
+      "alt": "Without Tokens",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/039-map-1.08-g-shunned-caves-player.webp",
+      "alt": "Player Version",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/040-01-020.gray-ooze-glob-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/041-01-022.owlbear-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/042-01-023.wight-lifedrinker-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/043-map-1.09-h-bugbear-lair.webp",
+      "alt": "Map H: Bugbear Lair (DM's Version)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/044-map-1.09-h-bugbear-lair-no-tokens.webp",
+      "alt": "Without Tokens",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/045-map-1.09-h-bugbear-lair-player.webp",
+      "alt": "Player Version",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/046-01-024.bugbear-warrior-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/047-map-1.10-i-minotaur-lair.webp",
+      "alt": "Map I: Minotaur Lair (DM's Version)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/048-map-1.10-i-minotaur-lair-no-tokens.webp",
+      "alt": "Without Tokens",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/049-map-1.10-i-minotaur-lair-player.webp",
+      "alt": "Player Version",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/050-01-025.giant-fire-beetle-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/051-01-026.minotaur.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/052-01-002.chest.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/053-map-1.11-j-gnoll-lair.webp",
+      "alt": "Map J: Gnoll Lair (DM's Version)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/054-map-1.11-j-gnoll-lair-no-tokens.webp",
+      "alt": "Without Tokens",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/055-map-1.11-j-gnoll-lair-player.webp",
+      "alt": "Player Version",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/056-01-027.gnoll-warrior-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/057-01-028.zombie-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/058-01-021.cultist-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/059-map-1.12-k-shrine-of-evil-chaos.webp",
+      "alt": "Map K: Shrine Of Evil Chaos (DM's Version)",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/060-map-1.12-k-shrine-of-evil-chaos-no-token.webp",
+      "alt": "Without Tokens",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/061-map-1.12-k-shrine-of-evil-chaos-player.webp",
+      "alt": "Player Version",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/062-01-029.ogre-zombie-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/063-01-031.narthus-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/064-01-030.skeleton-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/065-01-032.ivlis-c.webp",
+      "alt": "",
+      "status": "missing_local"
+    },
+    {
+      "reference": "img/adventure/HotB/066-01-003.final-chest.webp",
+      "alt": "",
+      "status": "missing_local"
+    }
+  ],
+  "table_count": 1,
+  "verification": {
+    "original_byte_identical": true,
+    "sections_reassemble_markdown": true,
+    "caves_A_to_K_present": true
+  },
+  "network_requests": 0
+}

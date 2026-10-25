@@ -1,0 +1,16 @@
+{
+  "originaux": {
+    "ravin.png": "1c49f118ddd2206681f6809260ba9108c0d684dc664acb51936ac601a986f4f0",
+    "vinx.png": "ffcca9e8188b4a59b26ffcd150cdda70aeb7437aae47b5ab5fb4b54d27ebcca9",
+    "yelena.png": "baba6b9047f1a87161bccfbd9eaefb716db96107496a55ee0c2fc551397483cd",
+    "oggdug.png": "aea91dc5f86d1e27cd73ec427558475f3373840973fe7175329a9e994c363ea6",
+    "village.png": "e7653f1e1ce4c13bc636f7925e66cbdb66bf1dd450c54740e130fe29b967d3e4"
+  },
+  "incrustees": {
+    "yelena.webp": "15ff7a9cf251bfd8ac9dbc13663e16495801f74f8e4e4c258d96403eb5d20a09",
+    "oggdug.webp": "8bed319976d137bde93380a7816e0a24ea16aa4659e21fba9f6553c185e1d7b8",
+    "ravin.webp": "1cf8d67ef961b565e7447eeae71e5a3fa66d4d344166eabbc8e161a8d9601849",
+    "village.webp": "b502217f5236b32ea155b98e4bb5404ab1fd6a812ac32724a5587a7b8408b6a5",
+    "vinx.webp": "584d79c80f1d0289ba2c991a17f95d23324335d2c0b14e2ff6b06a12207451e9"
+  }
+}

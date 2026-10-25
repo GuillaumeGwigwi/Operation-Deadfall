@@ -1,0 +1,51 @@
+{
+  "status": "Propositions artistiques pour le livre MJ ; copies visuelles seules montrables aux joueurs au moment choisi par le MJ.",
+  "common": "Create an original, exceptionally polished fantasy tabletop adventure book illustration. Traditional oil and gouache painting, sophisticated naturalistic anatomy, confident textured brushwork, finely observed materials, atmospheric depth, restrained dramatic light, richly nuanced warm ochres and cool slate shadows, a few deep crimson accents. A believable lived-in fantasy world, neither cartoon nor shiny 3D render. No imitation of any particular living artist. No lettering, title, logo, watermark, border, invented writing, map, diagrams or readable symbols. The reference is for broad regional atmosphere and painterly treatment only; do not reproduce its characters, scene or composition. No scene that decides what player characters do. No plot revelations, bells, undead, secret passages, captives, hidden enemies or battle outcome. Keep all important anatomy and identifying details away from outermost 12 percent of the canvas, for soft book-edge blending.",
+  "images": [
+    {
+      "id": "village",
+      "label": "Le village de départ",
+      "aspect": "landscape",
+      "reference": "sources/chapters/chapter-01-thay/assets/illustrations/01-009.tharch-of-gauros.png",
+      "source": "Manuscrit, Aux portes des montagnes et Une commande de la Mage Rouge ; Gauros pour le relief régional.",
+      "artistic_choices": "Architecture et composition proposées ; aucun nom de village, plan exact ou événement passé ajouté.",
+      "prompt": "An inviting yet austere small frontier hamlet in the lower mountain valleys of Gauros, Thay, seen at human street level at early morning. Low whitewashed stone-and-timber houses, dark shingle roofs, wooden livestock fences, stacked firewood, a modest two-story whitewashed residence overlooking the lane. A narrow stream and weathered footbridge near the foreground, herb gardens, a pack mule and a few tiny ordinary townsfolk going about chores, no adventuring party. Blue-violet rugged mountain peaks rise in the far distance, lower slopes with scattered trees. Amber light on plaster and mountain haze, subtle deep red cloth at a doorway. This is a small functioning village, not a fortified city, castle or encampment. Compose as an expansive cinematic panorama, architecture and footbridge concentrated in the central horizontal band; generous quiet sky above and earth below suitable for a shallow landscape crop. Rich detail without clutter. Painting fades toward pale warm ivory at the outer edge, an irregular painterly vignette rather than a rectangular frame."
+    },
+    {
+      "id": "yelena",
+      "label": "Yelena Voss",
+      "aspect": "portrait",
+      "reference": "sources/chapters/chapter-01-thay/assets/illustrations/01-003.zulkir.png",
+      "source": "Manuscrit : femme au crâne rasé, robe rouge, demeure aux murs blanchis ; attitude méthodique et peu démonstrative.",
+      "artistic_choices": "Traits du visage, âge apparent et coupe précise de la robe proposés, non présentés comme portrait officiel.",
+      "prompt": "A single human woman, Yelena Voss, a competent provincial Red Wizard of Thay, NOT a supreme ruler or zulkir. Waist-up three-quarter portrait, shaved head with clearly visible dark arcane tattoos extending onto forehead, temples and cheekbones, matching ink tattoos on the backs of both hands and exposed wrists, perceptive dark eyes, realistic mature face, firm composed expression and measured authority without a villainous sneer. Practical beautifully tailored deep scarlet wool-and-silk robe with understated aged-brass edging, no crown, horn, glowing eyes, jewelry excess or spell effects. Seated by the open window of a whitewashed stone room, one relaxed anatomically correct hand resting on a worn wooden table, the other naturally at rest. Cool light from the window and warm reflected light from the robe, a hint of mountain greenery behind. The face is the focal point. Show the whole head with comfortable clearance and the upper torso, no cropped hands. Minimal softly suggested surroundings; ivory parchment-toned background at the edges, broad dry-brush edges that can dissolve seamlessly onto a book page."
+    },
+    {
+      "id": "vinx",
+      "label": "Vinx",
+      "aspect": "portrait",
+      "reference": "sources/chapters/chapter-01-thay/assets/illustrations/01-009.tharch-of-gauros.png",
+      "source": "Manuscrit : naine éclaireuse, manteau de laine brun, cheveux nattés, coutelas court, tempérament impatient.",
+      "artistic_choices": "Visage, couleur des cheveux, petits accessoires et pose proposés ; aucune captivité ni raison cachée représentée.",
+      "prompt": "A single adult dwarf woman named Vinx, a tough mountain scout rather than an aristocrat or glamorous model. A grounded waist-up three-quarter character portrait, robust compact dwarf proportions, broad weathered face, keen impatient brown eyes, dark brown braided hair tied for travel. Brown wool cloak over practical worn mountain clothing and a leather belt, the hilt of a short sheathed blade visible at the hip, small ordinary travel pouch. Natural upright confident posture, one hand lightly gripping the cloak near the collar, all fingers anatomically correct. Brisk alert expression with an understated human warmth, looking just past the viewer. No ropes, injury, captivity, stolen tapestry, magical object, map or other plot prop. Softly suggested grey rock and a few grasses behind her. Fine tangible wool, leather and skin, subtle warm light, overall earthy brown and slate palette with a tiny muted red detail. Whole head and shoulders well clear of frame. Irregular pale ivory painterly background edges, suitable as a portrait vignette printed directly on parchment."
+    },
+    {
+      "id": "ravin",
+      "label": "L’approche du ravin",
+      "aspect": "landscape",
+      "reference": "sources/chapters/chapter-01-thay/assets/illustrations/01-009.tharch-of-gauros.png",
+      "source": "Manuscrit, Le ravin : arbres noueux, entaille dans la montagne, ouvertures à plusieurs hauteurs.",
+      "artistic_choices": "Vue d’ambiance non cartographique ; aucune disposition exacte des salles ou entrée secrète représentée.",
+      "prompt": "An atmospheric approach view into a secluded rugged mountain ravine in Gauros, seen from a rough woodland trail at the edge of twisted old trees. Tall layered grey-ochre cliffs, patches of moss, coarse grass, dark natural cave mouths at different heights, one partly veiled by hanging roots. The viewer cannot see inside. Several bends and a hazy distance, NO overview map or plan, no numbered doors, readable signs, identifiable hidden paths or secret exits. No monsters, dragon, cult, bell, bones, skulls, corpses or adventurers. Cool air, light mist and slanting warm late-afternoon light across the upper rocks, evocative uneasy stillness rather than overt horror. A deep richly painted landscape with clear foreground/midground/background. Panoramic composition concentrated in central horizontal band, extra sky and shadowed foreground available for cropping. Edges dissolve into warm ivory in a loose dry-brush treatment, no decorative frame."
+    },
+    {
+      "id": "oggdug",
+      "label": "Oggdug",
+      "aspect": "portrait",
+      "reference": "sources/chapters/chapter-01-thay/assets/illustrations/01-009.tharch-of-gauros.png",
+      "source": "Manuscrit et original, Oggdug : ogre mercenaire, peaux d’ours, armement rouillé et provisions ordinaires.",
+      "artistic_choices": "Traits, teinte de peau et posture proposés ; aucune évocation du frère, du culte ou du dragonnet.",
+      "prompt": "A single imposing fantasy ogre named Oggdug, a rough mountain mercenary with a shrewd lazy air. Three-quarter seated character illustration from head to knees, huge broad heavy grey-brown body, powerful thick arms, thick neck, broad blunt nose, small alert eyes, subtly projecting lower tusks, sparse coarse hair, natural believable ogre anatomy. Worn patchwork hide garments and rough bearskin draped over a stone seat, a dented plain metal cup held loosely in one massive correctly drawn hand. The pose communicates size and bargaining confidence, not an attack, comedy caricature, grief or a secret. A plain blunt weapon rests unobtrusively nearby, no blood. Warm daylight on face and hands, cool cave rock only softly suggested behind, minimal neutral surroundings. No other creature, brother, zombie, skeleton, dragon, cult insignia, bell or explanatory prop. Whole silhouette comfortably within frame, especially head, fingers and cup. Painted shadow and rough brushwork fading at the outside into pale ivory parchment, ideal for an integrated book vignette without rectangular background."
+    }
+  ]
+}

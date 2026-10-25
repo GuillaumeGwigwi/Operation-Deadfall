@@ -1,0 +1,137 @@
+[
+  {
+    "id": "village",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/village.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 626680,
+    "sha256": "b502217f5236b32ea155b98e4bb5404ab1fd6a812ac32724a5587a7b8408b6a5",
+    "true_transparency": true
+  },
+  {
+    "id": "yelena",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/yelena.webp",
+    "width": 768,
+    "height": 1152,
+    "bytes": 311420,
+    "sha256": "15ff7a9cf251bfd8ac9dbc13663e16495801f74f8e4e4c258d96403eb5d20a09",
+    "true_transparency": true
+  },
+  {
+    "id": "vinx",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/vinx.webp",
+    "width": 768,
+    "height": 1152,
+    "bytes": 368124,
+    "sha256": "584d79c80f1d0289ba2c991a17f95d23324335d2c0b14e2ff6b06a12207451e9",
+    "true_transparency": true
+  },
+  {
+    "id": "ravin",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/ravin.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 646680,
+    "sha256": "1cf8d67ef961b565e7447eeae71e5a3fa66d4d344166eabbc8e161a8d9601849",
+    "true_transparency": true
+  },
+  {
+    "id": "oggdug",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/oggdug.webp",
+    "width": 768,
+    "height": 1152,
+    "bytes": 384362,
+    "sha256": "8bed319976d137bde93380a7816e0a24ea16aa4659e21fba9f6553c185e1d7b8",
+    "true_transparency": true
+  },
+  {
+    "id": "dragonnet-cuivre",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/dragonnet-cuivre.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 598850,
+    "sha256": "c8b5cdfc16d1007e2b88c43993d04c1d2bbc64e9418571dc870155add162df4a",
+    "true_transparency": true
+  },
+  {
+    "id": "fontaine",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/fontaine.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 604232,
+    "sha256": "c8bf0367526f44b8549f2eb639fa51fcbd7ed2fd68f335e983a4165074de2b22",
+    "true_transparency": true
+  },
+  {
+    "id": "nothic",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/nothic.webp",
+    "width": 768,
+    "height": 1152,
+    "bytes": 442218,
+    "sha256": "f5d883dec4e1c74c9f232fd3478738348e5cabd1f34b8dd92168076794cf6399",
+    "true_transparency": true
+  },
+  {
+    "id": "fete-gobeline",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/fete-gobeline.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 683654,
+    "sha256": "fdda9c4761c67fee932c054d89045b01091e946247b4ef0ff21fff91bf43bcf2",
+    "true_transparency": true
+  },
+  {
+    "id": "dent-de-braise",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/dent-de-braise.webp",
+    "width": 768,
+    "height": 1152,
+    "bytes": 431334,
+    "sha256": "12113ade9e3e047b3979d672529e6527683bec0c8ed19e8bdbc1aa075304522f",
+    "true_transparency": true
+  },
+  {
+    "id": "ours-hibou",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/ours-hibou.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 573402,
+    "sha256": "acd9cdc25cb0e0b9f1f5cf0c31f7ad8a2de5a20e9bec2d3dd7ed99175edd7073",
+    "true_transparency": true
+  },
+  {
+    "id": "minotaure",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/minotaure.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 567036,
+    "sha256": "e6f94c5e8e30d4decc00817c023add96a991b8646b6e15185c5e56b613b5277e",
+    "true_transparency": true
+  },
+  {
+    "id": "sanctuaire",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/sanctuaire.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 566470,
+    "sha256": "6ee291343ec1932bc63eee2d4ba511e8eb3db367ee4ca3b2d1d48891747bad69",
+    "true_transparency": true
+  },
+  {
+    "id": "ivlis",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/ivlis.webp",
+    "width": 768,
+    "height": 1152,
+    "bytes": 372372,
+    "sha256": "b98d5c38731ab0098dcf9164f67eaacb6d1072197b9942ddb5ca19f61f936803",
+    "true_transparency": true
+  },
+  {
+    "id": "source-aulnes",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations/incrustees/source-aulnes.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 671710,
+    "sha256": "3ebd9b3925ad8c8c8ca23406ecefa90caf002f95ea3c3ce8059c4d119d3bd09b",
+    "true_transparency": true
+  }
+]

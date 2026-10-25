@@ -1,0 +1,81 @@
+{
+  "ten_requested_images": 10,
+  "embedded_images": 15,
+  "pages": 21,
+  "story_exactly_preserved": true,
+  "previous_files_unchanged": [
+    "originaux/ravin.png",
+    "originaux/vinx.png",
+    "originaux/yelena.png",
+    "originaux/oggdug.png",
+    "originaux/village.png",
+    "incrustees/yelena.webp",
+    "incrustees/oggdug.webp",
+    "incrustees/ravin.webp",
+    "incrustees/village.webp",
+    "incrustees/vinx.webp"
+  ],
+  "player_copies_metadata_free": true,
+  "placements": [
+    {
+      "page": 1,
+      "label": "Le village au pied des montagnes"
+    },
+    {
+      "page": 2,
+      "label": "Yelena Voss"
+    },
+    {
+      "page": 3,
+      "label": "L’approche du ravin"
+    },
+    {
+      "page": 6,
+      "label": "Le dragonnet de cuivre et les kobolds"
+    },
+    {
+      "page": 7,
+      "label": "La fontaine et le méphite de vapeur"
+    },
+    {
+      "page": 8,
+      "label": "La nothic dans son laboratoire"
+    },
+    {
+      "page": 9,
+      "label": "Vinx"
+    },
+    {
+      "page": 10,
+      "label": "L’anniversaire de la cheffe gobeline"
+    },
+    {
+      "page": 11,
+      "label": "Oggdug"
+    },
+    {
+      "page": 11,
+      "label": "Dent-de-Braise sur son perchoir"
+    },
+    {
+      "page": 13,
+      "label": "L’ours-hibou dans sa tanière"
+    },
+    {
+      "page": 15,
+      "label": "Le minotaure entre les piliers"
+    },
+    {
+      "page": 17,
+      "label": "Narthus et la cloche du sanctuaire"
+    },
+    {
+      "page": 18,
+      "label": "Ivlis"
+    },
+    {
+      "page": 19,
+      "label": "La source des Aulnes"
+    }
+  ]
+}

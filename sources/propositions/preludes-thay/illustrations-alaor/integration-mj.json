@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ala-port",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations-alaor/incrustees/ala-port.webp",
+    "width": 1574,
+    "height": 1000,
+    "bytes": 329056,
+    "sha256": "a37d4a0e1789603400e0f98c5d1f5e2c5bdf33887b8c26ca210a41da3638d742",
+    "true_transparency": true
+  },
+  {
+    "id": "ala-mirel",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations-alaor/incrustees/ala-mirel.webp",
+    "width": 670,
+    "height": 887,
+    "bytes": 256146,
+    "sha256": "a293882229dbb672fa9e005145cae6cb1c85955cf46d2e19452047310c3f51c0",
+    "true_transparency": true
+  },
+  {
+    "id": "ala-orso",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations-alaor/incrustees/ala-orso.webp",
+    "width": 768,
+    "height": 1152,
+    "bytes": 433124,
+    "sha256": "256a1216406205d3b21f62e37d8dbdd01499b6dffca82c8d3f062a9406745b6e",
+    "true_transparency": true
+  },
+  {
+    "id": "ala-dragon",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations-alaor/incrustees/ala-dragon.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 595668,
+    "sha256": "c1916f15df74263abb59fc152d48097c1dd15c1d8e29b113aa7f2ca27b49e806",
+    "true_transparency": true
+  },
+  {
+    "id": "ala-refuge",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations-alaor/incrustees/ala-refuge.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 695080,
+    "sha256": "da4413a4b8afd75dc664ba8ebfeed4f21b80fb6a85b54d0284bf77ffcc2bbcf3",
+    "true_transparency": true
+  },
+  {
+    "id": "ala-ashlyn",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations-alaor/incrustees/ala-ashlyn.webp",
+    "width": 768,
+    "height": 1152,
+    "bytes": 381802,
+    "sha256": "b12fcb8a96bd8503df07bfed730167bf570f7aa276c4877be658618b7d7506ba",
+    "true_transparency": true
+  },
+  {
+    "id": "ala-devi",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations-alaor/incrustees/ala-devi.webp",
+    "width": 768,
+    "height": 1152,
+    "bytes": 414498,
+    "sha256": "a5142eae35b2574a02166cd65983bae6b23a06328d4f082b89726e0ec42d229e",
+    "true_transparency": true
+  },
+  {
+    "id": "ala-treef",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations-alaor/incrustees/ala-treef.webp",
+    "width": 768,
+    "height": 1152,
+    "bytes": 443246,
+    "sha256": "d5b42670f24078b658dfd1de1223314356e5838d6a59905cc087f945a1677a12",
+    "true_transparency": true
+  },
+  {
+    "id": "ala-anish",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations-alaor/incrustees/ala-anish.webp",
+    "width": 768,
+    "height": 1152,
+    "bytes": 393696,
+    "sha256": "f41dec2ed15a15fcdcdac63ae3f7ea1b77df201d9da08d6f9b5a4552d5ff9d7a",
+    "true_transparency": true
+  },
+  {
+    "id": "ala-atelier",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations-alaor/incrustees/ala-atelier.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 585240,
+    "sha256": "a3d373c770143af6eafe8982d86048e145d8ca797e32101a237db6b4844b0bda",
+    "true_transparency": true
+  },
+  {
+    "id": "ala-crypte",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations-alaor/incrustees/ala-crypte.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 628440,
+    "sha256": "15c2cb77cf6a26b7f19396704a6f73b228a50ce99601490be95f0b2e64ec2da4",
+    "true_transparency": true
+  },
+  {
+    "id": "ala-cartes",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations-alaor/incrustees/ala-cartes.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 514668,
+    "sha256": "7ad86e467459dec2f0d49b5eedee3f8303c498e68c87c2e5ee4971cba95cc7fc",
+    "true_transparency": true
+  },
+  {
+    "id": "ala-ronnom",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations-alaor/incrustees/ala-ronnom.webp",
+    "width": 768,
+    "height": 1152,
+    "bytes": 433502,
+    "sha256": "56d84912de38745ae708293973423269076d661bec28ac8ca79d613330d977a5",
+    "true_transparency": true
+  },
+  {
+    "id": "ala-antre",
+    "image": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/illustrations-alaor/incrustees/ala-antre.webp",
+    "width": 1600,
+    "height": 800,
+    "bytes": 637750,
+    "sha256": "c1eb19818a2f94a8dbe2f4b97ddd2b912b1ff6ac100143b0dd3ff091eb1e2f6e",
+    "true_transparency": true
+  }
+]

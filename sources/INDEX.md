@@ -13,6 +13,16 @@ Secrets et contenus du livre : usage local privé.
 - [Appendix A: Magic Items](chapters/appendix-a-magic-item/README.md) — [HTML](chapters/appendix-a-magic-item/chapter.html)
 - [Appendix B: Bestiary](chapters/appendix-b-bestiary/README.md) — [HTML](chapters/appendix-b-bestiary/chapter.html)
 
+## Sources complémentaires — prologue
+
+- [Heroes of the Borderlands — Caves of Chaos](chapters/heroes-of-the-borderlands-caves-of-chaos/README.md) — [Texte extrait](chapters/heroes-of-the-borderlands-caves-of-chaos/chapter.md). HTML fourni par le MJ ; rubriques A à K présentes. Images absentes ; autres livrets non importés. Import séparé du catalogue automatique Deadfall.
+
+- [Dragon Delves — The Dragon of Najkir](chapters/dragon-delves-the-dragon-of-najkir/README.md) — [Texte extrait](chapters/dragon-delves-the-dragon-of-najkir/chapter.md). HTML fourni par le MJ ; niveau 7, une ou deux séances annoncées par la source. Fiches intégrées conservées ; images absentes. Import séparé du catalogue automatique Deadfall.
+
+## Adaptations proposées — MJ
+
+- [Préludes thayens](propositions/preludes-thay/README.md) — Les Cavernes du Chaos à Gauros et Le Dragon d’Alaor ; deux livres Homebrewery continus, HTML MJ autonomes. Transpositions proposées, non encore validées comme canon.
+
 ## Suivi
 
 - [Rapport d’import](import-report.json)

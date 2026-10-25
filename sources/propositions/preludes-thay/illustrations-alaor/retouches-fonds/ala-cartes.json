@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "image": "/home/gwi/.hermes/profiles/dnd-assistant/cache/images/openai_codex_gpt-image-2-high_20261018_204517_633720ca.png",
+  "model": "gpt-image-2-high",
+  "aspect_ratio": "landscape",
+  "modality": "image",
+  "provider": "openai-codex",
+  "size": "1536x1024",
+  "quality": "high",
+  "input_image_count": 1,
+  "image_source": "final",
+  "requested_size": "1536x1024",
+  "pixel_size": "1774x887"
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "slug": "wizards-prepare-adventure-2024",
+    "url": "https://www.dndbeyond.com/posts/1851-lets-prepare-an-adventure-using-the-2024-dungeon",
+    "final_url": "https://www.dndbeyond.com/posts/1851-lets-prepare-an-adventure-using-the-2024-dungeon",
+    "http_status": 200,
+    "title": "Let's Prepare an Adventure Using the 2024 Dungeon Master's Guide! | Dungeons & Dragons",
+    "text_chars": 14100,
+    "sha256": "8189c72be796f7606ce1efc9db47c9a84ffc9fe433747eb8a4e9a3ec282aa075",
+    "text_file": "wizards-prepare-adventure-2024.txt",
+    "pdf_links": []
+  },
+  {
+    "slug": "merwin-hooks",
+    "url": "https://www.dndbeyond.com/posts/624-lets-design-an-adventure-adventure-hooks-and",
+    "final_url": "https://www.dndbeyond.com/posts/624-lets-design-an-adventure-adventure-hooks-and",
+    "http_status": 200,
+    "title": "Let’s Design an Adventure: Adventure Hooks and Opening Scenes | Dungeons & Dragons",
+    "text_chars": 15047,
+    "sha256": "c67d169c821162ff6fb5ada0935deefb7dce9b5b9d7eb6320b0cf7694df5febd",
+    "text_file": "merwin-hooks.txt",
+    "pdf_links": []
+  },
+  {
+    "slug": "merwin-boxed-text",
+    "url": "https://www.dndbeyond.com/posts/625-lets-design-an-adventure-boxed-text",
+    "final_url": "https://www.dndbeyond.com/posts/625-lets-design-an-adventure-boxed-text",
+    "http_status": 200,
+    "title": "Let’s Design an Adventure: Boxed Text | Dungeons & Dragons",
+    "text_chars": 17088,
+    "sha256": "5c98f37b06da083b3243eb9b9de7bcf7f97af942741f626176d183c7d7ca19ac",
+    "text_file": "merwin-boxed-text.txt",
+    "pdf_links": []
+  },
+  {
+    "slug": "alexandrian-situations",
+    "url": "https://thealexandrian.net/wordpress/4147/roleplaying-games/dont-prep-plots",
+    "final_url": "https://thealexandrian.net/wordpress/4147/roleplaying-games/dont-prep-plots",
+    "http_status": 200,
+    "title": "The Alexandrian  » Don’t Prep Plots",
+    "text_chars": 16760,
+    "sha256": "8269fd5d33286f56bb580bcdda98b4c361d7bfa7397ef6ae2fae03a0fa610997",
+    "text_file": "alexandrian-situations.txt",
+    "pdf_links": []
+  },
+  {
+    "slug": "sly-situations",
+    "url": "https://slyflourish.com/building_situations.html",
+    "final_url": "https://slyflourish.com/building_situations.html",
+    "http_status": 200,
+    "title": "Build Single-Encounter Situations: SlyFlourish.com",
+    "text_chars": 11429,
+    "sha256": "1569c3f296a2e88f3b71f8e1a880a6e2669f4fda0efcc213e2c1508fd7a77ff8",
+    "text_file": "sly-situations.txt",
+    "pdf_links": []
+  },
+  {
+    "slug": "sly-secrets",
+    "url": "https://slyflourish.com/sharing_secrets.html",
+    "final_url": "https://slyflourish.com/sharing_secrets.html",
+    "http_status": 200,
+    "title": "Secrets and Clues, the Secret Weapon of the Lazy Dungeon Master: SlyFlourish.com",
+    "text_chars": 9251,
+    "sha256": "a20fba92a01ed8a9c94b690dc8803866d63a49d88816a38084ae55101476f6e9",
+    "text_file": "sly-secrets.txt",
+    "pdf_links": []
+  },
+  {
+    "slug": "wizards-srd",
+    "url": "https://www.dndbeyond.com/srd",
+    "final_url": "https://www.dndbeyond.com/srd",
+    "http_status": 200,
+    "title": "SRD v5.2.1 - System Reference Document - D&D Beyond",
+    "text_chars": 14095,
+    "sha256": "b486caed14c30b366edfc4501e5c11ef1a27b5bdc57eb562381882560e0ac4bd",
+    "text_file": "wizards-srd.txt",
+    "pdf_links": [
+      {
+        "label": "English SRD v5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      {
+        "label": "Converting to SRD v5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/guide/converting-to-srd-5.2.1.pdf"
+      },
+      {
+        "label": "Deutsch SRD v5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/DE_SRD_CC_v5.2.1.pdf"
+      },
+      {
+        "label": "Español SRD v5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SP_SRD_CC_v5.2.1.pdf"
+      },
+      {
+        "label": "Français SRD v5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/FR_SRD_CC_v5.2.1.pdf"
+      },
+      {
+        "label": "Italiano SRD v5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/IT_SRD_CC_v5.2.1.pdf"
+      },
+      {
+        "label": "SRD v5.2.0",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf"
+      },
+      {
+        "label": "SRD v5.1 (Creative Commons)",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.1/SRD_CC_v5.1.pdf"
+      },
+      {
+        "label": "SRD v5.1 (OGL)",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.1/SRD-OGL_V5.1.pdf"
+      },
+      {
+        "label": "Deutsch SRD v5.1 (Creative Commons)",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.1/SRD_CC_v5.1_DE.pdf"
+      },
+      {
+        "label": "Español SRD v5.1 (Creative Commons)",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.1/SRD_CC_v5.1_ES.pdf"
+      },
+      {
+        "label": "Français SRD v5.1 (Creative Commons)",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.1/SRD_CC_v5.1_FR.pdf"
+      },
+      {
+        "label": "Italiano SRD v5.1 (Creative Commons)",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.1/SRD_CC_v5.1_IT.pdf"
+      }
+    ]
+  }
+]

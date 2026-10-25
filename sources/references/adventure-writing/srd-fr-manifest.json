@@ -1,0 +1,32 @@
+{
+  "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/FR_SRD_CC_v5.2.1.pdf",
+  "raw": "FR_SRD_CC_v5.2.1.pdf",
+  "sha256": "480604d949a3bb77f639cf31c1e9e1e7ebb04ae481d943db662ba546828d94bf",
+  "pdf_total_pages": 380,
+  "extracted_pdf_pages": [
+    1,
+    20
+  ],
+  "text_chars_by_page": [
+    1281,
+    10347,
+    12518,
+    7925,
+    4526,
+    4576,
+    4427,
+    4982,
+    4508,
+    4465,
+    5121,
+    4881,
+    4768,
+    5356,
+    5063,
+    4775,
+    4812,
+    5115,
+    3388,
+    4061
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "/home/gwi/Operation-Deadfall/site/prelude-cavernes-du-chaos-mj.html",
+    "bytes": 28953945,
+    "documents": 1,
+    "pages": 21,
+    "rooms": 64,
+    "official_css_sha256": "3f001e220c7c10385d65ab9b741077e15f9dd624162814d0b8897aeee1156e5e",
+    "pagination": "Measured with official CSS and loaded fonts in Chromium"
+  },
+  {
+    "file": "/home/gwi/Operation-Deadfall/site/prelude-dragon-d-alaor-mj.html",
+    "bytes": 27399313,
+    "documents": 1,
+    "pages": 16,
+    "rooms": 39,
+    "official_css_sha256": "3f001e220c7c10385d65ab9b741077e15f9dd624162814d0b8897aeee1156e5e",
+    "pagination": "Measured with official CSS and loaded fonts in Chromium"
+  }
+]

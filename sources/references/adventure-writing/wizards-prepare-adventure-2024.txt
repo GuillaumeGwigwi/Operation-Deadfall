@@ -1,0 +1,144 @@
+SOURCE: https://www.dndbeyond.com/posts/1851-lets-prepare-an-adventure-using-the-2024-dungeon
+TITLE: Let's Prepare an Adventure Using the 2024 Dungeon Master's Guide! | Dungeons & Dragons
+
+Editor’s Note (March 2, 2026):
+This article uses “2024” to refer to the updated fifth edition rules. On D&D Beyond, that content is now labeled “5.5e” (with 2014 content labeled “5e”). This is a clarity update only—no rules, purchases, or gameplay are changing, and both versions remain fully supported and compatible.
+The
+2024
+Dungeon Master's Guide
+has been reorganized, expanded, and rewritten with loads of new advice for Dungeon Masters of all experience levels. This includes comprehensive step-by-step guides to plan sessions, build campaigns, and run the game.
+To demonstrate just how much the 2024
+Dungeon Master's Guide
+can help you when crafting your own games, let's walk through building an actual adventure and prepping a session using this advice!
+Beginning Our Adventure
+Knowing My Players
+Planning the Adventure
+Preparing for the Session
+Beginning Our Adventure
+Artist: Simon Dominic
+There is a lot of information to support DMs in the
+2024
+Dungeon Master's Guide
+, but for our quest, we're going to focus on the step-by-step guide to planning an adventure found in
+Chapter 4: Creating Adventures
+and the tips for planning a session in
+Chapter 1: The Basics
+. I started with chapter 4's tools because I was creating my adventure from scratch. If you already have an adventure you want to run, whether it's one you've homebrewed or a prewritten one, you could start with the
+Preparing for the Session
+advice in chapter 1.
+Knowing My Players
+Even though chapters 1 and 4 were the primary focus of my planning for this game, I did take one important piece of advice from chapter 2 to heart:
+Know Your Players
+. I knew that two of my players had never played any D&D before, and none of them had played using the 2024 rules. However, I also knew that almost all of them had played
+Baldur's Gate 3.
+So before I planned any adventure, I made the decision to start the game in a familiar setting from the game. I picked Reithwin Town, the setting of Act 2, but placed the timing of this adventure after the events of the game. Speaking in broad, hopefully, non-spoilery strokes here: It seemed to me that after the events of the main story, there might be a high demand for adventuring parties as the area recovers from the events that occurred there.
+Choosing this location helped to ground most of my players in the game immediately because they felt familiar with the setting and could pick up what I was putting down.
+Planning the Adventure
+Artist: Scott Murphy
+Chapter 4 of the
+2024
+Dungeon Master's Guide
+overviews four steps to follow when creating an adventure: Lay Out the Premise, Draw in the Players, Plan Encounters, and Bring It to an End.
+Laying Out the Premise
+For the premise, I knew I was starting in Reithwin Town, and I knew I wanted the session to have kind of spooky, chilly, fall-theme vibes to it. I love small-town fall-themed carnivals, pumpkin patches, and corn mazes, so I decided to do something inspired by the plane-hopping
+Witchlight Carnival
+or
+The Carnival
+from
+Van Richten's Guide to Ravenloft.
+The idea came to me to have a carnival happening in the Feywild that was themed around a harvest festival. What if an archfey who heavily leaned into the “hearth and apple cider” aspect of autumn was usurped by another powerful creature who represented the death and decay elements of the same season?
+Ruminating on this idea, I landed on the following broad adventure concept:
+The Feast of the Fools is Here!
+A harvest festival in late autumn is celebrated in the Feywild, but things are not okay! The Harvest King has been usurped by his Shadowfell counterpart, who has unleashed an abomination on the festival and hijacked the carnival itself. The characters must infiltrate the warped carnival and sever the usurper's ties to the Harvest King's archfey powers.
+Draw in the Players
+Since I was beginning my adventure in Reithwin Town, I decided to establish that following the events of
+Baldur's Gate 3,
+the land in this area is still fairly pockmarked with interplanar rifts, and so travel between the planes such as the Shadowfell or Feywild was happening a lot more, hence the call for more adventurers to deal with these incursions.
+I decided to start my players off with a tried and true “you're in a tavern” move (yes,
+that
+tavern). Since they were already here actively accepting adventure work, this bit of trouble would slot perfectly into their current goals.
+Plan Encounters
+The 2024
+Dungeon Master's Guide
+breaks encounters down to the barest fundamentals by suggesting that an encounter either moves characters towards a goal, frustrate their progress toward a goal, or reveal new information. With this in mind, I knew the main breakdown of my encounters would be:
+The party learns about the plight of the Harvest King.
+The party seeks out the Harvest King's Domain of Delight, currently under siege in the Feywild.
+They encounter a series of carnival-themed skill checks or challenges to frustrate their progress once they arrive.
+They find a way to defeat the usurper's abomination.
+Bring it to an End
+I had established in my premise that the Harvest King's rival had been able to disrupt his carnival via the use of an abomination. So, it made sense that this monster would be the big enemy for the players to fight at the end of the adventure.
+Because of the seasonal theming of my game, I chose a favorite monster from the homebrew community right here on D&D Beyond, a giant CR 3 turkey known as
+Gobblor the Roast Lord
+. My setup was that Gobblor was somehow siphoning the power away from the Harvest King in his own domain. Once Gobblor was defeated, the Harvest King could return, and would also owe the player characters each a favor. Not a bad deal for roasting a turkey.
+Preparing for the Session
+Artist: Justyna Dura
+With the adventure broadly conceptualized, I now flipped the pages back to chapter 1, which focuses on preparing for a session. This chapter contains advice that has utility whether you're running an adventure you've homebrewed or if you're running a pre-written adventure. However, since I was homebrewing my own adventure, I did fold some of my adventure planning into the steps of session prep. Details on those choices are described below:
+Hour by Hour Using the One-Hour Guideline
+I knew that based on everyone's availability, we'd have about three hours of game time in total, including the time at the top that I sequestered for character building and any safety tools. Knowing how much time I would have, I used the advice in the
+One-Hour Guideline
+section to determine what to prep.
+This valuable section suggests that for every hour of gameplay, you should typically be able to accomplish three different things. While “things” is not an official D&D term, the list of what a “thing” might entail includes types of encounters like exploring a single location, having a social roleplay interaction, or solving a trap. For combat, low-difficulty encounters are considered a single “thing,” and more complicated battles may take longer.
+Hour One:
+Introduce the characters in Reithwin Town, have them learn about the trouble at the Festival, and get them to seek out the beleaguered carnival.
+Hour Two:
+Enter the carnival and deal with the hijacked attractions.
+Hour Three:
+Continue to deal with the hijacked carnival and combat with a boss creature and minions.
+Making the Most of Preparation Time
+Artist: Olga Drebas
+As a DM, one of the things I most frequently struggle with is knowing just how much time to prepare for running a session. If I over-prepare, I feel like I'm either leaving pages of notes unused and wasted or forcing my players to listen to me read parts of my novel out loud. I'm a fairly decent improviser, so if I under-prepare, I'm pretty good at flying by the seat of my pants to craft a scenario around what the players are doing. But gosh, I sometimes wish I'd done just a little more prep so I could present my players with more thoughtful, descriptive scenes.
+Something I found very helpful in the 2024
+Dungeon Master's Guide
+is the guidelines that break down the number of hours you might typically spend preparing a game in a given week, and what you might do with that time. The book has three hours' worth of suggested preparation steps, broken down into how much you should focus on per hour. Since I really wanted to put these guidelines to the test, I limited myself to a single hour of prep time.
+Here's a summary of my prep using these suggestions :
+Step One - Focus on the Story of the Adventure
+I knew the broad strokes of my adventure, a power struggle between an archfey and his rival that bled into a nearby harvest carnival. So, I decided to figure out how the players learn about and get to the action. What I landed on is that they encountered a group of displaced gnomes who had been working at the carnival lamenting their loss of work. Once the player characters are on the hook, they seek out the exiled archfey who broods and moans about his own fate but helps them find their way to the Feywild to try to liberate the carnival.
+Step Two - Identify the Encounters You Want to Run
+Looking at my overall summary of the adventure, I knew that a significant part of our last hour of game time would be spent in combat. I didn't want to overload the rest of the session with combat because of this. Since the beginning of the adventure involved two different social scenes with the gnomes and the Harvest King, I decided that for the second hour of game, I'd do more traps and puzzles. Leaning into the carnival theme, I decided that the bulk of the events in this section would take place in the funhouse. This would allow me to create a small trap dungeon full of low-stakes but amusing puzzles for the players to solve.
+This step also recommends dividing your planned encounters into “definite,” “possible,” or “unlikely,” depending on the odds of getting to them during your game.
+Step Three - Focus on the Definite Encounters
+Knowing that combat was going to be the intended definite climax of this adventure, I first focused on the monsters I wanted to use and familiarized myself with their stat blocks and tactics. I had Gobblor's stats at the ready but I wanted to give him potential minions.
+For those, I used the
+Velociraptor
+stats from
+Mordenkainen Presents: Monsters of the Multiverse,
+because they're described as being the size of turkeys. Plus, they have Pack Tactics, which I love as a DM. Having the monsters roll with Advantage when they have allies within 5 feet of their targets makes a lower CR foe still present a viable threat, and it's also rewarding for the players who get a reprieve from this ability once they've defeated a significant number of the minions.
+For the social encounters, I figured out the personalities of my main NPCs. These were mostly a few of the gnomes and the ousted Harvest King. For the gnomes, I figured out a leader would probably talk to the party if they asked questions, but I prepared a few bits of amusing banter that the other gnomes might have with each other and the party in case the players lingered in this scene.
+The bulk of my prep time was spent on the funhouse rooms. I briefly headed over to chapter 3's section on
+Traps
+for inspiration to make a big master list of all the ideas I had for how D&D trap mechanics might work with different funhouse room types. Especially some that would be enchanted by magic. Then I figured out which ones I'd consider “definite” ones to use and which ones might be “possible” or “unlikely” given our time constraints.
+Step Four - Consider How Each Definite Encounter Relates to the Players' Motivations
+Part of the appeal for the encounters I was using was knowing that two of my players were brand new to D&D. Because of this, my adventure felt like I was giving them sort of a smorgasbord of some of the main types of encounters they'll find in the game. Some socializing, some combat, and some dungeon crawling.
+There is a fifth step recommended if you have a single hour of time, which is to skim the “possible” encounters. Since I had been planning my funhouse encounters as part of my third step, however, I had ostensibly combined the fifth step into the process already.
+All in all, I was really impressed by how much prep for my session I could get done in just one hour while following these guidelines. In my typical prep, I probably would have touched on all of these things eventually, but in a meandering, chaotic way. The way this directed my thoughts into specific categories helped me stay on task and feel a lot less overwhelmed by how many details I might have to think up.
+We Did It!
+And there we have it! The bones of a brand new adventure
+and
+strong plans on how to run it. A lot of the advice was things I had already touched on or did elements of in my planning process before. But the way the
+2024
+Dungeon Master's Guide
+breaks it down into easily digestible steps and checklists really helped me to rein in some of my more labyrinthian thought processes. This meant I could do a more thorough bit of prep for my game in a fraction of the time.
+And hands down the most important thing: My players had a blast. Even though they weren't privy to any of the steps I had taken in the process, the results were there in every smile and laugh and excited moment at the table.
+There's adventure out there to be had, and the 2024
+Dungeon Master's Guide
+can help you craft it.
+What’s New in the 2024 Dungeon Master's Guide?
+by
+Mike Bernier
+Roll for Initiative! Combat Tracking Comes to the Maps VTT
+by
+Davyd Barker
+What’s New in the 2024 Player’s Handbook?
+by
+Michael Galvis
+Riley Silverman (
+@rileyjsilverman
+) is a contributing writer to D&D Beyond, Nerdist, and SYFY Wire. She DMs the Theros-set
+Dice Ex Machina
+for the Saving Throw Show, and has been a player on the Wizards of the Coast-sponsored
+The Broken Pact
+. Riley also played as Braga in the official tabletop adaptation of the
+Rat Queens
+comic for HyperRPG, and currently plays as The Doctor on the Doctor Who RPG podcast
+The Game of Rassilon
+. She currently lives in Los Angeles.

@@ -1,0 +1,65 @@
+{
+  "scope": "Public official reference material only. Full books not acquired.",
+  "sources": [
+    {
+      "book": "heroes-of-the-borderlands",
+      "slug": "contents",
+      "url": "https://www.dndbeyond.com/sources/dnd/hotb",
+      "scope": "public overview or contents, NOT full adventure text",
+      "status": 200,
+      "final_url": "https://www.dndbeyond.com/sources/dnd/hotb",
+      "title": "Heroes of the Borderlands - Heroes of the Borderlands - Dungeons & Dragons - Sources - D&D Beyond",
+      "raw": "raw/prequel-public/heroes-of-the-borderlands/contents.html",
+      "extracted": "references/prequel-public/heroes-of-the-borderlands/contents.txt",
+      "bytes": 186701,
+      "text_chars": 1647,
+      "sha256": "3ef56a1f30f9e435a454a61cee7539b0ecc5124d3ac0c78ec30bd8b6a1e37928",
+      "pdf_links": []
+    },
+    {
+      "book": "heroes-of-the-borderlands",
+      "slug": "official-overview",
+      "url": "https://www.dndbeyond.com/posts/2031-what-is-heroes-of-the-borderlands-your-gateway-to",
+      "scope": "public overview or contents, NOT full adventure text",
+      "status": 200,
+      "final_url": "https://www.dndbeyond.com/posts/2031-what-is-heroes-of-the-borderlands-your-gateway-to",
+      "title": "What Is Heroes of the Borderlands? Your Gateway to D&D Adventure | Dungeons & Dragons",
+      "raw": "raw/prequel-public/heroes-of-the-borderlands/official-overview.html",
+      "extracted": "references/prequel-public/heroes-of-the-borderlands/official-overview.txt",
+      "bytes": 325050,
+      "text_chars": 6400,
+      "sha256": "d963d37819a57e302082a9e11273d7fc4b016cfaf775f61181623df50fe3ccda",
+      "pdf_links": []
+    },
+    {
+      "book": "dragon-delves",
+      "slug": "contents",
+      "url": "https://www.dndbeyond.com/sources/dnd/drde",
+      "scope": "public overview or contents, NOT full adventure text",
+      "status": 200,
+      "final_url": "https://www.dndbeyond.com/sources/dnd/drde",
+      "title": "Dragon Delves - Dragon Delves - Dungeons & Dragons - Sources - D&D Beyond",
+      "raw": "raw/prequel-public/dragon-delves/contents.html",
+      "extracted": "references/prequel-public/dragon-delves/contents.txt",
+      "bytes": 189278,
+      "text_chars": 2486,
+      "sha256": "6e4560d37f484760da4d9be59d8222a97cd6c176ced7509fe067fdc241504329",
+      "pdf_links": []
+    },
+    {
+      "book": "dragon-delves",
+      "slug": "official-product",
+      "url": "https://wpn.wizards.com/en/products/dragon-delves",
+      "scope": "public overview or contents, NOT full adventure text",
+      "status": 200,
+      "final_url": "https://wpn.wizards.com/en/products/dragon-delves",
+      "title": "Dragon Delves | WPN",
+      "raw": "raw/prequel-public/dragon-delves/official-product.html",
+      "extracted": "references/prequel-public/dragon-delves/official-product.txt",
+      "bytes": 185941,
+      "text_chars": 1713,
+      "sha256": "6094de684472544f5821b9de6131018380115c71c71f8b6702ea94ea63fac713",
+      "pdf_links": []
+    }
+  ]
+}

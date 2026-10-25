@@ -1,0 +1,45 @@
+{
+  "books": [
+    {
+      "source": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/01-les-cavernes-du-chaos.homebrewery.md",
+      "source_sha256": "64ca9a9d22bbd149704b0bf740f1da630c0a31e8db1e40383fdca36390808b32",
+      "original": "/home/gwi/Operation-Deadfall/sources/raw/chaos-caves/chaos-caves.html",
+      "original_sha256": "fca2bd9365faba4c7b3efc48c4b16083c852a50f27e04bb28a25662b1d8e886b",
+      "html": "/home/gwi/Operation-Deadfall/site/prelude-cavernes-du-chaos-mj.html",
+      "html_sha256": "def657ba911ed4dbcae11327b053f8c0be8b4eb2c8e21b687983633edfbf47f3",
+      "locations": 64,
+      "no_missing_locations": true,
+      "no_duplicate_locations": true,
+      "lossless_rendered_text": true,
+      "continuous_books": 1,
+      "pages": 21,
+      "audience": "MJ",
+      "proposal_not_canon": true,
+      "mechanical_balance_guaranteed": false
+    },
+    {
+      "source": "/home/gwi/Operation-Deadfall/sources/propositions/preludes-thay/02-le-dragon-d-alaor.homebrewery.md",
+      "source_sha256": "e7b7dedcdebe67d86bb14fe7cd520d38a2cd2ec281acfc3dd73eebc35b49614a",
+      "original": "/home/gwi/Operation-Deadfall/sources/raw/dragon-delves-the-dragon-of-najkir/dragon-of-najkir.html",
+      "original_sha256": "7f14a6535a6882310c6de3e72c6c89b13404976e475f467e54360cfbb1970226",
+      "html": "/home/gwi/Operation-Deadfall/site/prelude-dragon-d-alaor-mj.html",
+      "html_sha256": "b858b0f8fd38c0d6e3cae7000d9cc9d0c200a1891a7de95d9adae6f44191a21b",
+      "locations": 39,
+      "no_missing_locations": true,
+      "no_duplicate_locations": true,
+      "lossless_rendered_text": true,
+      "continuous_books": 1,
+      "pages": 16,
+      "audience": "MJ",
+      "proposal_not_canon": true,
+      "mechanical_balance_guaranteed": false
+    }
+  ],
+  "total_locations": 103,
+  "limits": [
+    "Profils référencés ou particuliers à préparer depuis les ressources autorisées.",
+    "Annexe A des récompenses des Cavernes manquante.",
+    "Cartes et illustrations référencées dans les HTML originaux non récupérées ; les nouvelles illustrations ne remplacent pas les plans.",
+    "Durée réelle et composition du groupe non confirmées."
+  ]
+}

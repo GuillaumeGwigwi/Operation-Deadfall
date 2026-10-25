@@ -1,0 +1,11 @@
+{
+  "url": "https://media.wizards.com/2025/wpn/w35/wpn_dnd_heroes-borderlands-play-guide.pdf",
+  "scope": "Official freely distributed public-play guidance, not adventure text",
+  "raw": "raw/prequel-public/heroes-of-the-borderlands/public-play-guide.pdf",
+  "extracted": "references/prequel-public/heroes-of-the-borderlands/public-play-guide.txt",
+  "page_count": 1,
+  "page_text_chars": [
+    3961
+  ],
+  "sha256": "a55c5af9bd17dc08c5dc4ec197af754955ca70d145b1fa056b71aa20b2b3ec57"
+}

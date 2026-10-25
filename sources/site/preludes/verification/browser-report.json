@@ -1,0 +1,22 @@
+[
+  {
+    "file": "prelude-dragon-d-alaor-mj.html",
+    "continuous_books": 1,
+    "locations_opened": 39,
+    "all_pages_checked": 16,
+    "all_pages_in_same_reader": true,
+    "iframe_reused": true,
+    "desktop": true,
+    "mobile_widths": [
+      390,
+      650
+    ],
+    "official_font": {
+      "font": "BookInsanityRemake",
+      "columns": "2"
+    },
+    "javascript_errors": [],
+    "external_requests": [],
+    "isolated_offline": true
+  }
+]

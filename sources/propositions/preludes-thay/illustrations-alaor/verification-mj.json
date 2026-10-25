@@ -1,0 +1,190 @@
+{
+  "images": [
+    {
+      "id": "ala-port",
+      "label": "Ala Harbor",
+      "page": 1,
+      "file": "01-port.png",
+      "pixels": [
+        1700,
+        1080
+      ],
+      "method": "source-fournie-recadree",
+      "sha256": "bb1e54e5d6b39097513f1b77648702df8c3cfd8ed1d7569d0ec06c82f1d8c86d"
+    },
+    {
+      "id": "ala-mirel",
+      "label": "Mirel Astafar",
+      "page": 2,
+      "file": "02-portrait.png",
+      "pixels": [
+        1774,
+        887
+      ],
+      "method": "gpt-image-2-high",
+      "sha256": "8e2581d6d568dbe07ebb3d8e1d91788198994cae68f63318f6241f8534e43018"
+    },
+    {
+      "id": "ala-orso",
+      "label": "Kranine Orso",
+      "page": 2,
+      "file": "03-portrait.png",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "method": "gpt-image-2-high",
+      "sha256": "c3ff3b8cf476244e7dd1404ac1e71340c4e59fc3bd2cb937dcd697d8151ed88e"
+    },
+    {
+      "id": "ala-dragon",
+      "label": "Skalanthas surgit de la mer",
+      "page": 3,
+      "file": "04-scene.png",
+      "pixels": [
+        1774,
+        887
+      ],
+      "method": "gpt-image-2-high",
+      "sha256": "23ea0f53da4a207aec9f82dcc7b5d024742df211433666342dd4c37e76ec6f0f"
+    },
+    {
+      "id": "ala-refuge",
+      "label": "Le refuge dans la falaise",
+      "page": 4,
+      "file": "05-lieu.png",
+      "pixels": [
+        1774,
+        887
+      ],
+      "method": "gpt-image-2-high",
+      "sha256": "e3dd12519ca2371b2fa1ca622046feb0cfedcf743d0c984554802efad720a9c5"
+    },
+    {
+      "id": "ala-ashlyn",
+      "label": "Ashlyn Maranta",
+      "page": 6,
+      "file": "06-portrait.png",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "method": "gpt-image-2-high",
+      "sha256": "7a924e342e679e455fb873be6305a94ce5d668305e8cd28f43f3e1feab5759ea"
+    },
+    {
+      "id": "ala-devi",
+      "label": "Devi Talzar",
+      "page": 7,
+      "file": "07-portrait.png",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "method": "gpt-image-2-high",
+      "sha256": "f64245d1e242ff6d96ce79b66cd659bf1b6e4939270f062216dbcbe15ef424be"
+    },
+    {
+      "id": "ala-treef",
+      "label": "Treef Lameer",
+      "page": 7,
+      "file": "08-portrait.png",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "method": "gpt-image-2-high",
+      "sha256": "de62c2a61b4aa2bdefa4dba569faeea627f3707756a2655c0ab397cf383e39f7"
+    },
+    {
+      "id": "ala-anish",
+      "label": "Anish",
+      "page": 8,
+      "file": "09-portrait.png",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "method": "gpt-image-2-high",
+      "sha256": "0ad453e9b8152a86f4a5846b94e5405a9b78372a60d61b0f049c19ee42d2789d"
+    },
+    {
+      "id": "ala-atelier",
+      "label": "L’atelier des tisserands",
+      "page": 10,
+      "file": "10-scene.png",
+      "pixels": [
+        1774,
+        887
+      ],
+      "method": "gpt-image-2-high",
+      "sha256": "f9b6eaf732f10389fede1ac09f9cd099182d1939599f4508a5ff4d1bccd8919c"
+    },
+    {
+      "id": "ala-crypte",
+      "label": "La crypte des supérieurs",
+      "page": 9,
+      "file": "11-lieu.png",
+      "pixels": [
+        1774,
+        887
+      ],
+      "method": "gpt-image-2-high",
+      "sha256": "dacc9062d241a065489a8704c70761d6cfaede81ae3054a7832f3cf7274d5e20"
+    },
+    {
+      "id": "ala-cartes",
+      "label": "Les deux joueurs de cartes",
+      "page": 11,
+      "file": "12-scene.png",
+      "pixels": [
+        1774,
+        887
+      ],
+      "method": "gpt-image-2-high",
+      "sha256": "53812cc723b98dfb599a2ad6ea9c4bcaa314795a31e75e2c2024bbb9cd8995d6"
+    },
+    {
+      "id": "ala-ronnom",
+      "label": "Ronnom Daamos",
+      "page": 12,
+      "file": "13-portrait.png",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "method": "gpt-image-2-high",
+      "sha256": "472d13da99921cbc7f9f2ada34f8f15696495eb46403e6f4c6e6956f20b0427d"
+    },
+    {
+      "id": "ala-antre",
+      "label": "L’antre de Skalanthas",
+      "page": 14,
+      "file": "14-lieu.png",
+      "pixels": [
+        1774,
+        887
+      ],
+      "method": "gpt-image-2-high",
+      "sha256": "98ca91dd7313ce36f20871a353b3ab98a2c4a47ffc9109a77927157232a38765"
+    }
+  ],
+  "count": 14,
+  "generated": 13,
+  "reused": 1,
+  "pages": 16,
+  "rooms": 39,
+  "story_exactly_preserved": true,
+  "cavernes_deliveries_unchanged": true,
+  "metadata_clean": true,
+  "files": {
+    "prelude-dragon-d-alaor-mj.html": {
+      "bytes": 27399313,
+      "megabytes": 27.4
+    },
+    "prelude-dragon-d-alaor-mj.pdf": {
+      "bytes": 39153646,
+      "megabytes": 39.2
+    }
+  }
+}
