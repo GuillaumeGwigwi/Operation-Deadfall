@@ -20,7 +20,13 @@ Les éléments inventés pour l’ancrage thayen restent des propositions jusqu�
 
 La refonte applique `sources/references/adventure-writing/methode-editoriale.md` : conflit explicite, commande concrète, motivations des habitants, indices accessibles par plusieurs approches, descriptions brèves et issues ouvertes. Les commentaires de transposition et les lacunes documentaires sont rassemblés en annexes.
 
-Pour les Cavernes, la fraude minière, la magie des noms et les serments ajoutés dans le brouillon refusé ont été supprimés. La cloche conserve les pouvoirs décrits par la source ; son éventuel lien avec Szass Tam est limité à un brouillon non envoyé et explicitement signalé comme ajout de campagne. Il n’attribue pas le ravin entier au zulkir.
+Pour les Cavernes, la fraude minière, la magie des noms et les serments ajoutés dans le brouillon refusé ont été supprimés. La cloche conserve les pouvoirs décrits par la source ; le brouillon non envoyé d’Ivlis montre son ambition d’approcher Szass Tam, sans établir de contact ni lui attribuer le ravin entier.
+
+## Chronologie et conduite intégrées aux livres
+
+Les deux manuscrits contiennent une section « Mener le prélude », une introduction à lire, le contexte thayen et les consignes de mise en scène des présages. Cavernes : 12 Mirtul 1483 CV. Alaor : 8 Eleasis 1491 CV. Ce sont des dates proposées pour deux épisodes passés, avant l’ouverture d’Operation Deadfall au 1er Tarsakh 1501 CV. Le rétablissement du Conseil en 1478 CV et l’année 1501 viennent du chapitre 1 ; le jour d’ouverture vient du chapitre 3. Les ellipses et les liens personnels restent à convenir avec les joueurs.
+
+Yelena, le brouillon et Orso annoncent la puissance survivante de Szass Tam, sans avancer les révélations du Malefice Mortum. Wrynn apparaît comme tailleur au retour d’Alaor ; cette rencontre proposée ne révèle pas son rôle clandestin et ne suppose pas qu’il ait recruté ou suivi les personnages. Les autres personnages ne sont pas ajoutés pour multiplier les références. Provenance, limites historiques et différences avec les aventures originales sont consignées dans les annexes Homebrewery, pas seulement dans ce dossier.
 
 ## À préparer avant la table
 

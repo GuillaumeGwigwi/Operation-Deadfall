@@ -18,6 +18,9 @@ def main():
  assert set(rendered['tharchs'])=={p['id'] for p in data['provinces']}
  for p in data['provinces']:
   p['html']=rendered['tharchs'][p['id']]
+  p['pages']=rendered['tharchPages'][p['id']]
+  assert p['pages'] and all(isinstance(page,str) and page.strip() for page in p['pages'])
+ assert rendered['pagination']['overflow']==[], 'Débordement documentaire : relancer le rendu'
  data['practice']={'html':rendered['practice']}
  official=(SRC/'homebrewery-officiel/homebrewery-v3-phb.offline.css').read_bytes()
  assert hashlib.sha256(official).hexdigest()=='3f001e220c7c10385d65ab9b741077e15f9dd624162814d0b8897aeee1156e5e','Le bundle officiel a changé : vérifier sa provenance avant mise à jour'
@@ -41,12 +44,29 @@ def main():
    size=int.from_bytes(portrait[offset:offset+4],'big')
    assert portrait[offset+4:offset+8] not in {b'eXIf',b'tEXt',b'iTXt',b'zTXt'},'Métadonnées non autorisées'
    offset+=size+12
-  images[key]='data:image/png;base64,'+base64.b64encode(portrait).decode()
+  if key not in ['evocation','necromancie','pratique']:
+   blended=(SRC/f'assets/portrait-blends/{key}.webp').read_bytes()
+   assert blended[:4]==b'RIFF' and blended[8:12]==b'WEBP'
+   offset=12
+   while offset<len(blended):
+    length=int.from_bytes(blended[offset+4:offset+8],'little')
+    assert blended[offset:offset+4] not in {b'EXIF',b'XMP ',b'ICCP'}
+    offset+=8+length+length%2
+   images[key]='data:image/webp;base64,'+base64.b64encode(blended).decode()
+  else:
+   images[key]='data:image/png;base64,'+base64.b64encode(portrait).decode()
  raw=json.dumps(data,ensure_ascii=False,indent=2)
- assert not re.search(r'(?i)arcanaloth|rakshasa|shadowfell|vampir|\blich\b|Hezrexen|Fangbane|sarrukh|stat block|primary ambition|excludedTopics|tiefling|tieffelin|gnome|abyss|abysse|démon|secret|caché',raw)
+ # Only the explicitly reviewed public-data, fiches and region-image manifest
+ # enter this build. This narrow tripwire supplements review; generic species,
+ # demons, espionage and the word 'secret' are not themselves scenario spoilers.
+ # These identifiers concern unrevealed identities, plots or subterranean lore.
+ # Krazt is explicitly a circulating rumour in the approved regional source,
+ # not a confirmed future attack; its public wording is reviewed as such.
+ text_only=re.sub(r'data:image/[^;]+;base64,[A-Za-z0-9+/=]+','',raw)
+ assert not re.search(r'(?i)arcanaloth|rakshasa|Hezrexen|Fangbane|\bVrill\b|stat block|primary ambition|excludedTopics',text_only)
  template=(SRC/'index.template.html').read_text()
  assert template.count('{{PUBLIC_DATA}}')==1 and template.count('{{IMAGES}}')==1 and template.count('{{OFFICIAL_HB_CSS_GZIP}}')==1
  html=template.replace('{{IMAGES}}',json.dumps(images)).replace('{{PUBLIC_DATA}}',raw.replace('<','\\u003c')).replace('{{OFFICIAL_HB_CSS_GZIP}}',hb_css)
  dest=ROOT/'site/politique-thay.html';dest.parent.mkdir(exist_ok=True);dest.write_text(html)
- print(f'HTML généré : {dest} — {dest.stat().st_size} octets ; 8 zulkirs, emblème, 2 portraits du livre et 6 portraits générés validés intégrés une fois, 11 provinces, 4 rôles, 1 page En pratique illustrée ({len(data["situations"])} situations) ; aucune ressource externe.')
+ print(f'HTML généré : {dest} — {dest.stat().st_size} octets ; 8 zulkirs, 11 provinces, {sum(len(p["pages"]) for p in data["provinces"])} pages provinciales mesurées, 7 illustrations régionales et 1 carte urbaine créditées, 4 rôles, 1 page En pratique illustrée ({len(data["situations"])} situations) ; aucune ressource externe.')
 if __name__=='__main__':main()

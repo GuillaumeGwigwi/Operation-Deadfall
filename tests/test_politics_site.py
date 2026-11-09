@@ -12,7 +12,7 @@ class PublicPolitics(unittest.TestCase):
   self.assertEqual(len({x['name'] for x in d['council']}),8)
   self.assertNotRegex(h,r'(?i)arcanaloth|rakshasa|shadowfell|vampir|\blich\b|Hezrexen|Fangbane|sarrukh|Primary Ambition|Stat Block|neutral evil|chaotic evil|dndbeyond|excludedTopics')
   self.assertNotRegex(h,r'(?:src|href)=[\"\'](?:https?://|assets/|\.\./)')
-  self.assertNotRegex(h,r'(?i)https?://|@import|url\((?!data:)|<link|tiefling|tieffelin|gnome|abysse?|démon|démoniaque|shadowfell|alignement|neutre bon|loyal mauvais|Dread Legion|secret|caché')
+  self.assertNotRegex(h,r'(?i)https?://|@import|url\((?!data:)|<link|Malefice Mortum|Hezrexen|Fangbane|Vrill|shadowfell|alignement|neutre bon|loyal mauvais|Primary Ambition')
  def test_fiches_and_images(self):
   h=SITE.read_text();d=json.loads(re.search(r'<script id="politics-data" type="application/json">(.*?)</script>',h,re.S).group(1))
   # Le bloc CSS compressé est du binaire opaque ; son intégrité est contrôlée séparément.
@@ -26,16 +26,26 @@ class PublicPolitics(unittest.TestCase):
     self.assertTrue(c['html'].startswith(f'<h1>{name}</h1>'));self.assertIn(anchor,c['html'])
     self.assertEqual('class="block note"' in c['html'],id!='invocation')
   self.assertEqual(h.count(imgs['embleme']),1)
-  self.assertEqual(h.count('data:image/'),10)
+  self.assertGreaterEqual(h.count('data:image/'),17)  # Ten retained assets plus seven source-region illustrations.
   for key in [f[0] for f in FICHES]+['pratique']:
-   self.assertTrue(imgs[key].startswith('data:image/png;base64,'))
+   blended=key not in ['evocation','necromancie','pratique']
+   fmt='webp' if blended else 'png'
+   self.assertTrue(imgs[key].startswith(f'data:image/{fmt};base64,'))
    portrait=base64.b64decode(imgs[key].split(',',1)[1])
-   self.assertEqual(portrait,(ROOT/f'sources/site/politique/assets/{key}.png').read_bytes())
-   offset=8
+   file=f'portrait-blends/{key}.webp' if blended else f'{key}.png'
+   self.assertEqual(portrait,(ROOT/f'sources/site/politique/assets/{file}').read_bytes())
+   offset=12 if blended else 8
+   if blended: self.assertEqual(portrait[:4]+portrait[8:12],b'RIFFWEBP')
+   else: self.assertEqual(portrait[:8],b'\x89PNG\r\n\x1a\n')
    while offset<len(portrait):
-    size=int.from_bytes(portrait[offset:offset+4],'big')
-    self.assertNotIn(portrait[offset+4:offset+8],{b'eXIf',b'tEXt',b'iTXt',b'zTXt'})
-    offset+=size+12
+    if blended:
+     size=int.from_bytes(portrait[offset+4:offset+8],'little')
+     self.assertNotIn(portrait[offset:offset+4],{b'EXIF',b'XMP ',b'ICCP'})
+     offset+=size+8+size%2
+    else:
+     size=int.from_bytes(portrait[offset:offset+4],'big')
+     self.assertNotIn(portrait[offset+4:offset+8],{b'eXIf',b'tEXt',b'iTXt',b'zTXt'})
+     offset+=size+12
   self.assertTrue(imgs['embleme'].startswith('data:image/png;base64,'))
   png=base64.b64decode(imgs['embleme'].split(',',1)[1])
   self.assertEqual(png,(ROOT/'sources/site/politique/assets/embleme.png').read_bytes())
@@ -75,13 +85,16 @@ async def browser_test():
     await card.click();assert await is_open(),id
     assert await page.locator('#reader-title').inner_text()==name
     assert await page.evaluate("document.activeElement.id")=='reader-title'
-    assert anchor in await page.locator('#reader-body').inner_text()
+    await page.wait_for_function('(name)=>document.querySelector("#reader-frame").contentDocument?.querySelector("h1")?.textContent===name',arg=name)
+    await page.frame_locator('#reader-frame').locator('#reader-body').evaluate('async el=>{await el.ownerDocument.fonts.ready;await Promise.all([...el.querySelectorAll("img")].map(i=>i.decode()))}')
+    assert anchor in await page.frame_locator('#reader-frame').locator('#reader-body').inner_text()
     assert await page.locator('#reader-pos').inner_text()==f'{i+1} / 8'
-    assert await page.locator('#reader-body img').count()==1
-    assert await page.locator('#reader-body img').evaluate('i=>i.complete&&i.naturalWidth>0')
+    assert await page.frame_locator('#reader-frame').locator('#reader-body img').count()==1
+    assert await page.frame_locator('#reader-frame').locator('#reader-body img').evaluate('i=>i.complete&&i.naturalWidth>0')
     await page.screenshot(path=f'/tmp/thay-portrait-{id}.png')
-    if id!='invocation':assert await page.locator('#reader-body .note').is_visible()
-    else:assert await page.locator('#reader-body .note').count()==0
+    assert await page.frame_locator('#reader-frame').locator('#reader-body .note').count()==0
+    if id!='invocation':assert await page.frame_locator('#reader-frame').locator('#reader-body table').is_visible()
+    else:assert await page.frame_locator('#reader-frame').locator('#reader-body table').count()==0
     await page.keyboard.press('Escape');assert not await is_open(),id
     await page.wait_for_function('(id)=>document.activeElement.dataset.fiche===id',arg=id)
     assert await page.evaluate("document.activeElement.dataset.fiche")==id,'retour du focus'
@@ -95,9 +108,9 @@ async def browser_test():
    for key in ['Tab']*7+['Shift+Tab']*7:
     await page.keyboard.press(key);assert await page.evaluate(in_dialog),key
    await page.locator('#reader-next').focus();await page.keyboard.press('Enter');assert await page.locator('#reader-title').inner_text()=='Lethnar'
-   assert await page.evaluate("getComputedStyle(document.querySelector('#reader-body')).columnCount")=='2'
-   assert await page.evaluate("document.querySelector('#reader-body h1').getBoundingClientRect().width>=document.querySelector('#reader-body').getBoundingClientRect().width-1"),'titre sur deux colonnes'
-   await page.locator('#reader-body h1').hover();await page.screenshot(path='/tmp/thay-zulkir-desktop.png')
+   assert await page.evaluate("getComputedStyle(document.querySelector('#reader-frame').contentDocument.querySelector('#reader-body')).columnCount")=='2'
+   assert await page.frame_locator('#reader-frame').locator('#reader-body').evaluate("el=>{const s=getComputedStyle(el);return el.querySelector('h1').getBoundingClientRect().width>=el.clientWidth-parseFloat(s.paddingLeft)-parseFloat(s.paddingRight)-1}"),'titre sur deux colonnes'
+   await page.frame_locator('#reader-frame').locator('#reader-body h1').hover();await page.screenshot(path='/tmp/thay-zulkir-desktop.png')
    await page.locator('#reader-close').focus();await page.keyboard.press('Enter');assert not await is_open()
    # L’événement natif close est asynchrone : attendre le retour du focus prévu par le lecteur.
    await page.wait_for_function("document.activeElement.dataset.fiche==='divination'")
@@ -117,11 +130,13 @@ async def browser_test():
    assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth+1'),'galerie mobile'
    for i in range(8):
     await page.locator('.zulkir-card').nth(i).click();assert await page.locator('#reader').evaluate('d=>d.open')
-    assert await page.evaluate("getComputedStyle(document.querySelector('#reader-body')).columnCount")=='1'
+    await page.wait_for_function('(name)=>document.querySelector("#reader-frame").contentDocument?.querySelector("h1")?.textContent===name',arg=FICHES[i][1])
+    await page.frame_locator('#reader-frame').locator('#reader-body').evaluate('async el=>{await el.ownerDocument.fonts.ready;await Promise.all([...el.querySelectorAll("img")].map(i=>i.decode()))}')
+    assert await page.evaluate("getComputedStyle(document.querySelector('#reader-frame').contentDocument.querySelector('#reader-body')).columnCount")=='2'
     assert await page.evaluate("(()=>{const s=document.getElementById('reader-scroll'),r=document.getElementById('reader').getBoundingClientRect();return s.scrollWidth<=s.clientWidth+1&&r.right<=innerWidth+1&&r.left>=-1})()"),i
     assert await page.evaluate("[...document.querySelectorAll('#reader .reader-bar button')].every(b=>{const r=b.getBoundingClientRect();return r.right<=innerWidth+1&&r.height>=44})"),i
-    assert await page.locator('#reader-body img').count()==1
-    assert await page.locator('#reader-body img').evaluate('i=>i.complete&&i.naturalWidth>0')
+    assert await page.frame_locator('#reader-frame').locator('#reader-body img').count()==1
+    assert await page.frame_locator('#reader-frame').locator('#reader-body img').evaluate('i=>i.complete&&i.naturalWidth>0')
     await page.screenshot(path=f'/tmp/thay-zulkir-mobile-{i}.png')
     if i==0:await page.screenshot(path='/tmp/thay-zulkir-mobile.png')
     await page.locator('#reader-close').click()

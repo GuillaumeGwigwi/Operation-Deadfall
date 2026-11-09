@@ -14,7 +14,7 @@ Les quantités sont des recommandations pour une réserve réutilisable entre le
   - Objectif conseillé : 6 tonneaux, 4 coffres, 2 tables, 5 chaises ou tabourets, 2 bibliothèques et 1 pupitre.
   - Examiner ce lot avant les autres pour éviter les doublons.
 
-- [ ] **Sacs de grain — Fantasy Grain Bag – Sack Scatter for D&D Terrain**
+- [X] **Sacs de grain — Fantasy Grain Bag – Sack Scatter for D&D Terrain**
   - https://makerworld.com/en/models/2123559-fantasy-grain-bag-sack-scatter-for-d-d-terrain
   - Quantité conseillée : 4 petits ensembles de provisions.
   - Usage : garde-manger kobold et réserves.
@@ -24,7 +24,7 @@ Les quantités sont des recommandations pour une réserve réutilisable entre le
   - Quantité conseillée : 6.
   - Substitut aux lits de paille des pillards.
 
-- [ ] **Trône — Dwarf Throne terrain**
+- [X] **Trône — Dwarf Throne terrain**
   - https://makerworld.com/en/models/1957517-dwarf-throne-terrain
   - Quantité conseillée : 1.
   - Substitut au siège de la cheffe gobeline ; ce n’est pas un trône gobelin rustique exact.

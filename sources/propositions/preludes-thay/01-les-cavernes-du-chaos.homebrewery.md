@@ -11,6 +11,66 @@
 Ce prélude transpose les Caves of Chaos à Thay. Il est destiné au MJ et contient les secrets de l’aventure. Son cadre local et son commanditaire sont proposés pour la campagne ; les situations et les monstres du ravin proviennent de l’aventure originale. Le groupe conserve le même niveau pendant cette mission.
 }}
 
+# Mener le prélude
+
+Cette aventure ouvre les années de formation du groupe dans un pays gouverné par les mages. Sa mission reste locale : retrouver une éclaireuse et protéger un hameau. Szass Tam appartient déjà à l’histoire de Thay ; les personnages ne sont pas encore engagés dans une opération contre lui. Les dates et les scènes de liaison de cette version sont des propositions de campagne ; elles n’établissent aucun événement vécu par les personnages avant la partie.
+
+## Date et place dans la campagne
+
+L’aventure commence le **12 Mirtul 1483 CV**, dans les marches de Gauros. Le Conseil des zulkirs a été rétabli en **1478 CV**, après l’échec du rituel par lequel Szass Tam voulait atteindre la divinité. Cinq ans plus tard, la fin de sa régence n’a effacé ni sa puissance ni le souvenir de ses armées. Il demeure le zulkir de nécromancie, installé à Thaymount ; le Conseil gouverne, pas un souverain incontesté.
+
+| Épisode | Date retenue | Niveau de départ |
+|:--|:--|:--|
+| Les Cavernes du Chaos | 12 Mirtul 1483 CV | 3 |
+| Le Dragon d’Alaor | 8 Eleasis 1491 CV | 7 |
+| Operation Deadfall | 1er Tarsakh 1501 CV | 11 |
+
+Les deux préludes sont des épisodes séparés du passé des héros, pas un voyage dans le temps ni une campagne continue imposant de jouer toutes les années intermédiaires. Chaque mission conserve son niveau. Avant une ellipse, demander aux joueurs ce que leurs personnages ont fait et quels liens ils souhaitent conserver ; ne pas décider pour eux d’un service auprès d’un zulkir ou d’une promotion. Pour un personnage très jeune en 1501, vérifier que sa participation en 1483 convient à son joueur avant de retenir ce passé.
+
+## Thay à faire sentir dès l’ouverture
+
+Thay est une magocratie : son Conseil réunit huit zulkirs, chacun à la tête d’une école de magie. Ses provinces sont appelées **tharchs**, leurs gouverneurs **tharchions**. Les Mages Rouges dominent la société et recherchent le soutien de maîtres plus puissants ; appartenir à leur ordre ne signifie pas servir Szass Tam.
+
+**Le pouvoir se voit.** Les Mages Rouges portent des robes rouges et des tatouages sur le crâne ; le rouge leur est réservé. Les gens du commun évitent de les contredire : les lois sont appliquées au bénéfice de ceux qui détiennent la magie. Une commanditaire raisonnable comme Yelena n’annule pas cette inégalité.
+
+**Les provinces vivent aussi de leur travail.** Dans Gauros, les mines, les troupeaux et les villages riverains dépendent de routes dangereuses. Les montagnes du Levant abritent des monstres que les expéditions militaires n’ont pas éliminés. Montrer une charrette immobilisée et une famille sans nouvelles suffit à donner un enjeu aux raids ; il n’est pas nécessaire d’expliquer tous les tharchs.
+
+**La nécromancie n’est pas clandestine par nature.** Szass Tam siège parmi les zulkirs. Ce qui menace le hameau est un culte qui enlève des vivants et anime des cadavres pour les attaquer, pas la simple découverte d’une école de magie autorisée. Un personnage nécromancien peut s’opposer à Ivlis sans renier son école.
+
+## Préparer et conduire la partie
+
+**Avant la séance.** Lire la commande de Yelena, les relations entre habitants et la conclusion. Préparer les plans et les profils signalés dans les annexes, notamment Vinx, Narthus et Ivlis, dont les blocs complets manquent aux extraits. Choisir les récompenses non identifiées. Demander à chaque joueur une raison d’accepter un travail rémunéré dans Gauros, sans lui attribuer une fidélité politique.
+
+**À l’ouverture.** Annoncer la date et lire l’introduction ci-dessous, puis passer à l’entretien chez Yelena. Donner sa demande, son offre et ses limites avant d’amorcer une conversation sur Szass Tam. Le sauvetage doit rester plus urgent que l’histoire du Conseil.
+
+**Dans le ravin.** Laisser le groupe choisir son entrée. La captivité de Vinx, le raid des gobelours et les agissements du culte sont des problèmes liés, mais distincts. La bibliothèque (C3), Oggdug et la nothic donnent des voies différentes vers la compréhension du danger. Un indice de campagne n’est ni un objectif obligatoire ni un motif pour déplacer les ennemis afin qu’ils barrent la route.
+
+**Au retour.** Régler d’abord le paiement et le sort des personnes secourues. Jouer ensuite la réaction de Yelena aux découvertes réellement rapportées. Noter un visage, une phrase ou une preuve que les joueurs ont retenus ; ces souvenirs, et non une liste d’indices supposés acquis, alimenteront les rappels de 1501.
+
+## Annoncer Szass Tam sans dévoiler la suite
+
+Trois moments font passer son nom de l’histoire du pays à une menace possible. Le premier est accessible dès la commande ; les deux autres dépendent de l’exploration et du retour. Aucun test ne conditionne les paroles que les personnages entendent ou la lecture d’un texte intelligible.
+
+| Moment | Ce que les joueurs peuvent apprendre | Ce que le MJ en fera plus tard |
+|:--|:--|:--|
+| Chez Yelena | L’ancien régent possède encore une puissance que la fin de sa régence n’a pas supprimée. | En 1501, son exigence de reprendre la régence aura un sens concret. |
+| Dans la chambre d’Ivlis (K7) | Une meneuse locale espère vendre une relique à son entourage. | Montrer que son influence attire des ambitions indépendantes ; ce n’est pas une chaîne de commandement. |
+| Au retour chez Yelena | Refuser d’abandonner les disparus est un choix que les puissants ne font pas tous. | Donner des habitants et un lieu précis à défendre quand Thay sera menacé. |
+
+Ne pas introduire ici de maléfites à l’énergie verte, de formule du Malefice Mortum ni d’ordre signé par Szass Tam. Ces révélations appartiennent à Operation Deadfall. La tête de démon d’Ivlis reste son trophée, pas un foyer rituel de la future campagne. Si les personnages quittent le ravin après avoir sauvé Vinx, l’allusion de Yelena suffit ; ne pas déposer le brouillon d’Ivlis sur leur chemin pour forcer sa découverte.
+
+## Introduction à lire aux joueurs
+
+{{descriptive
+Le 12 Mirtul 1483 CV, dans les marches de Gauros.
+
+Les montagnes du Levant dominent les pâturages et les toits bas du hameau. Une charrette attend près d’un enclos, sa roue brisée attachée sur le chargement. Au lavoir, une femme demande encore si quelqu’un a vu revenir les voyageurs de la route du nord.
+
+Cinq ans ont passé depuis le rétablissement du Conseil des zulkirs. Szass Tam n’est plus régent de Thay, mais son nom interrompt encore les conversations. Ici, les robes rouges restent celles des maîtres : lorsqu’une silhouette écarlate apparaît à une fenêtre, les voix baissent dans la rue.
+
+Deux gardes se tiennent devant la demeure de Yelena Voss. La Mage Rouge cherche des aventuriers. Son éclaireuse a disparu dans les montagnes, et les pillards se rapprochent des maisons.
+}}
+
 ## Aux portes des montagnes
 
 Des bandes de pillards attaquent les convois qui ravitaillent les villages de Gauros. Les premières attaques n’ont surpris personne : les montagnes du Levant abritent depuis longtemps des prédateurs, des gnolls et des brigands. Mais les voyageurs parlent maintenant d’un même ravin, où des créatures qui se disputeraient normalement un territoire se rassemblent en nombre. Des habitants manquent à l’appel. Des feux apparaissent la nuit sous les falaises.
@@ -62,6 +122,8 @@ Yelena est méthodique et peu démonstrative. Elle considère la protection des 
 **Ce qu’elle fournit.** Le sac de Vinx a été retrouvé à l’endroit où l’éclaireuse a quitté la piste. Yelena indique ce chemin et décrit la naine : manteau de laine brun, cheveux nattés, coutelas court, tempérament impatient. Elle sait que des gobelins et des gobelours utilisent le ravin. Elle ignore la présence de la cloche, l’identité d’Ivlis et le sort de Zurf.
 
 Si un personnage s’intéresse à la raison personnelle de Vinx, Yelena explique que l’éclaireuse cherchait également une tenture volée à sa famille. Elle ne dissimule pas cette affaire, mais pense qu’elle ne justifiait pas une absence aussi longue.
+
+**Le nom de l’ancien régent.** Après avoir expliqué l’offre, Yelena replie une carte du pays : « À Thaymount, Szass Tam a sa légion. Nous, nous avons des familles qui attendent le retour d’une éclaireuse. Je vous paie pour la retrouver, pas pour m’apporter un coupable commode. » Elle ne soupçonne pas le zulkir d’avoir organisé les raids. Si on la questionne, elle rappelle que le Conseil est revenu au pouvoir en 1478, sans désarmer Szass Tam. Elle coupe court aux conjectures : « Un nom puissant n’explique pas des traces de bottes. Commencez par celles-ci. »
 
 ## Une raison de travailler ensemble
 
@@ -543,7 +605,13 @@ Ivlis tente d’abord de séduire les personnages par des promesses de puissance
 
 Ces paroles ouvrent une décision, pas une soumission automatique. Si les personnages refusent ou attaquent, Ivlis combat. Lorsque ses points de vie tombent à 15 ou moins, elle tente de fuir par la porte secrète pour reconstituer son culte ailleurs. Si elle s’échappe, elle emporte ce qu’elle peut réellement atteindre ; elle ne récupère pas la cloche à distance.
 
-La tête de démon pivote et révèle 100 po, un grenat de 100 po et deux objets magiques. Parmi les effets d’Ivlis se trouve aussi un brouillon non envoyé : elle y propose une relique capable de relever des morts à un intermédiaire du zulkir de nécromancie. Ce papier est un raccord discret possible avec la campagne, non la preuve que Szass Tam a fondé le culte ou créé la cloche.
+La tête de démon pivote et révèle 100 po, un grenat de 100 po et deux objets magiques. Parmi les effets d’Ivlis se trouve aussi un brouillon non envoyé, raturé et sans adresse de remise. Il n’est pas nécessaire de découvrir la cache du trophée pour le trouver si les personnages examinent ses effets.
+
+{{descriptive
+« À qui peut porter une offre au seigneur Szass Tam, zulkir de nécromancie. Je possède une cloche qui relève les os sans attendre le talent d’un mage. Je demande protection et audience en échange de sa remise. Je peux en montrer l’effet. »
+}}
+
+Le papier n’a ni réponse jointe, ni marque de réception, ni nom d’intermédiaire identifiable. Ivlis cherche un protecteur ; elle n’a pas établi de contact. Si elle est interrogée, elle admet vouloir obtenir une audience, mais peut exagérer son importance pour négocier sa vie. La cloche conserve ses seuls pouvoirs décrits en K5. Elle n’est ni un prototype du Malefice Mortum ni une création de Szass Tam.
 
 ### Le faux trésor et la fuite (K8)
 
@@ -581,11 +649,13 @@ Le retour permet de donner un sens aux choix du groupe. Vinx peut témoigner, le
 
 ## Une ombre venue de Thaymount
 
-Le brouillon d’Ivlis peut être ignoré sans rendre la conclusion incomplète. Si le groupe le remet à Yelena, elle reconnaît le titre mentionné et explique sobrement qu’il désigne Szass Tam. Elle ne prétend pas prouver que le zulkir était au courant : la lettre n’a pas été envoyée.
+Le brouillon d’Ivlis peut être ignoré sans rendre la conclusion incomplète. Si le groupe le remet à Yelena, elle lit le nom de Szass Tam sans surprise, puis cherche une réponse ou une adresse. N’en trouvant aucune, elle distingue l’intention d’Ivlis d’une implication du zulkir.
 
-« Il a beaucoup de gens qui cherchent à attirer son attention. Cela ne veut pas dire qu’il les écoute. Gardez ce que vous avez vu en mémoire. »
+« Il a beaucoup de gens qui cherchent à attirer son attention. Cela ne veut pas dire qu’il les écoute. Mais regardez ce qu’elle voulait lui offrir : pas de l’or, des morts prêts à servir. »
 
-Cette seule trace suffit à préparer une résonance ultérieure. Elle n’annonce ni le nom ni les détails d’Operation Deadfall aux personnages. Le lien éventuel devient un élément de campagne uniquement lorsque le MJ le retient et que la découverte a réellement lieu.
+Si des personnes ont été secourues, Yelena les fait accueillir avant de poursuivre : « Ceux-là rentreront chez eux. C’est pour cela que je vous ai engagés. » Sans brouillon, jouer seulement cet accueil ; ne pas lui faire deviner une offre qu’elle n’a jamais lue. Les aventuriers peuvent conserver le papier ou en confier une copie, selon leur choix. Yelena ne promet ni audience auprès d’un zulkir ni enquête de tout le Conseil.
+
+**Rappel en 1501.** Lorsque Szass Tam réclamera de nouveau la régence, rappeler sa puissance survivante uniquement si le groupe en a parlé avec Yelena. Lors de l’attaque du bazar d’Eltabbar, si les personnages ont vu la cloche animer des os, décrire le contraste : cette fois, les morts sont traversés d’énergie verte. Le souvenir donne une comparaison, pas la connaissance automatique du rituel. Demander aux joueurs ce que leurs personnages rapprochent de leur ancienne mission.
 
 # Annexes du maître du jeu
 
@@ -618,3 +688,5 @@ Source : `sources/chapters/heroes-of-the-borderlands-caves-of-chaos/chapter.txt`
 Yelena Voss, le hameau, son mandat et l’implantation de la source des Aulnes sont des ajouts locaux. Le rôle de Vinx comme éclaireuse lie sa captivité originale à la mission. Le passé local d’Ivlis remplace son lien avec le fort des Borderlands. Les robes sombres évitent de distribuer aux cultistes une couleur réservée aux Mages Rouges. Le brouillon destiné à un intermédiaire de Szass Tam est un raccord de campagne proposé, sans fondement revendiqué dans l’original. Aucun autre habitant du ravin n’est déclaré son agent.
 
 Les passages des plans restent inchangés : D5–E3, D4–F2, G6–K5 et H5–I3. Les titres des salles ont été rédigés pour la lecture ; leurs repères d’origine restent indiqués entre parenthèses pour retrouver les cartes.
+
+**Chronologie et présages.** La chronologie de *Operation Deadfall*, chapitre 1, « Red Wizard Hallmarks / Thay Timeline », fixe le rétablissement du Conseil en 1478 CV et le présent en 1501 CV. Le chapitre 3, « Terror at the Bazaar », ouvre le 1er Tarsakh ; « Campaign Background » place les proclamations récentes de Szass Tam au début de la campagne, pas en 1483. Les dates précises des préludes, les propos de Yelena et le texte du brouillon sont des ajouts de cette version. Le chapitre 1, « Magical Military / Thayan Forces », atteste la légion de Szass Tam ; sa mention dès 1483 est une continuité proposée. Les débuts de mandat des dirigeants provinciaux et la date de construction de Fort Gar ne sont pas établis dans les extraits : leur présence à cette époque prolonge le cadre déjà adapté, sans prétendre constituer une datation officielle. Ne pas avancer à 1483 les complots, nominations et rumeurs décrits au présent de 1501.

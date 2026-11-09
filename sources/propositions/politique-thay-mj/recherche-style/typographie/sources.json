@@ -1,0 +1,11 @@
+{
+  "book": "https://media.wizards.com/2014/downloads/dnd/PlayerDnDBasicRules_v0.2.pdf",
+  "pdf_pages_inspected": [
+    10,
+    43,
+    53
+  ],
+  "native_component": "https://github.com/naturalcrit/homebrewery/blob/master/themes/V3/Blank/snippets.js",
+  "notes": "Table title h5; distinct th; text left, numeric columns according to semantics. Book and engine are distinct sources.",
+  "official_css_sha256": "3f001e220c7c10385d65ab9b741077e15f9dd624162814d0b8897aeee1156e5e"
+}

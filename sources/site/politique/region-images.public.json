@@ -1,0 +1,58 @@
+{
+  "alaor": {
+    "file": "assets/regions/alaor.webp",
+    "credit": "Kevin Glint, Álvaro Calvo Escudero",
+    "caption": "Des marchands déchargent leur cargaison au port d’Ala sous le regard d’un Magicien Rouge.",
+    "width": 1100,
+    "height": 791
+  },
+  "delhumide": {
+    "file": "assets/regions/delhumide.webp",
+    "credit": "ÁLVARO CALVO ESCUDERO",
+    "caption": "Un vrock terrorise un fermier de Delhumide.",
+    "width": 1100,
+    "height": 875
+  },
+  "gauros": {
+    "file": "assets/regions/gauros.webp",
+    "credit": "David Frasheski",
+    "caption": "Le paysage rocheux et peu peuplé de Gauros.",
+    "width": 1100,
+    "height": 657
+  },
+  "pyarados": {
+    "file": "assets/regions/pyarados.webp",
+    "credit": "LOÏC CANAVAGGIA",
+    "caption": "Un xorn dans une mine de Pyarados.",
+    "width": 1100,
+    "height": 813
+  },
+  "thaymount": {
+    "file": "assets/regions/thaymount.webp",
+    "credit": "Loïc Canavaggia, Helge C. Balzer",
+    "caption": "Un ogre zombie dans les rangs de la Légion de l’Effroi.",
+    "width": 1100,
+    "height": 794
+  },
+  "thazalhar": {
+    "file": "assets/regions/thazalhar.webp",
+    "credit": "Andrey Kuzinskiy",
+    "caption": "Deux marchands mulhorandis sur le pont de Thay Crossing, sous la surveillance d’un Magicien Rouge.",
+    "width": 1100,
+    "height": 743
+  },
+  "eltabbar": {
+    "file": "assets/regions/eltabbar.webp",
+    "credit": "Sylvain Sarrailh",
+    "caption": "La forteresse Eltab domine la capitale.",
+    "width": 1100,
+    "height": 809
+  },
+  "eltabbar-map": {
+    "file": "assets/regions/eltabbar-map.webp",
+    "credit": "Gerralt Landman",
+    "caption": "Eltabbar, ses canaux et les rives du lac Thaylambar.",
+    "width": 1600,
+    "height": 1035
+  }
+}

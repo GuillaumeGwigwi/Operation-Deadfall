@@ -39,3 +39,19 @@ Sources : `sources/site/politique/fiches/*.md`, converties par `tools/homebrewer
 - Nzas : armée cantonnée à Bezantur (03, l. 124), sans apparence, transformations ni modifications des soldats.
 
 Géographie reformulée depuis `sources/homebrewery/atlas-joueurs/` (escalant, lapendrar, bezantur, priador, eltabbar, thaymount, szul). Exclus : espèces non approuvées, alignements, ambitions privées, résurrections et pactes, natures cachées, intrigues, maléfices, profils de jeu, violences et tactiques. Le build et les tests refusent une liste de termes sensibles dans le HTML.
+
+## Révision : habitants de Thay, pas visiteurs ignorants
+
+La demande du MJ autorise un guide bien plus riche des connaissances locales, non la publication des intrigues. Les exclusions générales ci-dessus documentent l’ancien périmètre et ne sont plus une interdiction de mots tels que démon, tieffelin ou espion. La sélection est désormais proposition par proposition ; les informations géographiques, apparences connues, activités publiques et réputations explicitement décrites ne sont pas des révélations de scénario.
+
+Enrichissement des zulkirs, source `sections/03-CouncilOfZulkirs.md` :
+- Yazir Nym, l. 200 : incursions frontalières, soins et réputation de brutalité envers les prisonniers. Pas de profil ni de plans d’invasion inédits.
+- Lethnar, l. 86 : volonté manifeste d’étendre les poursuites. Exclure la divination supposée à l’origine de sa cour.
+- Delraz, l. 67 : défense des privilèges et justification des taxes. Exclure détournements personnels et manipulation magique des opposants.
+- Xelnene, l. 181 : réputation de magie offensive et poids politique ; conserver charges, palais, famille et Gulga Vull issus du chapitre géographique. Exclure rencontres et projets de l’aventure.
+- Mythrellaa, l. 105 : ancienne titulaire tenue pour morte puis revenue au Conseil. Exclure séjour en Gisombre, absorption de magie et projet de régence.
+- Nevron, l. 133 et 143 : apparence tieffeline et puissance d’invocation, visibles dans sa carrière et le portrait déjà validé. Exclure pacte, circonstances de mort et objectifs de domination.
+- Szass Tam, l. 162 : ambition de régence explicitement annoncée publiquement ; apparence déjà autorisée. Exclure rituel, moyens et projet opérationnel de l’aventure.
+- Nzas, l. 124 : apparence voilée, transformations et violences notoires. Exclure découverte récente sur les soldats et recherche de permanence.
+
+Institution des Magiciens Rouges : `sections/02-RedWizards.md`, « What Thayans Know », « Becoming a Red Wizard », « Training », « Hierarchy » et « Thayan Knights ». Formation, distinction des titres et service des chevaliers sont des connaissances sociales, non des règles de création de personnage ni une hiérarchie imposée aux joueurs.

@@ -8,6 +8,61 @@
 
 Un dragon de bronze a coulé un navire près d’Alaor Minor. Trois rescapés ont trouvé refuge dans un monastère creusé dans une falaise. Leur amie Mirel Astafar engage les personnages à Ala City pour les ramener vivants. Le refuge les accueille volontiers ; son protecteur, lui, ne laisse plus personne repartir.
 
+# Mener le prélude
+
+Le sauvetage conduit les personnages d’un port thayen à un refuge dont le protecteur s’est laissé tromper. Jouer d’abord les besoins des naufragés, les hésitations des moines et l’affection du dragon. Les présages de campagne naissent des conversations et d’une rencontre au retour ; ils ne font pas de Ronnom un agent de Szass Tam. Les scènes de liaison et les dates précises de cette version restent des propositions, sans imposer de passé aux personnages.
+
+## Date et place dans la campagne
+
+Le départ d’Ala City a lieu le **8 Eleasis 1491 CV**, huit années civiles après les Cavernes du Chaos. Les personnages commencent au **niveau 7** et le conservent pendant cette mission. Operation Deadfall s’ouvrira au **niveau 11, le 1er Tarsakh 1501 CV**. Jouer ces épisodes comme deux étapes anciennes, séparées par des ellipses convenues avec les joueurs ; ni les voyages, ni les fidélités, ni les acquisitions des années intermédiaires ne sont décidés par ce livre.
+
+Le Conseil des zulkirs est rétabli depuis **1478 CV**. Szass Tam n’exerce plus la régence, mais conserve son siège de nécromancie et sa puissance à Thaymount. Ses exigences publiques de reprendre la régence et les attaques de maléfites appartiennent au début d’Operation Deadfall, pas à cette traversée. Le pays est autoritaire avant même que cette nouvelle menace se manifeste.
+
+## Le contexte thayen à la table
+
+Thay est gouverné par un Conseil de huit zulkirs, chacun représentant une école de magie. Les Mages Rouges détiennent les positions dominantes ; leurs rivalités traversent les familles, les affaires et les provinces, appelées **tharchs**. Un **tharchion** est un gouverneur provincial. Szass Tam est un zulkir redouté, pas le maître incontesté de tous les autres mages.
+
+**Un port riche n’est pas un port libre.** Alaor Major et Alaor Minor forment le plus petit tharch de Thay, mais les chantiers d’Ala Harbor servent sa puissance navale. Les marchands ont de l’argent ; ils n’ont pas pour autant le pouvoir d’obtenir une escorte. Mirel paie des aventuriers parce qu’un besoin personnel ne mobilise pas la flotte.
+
+**Les robes rouges changent les conversations.** Les Mages Rouges ont le privilège de cette couleur et peuvent imposer leurs décisions aux gens du commun. Montrer un négociant qui attend qu’un mage ait fini de parler avant de reprendre sa vente. Mirel connaît ces usages ; elle n’est pas une opposante clandestine du seul fait qu’elle demande un sauvetage.
+
+**Les rivalités ont des victimes ordinaires.** Ishyllia protégeait un Mage Rouge ; Ronnom a dirigé des assassins au service de querelles entre maisons. Les Daamos et les Lameer ne sont pas les deux camps d’une guerre secrète menée par Szass Tam. Le refuge se distingue justement du port : les moines offrent un lit avant de demander quelle famille protège un visiteur.
+
+## Préparer et conduire la partie
+
+**Avant la séance.** Préparer le jeune dragon de bronze, Ronnom et ses gardes, les embarcations et les profils incomplets signalés en annexe. Lire l’attaque en mer, les témoignages du refuge et les conditions du départ. Fixer avec les joueurs comment leurs personnages se retrouvent à Ala City huit années civiles après les Cavernes, si cette première aventure a été jouée.
+
+**Au port.** Lire l’introduction, puis jouer Mirel. Préciser qui elle veut sauver, ce qu’elle paie et ce qu’elle ignore. À bord, la conversation d’Orso sur Szass Tam donne une respiration avant les récifs ; elle ne retarde pas le départ et n’exige pas de scène d’enquête.
+
+**Au refuge.** Donner rapidement accès à Anish et aux naufragés. Distinguer un témoignage, un soupçon et une preuve matérielle. Ne pas cacher le problème de Ronnom derrière le raccord politique. La colère de Treef doit pouvoir être discutée ; le groupe peut organiser un sauvetage sans promettre de tuer l’assassin.
+
+**Face au dragon.** Mettre en jeu ce que les personnages ont découvert et les personnes qu’ils choisissent de faire parler. Skalanthas protège un être qu’il croit persécuté ; il n’a pas reçu l’ordre d’interrompre les routes commerciales de Thay. Respecter les conditions de l’attaque initiale et les issues du refuge.
+
+**Au retour.** Régler les retrouvailles et le paiement avant la rencontre avec Wrynn. Si le groupe quitte directement l’île pour une autre destination, omettre cette rencontre plutôt que de faire apparaître le tailleur dans une grotte. Consigner qui a survécu, les accords conclus et les personnes que les personnages veulent revoir.
+
+## Les présages à retenir
+
+Deux rappels suffisent. Le premier donne un visage humain à la peur de Szass Tam ; le second prépare la reconnaissance d’un interlocuteur important. Ni l’un ni l’autre ne livre de mission secrète.
+
+| Passage | Élément à jouer | Résonance dans Operation Deadfall |
+|:--|:--|:--|
+| La traversée avec Orso | Le souvenir de la régence et la crainte d’un pouvoir qui traite les vivants comme des ressources. | Les proclamations de Szass Tam en 1501 cessent d’être une simple querelle de dirigeants. |
+| Le retour auprès de Mirel | Wynston Wrynn, tailleur d’Eltabbar, montre de l’attention aux personnes secourues. | Son arrivée après l’attaque du bazar peut devenir une reconnaissance, pas une nouvelle présentation. |
+
+**Personnages écartés.** Ne pas faire passer Xelnene Thrul en personne pour annoncer une opération qui n’a pas encore commencé. Ne pas établir dix ans à l’avance que Sharlei dirige déjà les pirates de Blackrock Cove : le livre n’en donne pas la date. Le retour ultérieur dans l’Alaor fournit à lui seul un lien géographique avec cette mission. Iskan Iskari, les foyers rituels et les secrets de Thaymount n’apportent rien au sauvetage et restent hors de ce prélude.
+
+## Introduction à lire aux joueurs
+
+{{descriptive
+Le 8 Eleasis 1491 CV, à Ala City, sur Alaor Major.
+
+Les marteaux des chantiers résonnent au-dessus du port. Entre les coques de guerre et les navires marchands, des barques chargées de poisson cherchent leur passage. Sur un quai, un négociant attend en silence qu’un Mage Rouge achève d’examiner sa cargaison ; les portefaix ont posé leurs charges.
+
+Le Conseil gouverne Thay, mais le pays appartient toujours à ceux qui détiennent la magie. Les navires de la flotte restent à l’ancre tandis qu’une marchande cherche elle-même de quoi ramener ses amis.
+
+Au Poisson souriant, Mirel Astafar attend près d’un repas refroidi. Elle vient de recevoir des nouvelles d’Alaor Minor : trois personnes ont survécu à un naufrage. Le dragon qui a coulé leur bateau les empêche de repartir.
+}}
+
 ## Ce que sait le MJ
 
 Quinze ans auparavant, Ishyllia Daamos mourut au combat. Cette chevalière thayenne protégeait un Mage Rouge lié aux Daamos, réseau familial de négociants et de clients de mages. Elle avait élevé Skalanthas puis combattu sur son dos. Accablé, le dragon de bronze gagna le refuge d’Alaor Minor où elle venait méditer, loin des rivalités de ses employeurs.
@@ -53,6 +108,10 @@ Son voilier, le *Monte-Vague*, est prêt. La capitaine Kranine Orso, tieffeline 
 }}
 
 La traversée suit les chenaux entre les deux îles jusqu’à la côte du refuge. Demander où se placent les personnages et ce qu’ils préparent avant l’approche des récifs.
+
+**Une conversation avant les récifs.** Pendant qu’un marin prépare les barques, Orso vérifie leur amarrage : « À Thay, un armateur perd un bateau, et ce sont les familles des marins qui attendent. Du temps de Szass Tam, personne n’osait demander à qui profitaient les pertes. » Elle serre un nœud, puis ajoute : « S’il reprend un jour la régence, j’espère ne pas être au port pour le voir. »
+
+Orso exprime une crainte, pas une information sur un complot. Elle n’a vu ni maléfite ni expérience secrète. Si un personnage demande pourquoi elle prend le risque d’approcher un dragon, elle répond : « Parce qu’on sait où ils sont et qu’ils sont encore vivants. » Si le groupe parle de Yelena ou du brouillon d’Ivlis, elle écoute mais ne leur fournit aucune confirmation : elle ne connaît pas cette affaire. Terminer sur les préparatifs décidés par les personnages, puis reprendre l’approche.
 
 ## Skalanthas attaque
 
@@ -436,6 +495,28 @@ Un **représentant des Lameer**, accessible à Ala City par Treef ou Mirel, offr
 
 Le seul retour des naufragés satisfait Mirel. Anish peut offrir encore l’hospitalité. Skalanthas doit vivre avec les morts de la *Naïade* ; ses relations futures avec les personnages dépendront de leurs actes.
 
+## Un tailleur de passage
+
+Jouer cette courte rencontre après le règlement de Mirel, si les personnages reviennent la voir à Ala City. **Wynston Wrynn**, un tailleur humain d’Eltabbar, est venu acheter du fil et des étoffes pour son commerce. Mirel le connaît comme client. Il ne l’a pas envoyée recruter le groupe et n’a pas organisé le naufrage.
+
+{{descriptive
+Près du comptoir, un homme aux cheveux longs et à la barbe soigneusement taillée repose un rouleau d’étoffe. Sa veste porte des coutures fines, sans bijou voyant. Mirel le présente : « Wynston Wrynn. Il habille la moitié des gens qui veulent paraître importants à Eltabbar. »
+
+« Pas la moitié », répond-il. Puis il se tourne vers les arrivants : « J’espère que vous avez pu les ramener. »
+}}
+
+Adapter la suite au résultat réel. Si des naufragés reviennent, Wrynn leur fait apporter des vêtements secs si nécessaire et demande à Mirel où les installer. En cas de pertes ou de retour sans eux, il n'annonce pas de retrouvailles : il demande s’il peut aider quelqu’un et ne presse personne de raconter le naufrage. Il ne promet ni résurrection, ni secours qu’il ne possède.
+
+Il s’intéresse aux moyens employés pour éviter d’autres morts, sans interroger les personnages sur leurs loyautés. À qui lui demande son adresse, il donne le nom de sa boutique d’Eltabbar, **Wrynn’s Bespoke Vestments**, et propose de réparer un vêtement abîmé. Il ne remet ni signe secret ni objet magique. La scène peut finir là ; le groupe n’est pas engagé à le revoir.
+
+**Retrouvailles en 1501.** Si la rencontre a eu lieu et que les personnages ont retenu son nom, Wrynn peut être reconnu lorsqu’il les approche après l’attaque du bazar. Remplacer sa présentation d’inconnu par un salut de connaissance ; conserver le billet de Thrul, l’invitation à la boutique et les choix des joueurs. Son identité de maître-espion et son service auprès de Xelnene Thrul ne sont pas révélés en 1491. Laisser la campagne principale expliquer son rôle, sans déclarer qu’il surveillait le groupe depuis dix ans.
+
+## Passer à Operation Deadfall
+
+Au terme du prélude, noter les seules attaches réellement créées : Mirel reconnaissante, un équipage aidé, un refuge encore accueillant ou un dragon avec lequel un accord demeure. Elles donnent un visage à Thay et une raison possible de s’opposer à sa destruction ; elles ne dictent pas l’engagement des personnages.
+
+Avant de commencer le 1er Tarsakh 1501 CV, convenir du passage au niveau 11 et demander pourquoi les personnages se retrouvent ensemble au bazar d’Eltabbar. Donner les nouvelles publiques du début du chapitre 3 : Szass Tam a réclamé le rétablissement de sa régence, les autres zulkirs n’ont pas acquiescé, puis il a cessé de se manifester. Ne pas transformer cette ellipse en recrutement secret rétroactif. Si le groupe a rencontré Orso, sa crainte ancienne peut revenir dans une courte question : « Votre capitaine redoutait ce retour. Qu’est-ce que cela change pour vous aujourd’hui ? »
+
 ## Annexe MJ — correspondances, provenance et limites
 
 ### Transposition
@@ -448,7 +529,15 @@ Géographie : `sources/chapters/chapter-01-thay/entities/tharchs/TheAlaor.md`. C
 
 ### Décisions de table ajoutées
 
-Les arguments pour Treef, la confrontation des témoignages et les accords limités explicitent des issues sans nouveau DD. Attitudes et seuils de fuite ou reddition sont conservés. La prime relève des Lameer. Aucun passé des personnages, raccord avec Szass Tam ou complot supplémentaire n’est imposé.
+Les arguments pour Treef, la confrontation des témoignages et les accords limités explicitent des issues sans nouveau DD. Attitudes et seuils de fuite ou reddition sont conservés. La prime relève des Lameer. Aucun passé des personnages ni complot supplémentaire n’est imposé ; les présages ajoutés ne changent pas la responsabilité de Ronnom.
+
+### Chronologie et personnages de campagne
+
+Le chapitre 1 de *Operation Deadfall*, « Red Wizard Hallmarks / Thay Timeline », donne 1478 CV pour le rétablissement du Conseil et 1501 CV pour le présent. Le chapitre 3, « Terror at the Bazaar », fixe son ouverture au 1er Tarsakh. Le 8 Eleasis 1491 CV et le 12 Mirtul 1483 CV sont les dates proposées pour les préludes, pas des dates des aventures originales. Les durées internes du récit restent relatives à l’arrivée : mort d’Ishyllia quinze ans plus tôt, arrivée de Ronnom six mois plus tôt, naufrage six jours plus tôt.
+
+L’apparence, le métier et la boutique de Wrynn proviennent du chapitre 3, « Mysterious Messenger » et « Wrynn’s Bespoke Vestments ». Son voyage dans l’Alaor, sa relation commerciale avec Mirel et sa présence dès 1491 sont des ajouts ; la source ne date pas ses débuts professionnels ni son recrutement par Thrul. La conversation d’Orso est également ajoutée. Aucun de ces passages ne prouve une opération de renseignement déjà active à cette date.
+
+Le cadre naval vient du chapitre 1, « The Alaor ». L’existence du port et de ses chantiers est conservée pour le passé ; la source ne date pas le mandat de Bavak Inkander et ne permet pas d’attribuer à 1491 tous les effectifs ou décisions de 1501. La section « Mener le prélude » évite donc de les chiffrer ou d’annoncer un nouveau mandat. Les alliés pirates et les cargaisons rituelles du chapitre 5 restent dans leur contexte de 1501.
 
 ### Profils et objets à préparer
 

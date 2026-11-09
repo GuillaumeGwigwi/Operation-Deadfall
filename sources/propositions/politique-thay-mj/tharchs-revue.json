@@ -1,109 +1,441 @@
 {
-  "included": [
+  "public": false,
+  "statut": "Revue interne MJ des onze régions enrichies ; ne pas embarquer dans le site joueurs.",
+  "source_racine": "sources/chapters/chapter-01-thay/",
+  "methode": {
+    "instructions": "AGENTS.md ; tabletop-adventure-adaptation ; references/adventure-writing-fr.md",
+    "sections_lues": [
+      "04-ThayDetails.md",
+      "05-ThayanWealth.md",
+      "06-MagicalMilitary.md",
+      "07-LifeInThay.md",
+      "09-ClimateAndGeography.md",
+      "10-TharchDescriptions.md",
+      "11-EltabbarThaysCapital.md"
+    ],
+    "recoupement": "Lecture et comparaison normalisée des 11 entities/tharchs et des 53 entries numérotées 055 à 107 : 64/64 identiques aux passages des sections, hors profondeur des liens relatifs. Compléments lus : entities/zulkirs/SzassTam.md et XelneneThrul.md.",
+    "public_vise": "Habitants de Thay : géographie, mémoire historique, institutions visibles, pratiques économiques et réputation des lieux conservées, même cruelles. Pas de lore extérieur ni de mélange chronologique.",
+    "redaction": "Paraphrase française ; pas de profils mécaniques, alignements, liens vers sources MJ ou instructions de rencontre. Les rares rumeurs sont expressément attribuées. Révision demandée par le parent effectuée : retrait des conclusions répétitives, commentaires éditoriaux et reformulations sans information nouvelle ; aucune cible artificielle de longueur.",
+    "images": "Inspection visuelle directe des illustrations 004 à 013 et des deux cartes players ; aucune image copiée ou insérée par ce sous-agent. Les suggestions sont à intégrer par le parent. Les illustrations ne contiennent pas d'annotations textuelles de scénario visibles.",
+    "pagination": "Markdown et bloc officiel Homebrewery {{note ... }}, listes de définition ::. Aucun style, aucune marge, aucune police modifiés. Aucun saut de page forcé : parent responsable de la pagination réelle après insertion des images. Eltabbar est nettement plus longue ; ne pas imposer une page unique par région.",
+    "attention_technique": "La carte players de Thay est volontairement dépourvue de toponymes, comme la carte urbaine sans légende de quartiers. Un extrait régional doit recevoir une légende extérieure validée, sans substituer une carte MJ. Retirer les métadonnées des images dans le build public. La Légion de l'Effroi reprend le libellé de region-images.public.json."
+  },
+  "regions": [
     {
       "id": "alaor",
-      "source": "10-TharchDescriptions.md",
-      "lines": [
-        21,
-        47,
-        49,
-        51
-      ]
+      "fichier": "sources/site/politique/tharchs/alaor.md",
+      "sources": [
+        "entities/tharchs/TheAlaor.md",
+        "entries/064-TheAlaor.md",
+        "entries/065-AlaorMajor.md",
+        "entries/066-AlaorMinor.md",
+        "entries/039-TharchionsForces.md"
+      ],
+      "retenu": [
+        "Deux îles rocheuses, taille et importance stratégique",
+        "Maisons familiales liées à la marine sur Alaor Major",
+        "Baie profonde, port, chantiers, millier de marins",
+        "Inkander propriétaire et commandant, prudence navale et protection privée",
+        "Alaor Minor : grottes, récifs, pirates et monstres marins"
+      ],
+      "exclusions": [
+        "Aucun fait régional majeur supprimé : refuges pirates et réticence des poursuites sont des connaissances locales, pas un secret de scénario.",
+        "Profil mécanique et alignement d'Inkander omis ; aucun contenu de l'aventure adaptée du dragon d'Alaor importé."
+      ],
+      "images": [
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/illustrations/01-007.ala-harbor-merchants.png",
+          "usage": "Image spécifique prioritaire : débarquement à Ala Harbor, navire, surveillance magique et personnages du port.",
+          "legende": "Déchargement de marchandises à Ala Harbor.",
+          "controle": "Vue directe : pas de texte ni d'identité secrète révélée ; ne pas identifier les figurants comme Inkander."
+        }
+      ],
+      "mots": 323
     },
     {
       "id": "delhumide",
-      "source": "10-TharchDescriptions.md",
-      "lines": [
-        34,
-        65,
-        78,
-        87,
-        89
-      ]
+      "fichier": "sources/site/politique/tharchs/delhumide.md",
+      "sources": [
+        "entities/tharchs/Delhumide.md",
+        "entries/067-Delhumide.md",
+        "entries/068-RuinsOfDelhumide.md",
+        "entries/069-Umratharos.md",
+        "entries/061-ThayanPlateau.md",
+        "sections/10-TharchDescriptions.md#TharchionOfThay"
+      ],
+      "retenu": [
+        "Ancienne capitale mulhorandie rasée, jamais reconstruite",
+        "Agriculture, élevage, domaines abandonnés et dangers pour les fermes",
+        "Récits de survivants concernant la malédiction des cryptes, non certitude omnisciente",
+        "Umratharos sur la rivière Thay, Brenna Arthan et commerce d'objets à l'Old Thay Inn",
+        "Kudd éleveur et frais élevés d'exploration"
+      ],
+      "exclusions": [
+        "Fonction d'espion de Meskie Kudd pour les zulkirs : information de la table MJ, non présentée comme notoriété locale.",
+        "Transfert des recettes aux zulkirs pour obtenir une mutation vers un tharch cosmopolite : mécanisme et ambition privés omis."
+      ],
+      "images": [
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/illustrations/01-008.vrock-terrorizing-farmer.png",
+          "usage": "Image spécifique prioritaire : vrock et fermier parmi les débris et les cultures.",
+          "legende": "Les campagnes de Delhumide ne sont pas à l'abri des démons.",
+          "controle": "Vue directe ; illustre un danger régional attesté sans annoncer une rencontre obligatoire."
+        }
+      ],
+      "mots": 324
     },
     {
       "id": "eltabbar",
-      "source": "10-TharchDescriptions.md",
-      "lines": [
-        40,
-        96,
-        103
-      ]
+      "fichier": "sources/site/politique/tharchs/eltabbar.md",
+      "sources": [
+        "entities/tharchs/Eltabbar.md",
+        "entries/070-Eltabbar.md",
+        "entries/071-EltabbarCapital.md",
+        "sections/11-EltabbarThaysCapital.md",
+        "entries/093-CityOverview.md",
+        "entries/094-DemonicLegacy.md",
+        "entries/095-CityGovernment.md",
+        "entries/096-PoliticalHub.md",
+        "entries/098-ApprenticesWard.md",
+        "entries/099-BazaarWard.md",
+        "entries/100-CanalWard.md",
+        "entries/101-EltabsWard.md",
+        "entries/102-LowerWard.md",
+        "entries/103-MagesWard.md",
+        "entries/104-WardOfTowers.md",
+        "entries/105-WarehouseWard.md",
+        "entries/106-WorkshopWard.md",
+        "entries/107-ZulkirsWard.md"
+      ],
+      "retenu": [
+        "Broussailles, communautés résidentielles et ancien hameau de pêcheurs",
+        "Statut national, rang commercial, contrastes sociaux",
+        "Mazradash : gouvernement, service de Mythrellaa et commandement de la forteresse",
+        "Spectacles politiques, scribes et diffusion des décisions",
+        "Marché du premier jour du mois, ateliers, quais, navigation et patrouilles",
+        "Quartiers, auberge, tarifs, Syle Gur, sœurs Thubbleston et académie d'Elsa Tor",
+        "Guet, amendes, Renatta Vott et travail pénal",
+        "Histoire d'Eltab et réputation dangereuse des catacombes, sans chemin d'accès ni dispositifs cachés"
+      ],
+      "exclusions": [
+        "Sur instruction du parent : nature vampirique et ancienne espèce de Mazradash retirées ; mention dans la source insuffisante pour établir la connaissance publique.",
+        "Wynston Wrynn : service secret de Xelnene Thrul.",
+        "Syle Gur : hostilité intime aux Magiciens Rouges, explicitement secrète.",
+        "Elton et Nestor Kor : disposition à la contrebande de personnes et modalités d'accès aux quartiers.",
+        "Iskan Iskari : identité de rakshasa déguisé, activités illégales et contenu du chapitre 3.",
+        "Tour des Illusions : détails de recherche confidentiels et dispositifs non nécessaires à une vue régionale.",
+        "Espaces fermés et expériences de la librairie nécromantique ; ne pas transformer un aperçu régional en catalogue d'accès réservés.",
+        "Tables de rencontres, missions proposées, tentatives d'assassinat entre élèves et événements à jouer non exposés comme faits déjà survenus."
+      ],
+      "images": [
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/illustrations/01-013.fortress-eltab.png",
+          "usage": "Image spécifique prioritaire : forteresse sur le lac et ville.",
+          "legende": "La forteresse Eltab veille sur les rives du lac Thaylambar.",
+          "controle": "Vue directe : panorama sans annotations de scénario."
+        },
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/maps/players/map-01-02.eltabbar-player.png",
+          "usage": "Carte urbaine joueurs, idéale sur une page distincte ou une ouverture large.",
+          "controle": "Vue directe : titre Eltabbar, échelle et rose des vents ; aucun repère de scénario, aucun nom de lieu secret."
+        },
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/illustrations/01-006.thayan-life.png",
+          "usage": "Complément vertical de vie quotidienne, sans le présenter comme une rue identifiée d'Eltabbar.",
+          "legende": "La vie quotidienne sous le regard des Magiciens Rouges.",
+          "controle": "Vue directe : passantes et architecture, mage à un balcon ; image générale de Thay."
+        }
+      ],
+      "mots": 818
     },
     {
       "id": "gauros",
-      "source": "10-TharchDescriptions.md",
-      "lines": [
-        116,
-        120,
-        127
-      ]
+      "fichier": "sources/site/politique/tharchs/gauros.md",
+      "sources": [
+        "entities/tharchs/Gauros.md",
+        "entries/072-Gauros.md",
+        "entries/073-FortGar.md",
+        "sections/09-ClimateAndGeography.md#TharchsOfThay"
+      ],
+      "retenu": [
+        "Relief, métaux précieux, mines cachées ou défendues",
+        "Villages riverains, Denzar et précautions nocturnes",
+        "Forteresses abandonnées et Gauros Keep",
+        "Gar vétéran orc, impôts miniers, construction du fort et conscription",
+        "Défiance envers les zulkirs",
+        "Rumeur publique de Krazt explicitement attribuée, sans la certifier",
+        "Défiance conservée car EXPLICITE dans sections/09-ClimateAndGeography.md, table Tharchs of Thay, ligne Gauros : « Hilly hinterland where distrust of the zulkirs runs deep ». Ce n’est pas une inférence."
+      ],
+      "exclusions": [
+        "La rumeur d'une armée de gnolls n'est pas convertie en certitude d'attaque prochaine ni en événement de scénario.",
+        "Espèce précise du démon Krazt et profil mécanique omis : le nom circule, pas une fiche tactique."
+      ],
+      "images": [
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/illustrations/01-009.tharch-of-gauros.png",
+          "usage": "Image spécifique prioritaire : hauts reliefs, rivière, voyageur et animaux de bât.",
+          "legende": "Les vallées rocheuses de Gauros.",
+          "controle": "Vue directe ; ne pas identifier arbitrairement le cours d'eau ou le personnage."
+        }
+      ],
+      "mots": 338
     },
     {
       "id": "lapendrar",
-      "source": "10-TharchDescriptions.md",
-      "lines": [
-        136,
-        147,
-        156
-      ]
+      "fichier": "sources/site/politique/tharchs/lapendrar.md",
+      "sources": [
+        "entities/tharchs/Lapendrar.md",
+        "entries/074-Lapendrar.md",
+        "entries/075-Amruthar.md",
+        "entries/076-Escalant.md",
+        "entries/041-Aglarond.md"
+      ],
+      "retenu": [
+        "Campagnes fertiles, frontières disputées et logement militaire obligatoire",
+        "Escalant patriote, responsabilités de Vyrizek et garnison de Yazir Nym",
+        "Pacte de Sekhotet et autonomie d'Amruthar",
+        "Catastrophe sous la régence, réfugiés, Ulthara Toll et diversité religieuse",
+        "Zone de vérité à l'entrée et interrogation des morts avant les funérailles : pratiques institutionnelles publiques"
+      ],
+      "exclusions": [
+        "Crainte précise de représailles magiques motivant les zulkirs à respecter l'accord : motivation de dirigeants, non nécessaire au récit public du pacte.",
+        "Accroches invitant des héros aglarondiens à infiltrer l'espionnage ou à libérer des prisonniers : instructions MJ, non événement local imposé.",
+        "Aucun réseau, agent, prisonnier ou opération clandestine ajouté à la fonction générale d'espionnage de Vyrizek."
+      ],
+      "images": [
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/maps/players/map-01-01.thay-player.jpg",
+          "usage": "Extrait du sud-ouest pour situer Lapendrar ; carte non légendée, légende publique à ajouter extérieurement.",
+          "controle": "Vue directe ; ne pas employer la version maps/mj."
+        },
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/illustrations/01-005.red-wizard-suffering.png",
+          "usage": "Complément générique sur le coût des conflits, non une vue documentaire d'Escalant.",
+          "legende": "Les conflits de Thay éprouvent aussi les Magiciens Rouges.",
+          "controle": "Vue directe : mages blessés et incendie ; aucun personnage à identifier, aucune bataille précise à attribuer."
+        }
+      ],
+      "mots": 348
     },
     {
       "id": "priador",
-      "source": "10-TharchDescriptions.md",
-      "lines": [
-        163,
-        170,
-        172
-      ]
+      "fichier": "sources/site/politique/tharchs/priador.md",
+      "sources": [
+        "entities/tharchs/Priador.md",
+        "entries/077-Priador.md",
+        "entries/078-Bezantur.md",
+        "sections/05-ThayanWealth.md",
+        "entries/046-Crime.md",
+        "entities/zulkirs/XelneneThrul.md"
+      ],
+      "retenu": [
+        "Grande Route, péages, port et suprématie commerciale de Bezantur",
+        "Thrul, dynastie, double fonction et palais",
+        "Gulga Vull ancienne orpheline, ascension et administration commerciale",
+        "Ateliers, stocks de la guilde, enclaves, prix et débouchés professionnels",
+        "Disparités sociales, vols et organisations criminelles"
+      ],
+      "exclusions": [
+        "Ambition intérieure de Gulga Vull d'accroître sa position auprès des zulkirs.",
+        "Espoirs personnels de réforme de Thrul non présentés comme garantie de justice réelle à Bezantur.",
+        "Aucun rôle clandestin de Thrul, contact d'agent, recrutement de campagne ou contenu du chapitre 3 importé."
+      ],
+      "images": [
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/illustrations/01-004.tax-station.png",
+          "usage": "Poste fiscal générique pour le commerce routier de Priador.",
+          "legende": "Les postes fiscaux jalonnent les routes de Thay.",
+          "controle": "Vue directe ; ne pas identifier cette tour comme un poste précis de Priador."
+        },
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/maps/players/map-01-01.thay-player.jpg",
+          "usage": "Extrait de la côte méridionale pour situer Priador et la mer d'Alamber, sans prétendre montrer un plan de Bezantur.",
+          "controle": "Carte joueurs inspectée ; pas de toponymes imprimés."
+        }
+      ],
+      "mots": 407
     },
     {
       "id": "pyarados",
-      "source": "10-TharchDescriptions.md",
-      "lines": [
-        181,
-        198
-      ]
+      "fichier": "sources/site/politique/tharchs/pyarados.md",
+      "sources": [
+        "entities/tharchs/Pyarados.md",
+        "entries/079-Pyarados.md",
+        "entries/080-CityOfPyarados.md",
+        "sections/10-TharchDescriptions.md#TharchionOfThay"
+      ],
+      "retenu": [
+        "Montagnes du Levant, capitaux d'Eltabbar et Bezantur",
+        "Surface relativement sûre, mines dangereuses et xorns",
+        "Travail des morts-vivants et contrats engageant après la mort en échange du soutien aux familles",
+        "Sasvar tieffelin éloquent favorable aux exploitants",
+        "Thazarim, jeux d'argent, prospection et enquêtes confiées à des aventuriers"
+      ],
+      "exclusions": [
+        "Aucun fait régional majeur occulté : exploitation nécromantique et contrats posthumes concernent directement les habitants.",
+        "Aucun détail du chapitre 4, réseau clandestin, lieu de mission ou issue de scénario importé."
+      ],
+      "images": [
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/illustrations/01-010.xorn-in-pyarados-mine.png",
+          "usage": "Image spécifique prioritaire : xorn dans une galerie minière.",
+          "legende": "Un xorn dans les mines de Pyarados.",
+          "controle": "Vue directe : aucun plan ni annotation ; danger régional, pas annonce d'une rencontre précise."
+        }
+      ],
+      "mots": 270
     },
     {
       "id": "surthay",
-      "source": "10-TharchDescriptions.md",
-      "lines": [
-        205,
-        212,
-        219
-      ]
+      "fichier": "sources/site/politique/tharchs/surthay.md",
+      "sources": [
+        "entities/tharchs/Surthay.md",
+        "entries/081-Surthay.md",
+        "entries/082-CityOfSurthay.md",
+        "entries/083-Surmarsh.md",
+        "entries/043-Rashemen.md"
+      ],
+      "retenu": [
+        "Déclin du front nord, faible prospérité, ville dégradée",
+        "Skarsk drakéide, patriotisme, service d'un an et incursions",
+        "Géographie du Surmarsh hors du climat magique, clans d'hommes-lézards",
+        "Captures et conscription forcée, colère croissante : faits vécus, pas secret"
+      ],
+      "exclusions": [
+        "Projet de Vrill et Xornil Fangbane d'unifier les clans pour attaquer Surthay.",
+        "Force hypothétique de milliers d'assaillants et sous-estimation de la menace par le tharchion.",
+        "Lassitude politique intime des zulkirs vis-à-vis de Skarsk non affirmée comme connaissance universelle."
+      ],
+      "images": [
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/maps/players/map-01-01.thay-player.jpg",
+          "usage": "Extrait du nord-ouest : rive du lac et zones humides ; pas d'illustration propre à Surthay dans chapter-01.",
+          "controle": "Vue directe ; ajouter un titre public de région, pas de marqueurs de révolte."
+        },
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/illustrations/01-005.red-wizard-suffering.png",
+          "usage": "Alternative générique sur les pertes des guerres frontalières, sans attribution au Rashemen d'une bataille représentée.",
+          "controle": "Vue directe ; ne pas identifier Skarsk parmi les personnages."
+        }
+      ],
+      "mots": 273
     },
     {
       "id": "thaymount",
-      "source": "10-TharchDescriptions.md",
-      "lines": [
-        234,
-        236,
-        260
-      ]
+      "fichier": "sources/site/politique/tharchs/thaymount.md",
+      "sources": [
+        "entities/tharchs/ThaymountPlateau.md",
+        "entries/062-Thaymount.md",
+        "entries/084-ThaymountPlateau.md",
+        "entries/085-TheCitadel.md",
+        "entries/086-Szul.md",
+        "entries/038-DreadLegion.md",
+        "entities/zulkirs/SzassTam.md"
+      ],
+      "retenu": [
+        "Relief volcanique et Second Escarpement",
+        "Interdiction d'accès, invitations et protections permanentes sans mode d'emploi",
+        "Forteresses privées, établissements de recherche, fabrication avec morts-vivants",
+        "Ancienneté de la Citadelle, sans attribution à un peuple précis",
+        "Armée privée et noms de ses deux généraux",
+        "Szul, bains, banquets, visiteurs et Hall Rouge",
+        "Souhait PUBLIC de Szass Tam de reprendre la régence, pas son plan clandestin"
+      ],
+      "exclusions": [
+        "Sur instruction du parent : attribution de la Citadelle aux sarrukhs retirée, connaissance publique non établie et découverte future possible.",
+        "Rituel Malefice Mortum, projets de soumission du pays et recherches cachées de Szass Tam.",
+        "Tunnels, anciennes mines reliées à l'Outreterre et réseaux souterrains sarrukhs : informations susceptibles d'offrir une voie d'infiltration.",
+        "Possibilité de contourner les protections et renvoi aux règles du chapitre 6.",
+        "Exception de Szul aux interdictions de téléportation et abjurations avertissant personnellement Szass Tam des arrivées.",
+        "Secrets des profondeurs de la Citadelle, créatures inconnues du maître des lieux et expérimentations spécifiques avec les plans inférieurs."
+      ],
+      "images": [
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/illustrations/01-011.dread-legion.png",
+          "usage": "Image spécifique prioritaire : ogre zombie et morts-vivants de la Légion de l'Effroi.",
+          "legende": "Un ogre zombie dans les rangs de la Légion de l'Effroi.",
+          "controle": "Vue directe ; composition de l'armée publique, aucun rituel ni plan de Citadelle. Ne pas identifier un général dans l'image."
+        }
+      ],
+      "mots": 416
     },
     {
       "id": "thazalhar",
-      "source": "10-TharchDescriptions.md",
-      "lines": [
-        273,
-        280,
-        282
-      ]
+      "fichier": "sources/site/politique/tharchs/thazalhar.md",
+      "sources": [
+        "entities/tharchs/Thazalhar.md",
+        "entries/087-Thazalhar.md",
+        "entries/088-ThazalharStation.md",
+        "entries/042-Mulhorand.md",
+        "sections/10-TharchDescriptions.md#TharchionOfThay"
+      ],
+      "retenu": [
+        "Deuxième plus petit tharch, ancien rempart devenu route commerciale",
+        "Ennemis historiques qui continuent à commercer",
+        "Distinction pont d'inspection des cargaisons et station de contrôle des papiers",
+        "Taxes des marchands mulhorandis et intérêt des marchés de Bezantur",
+        "Jynnril, vétérane, soldats prêtés et prestige du service sous ses ordres"
+      ],
+      "exclusions": [
+        "Aucun secret régional identifié dans ces entrées ; aucun contournement de frontière, calendrier de relève ou vulnérabilité inventé.",
+        "Profil mécanique et alignement omis."
+      ],
+      "images": [
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/illustrations/01-012.the-thay-crossing-bridge.png",
+          "usage": "Image spécifique prioritaire : marchands sur le pont sous le regard d'un mage.",
+          "legende": "Des marchands mulhorandis au pont de Thay Crossing.",
+          "controle": "Vue directe : pas d'annotations ni personnages secrets ; ne pas présenter le mage comme Jynnril."
+        }
+      ],
+      "mots": 316
     },
     {
       "id": "tyraturos",
-      "source": "10-TharchDescriptions.md",
-      "lines": [
-        289,
-        296,
-        298
-      ]
+      "fichier": "sources/site/politique/tharchs/tyraturos.md",
+      "sources": [
+        "entities/tharchs/Tyraturos.md",
+        "entries/089-Tyraturos.md",
+        "entries/090-CityofTyraturos.md",
+        "entries/061-ThayanPlateau.md"
+      ],
+      "retenu": [
+        "Région la plus peuplée, plaines et réseau de la Grande Route",
+        "Onze localités secondaires nommées dans la source",
+        "Diversité des habitants, incursions de centaures et lamies",
+        "Passé notoire de brigand d'Ograzep et répression ultérieure de la criminalité",
+        "Cité aux cent tavernes, recrutement pour entreprises privées et déclaration fiscale"
+      ],
+      "exclusions": [
+        "Pots-de-vin ayant assuré la nomination d'Ograzep : procédé de coulisses non présenté comme preuve publique.",
+        "Aucune entreprise de voyageur convertie en quête fixée ou en promesse de bénéfice."
+      ],
+      "images": [
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/maps/players/map-01-01.thay-player.jpg",
+          "usage": "Extrait du plateau méridional et des routes ; pas de vue urbaine spécifique dans chapter-01.",
+          "controle": "Vue directe ; légende extérieure validée nécessaire pour nommer Tyraturos."
+        },
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/illustrations/01-004.tax-station.png",
+          "usage": "Illustration générique du voyage routier, à éviter si déjà répétée à Priador.",
+          "legende": "Un poste fiscal sur une route thayenne.",
+          "controle": "Vue directe ; aucune localisation précise affirmée."
+        },
+        {
+          "chemin": "sources/chapters/chapter-01-thay/assets/illustrations/01-006.thayan-life.png",
+          "usage": "Alternative verticale de vie urbaine thayenne, sans faire croire à un portrait d'Ograzep ou à une vue identifiée de sa capitale.",
+          "controle": "Vue directe ; image générique sans information cachée."
+        }
+      ],
+      "mots": 272
     }
   ],
-  "additionalPublicLink": {
-    "eltabbar": "Service de Zedivek Mazradash auprès de Mythrellaa, déjà validé dans la fiche joueurs de Mythrellaa."
-  },
-  "excluded": "Profils, alignements et natures cachées ; espionnage ; motivations de carrière ; pots-de-vin ; menaces et attaques planifiées ; souterrains, accès et protections techniques ; rencontres et accroches."
+  "verification": {
+    "regions_attendues": 11,
+    "regions_redigees": 11,
+    "rendu_visuel": "À effectuer par le parent après compilation, images et pagination ; non revendiqué ici.",
+    "portee_ecriture": "Uniquement sources/site/politique/tharchs/*.md et ce fichier de revue MJ. Aucun template, build, public-data ou autre fiche modifié.",
+    "total_mots": 4105
+  }
 }

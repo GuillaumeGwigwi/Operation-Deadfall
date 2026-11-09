@@ -1,0 +1,109 @@
+{
+  "date_consultation": "2026-10-26",
+  "echantillons": [
+    {
+      "fichier": "basic2014-p10.png",
+      "source": "https://media.wizards.com/2014/downloads/dnd/PlayerDnDBasicRules_v0.2.pdf",
+      "octets": 806066,
+      "sha256": "dd062bbf9868caad9449dcd72aac62bacbb414434b94a183dec6fd1cd0e5fde0",
+      "examen": "vision native du sous-agent",
+      "diffusion": "recherche privee uniquement ; aucun droit de republication suppose"
+    },
+    {
+      "fichier": "basic2014-p12.png",
+      "source": "https://media.wizards.com/2014/downloads/dnd/PlayerDnDBasicRules_v0.2.pdf",
+      "octets": 841691,
+      "sha256": "4e93756e33c6029b361f7e170027ecf1e1721fa85b66516096d23814f916d3b2",
+      "examen": "parent uniquement, selon message utilisateur",
+      "diffusion": "recherche privee uniquement ; aucun droit de republication suppose"
+    },
+    {
+      "fichier": "basic2014-p25.png",
+      "source": "https://media.wizards.com/2014/downloads/dnd/PlayerDnDBasicRules_v0.2.pdf",
+      "octets": 796471,
+      "sha256": "7fb886840ff0973f5bc9efc6158d619512658c4f6afadf2316ae75818faa3098",
+      "examen": "vision native du sous-agent",
+      "diffusion": "recherche privee uniquement ; aucun droit de republication suppose"
+    },
+    {
+      "fichier": "basic2014-p3.png",
+      "source": "https://media.wizards.com/2014/downloads/dnd/PlayerDnDBasicRules_v0.2.pdf",
+      "octets": 952273,
+      "sha256": "83deae9ae435f19b99966ccc637a5cdc0adcb34a78e4f043c5d4b23c6f2b0bbf",
+      "examen": "vision native du sous-agent",
+      "diffusion": "recherche privee uniquement ; aucun droit de republication suppose"
+    },
+    {
+      "fichier": "basic2014-p4.png",
+      "source": "https://media.wizards.com/2014/downloads/dnd/PlayerDnDBasicRules_v0.2.pdf",
+      "octets": 950867,
+      "sha256": "93abfa2a548aa6a0e6da4a10d61af8c060b8703e6334971b4bb760652cc6da58",
+      "examen": "vision native du sous-agent",
+      "diffusion": "recherche privee uniquement ; aucun droit de republication suppose"
+    },
+    {
+      "fichier": "basic2014-p6.png",
+      "source": "https://media.wizards.com/2014/downloads/dnd/PlayerDnDBasicRules_v0.2.pdf",
+      "octets": 937161,
+      "sha256": "9d5ab1744d8538ea8af2544598813470b9a14ca5018f8cd78da1ba5f4b01534e",
+      "examen": "vision native du sous-agent",
+      "diffusion": "recherche privee uniquement ; aucun droit de republication suppose"
+    },
+    {
+      "fichier": "dmg2024-npc-tracker.png",
+      "source": "https://media.dndbeyond.com/compendium-images/br/dmg/npc-tracker-sheet.pdf",
+      "octets": 431585,
+      "sha256": "8e2c453d0af45a8bb5a560a97a0dac4dab75d0af2e3ab01e51832c015ed88285",
+      "examen": "vision native du sous-agent",
+      "diffusion": "recherche privee uniquement ; aucun droit de republication suppose"
+    },
+    {
+      "fichier": "homebrewery-officiel-page1.png",
+      "source": "https://homebrewery.naturalcrit.com/",
+      "octets": 816808,
+      "sha256": "e666eef055d30c369a5961bef47f6533c628638afad8f5f52d4591e9fd3cc53c",
+      "examen": "vision native du sous-agent",
+      "diffusion": "recherche privee uniquement ; aucun droit de republication suppose"
+    },
+    {
+      "fichier": "homebrewery-officiel-page2.png",
+      "source": "https://homebrewery.naturalcrit.com/",
+      "octets": 778242,
+      "sha256": "71a6ade451a24c35b84a9cf0956a92f4f7fc82d9f260b464b7416df22713dcab",
+      "examen": "vision native du sous-agent",
+      "diffusion": "recherche privee uniquement ; aucun droit de republication suppose"
+    },
+    {
+      "fichier": "phb2024-ferme-officiel.jpg",
+      "source": "https://www.dndbeyond.com/attachments/11/406/phb-172_content_whatsnew_1200x628_v4.jpg",
+      "octets": 300292,
+      "sha256": "d77b1dd60a7373ef2341bbbf08505c422d9be5a61dbe8b5a51823d5bd499efd8",
+      "examen": "vision native du sous-agent",
+      "diffusion": "recherche privee uniquement ; aucun droit de republication suppose"
+    },
+    {
+      "fichier": "phb2024-historiques-photo.jpg",
+      "source": "https://cdn.mos.cms.futurecdn.net/C5ERz8APbfkjyCQ5o9EQLX.jpg",
+      "octets": 1806870,
+      "sha256": "afc0ef714d3532a4073ce75b13034ffc682d2222707feed584b866787fa93a0f",
+      "examen": "vision native du sous-agent",
+      "diffusion": "recherche privee uniquement ; aucun droit de republication suppose"
+    },
+    {
+      "fichier": "phb2024-paladins-photo.jpg",
+      "source": "https://cdn.mos.cms.futurecdn.net/FLtkmpU3r7DzS4yvkdz7aL.jpg",
+      "octets": 2247552,
+      "sha256": "0ab123a0a0d28cd190ccbd5b6dcfdfc95471949eb83c9b1212f0ef1bdd2464ce",
+      "examen": "vision native du sous-agent",
+      "diffusion": "recherche privee uniquement ; aucun droit de republication suppose"
+    },
+    {
+      "fichier": "source-privee-splash-sur-parchemin.jpg",
+      "source": "sources/chapters/chapter-01-thay/assets/illustrations/01-001.ch-1-splash.png",
+      "octets": 123635,
+      "sha256": "20acec825bee9b169f2f39695cb2dc3b1d1d5b3cfdc5ceb70ba75639f1b9d267",
+      "examen": "vision native du sous-agent",
+      "diffusion": "recherche privee uniquement ; aucun droit de republication suppose"
+    }
+  ]
+}

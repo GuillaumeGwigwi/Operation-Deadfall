@@ -2,14 +2,22 @@
 
 ## Livraisons actives
 
-- `/home/gwi/Operation-Deadfall/site/prelude-cavernes-du-chaos-mj.html` — Les Cavernes du Chaos, 21 pages, 15 illustrations, 64 lieux.
-- `/home/gwi/Operation-Deadfall/site/prelude-dragon-d-alaor-mj.html` — Le Dragon d’Alaor, 16 pages, 14 illustrations, 39 lieux.
+- `/home/gwi/Operation-Deadfall/site/prelude-cavernes-du-chaos-mj.html` — Les Cavernes du Chaos, 22 pages, 15 illustrations, 64 lieux.
+- `/home/gwi/Operation-Deadfall/site/prelude-dragon-d-alaor-mj.html` — Le Dragon d’Alaor, 19 pages, 14 illustrations, 39 lieux.
 - `/home/gwi/Operation-Deadfall/site/prelude-cavernes-du-chaos-mj.pdf`
 - `/home/gwi/Operation-Deadfall/site/prelude-dragon-d-alaor-mj.pdf`
 
 Les HTML fonctionnent chacun seuls, hors connexion. Les PDF contiennent les livres entiers, pas une impression du shell. Tous ces fichiers contiennent des secrets MJ et des adaptations proposées ; ne pas les envoyer aux joueurs.
 
 ## Livre continu
+
+### Version avec chronologie et présages
+
+Chaque livre contient désormais « Mener le prélude », le contexte du pouvoir thayen, les étapes de préparation et de conduite, les présages et leurs rappels conditionnels, ainsi qu’une introduction encadrée à lire aux joueurs en page 3. Les Cavernes commencent le 12 Mirtul 1483 CV ; Alaor le 8 Eleasis 1491 CV. Ces dates sont proposées pour la campagne. La source situe le présent en 1501 CV et l’ouverture d’Operation Deadfall au 1er Tarsakh, après le rétablissement du Conseil en 1478 CV. Les références et réserves de datation sont dans les annexes des livres eux-mêmes.
+
+Szass Tam est annoncé chez Yelena, par le brouillon non envoyé d’Ivlis et par une conversation d’Orso. Il n’est pas le commanditaire des antagonistes locaux. À Alaor, une rencontre commerciale avec Wynston Wrynn prépare des retrouvailles sans révéler son métier d’espion ni antidater une opération de Thrul. La rencontre ancienne et ses circonstances sont des ajouts explicites, pas des faits de la source.
+
+Les livraisons de cette version ont été reconstruites et contrôlées : texte rendu sans perte, 103 repères conservés, CSS officiel inchangé, HTML isolés hors connexion, mobile 390/650 px, titres non isolés, positions du texte des PDF sans débordement. Les planches des 41 pages ont été examinées ; après correction, le titre et l’encadré de chaque introduction restent ensemble. Rendus de revue : `verification/presages/`. Les comptes de pages et empreintes actuels figurent dans les rapports de build, de PDF et de contrôle final ; les revues d’illustration plus anciennes décrivent leurs versions historiques.
 
 Une seule séquence de pages est composée pour chaque aventure. Chapitres et salles partagent sa pagination. Toutes les pages restent dans le même document du lecteur : le sommaire et les résultats de recherche conduisent au passage concerné, sans remplacer le livre par une fiche indépendante. Le lecteur permet le défilement continu, la page précédente/suivante, le zoom ajusté/100 %, les liens profonds et l’impression de tout le livre.
 

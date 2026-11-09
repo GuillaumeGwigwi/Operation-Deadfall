@@ -1,10 +1,10 @@
 [
   {
     "file": "prelude-cavernes-du-chaos-mj.html",
-    "html_sha256": "def657ba911ed4dbcae11327b053f8c0be8b4eb2c8e21b687983633edfbf47f3",
-    "source_sha256": "64ca9a9d22bbd149704b0bf740f1da630c0a31e8db1e40383fdca36390808b32",
+    "html_sha256": "25a0154bd8883e471e1a0e0a80f4115d87ba0f9addafbf97b580a843b5ac6441",
+    "source_sha256": "122db76422a66e285845257609da070b287148e83da051515a13c8a265f76de5",
     "rooms_navigated_in_final_book": 64,
-    "all_pages_without_overflow": 21,
+    "all_pages_without_overflow": 22,
     "one_continuous_book": true,
     "same_document": true,
     "offline_isolated": true,
@@ -17,10 +17,10 @@
   },
   {
     "file": "prelude-dragon-d-alaor-mj.html",
-    "html_sha256": "b858b0f8fd38c0d6e3cae7000d9cc9d0c200a1891a7de95d9adae6f44191a21b",
-    "source_sha256": "e7b7dedcdebe67d86bb14fe7cd520d38a2cd2ec281acfc3dd73eebc35b49614a",
+    "html_sha256": "9aff9b2d5e5af9cf29f83d23fc063bc255c809dbd916f8b232ab5465c735d946",
+    "source_sha256": "c456d2110f1d2ab34437f511aa855a90f7f8099a047625944342e74d9e4c869a",
     "rooms_navigated_in_final_book": 39,
-    "all_pages_without_overflow": 16,
+    "all_pages_without_overflow": 19,
     "one_continuous_book": true,
     "same_document": true,
     "offline_isolated": true,

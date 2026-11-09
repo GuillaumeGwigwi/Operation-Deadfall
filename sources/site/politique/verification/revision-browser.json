@@ -1,0 +1,174 @@
+{
+  "regions": [
+    {
+      "id": "alaor",
+      "viewport": 1440,
+      "pages": 1,
+      "ready_ms": 1581.8,
+      "images": 1
+    },
+    {
+      "id": "delhumide",
+      "viewport": 1440,
+      "pages": 1,
+      "ready_ms": 726.8,
+      "images": 1
+    },
+    {
+      "id": "eltabbar",
+      "viewport": 1440,
+      "pages": 2,
+      "ready_ms": 866.6,
+      "images": 2
+    },
+    {
+      "id": "gauros",
+      "viewport": 1440,
+      "pages": 1,
+      "ready_ms": 751.9,
+      "images": 1
+    },
+    {
+      "id": "lapendrar",
+      "viewport": 1440,
+      "pages": 1,
+      "ready_ms": 721.5,
+      "images": 0
+    },
+    {
+      "id": "priador",
+      "viewport": 1440,
+      "pages": 1,
+      "ready_ms": 1104.7,
+      "images": 0
+    },
+    {
+      "id": "pyarados",
+      "viewport": 1440,
+      "pages": 1,
+      "ready_ms": 774.5,
+      "images": 1
+    },
+    {
+      "id": "surthay",
+      "viewport": 1440,
+      "pages": 1,
+      "ready_ms": 728.5,
+      "images": 0
+    },
+    {
+      "id": "thaymount",
+      "viewport": 1440,
+      "pages": 1,
+      "ready_ms": 747.3,
+      "images": 1
+    },
+    {
+      "id": "thazalhar",
+      "viewport": 1440,
+      "pages": 1,
+      "ready_ms": 768.8,
+      "images": 1
+    },
+    {
+      "id": "tyraturos",
+      "viewport": 1440,
+      "pages": 1,
+      "ready_ms": 719.6,
+      "images": 0
+    },
+    {
+      "id": "alaor",
+      "viewport": 390,
+      "pages": 1,
+      "ready_ms": 1441.6,
+      "images": 1
+    },
+    {
+      "id": "delhumide",
+      "viewport": 390,
+      "pages": 1,
+      "ready_ms": 789.1,
+      "images": 1
+    },
+    {
+      "id": "eltabbar",
+      "viewport": 390,
+      "pages": 2,
+      "ready_ms": 717.0,
+      "images": 2
+    },
+    {
+      "id": "gauros",
+      "viewport": 390,
+      "pages": 1,
+      "ready_ms": 678.3,
+      "images": 1
+    },
+    {
+      "id": "lapendrar",
+      "viewport": 390,
+      "pages": 1,
+      "ready_ms": 680.2,
+      "images": 0
+    },
+    {
+      "id": "priador",
+      "viewport": 390,
+      "pages": 1,
+      "ready_ms": 728.5,
+      "images": 0
+    },
+    {
+      "id": "pyarados",
+      "viewport": 390,
+      "pages": 1,
+      "ready_ms": 714.1,
+      "images": 1
+    },
+    {
+      "id": "surthay",
+      "viewport": 390,
+      "pages": 1,
+      "ready_ms": 676.8,
+      "images": 0
+    },
+    {
+      "id": "thaymount",
+      "viewport": 390,
+      "pages": 1,
+      "ready_ms": 702.6,
+      "images": 1
+    },
+    {
+      "id": "thazalhar",
+      "viewport": 390,
+      "pages": 1,
+      "ready_ms": 701.8,
+      "images": 1
+    },
+    {
+      "id": "tyraturos",
+      "viewport": 390,
+      "pages": 1,
+      "ready_ms": 679.5,
+      "images": 0
+    }
+  ],
+  "screenshots": [
+    "/home/gwi/Operation-Deadfall/sources/site/politique/verification/alaor-1.png",
+    "/home/gwi/Operation-Deadfall/sources/site/politique/verification/delhumide-1.png",
+    "/home/gwi/Operation-Deadfall/sources/site/politique/verification/eltabbar-1.png",
+    "/home/gwi/Operation-Deadfall/sources/site/politique/verification/eltabbar-2.png",
+    "/home/gwi/Operation-Deadfall/sources/site/politique/verification/gauros-1.png",
+    "/home/gwi/Operation-Deadfall/sources/site/politique/verification/lapendrar-1.png",
+    "/home/gwi/Operation-Deadfall/sources/site/politique/verification/priador-1.png",
+    "/home/gwi/Operation-Deadfall/sources/site/politique/verification/pyarados-1.png",
+    "/home/gwi/Operation-Deadfall/sources/site/politique/verification/surthay-1.png",
+    "/home/gwi/Operation-Deadfall/sources/site/politique/verification/thaymount-1.png",
+    "/home/gwi/Operation-Deadfall/sources/site/politique/verification/thazalhar-1.png",
+    "/home/gwi/Operation-Deadfall/sources/site/politique/verification/tyraturos-1.png"
+  ],
+  "errors": [],
+  "externalRequests": []
+}

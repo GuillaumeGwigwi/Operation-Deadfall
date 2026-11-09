@@ -14,10 +14,11 @@ class TharchData(unittest.TestCase):
   d=json.loads(re.search(r'<script id="politics-data" type="application/json">(.*?)</script>',h,re.S).group(1))
   self.assertEqual([p.get('id') for p in d['provinces']],IDS)
   for p in d['provinces']:
-   self.assertTrue(p['html'].startswith('<h1>'+p['name']+'</h1>'),p['name'])
+   self.assertRegex(p['html'],r'^(?:<div class="wide">)?<h1>'+re.escape(p['name'])+r'</h1>')
    self.assertTrue(p['ruler'] in p['html'] and p['capital'] in p['html'],p['name'])
    self.assertFalse('Le Conseil nomme' in p['html'],p['name'])
-   self.assertFalse(re.search(r'(?i)Krazt|Fangbane|Vrill|sarrukh|spy|espion|pots-de-vin|brib|lich|vampir|démon|croisade|attaque prochaine',p['html']),p['name'])
+   public_text=re.sub(r'data:image/[^;]+;base64,[A-Za-z0-9+/=]+','',p['html'])
+   self.assertFalse(re.search(r'(?i)Fangbane|Vrill|sarrukh|Malefice Mortum|Hezrexen|pots-de-vin|brib|vampir|attaque prochaine',public_text),p['name'])
 async def browser():
  from playwright.async_api import async_playwright
  with tempfile.TemporaryDirectory(prefix='tharchs-') as tmp:
@@ -36,9 +37,12 @@ async def browser():
      assert await page.locator('#tharch-reader').evaluate('d=>d.open')
      assert await page.locator('#tharch-title').inner_text()==name
      assert await page.locator('#tharch-pos').inner_text()==f'{i+1} / 11'
-     body=page.frame_locator('#tharch-frame').locator('.page');await body.wait_for()
+     body=page.frame_locator('#tharch-frame').locator('.page').first;await body.wait_for()
+     await page.wait_for_function('(name)=>document.getElementById("tharch-frame").contentDocument?.querySelector(".page h1")?.textContent===name',arg=name)
      assert name in await body.inner_text()
-     assert await body.locator('.note').count()==1
+     assert await body.locator('.note').count()==0
+     assert await body.locator('table').count()==1
+     assert await body.locator('table tbody tr').count()==3
      computed=await body.evaluate("async el=>{await el.ownerDocument.fonts.ready;return {font:getComputedStyle(el).fontFamily,columns:getComputedStyle(el).columnCount,fonts:[...el.ownerDocument.fonts].filter(f=>f.status==='loaded').length}}")
      assert 'BookInsanity' in computed['font'] and computed['columns']=='2' and computed['fonts']>=2,computed
      await page.keyboard.press('Escape');await page.wait_for_function('(id)=>document.activeElement.dataset.tharch===id',arg=id)
@@ -49,7 +53,7 @@ async def browser():
     await page.locator('#province-search').fill('');await cards.first.click()
     await page.locator('#tharch-prev').click();assert await page.locator('#tharch-title').inner_text()=='Tyraturos'
     await page.locator('#tharch-next').click();assert await page.locator('#tharch-title').inner_text()=='Alaor'
-    body=page.frame_locator('#tharch-frame').locator('.page')
+    body=page.frame_locator('#tharch-frame').locator('.page').first
     await page.wait_for_function("document.getElementById('tharch-frame').contentDocument?.querySelector('.page h1')?.textContent==='Alaor'")
     await body.evaluate('async el=>{await el.ownerDocument.fonts.ready}')
     await page.wait_for_function("document.getElementById('tharch-viewport').getBoundingClientRect().width<=document.getElementById('tharch-scroll').clientWidth+1")
